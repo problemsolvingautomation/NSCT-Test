@@ -1,0 +1,5234 @@
+[
+  {
+    "id": "uni-webdev-0001",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is web development?",
+    "options": [
+      "Only designing website layouts",
+      "The process of developing, building, and maintaining websites",
+      "Only writing JavaScript code",
+      "Managing web hosting servers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Web development encompasses the complete process of developing, building, and maintaining websites, including both frontend and backend work.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0002",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is NOT a component of web development?",
+    "options": [
+      "Web design",
+      "Database management",
+      "Computer hardware manufacturing",
+      "Programming"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Computer hardware manufacturing is a physical production process unrelated to web development, which involves web design, programming, and database management.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0003",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Front-end development primarily deals with:",
+    "options": [
+      "Server-side logic",
+      "Database management",
+      "What users see and interact with in their browser",
+      "API integrations"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Front-end development focuses on what users see and interact with in their browser, including layout, design, and interactive elements using HTML, CSS, and JavaScript.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0004",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Back-end development focuses on:",
+    "options": [
+      "Colors and typography",
+      "Server-side logic, databases, and application functionality",
+      "HTML structure only",
+      "Browser compatibility"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Back-end development handles server-side logic, databases, and application functionality that power the front-end experience.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0005",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A full-stack developer works with:",
+    "options": [
+      "Only front-end technologies",
+      "Only back-end technologies",
+      "Both front-end and back-end technologies",
+      "Only database management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A full-stack developer is proficient in both front-end and back-end technologies, capable of building complete web applications from start to finish.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0006",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a web browser?",
+    "options": [
+      "A software application for accessing and viewing websites",
+      "A programming language",
+      "A database system",
+      "A web server"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A web browser is a software application like Chrome, Firefox, or Safari that allows users to access and view websites on the internet.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0007",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is an example of a web browser?",
+    "options": [
+      "Apache",
+      "MySQL",
+      "Google Chrome",
+      "Node.js"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Google Chrome is a web browser developed by Google. Apache is a web server, MySQL is a database, and Node.js is a JavaScript runtime.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0008",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a website?",
+    "options": [
+      "A single HTML file",
+      "A collection of related web pages under a common domain name",
+      "A database",
+      "A programming language"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A website is a collection of related web pages grouped under a common domain name, hosted on a web server and accessible via the internet.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0009",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a web page?",
+    "options": [
+      "A complete website",
+      "A single document or resource on the World Wide Web",
+      "A web server",
+      "A programming framework"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A web page is a single document or resource on the World Wide Web, typically written in HTML and accessible through a web browser.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0010",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which language is fundamental for structuring content on the web?",
+    "options": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "SQL"
+    ],
+    "correctAnswer": 2,
+    "explanation": "HTML (HyperText Markup Language) is the standard markup language for structuring content on the web, forming the backbone of every web page.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0011",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What percentage of websites currently use HTML?",
+    "options": [
+      "Approximately 50%",
+      "Approximately 75%",
+      "Approximately 95.8%",
+      "Approximately 100%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Approximately 95.8% of all websites use HTML as their markup language, making it the most widely used language for web content structure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0012",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The most recent version of HTML is:",
+    "options": [
+      "HTML4",
+      "XHTML",
+      "HTML5",
+      "HTML 2010"
+    ],
+    "correctAnswer": 2,
+    "explanation": "HTML5 is the most recent major version of HTML, introducing semantic elements, multimedia support, and improved APIs for modern web applications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0013",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does CSS stand for?",
+    "options": [
+      "Computer Style Sheets",
+      "Cascading Style Sheets",
+      "Creative Style System",
+      "Colorful Style Sheets"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CSS stands for Cascading Style Sheets, used to describe the presentation and styling of HTML documents.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0014",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary purpose of JavaScript in web development?",
+    "options": [
+      "Structuring content",
+      "Styling web pages",
+      "Adding interactivity and dynamic behavior",
+      "Managing databases"
+    ],
+    "correctAnswer": 2,
+    "explanation": "JavaScript's primary purpose in web development is adding interactivity and dynamic behavior to web pages, enabling features like animations, form validation, and API calls.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0015",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a front-end development framework?",
+    "options": [
+      "Django",
+      "Laravel",
+      "React",
+      "Express.js"
+    ],
+    "correctAnswer": 2,
+    "explanation": "React is a front-end JavaScript library/framework for building user interfaces. Django and Laravel are back-end frameworks, and Express.js is a back-end Node.js framework.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0016",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does HTTP stand for?",
+    "options": [
+      "HyperText Transfer Protocol",
+      "High Technology Transfer Protocol",
+      "HyperTransfer Text Protocol",
+      "HyperText Transmission Program"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTP stands for HyperText Transfer Protocol, the foundation of data communication on the World Wide Web.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0017",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "HTTP is a\tprotocol.",
+    "options": [
+      "Stateful",
+      "Stateless",
+      "Connection-oriented only",
+      "Database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HTTP is a stateless protocol, meaning each request is independent and the server does not retain any data between requests from the same client.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0018",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which HTTP method is used to retrieve resources from a server?",
+    "options": [
+      "POST",
+      "GET",
+      "PUT",
+      "DELETE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The GET method is used to retrieve resources from a server without modifying any data, making it the most common HTTP method.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0019",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which HTTP method is used to submit data to be processed to a server?",
+    "options": [
+      "GET",
+      "FETCH",
+      "POST",
+      "SEND"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The POST method is used to submit data to be processed by the server, commonly used for form submissions and creating new resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0020",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a URL?",
+    "options": [
+      "Universal Resource Locator",
+      "Uniform Resource Locator",
+      "Unified Resource Link",
+      "Universal Reference Link"
+    ],
+    "correctAnswer": 1,
+    "explanation": "URL stands for Uniform Resource Locator, which specifies the address and access method for a resource on the internet.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0021",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In the URL \"https://example.com/about\", what is \"https\"?",
+    "options": [
+      "The domain name",
+      "The protocol",
+      "The path",
+      "The query string"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a URL, 'https' is the protocol that specifies how the browser should communicate with the server, using secure HTTP in this case.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0022",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the HTTP status code \"200 OK\" indicate?",
+    "options": [
+      "The request was successful",
+      "The page was not found",
+      "There was a server error",
+      "The request is forbidden"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTP status code 200 OK indicates that the request was successful and the server has returned the requested resource.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0023",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the HTTP status code \"404\" indicate?",
+    "options": [
+      "Server error",
+      "Unauthorized access",
+      "Page not found",
+      "Request successful"
+    ],
+    "correctAnswer": 2,
+    "explanation": "HTTP status code 404 indicates that the requested page or resource was not found on the server.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0024",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a cookie in web development?",
+    "options": [
+      "A small text file stored on the client's computer by the web server",
+      "A type of malware",
+      "A browser plugin",
+      "A database record"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A cookie is a small text file stored on the client's computer by the web server, used to maintain state information between requests.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0025",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of cookies?",
+    "options": [
+      "To store viruses",
+      "To remember user preferences and session information",
+      "To increase internet speed",
+      "To display ads"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cookies are used to remember user preferences, session information, and other data that helps personalize and maintain the user's browsing experience.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0026",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the difference between URI and URL?",
+    "options": [
+      "They are exactly the same",
+      "A URL is a type of URI that specifies how to access a resource",
+      "A URI is a type of URL",
+      "They have no relationship"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A URL is a specific type of URI (Uniform Resource Identifier) that specifies how to access a resource, including the protocol and location.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0027",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a web server?",
+    "options": [
+      "A computer that hosts websites and serves web pages to clients",
+      "A web browser",
+      "A programming language",
+      "A database system"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A web server is a computer that hosts websites and serves web pages to clients upon request, using protocols like HTTP and HTTPS.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0028",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is an example of a web server software?",
+    "options": [
+      "Google Chrome",
+      "Apache",
+      "MySQL",
+      "JavaScript"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Apache is one of the most popular web server software applications. Chrome is a browser, MySQL is a database, and JavaScript is a programming language.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0029",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of the \"Host\" header in an HTTP request?",
+    "options": [
+      "To identify the user's operating system",
+      "To specify the domain name of the server",
+      "To encrypt the request",
+      "To set cookies"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Host header in an HTTP request specifies the domain name of the server, allowing a single server to host multiple websites (virtual hosting).",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0030",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a client-server architecture?",
+    "options": [
+      "A model where clients request services from servers",
+      "A model where all computers are equal",
+      "A single computer system",
+      "A database model"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Client-server architecture is a model where clients (browsers) request services and resources from centralized servers that process and respond to those requests.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0031",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the default port for HTTP?",
+    "options": [
+      "80",
+      "443",
+      "21",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The default port for HTTP is port 80, which is automatically used when no port is specified in an HTTP URL.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0032",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the default port for HTTPS?",
+    "options": [
+      "80",
+      "443",
+      "8080",
+      "8443"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The default port for HTTPS is port 443, which is used for encrypted HTTP connections using SSL/TLS.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0033",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main difference between HTTP and HTTPS?",
+    "options": [
+      "HTTPS is faster",
+      "HTTPS encrypts data using SSL/TLS",
+      "HTTPS uses a different port only",
+      "There is no difference"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The main difference is that HTTPS encrypts data using SSL/TLS, providing secure communication between client and server, while HTTP transmits data in plain text.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0034",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is REST in web architecture?",
+    "options": [
+      "A programming language",
+      "An architectural style for designing networked applications",
+      "A database system",
+      "A web server"
+    ],
+    "correctAnswer": 1,
+    "explanation": "REST (Representational State Transfer) is an architectural style for designing networked applications, using standard HTTP methods and stateless communication.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0035",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a constraint of REST architecture?",
+    "options": [
+      "Client-server architecture",
+      "Stateful interactions",
+      "Tight coupling",
+      "Single layer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Client-server architecture is one of the six constraints of REST, ensuring separation of concerns between the user interface and data storage.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0036",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "High-Level Text Markup Language",
+      "HyperTransfer Markup Language",
+      "HyperText Modeling Language"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTML stands for HyperText Markup Language, the standard language for creating and structuring content on web pages.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0037",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used to define an HTML document?",
+    "options": [
+      "<body>",
+      "<head>",
+      "<html>",
+      "<document>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The <html> tag defines the root of an HTML document and wraps all other HTML elements on the page.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0038",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Where is the metadata of an HTML document contained?",
+    "options": [
+      "<body> tag",
+      "<head> tag",
+      "<footer> tag",
+      "<main> tag"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <head> tag contains metadata about the HTML document, including title, character set, styles, scripts, and other meta information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0039",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used to set the title of an HTML document that appears in the browser tab?",
+    "options": [
+      "<header>",
+      "<heading>",
+      "<title>",
+      "<caption>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The <title> tag is used to set the title of an HTML document, which appears in the browser's title bar or tab.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0040",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which is the correct sequence of tags to start a web page?",
+    "options": [
+      "HTML, Body, Title, Head",
+      "HTML, Head, Title, Body",
+      "Head, Title, HTML, Body",
+      "HTML, Title, Head, Body"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct sequence is HTML, Head, Title, Body - the HTML tag wraps everything, Head contains metadata including Title, and Body contains visible content.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0041",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "HTML tags are\t_.",
+    "options": [
+      "Case-sensitive",
+      "Not case-sensitive",
+      "Always uppercase",
+      "Always lowercase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HTML tags are not case-sensitive, meaning <HTML>, <html>, and <Html> are all treated the same by browsers, though lowercase is recommended.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0042",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used for the largest heading in HTML?",
+    "options": [
+      "<h6>",
+      "<h1>",
+      "<heading>",
+      "<header>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <h1> tag is used for the largest and most important heading in HTML, with heading sizes decreasing from h1 (largest) to h6 (smallest).",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0043",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used for the smallest heading in HTML?",
+    "options": [
+      "<h1>",
+      "<h5>",
+      "<h6>",
+      "<h7>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The <h6> tag is used for the smallest heading in HTML. HTML provides six heading levels from h1 (largest) to h6 (smallest).",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0044",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used to create a paragraph in HTML?",
+    "options": [
+      "<para>",
+      "<p>",
+      "<paragraph>",
+      "<text>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <p> tag is used to create a paragraph in HTML, defining a block of text with automatic spacing before and after.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0045",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used to create a hyperlink?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <a> (anchor) tag is used to create hyperlinks in HTML, allowing users to navigate between pages and resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0046",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What attribute is used to specify the destination URL in an anchor tag?",
+    "options": [
+      "src",
+      "link",
+      "href",
+      "url"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The href attribute specifies the destination URL in an anchor tag, defining where the link should navigate when clicked.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0047",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which attribute opens a link in a new browser tab?",
+    "options": [
+      "new=\"tab\"",
+      "target=\"_blank\"",
+      "open=\"new\"",
+      "tab=\"new\""
+    ],
+    "correctAnswer": 1,
+    "explanation": "The target=\"_blank\" attribute opens a link in a new browser tab or window, keeping the current page open.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0048",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used to insert an image in HTML?",
+    "options": [
+      "<image>",
+      "<img>",
+      "<pic>",
+      "<picture>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <img> tag is used to embed images in HTML documents. It is a self-closing tag that requires the src attribute.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0049",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What attribute specifies the image source in an <img> tag?",
+    "options": [
+      "href",
+      "link",
+      "src",
+      "source"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The src (source) attribute specifies the URL path to the image file in an <img> tag.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0050",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of the alt attribute in an <img> tag?",
+    "options": [
+      "To specify image height",
+      "To provide alternative text if the image cannot be displayed",
+      "To add a tooltip",
+      "To specify image width"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The alt attribute provides alternative text that is displayed if the image cannot be loaded, and is essential for accessibility and screen readers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0051",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used for an unordered list?",
+    "options": [
+      "<ol>",
+      "<li>",
+      "<ul>",
+      "<list>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The <ul> tag creates an unordered (bulleted) list in HTML, with each item defined by a <li> tag.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0052",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used for an ordered list?",
+    "options": [
+      "<ul>",
+      "<li>",
+      "<ol>",
+      "<order>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The <ol> tag creates an ordered (numbered) list in HTML, with each item defined by a <li> tag.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0053",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag represents a list item?",
+    "options": [
+      "<item>",
+      "<li>",
+      "<list-item>",
+      "<it>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <li> tag represents a list item and is used inside <ul> (unordered) or <ol> (ordered) list elements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0054",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used to insert a line break?",
+    "options": [
+      "<break>",
+      "<lb>",
+      "<br>",
+      "<newline>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The <br> tag inserts a single line break in HTML. It is a self-closing tag that does not require a closing tag.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0055",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the difference between <b> and <strong> tags?",
+    "options": [
+      "They are identical",
+      "<b> makes text bold, <strong> indicates strong importance",
+      "<strong> is deprecated",
+      "<b> is for links"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <b> tag makes text visually bold, while <strong> indicates strong importance semantically, which also renders as bold but carries meaning for screen readers and SEO.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0056",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used to create a table row?",
+    "options": [
+      "<tr>",
+      "<td>",
+      "<th>",
+      "<row>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The <tr> (table row) tag defines a row in an HTML table, containing <td> (data cells) or <th> (header cells).",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0057",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used to define a table cell?",
+    "options": [
+      "<tr>",
+      "<td>",
+      "<th>",
+      "<cell>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <td> (table data) tag defines a standard cell in an HTML table row, containing the actual data content.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0058",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used to create a checkbox in HTML?",
+    "options": [
+      "<checkbox>",
+      "<input type=\"check\">",
+      "<input type=\"checkbox\">",
+      "<check>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The <input type=\"checkbox\"> creates a checkbox input element in HTML, allowing users to select one or more options.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0059",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the difference between id and class attributes?",
+    "options": [
+      "They are the same",
+      "id is unique per page, class can be used on multiple elements",
+      "class is unique, id can be reused",
+      "id is for CSS only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The id attribute must be unique per page and identifies a single element, while the class attribute can be applied to multiple elements for shared styling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0060",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is an empty tag in HTML?",
+    "options": [
+      "A tag with no content that doesn't need a closing tag",
+      "A tag with no attributes",
+      "A tag that is deprecated",
+      "A tag that contains no text"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An empty (void) tag is a self-closing tag with no content that doesn't need a closing tag, such as <br>, <img>, <input>, and <hr>.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0061",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is an empty tag?",
+    "options": [
+      "<div>",
+      "<p>",
+      "<img>",
+      "<span>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The <img> tag is an empty (void) element that doesn't have a closing tag. <div>, <p>, and <span> all require closing tags.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0062",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tag is used to add a comment in HTML?",
+    "options": [
+      "<comment>...</comment>",
+      "<!-- ... -->",
+      "// ...",
+      "/* ... */"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HTML comments are written using <!-- ... --> syntax, which hides content from being rendered in the browser.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0063",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which HTML5 tag is used for navigation links?",
+    "options": [
+      "<navigation>",
+      "<nav>",
+      "<navigate>",
+      "<links>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <nav> tag is a semantic HTML5 element used to define a section containing navigation links.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0064",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which HTML5 tag is used for the main content of a document?",
+    "options": [
+      "<content>",
+      "<main>",
+      "<body>",
+      "<center>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <main> tag is a semantic HTML5 element that represents the main content of the document, excluding headers, footers, and navigation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0065",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which HTML5 tag is a semantic element for a self-contained composition?",
+    "options": [
+      "<section>",
+      "<div>",
+      "<article>",
+      "<piece>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The <article> tag is a semantic HTML5 element for self-contained content that could be independently distributed, like a blog post or news article.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0066",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which HTML tag is used to define an internal CSS style?",
+    "options": [
+      "<css>",
+      "<style>",
+      "<script>",
+      "<styles>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <style> tag is used to define internal CSS styles within an HTML document, typically placed in the <head> section.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0067",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which HTML attribute is used to define inline CSS?",
+    "options": [
+      "class",
+      "style",
+      "css",
+      "font"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The style attribute is used to define inline CSS directly on an HTML element, e.g., <p style=\"color: red;\">.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0068",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which is the correct CSS syntax?",
+    "options": [
+      "body {color: black;}",
+      "{body:color=black;}",
+      "body: {color black;}",
+      "{body;color:black;}"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct CSS syntax is selector {property: value;}, so body {color: black;} properly targets the body element and sets its text color.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0069",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which property is used to change the text color of an element?",
+    "options": [
+      "font-color",
+      "text-color",
+      "color",
+      "foreground-color"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The 'color' property in CSS is used to change the text color of an element, accepting color names, hex values, RGB, or HSL values.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0070",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which CSS property controls the text size?",
+    "options": [
+      "text-size",
+      "font-style",
+      "font-size",
+      "text-style"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The font-size property controls the size of text in CSS, accepting values in px, em, rem, %, and other units.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0071",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the correct CSS selector to select all paragraph elements?",
+    "options": [
+      ".p",
+      "#p",
+      "p",
+      "*p"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In CSS, using just 'p' as a selector selects all paragraph elements on the page (element/type selector).",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0072",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the # symbol represent in a CSS selector?",
+    "options": [
+      "Class selector",
+      "ID selector",
+      "Element selector",
+      "Universal selector"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The # symbol in CSS is the ID selector, used to select a single element with a specific id attribute, e.g., #header.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0073",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the . symbol represent in a CSS selector?",
+    "options": [
+      "ID selector",
+      "Class selector",
+      "Universal selector",
+      "Descendant selector"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The . symbol in CSS is the class selector, used to select all elements with a specific class attribute, e.g., .menu.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0074",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the * selector do in CSS?",
+    "options": [
+      "Selects all elements with a class",
+      "Selects all elements in the document",
+      "Selects the first element",
+      "Selects elements by ID"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The * (universal) selector in CSS selects all elements in the document, often used for CSS resets or applying global styles.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0075",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What are the components of the CSS box model?",
+    "options": [
+      "Content, padding, border, margin",
+      "Content, margin, outline, border",
+      "Text, padding, border, outline",
+      "Width, height, padding, margin"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The CSS box model consists of content, padding, border, and margin - from inside to outside - defining the space an element occupies.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0076",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the difference between margin and padding?",
+    "options": [
+      "They are the same",
+      "Margin is space inside the border, padding is outside",
+      "Margin is space outside the border, padding is inside",
+      "Margin is for block elements only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Margin is space outside the border (between elements), while padding is space inside the border (between content and border).",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0077",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you center a block element horizontally using CSS?",
+    "options": [
+      "center: yes;",
+      "align: center;",
+      "margin: 0 auto;",
+      "text-align: center;"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Using margin: 0 auto; centers a block element horizontally by distributing equal left and right margins automatically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0078",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which CSS property is used to change the font of an element?",
+    "options": [
+      "font-style",
+      "text-style",
+      "font-family",
+      "typeface"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The font-family property specifies the font for an element, allowing multiple fallback fonts separated by commas.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0079",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which property is used to make text bold?",
+    "options": [
+      "font: bold;",
+      "style: bold;",
+      "font-weight: bold;",
+      "text-decoration: bold;"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The font-weight: bold; property makes text bold in CSS. Values can also be numeric (100-900) with 700 being bold.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0080",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the default value of the position property?",
+    "options": [
+      "relative",
+      "absolute",
+      "fixed",
+      "static"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The default value of the CSS position property is 'static', meaning the element follows the normal document flow.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0081",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does position: relative do?",
+    "options": [
+      "Positions element relative to the viewport",
+      "Positions element relative to its normal position",
+      "Positions element relative to the nearest positioned ancestor",
+      "Removes element from document flow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Position: relative positions an element relative to its normal position, allowing offset with top, right, bottom, and left properties.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0082",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does position: absolute do?",
+    "options": [
+      "Positions element relative to its normal position",
+      "Positions element relative to the nearest positioned ancestor",
+      "Positions element relative to the document body",
+      "Keeps element fixed during scrolling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Position: absolute positions an element relative to the nearest positioned ancestor (non-static), removing it from the normal document flow.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0083",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does z-index control?",
+    "options": [
+      "The zoom level of an element",
+      "The stacking order of elements",
+      "The index of elements in a list",
+      "The size of an element"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The z-index property controls the stacking order of overlapping elements, with higher values appearing in front of lower values.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0084",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which CSS property is used to change the background color?",
+    "options": [
+      "bgcolor",
+      "background-color",
+      "color",
+      "background"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The background-color property sets the background color of an element in CSS.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0085",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which property is used to change the left margin of an element?",
+    "options": [
+      "padding-left",
+      "margin-left",
+      "indent",
+      "left-margin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The margin-left property is used to set the left margin of an element, creating space between the element's left edge and adjacent elements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0086",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you select an element with id \"header\" in CSS?",
+    "options": [
+      ".header",
+      "#header",
+      "header",
+      "*header"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In CSS, #header selects the element with id=\"header\". The # prefix is the ID selector syntax.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0087",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you select all elements with class \"menu\" in CSS?",
+    "options": [
+      ".menu",
+      "#menu",
+      "menu",
+      "*menu"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In CSS, .menu selects all elements with class=\"menu\". The . prefix is the class selector syntax.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0088",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does div p selector mean?",
+    "options": [
+      "Selects all div elements inside a p",
+      "Selects all p elements inside a div",
+      "Selects div elements with a parent p",
+      "Selects p elements directly after a div"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The selector 'div p' is a descendant selector that selects all <p> elements inside <div> elements, regardless of nesting depth.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0089",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does div > p selector mean?",
+    "options": [
+      "Selects all p elements anywhere inside a div",
+      "Selects all p elements that are direct children of a div",
+      "Selects div elements that are inside p",
+      "Selects p elements that are siblings of a div"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The selector 'div > p' is a child combinator that selects only <p> elements that are direct children of <div> elements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0090",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which property is used to set the width of an element?",
+    "options": [
+      "height",
+      "width",
+      "size",
+      "length"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The width property sets the width of an element's content area in CSS, accepting values in px, %, em, and other units.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0091",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which property is used to add space inside an element's border?",
+    "options": [
+      "margin",
+      "padding",
+      "spacing",
+      "inset"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The padding property adds space inside an element's border, between the border and the content area.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0092",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which CSS property controls the visibility of an element?",
+    "options": [
+      "show",
+      "visible",
+      "display",
+      "view"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The display property controls the visibility and layout behavior of an element, with values like block, inline, none, flex, and grid.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0093",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the default value of the display property for a <div>?",
+    "options": [
+      "inline",
+      "block",
+      "inline-block",
+      "flex"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The default display value for a <div> is 'block', meaning it takes up the full width available and starts on a new line.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0094",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the default value of the display property for a <span>?",
+    "options": [
+      "block",
+      "inline",
+      "inline-block",
+      "flex"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The default display value for a <span> is 'inline', meaning it only takes up as much width as necessary and doesn't start on a new line.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0095",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is responsive web design?",
+    "options": [
+      "Designing websites that respond quickly",
+      "Creating websites that adapt to different screen sizes and devices",
+      "Websites with animations",
+      "Websites that only work on mobile"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Responsive web design creates websites that automatically adapt their layout and content to different screen sizes and devices using flexible grids, images, and media queries.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0096",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a media query in CSS?",
+    "options": [
+      "A query to fetch media files",
+      "A CSS technique to apply styles based on device characteristics",
+      "A JavaScript function",
+      "A HTML attribute"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A media query is a CSS technique that applies different styles based on device characteristics like screen width, height, or orientation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0097",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of the viewport meta tag?",
+    "options": [
+      "To set the page title",
+      "To control layout on mobile browsers",
+      "To add a favicon",
+      "To link CSS files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The viewport meta tag controls how the page is displayed on mobile browsers, ensuring proper scaling and responsive behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0098",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does flex-direction: column do in Flexbox?",
+    "options": [
+      "Arranges items horizontally",
+      "Arranges items vertically in a column",
+      "Reverses the order of items",
+      "Creates a grid layout"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Flex-direction: column arranges flex items vertically in a column, stacking them from top to bottom instead of the default left-to-right row.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0099",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Flexbox, what does justify-content align?",
+    "options": [
+      "Items along the vertical axis",
+      "Items along the horizontal axis (main axis)",
+      "All items to the center only",
+      "The container itself"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Flexbox, justify-content aligns items along the main axis (horizontal by default), controlling spacing and distribution of items.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0100",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Flexbox, what does align-items align?",
+    "options": [
+      "Items along the main axis",
+      "Items along the cross axis",
+      "The container",
+      "Only the first item"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Flexbox, align-items aligns items along the cross axis (perpendicular to the main axis), controlling vertical alignment in a row layout.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0101",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which CSS unit is relative to the font-size of the root element?",
+    "options": [
+      "px",
+      "em",
+      "rem",
+      "pt"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The rem unit is relative to the font-size of the root element (<html>), providing consistent sizing throughout the document.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0102",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which CSS unit is relative to the font-size of the parent element?",
+    "options": [
+      "rem",
+      "em",
+      "vh",
+      "px"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The em unit is relative to the font-size of the parent element, making it useful for scalable component sizing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0103",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does CSS Grid provide?",
+    "options": [
+      "One-dimensional layout system",
+      "Two-dimensional layout system with rows and columns",
+      "Only column-based layouts",
+      "Only row-based layouts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CSS Grid provides a two-dimensional layout system with both rows and columns, ideal for complex page layouts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0104",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you make a website mobile-friendly?",
+    "options": [
+      "Use only desktop designs",
+      "Use responsive design techniques, flexible grids, and media queries",
+      "Create separate mobile sites only",
+      "Use smaller fonts only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Making a website mobile-friendly involves responsive design techniques, flexible grids, media queries, and properly sized touch targets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0105",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a CSS preprocessor?",
+    "options": [
+      "A tool that processes CSS before the browser sees it",
+      "A browser plugin",
+      "A JavaScript library",
+      "An HTML tag"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A CSS preprocessor is a tool that extends CSS with variables, mixins, and functions, processing them into standard CSS before the browser interprets it.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0106",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a CSS preprocessor?",
+    "options": [
+      "React",
+      "Sass",
+      "jQuery",
+      "Bootstrap"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sass (Syntactically Awesome Stylesheets) is a popular CSS preprocessor that adds features like variables, nesting, and mixins to CSS.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0107",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of CSS variables?",
+    "options": [
+      "To store JavaScript values",
+      "To store reusable values in CSS",
+      "To create database queries",
+      "To define HTML attributes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CSS variables (custom properties) store reusable values in CSS, reducing repetition and making themes easier to maintain.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0108",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you define a CSS variable?",
+    "options": [
+      "$primary-color: blue;",
+      "@primary-color: blue;",
+      "--primary-color: blue;",
+      "var-primary-color: blue;"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CSS variables are defined using the -- prefix, like --primary-color: blue;, typically inside the :root selector for global access.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0109",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you use a CSS variable?",
+    "options": [
+      "color: $primary-color;",
+      "color: @primary-color;",
+      "color: var(--primary-color);",
+      "color: primary-color;"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CSS variables are used with the var() function, like color: var(--primary-color);, which retrieves the stored value.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0110",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the difference between display: none and visibility: hidden?",
+    "options": [
+      "They are the same",
+      "display: none removes element from layout, visibility: hidden hides but occupies space",
+      "visibility: hidden removes element from layout",
+      "display: none hides but occupies space"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Display: none completely removes the element from the document layout, while visibility: hidden hides it visually but still occupies space in the layout.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0111",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the transition property do in CSS?",
+    "options": [
+      "Changes element instantly",
+      "Creates smooth animation between property changes",
+      "Transitions between pages",
+      "Changes the display property"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The CSS transition property creates smooth animations between property value changes over a specified duration.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0112",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does @keyframes in CSS define?",
+    "options": [
+      "A JavaScript function",
+      "An animation sequence",
+      "A media query",
+      "A CSS variable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The @keyframes rule defines an animation sequence in CSS, specifying styles at various points during the animation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0113",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the difference between relative and absolute units?",
+    "options": [
+      "Relative units are fixed, absolute units are flexible",
+      "Relative units are based on other values, absolute units are fixed",
+      "They are the same",
+      "Relative units are for fonts only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Relative units (em, rem, %) are based on other values and scale accordingly, while absolute units (px, cm, in) have fixed sizes regardless of context.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0114",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is an absolute CSS unit?",
+    "options": [
+      "em",
+      "rem",
+      "px",
+      "vw"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pixels (px) are an absolute CSS unit with a fixed size, while em, rem, and vw are all relative units.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0115",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a relative CSS unit?",
+    "options": [
+      "cm",
+      "mm",
+      "in",
+      "vh"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Viewport height (vh) is a relative CSS unit based on the viewport's height, while cm, mm, and in are absolute measurement units.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0116",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does vw unit stand for?",
+    "options": [
+      "Viewport width percentage",
+      "Variable width",
+      "Vertical width",
+      "Visual width"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The vw unit stands for viewport width percentage, where 1vw equals 1% of the viewport's width.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0117",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does vh unit stand for?",
+    "options": [
+      "Variable height",
+      "Viewport height percentage",
+      "Vertical height",
+      "Visual height"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The vh unit stands for viewport height percentage, where 1vh equals 1% of the viewport's height.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0118",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of box-sizing: border-box?",
+    "options": [
+      "Includes padding and border in element's total width and height",
+      "Excludes padding from width calculation",
+      "Changes the box model completely",
+      "Adds a border to the box"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Box-sizing: border-box includes padding and border in the element's total width and height calculations, making layout sizing more predictable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0119",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a CSS framework?",
+    "options": [
+      "A programming language",
+      "A pre-prepared library for styling web pages",
+      "A browser",
+      "A database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A CSS framework is a pre-prepared library of CSS styles and components for quickly building responsive, styled web pages.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0120",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is JavaScript?",
+    "options": [
+      "A markup language",
+      "A styling language",
+      "A programming language for adding interactivity to web pages",
+      "A database language"
+    ],
+    "correctAnswer": 2,
+    "explanation": "JavaScript is a programming language used to add interactivity and dynamic behavior to web pages, running in the browser and on servers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0121",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Who invented JavaScript?",
+    "options": [
+      "Tim Berners-Lee",
+      "Brendan Eich",
+      "Larry Page",
+      "Mark Zuckerberg"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Brendan Eich created JavaScript in 1995 while working at Netscape Communications, originally developing it in just 10 days.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0122",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is ECMAScript?",
+    "options": [
+      "A different programming language",
+      "The standardized specification that JavaScript follows",
+      "A JavaScript library",
+      "A web browser"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ECMAScript is the standardized specification that JavaScript follows, maintained by ECMA International to ensure language consistency across implementations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0123",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which HTML tag is used to define internal JavaScript?",
+    "options": [
+      "<javascript>",
+      "<js>",
+      "<script>",
+      "<code>"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The <script> tag is used to define JavaScript code within an HTML document, either inline or by referencing an external file.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0124",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Where can JavaScript be placed in an HTML document?",
+    "options": [
+      "Only in <head>",
+      "Only in <body>",
+      "In both <head> and <body>",
+      "Only in external files"
+    ],
+    "correctAnswer": 2,
+    "explanation": "JavaScript can be placed in both the <head> and <body> sections of an HTML document, or loaded from external files.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0125",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you write \"Hello World\" in an alert box?",
+    "options": [
+      "alert(\"Hello World\");",
+      "msg(\"Hello World\");",
+      "alertBox(\"Hello World\");",
+      "popup(\"Hello World\");"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The alert() function displays a dialog box with a message, so alert(\"Hello World\"); shows \"Hello World\" in a popup.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0126",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you create a function in JavaScript?",
+    "options": [
+      "function myFunction()",
+      "create myFunction()",
+      "def myFunction()",
+      "func myFunction()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In JavaScript, functions are declared using the function keyword followed by the name and parentheses: function myFunction().",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0127",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you call a function named \"myFunction\"?",
+    "options": [
+      "call myFunction()",
+      "myFunction()",
+      "function myFunction()",
+      "run myFunction()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A function is called by writing its name followed by parentheses: myFunction(). Any arguments are passed inside the parentheses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0128",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the correct way to write a comment in JavaScript?",
+    "options": [
+      "<!-- comment -->",
+      "// comment",
+      "' comment",
+      "-- comment"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Single-line comments in JavaScript use the // syntax. Everything after // on that line is treated as a comment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0129",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you write a multi-line comment in JavaScript?",
+    "options": [
+      "// comment //",
+      "<!-- comment -->",
+      "/* comment */",
+      "' comment '"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Multi-line comments in JavaScript are enclosed between /* and */, allowing comments to span multiple lines.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0130",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator is used to assign a value to a variable?",
+    "options": [
+      "*",
+      "==",
+      "=",
+      "==="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The = operator is the assignment operator in JavaScript, used to assign a value to a variable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0131",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the correct way to declare a variable in modern JavaScript?",
+    "options": [
+      "var name;",
+      "variable name;",
+      "let name;",
+      "v name;"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In modern JavaScript (ES6+), the let keyword is the preferred way to declare variables with block scope.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0132",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the difference between let and const?",
+    "options": [
+      "They are the same",
+      "let variables cannot be reassigned, const can",
+      "const variables cannot be reassigned, let can",
+      "let is for numbers only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Variables declared with const cannot be reassigned after initialization, while let variables can be reassigned. Both have block scope.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0133",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a function in JavaScript?",
+    "options": [
+      "A block of code designed to perform a particular task",
+      "A CSS selector",
+      "An HTML element",
+      "A database query"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A function in JavaScript is a reusable block of code designed to perform a particular task, defined with the function keyword or arrow syntax.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0134",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is an array in JavaScript?",
+    "options": [
+      "A function",
+      "A special variable that can hold multiple values",
+      "A CSS property",
+      "An HTML attribute"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An array in JavaScript is a special variable that can hold multiple values in an ordered, indexed collection.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0135",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you access the first element of an array?",
+    "options": [
+      "array[0]",
+      "array[1]",
+      "array.first()",
+      "array[first]"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Arrays in JavaScript are zero-indexed, so the first element is accessed with array[0].",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0136",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method adds an element to the end of an array?",
+    "options": [
+      "array.add()",
+      "array.push()",
+      "array.append()",
+      "array.unshift()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The push() method adds one or more elements to the end of an array and returns the new length.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0137",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method removes the last element from an array?",
+    "options": [
+      "array.pop()",
+      "array.remove()",
+      "array.shift()",
+      "array.slice()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The pop() method removes and returns the last element from an array, modifying the original array.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0138",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a JavaScript object?",
+    "options": [
+      "A collection of key-value pairs",
+      "A function",
+      "An array",
+      "A CSS style"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A JavaScript object is a collection of key-value pairs (properties and methods) that represents a structured entity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0139",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you access a property named \"name\" of an object \"person\"?",
+    "options": [
+      "person[name]",
+      "person.name",
+      "person->name",
+      "person:name"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Object properties can be accessed using dot notation (person.name) or bracket notation (person['name']).",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0140",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the output of typeof 42?",
+    "options": [
+      "\"number\"",
+      "\"string\"",
+      "\"integer\"",
+      "\"float\""
+    ],
+    "correctAnswer": 0,
+    "explanation": "The typeof operator returns 'number' for numeric values like 42, identifying the data type of the operand.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0141",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the output of typeof \"hello\"?",
+    "options": [
+      "\"string\"",
+      "\"text\"",
+      "\"word\"",
+      "\"char\""
+    ],
+    "correctAnswer": 0,
+    "explanation": "The typeof operator returns 'string' for text values like \"hello\", identifying them as string data types.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0142",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is null in JavaScript?",
+    "options": [
+      "An error",
+      "An intentional absence of any object value",
+      "0",
+      "undefined"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In JavaScript, null represents an intentional absence of any object value, explicitly assigned to indicate 'no value'.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0143",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is undefined in JavaScript?",
+    "options": [
+      "A variable that has been declared but not assigned a value",
+      "An error",
+      "0",
+      "false"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In JavaScript, undefined means a variable has been declared but has not yet been assigned a value.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0144",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator checks for both value and type equality?",
+    "options": [
+      "==",
+      "=",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 2,
+    "explanation": "The === operator (strict equality) checks both value and type equality, unlike == which performs type coercion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0145",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the output of 2 == \"2\"?",
+    "options": [
+      "true",
+      "false",
+      "error",
+      "undefined"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2 == \"2\" returns true because the == operator performs type coercion, converting the string \"2\" to a number before comparison.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0146",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the output of 2 === \"2\"?",
+    "options": [
+      "true",
+      "false",
+      "error",
+      "undefined"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2 === \"2\" returns false because === checks both value and type, and a number is not the same type as a string.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0147",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a for loop used for?",
+    "options": [
+      "To style elements",
+      "To execute a block of code multiple times",
+      "To create functions",
+      "To declare variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A for loop is used to execute a block of code repeatedly for a specified number of iterations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0148",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the DOM in JavaScript?",
+    "options": [
+      "Document Object Model - a representation of the HTML document",
+      "Data Object Model",
+      "Digital Output Method",
+      "Document Order Management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The DOM (Document Object Model) is a programming interface that represents an HTML document as a tree of objects that JavaScript can manipulate.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0149",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does document represent in JavaScript?",
+    "options": [
+      "A PDF file",
+      "The HTML document loaded in the browser",
+      "A text file",
+      "A CSS file"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In JavaScript, the document object represents the HTML document loaded in the browser, providing methods to access and modify page content.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0150",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a closure in JavaScript?",
+    "options": [
+      "A function that has access to its outer function's scope",
+      "A way to close a browser window",
+      "An HTML tag",
+      "A CSS property"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A closure is a function that retains access to its outer (enclosing) function's scope variables even after the outer function has finished executing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0151",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the event loop in JavaScript?",
+    "options": [
+      "A loop that runs events",
+      "A mechanism that handles asynchronous callbacks",
+      "A type of for loop",
+      "A DOM event"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The event loop is JavaScript's mechanism for handling asynchronous callbacks, processing the callback queue when the call stack is empty.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0152",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a Promise in JavaScript?",
+    "options": [
+      "A guarantee that code will run",
+      "An object representing eventual completion of an async operation",
+      "A function that always runs",
+      "A synchronous operation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Promise is an object representing the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0153",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the async keyword do?",
+    "options": [
+      "Makes a function run faster",
+      "Declares an asynchronous function",
+      "Creates a promise",
+      "Stops function execution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The async keyword declares an asynchronous function that automatically returns a Promise and allows the use of await inside it.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0154",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the await keyword do?",
+    "options": [
+      "Pauses function execution until a promise settles",
+      "Waits for user input",
+      "Creates a delay",
+      "Stops all execution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The await keyword pauses the execution of an async function until the Promise settles (resolves or rejects), then returns the result.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0155",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is JSON?",
+    "options": [
+      "JavaScript Object Notation - a lightweight data interchange format",
+      "JavaScript Oriented Network",
+      "Java Source Object Name",
+      "JavaScript Object Navigator"
+    ],
+    "correctAnswer": 0,
+    "explanation": "JSON (JavaScript Object Notation) is a lightweight, text-based data interchange format that is easy for humans to read and machines to parse.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0156",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method parses a JSON string into a JavaScript object?",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "JSON.toObject()",
+      "JSON.convert()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "JSON.parse() takes a JSON string and converts it into a JavaScript object, enabling data manipulation in code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0157",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method converts a JavaScript object to a JSON string?",
+    "options": [
+      "JSON.parse()",
+      "JSON.toString()",
+      "JSON.stringify()",
+      "JSON.toJSON()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "JSON.stringify() converts a JavaScript object into a JSON string, commonly used for sending data to a server.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0158",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is AJAX?",
+    "options": [
+      "A cleaning product",
+      "Asynchronous JavaScript and XML - technique for updating parts of a page without reloading",
+      "A JavaScript library",
+      "A CSS framework"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AJAX (Asynchronous JavaScript and XML) is a technique for updating parts of a web page without reloading the entire page.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0159",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the Fetch API used for?",
+    "options": [
+      "To fetch HTML elements",
+      "To make HTTP requests from JavaScript",
+      "To download files",
+      "To get CSS properties"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Fetch API provides a modern interface for making HTTP requests from JavaScript, returning Promises for cleaner async code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0160",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method is used to add an event listener in JavaScript?",
+    "options": [
+      "element.addEvent()",
+      "element.addEventListener()",
+      "element.on()",
+      "element.listen()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The addEventListener() method attaches an event handler to an element, allowing it to respond to user interactions like clicks and key presses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0161",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which event occurs when a user clicks on an element?",
+    "options": [
+      "mouseover",
+      "click",
+      "hover",
+      "onchange"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 'click' event occurs when a user clicks on an element, and is one of the most commonly used events in JavaScript.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0162",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is event bubbling in JavaScript?",
+    "options": [
+      "Events moving up through DOM hierarchy",
+      "Events that occur repeatedly",
+      "Creating bubbles in UI",
+      "A CSS animation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Event bubbling is when an event starts at the target element and propagates upward through its parent elements in the DOM hierarchy.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0163",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you prevent the default behavior of an event?",
+    "options": [
+      "event.stop()",
+      "event.preventDefault()",
+      "event.cancel()",
+      "event.halt()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The event.preventDefault() method prevents the default browser behavior for an event, like preventing a form submission or link navigation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0164",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you stop event propagation?",
+    "options": [
+      "event.stop()",
+      "event.preventDefault()",
+      "event.stopPropagation()",
+      "event.cancelBubble"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The event.stopPropagation() method prevents an event from bubbling up or capturing down through the DOM tree.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0165",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the this keyword in JavaScript?",
+    "options": [
+      "Refers to the current object/context",
+      "A reference to the previous object",
+      "A CSS selector",
+      "An HTML tag"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The 'this' keyword refers to the current object/context in which code is executing, with its value depending on how a function is called.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0166",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is prototypal inheritance in JavaScript?",
+    "options": [
+      "Objects inheriting from other objects",
+      "Class-based inheritance",
+      "CSS inheritance",
+      "HTML parent-child relationship"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Prototypal inheritance in JavaScript allows objects to inherit properties and methods directly from other objects through the prototype chain.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0167",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a callback function?",
+    "options": [
+      "A function passed as an argument to another function",
+      "A function that calls itself",
+      "A function that returns a number",
+      "A built-in function"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A callback function is a function passed as an argument to another function, to be executed later when an event or operation completes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0168",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is callback hell?",
+    "options": [
+      "A debugging error",
+      "Nested callbacks making code hard to read",
+      "A JavaScript runtime error",
+      "A browser crash"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Callback hell refers to deeply nested callbacks that make code hard to read and maintain, often solved with Promises or async/await.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0169",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the spread operator in JavaScript?",
+    "options": [
+      "...",
+      "**",
+      "&&",
+      "||"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The spread operator (...) expands an iterable (array, object) into individual elements, useful for copying, merging, and passing arguments.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0170",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the map() method do?",
+    "options": [
+      "Creates a new array with results of calling a function on every element",
+      "Maps coordinates",
+      "Creates a new object",
+      "Changes array size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The map() method creates a new array by applying a function to every element of the original array, without modifying the original.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0171",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the filter() method do?",
+    "options": [
+      "Removes elements from array",
+      "Creates new array with elements that pass a test",
+      "Filters out undefined values",
+      "Changes all elements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The filter() method creates a new array containing only elements that pass a specified test function, without modifying the original array.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0172",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the reduce() method do?",
+    "options": [
+      "Reduces array size",
+      "Reduces array to a single value",
+      "Decreases numbers",
+      "Removes duplicates"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The reduce() method applies a function against an accumulator to reduce an array to a single value, like a sum or combined object.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0173",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is destructuring in JavaScript?",
+    "options": [
+      "Destroying objects",
+      "Extracting values from arrays or objects into distinct variables",
+      "Deleting properties",
+      "Breaking code"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Destructuring is a JavaScript syntax for extracting values from arrays or properties from objects into distinct variables concisely.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0174",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a module in JavaScript?",
+    "options": [
+      "A CSS file",
+      "A reusable piece of code that can be exported and imported",
+      "An HTML component",
+      "A browser feature"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A JavaScript module is a reusable piece of code that can be exported from one file and imported into another, promoting code organization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0175",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a frontend framework?",
+    "options": [
+      "A server-side technology",
+      "A structure for building user interfaces with pre-written code",
+      "A database system",
+      "A programming language"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A frontend framework provides a structured foundation of pre-written code for building user interfaces efficiently with consistent patterns.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0176",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a popular JavaScript library for building user interfaces?",
+    "options": [
+      "Django",
+      "Laravel",
+      "React",
+      "Flask"
+    ],
+    "correctAnswer": 2,
+    "explanation": "React is a popular JavaScript library developed by Facebook (Meta) for building user interfaces using a component-based architecture.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0177",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is React developed by?",
+    "options": [
+      "Google",
+      "Microsoft",
+      "Facebook (Meta)",
+      "Amazon"
+    ],
+    "correctAnswer": 2,
+    "explanation": "React was developed by Facebook (now Meta) and was first released in 2013 as an open-source project.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0178",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the virtual DOM in React?",
+    "options": [
+      "A fake DOM",
+      "A lightweight copy of the real DOM for performance optimization",
+      "A browser feature",
+      "An HTML element"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The virtual DOM is a lightweight in-memory copy of the real DOM that React uses to optimize rendering by computing minimal updates.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0179",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a component in React?",
+    "options": [
+      "A CSS class",
+      "A reusable, independent piece of UI",
+      "An HTML page",
+      "A JavaScript variable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A component in React is a reusable, independent piece of UI that manages its own state and rendering logic.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0180",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is JSX in React?",
+    "options": [
+      "A JavaScript extension that allows HTML-like syntax",
+      "A CSS preprocessor",
+      "A database query language",
+      "A testing tool"
+    ],
+    "correctAnswer": 0,
+    "explanation": "JSX is a JavaScript syntax extension that allows writing HTML-like code within JavaScript, making React components more readable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0181",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Angular developed by?",
+    "options": [
+      "Facebook",
+      "Google",
+      "Microsoft",
+      "Apple"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Angular is a comprehensive frontend framework developed and maintained by Google, using TypeScript as its primary language.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0182",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Vue.js?",
+    "options": [
+      "A backend framework",
+      "A progressive JavaScript framework for building UIs",
+      "A database",
+      "A CSS library"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Vue.js is a progressive JavaScript framework for building user interfaces, known for its gentle learning curve and flexible architecture.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0183",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is state in frontend frameworks?",
+    "options": [
+      "A CSS property",
+      "Data that determines how a component renders and behaves",
+      "A country",
+      "An HTML attribute"
+    ],
+    "correctAnswer": 1,
+    "explanation": "State in frontend frameworks represents the data that determines how a component renders and behaves, triggering re-renders when changed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0184",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What are props in React?",
+    "options": [
+      "Properties passed from parent to child components",
+      "A type of state",
+      "HTML attributes",
+      "CSS properties"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Props (properties) are read-only data passed from parent to child components in React, enabling component communication and reusability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0185",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Bootstrap?",
+    "options": [
+      "A JavaScript framework",
+      "A CSS framework for responsive design",
+      "A backend technology",
+      "A database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bootstrap is a popular open-source CSS framework that provides pre-built responsive design components and a grid system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0186",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Tailwind CSS?",
+    "options": [
+      "A JavaScript library",
+      "A utility-first CSS framework",
+      "A backend framework",
+      "A database tool"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tailwind CSS is a utility-first CSS framework that provides low-level utility classes for building custom designs directly in HTML.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0187",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is jQuery?",
+    "options": [
+      "A modern frontend framework",
+      "A fast, small JavaScript library for DOM manipulation",
+      "A CSS preprocessor",
+      "A server-side language"
+    ],
+    "correctAnswer": 1,
+    "explanation": "jQuery is a fast, lightweight JavaScript library that simplifies DOM manipulation, event handling, and AJAX operations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0188",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a single-page application (SPA)?",
+    "options": [
+      "An application with only one page",
+      "A web app that loads a single HTML page and updates dynamically",
+      "A PDF document",
+      "A website with no navigation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A single-page application (SPA) loads a single HTML page and dynamically updates content as the user interacts, without full page reloads.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0189",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is NOT a frontend framework?",
+    "options": [
+      "React",
+      "Vue",
+      "Angular",
+      "Express"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Express is a backend Node.js framework, not a frontend framework. React, Vue, and Angular are all frontend frameworks/libraries.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0190",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is backend development?",
+    "options": [
+      "The visual part of a website",
+      "Server-side logic, databases, and application functionality",
+      "Only database management",
+      "Only API creation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Backend development involves server-side logic, database management, and application functionality that power the client-facing frontend.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0191",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which language is commonly used for backend development?",
+    "options": [
+      "HTML",
+      "CSS",
+      "Python",
+      "SCSS"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Python is commonly used for backend development with frameworks like Django and Flask. HTML and CSS are frontend languages, and SCSS is a CSS preprocessor.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0192",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a server?",
+    "options": [
+      "A computer that serves requests to clients",
+      "A web browser",
+      "A programming language",
+      "A CSS framework"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A server is a computer or system that processes requests and serves data or resources to client applications over a network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0193",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Node.js?",
+    "options": [
+      "A frontend framework",
+      "A JavaScript runtime for server-side development",
+      "A database",
+      "A CSS library"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Node.js is a JavaScript runtime built on Chrome's V8 engine that enables server-side JavaScript development.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0194",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is an API?",
+    "options": [
+      "Application Programming Interface",
+      "Advanced Program Integration",
+      "Application Protocol Interface",
+      "Automated Program Installation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "API stands for Application Programming Interface, a set of rules and protocols that allows different software applications to communicate.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0195",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a RESTful API?",
+    "options": [
+      "An API that uses REST architectural style",
+      "An API that only gets data",
+      "An API that requires rest",
+      "A database API"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A RESTful API follows REST architectural principles, using standard HTTP methods and stateless communication for web service design.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0196",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Express.js?",
+    "options": [
+      "A frontend framework",
+      "A web application framework for Node.js",
+      "A database",
+      "A CSS framework"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Express.js is a minimal and flexible web application framework for Node.js, widely used for building APIs and web applications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0197",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Django?",
+    "options": [
+      "A JavaScript library",
+      "A Python web framework",
+      "A database",
+      "A CSS preprocessor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Django is a high-level Python web framework that follows the model-template-views architecture and emphasizes rapid development.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0198",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Flask?",
+    "options": [
+      "A lightweight Python web framework",
+      "A CSS framework",
+      "A database",
+      "A JavaScript library"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flask is a lightweight Python web framework that provides essential tools for building web applications without imposing specific project structure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0199",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Laravel?",
+    "options": [
+      "A Python framework",
+      "A PHP framework",
+      "A JavaScript framework",
+      "A CSS framework"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Laravel is a PHP web framework known for its elegant syntax, MVC architecture, and built-in tools for common web development tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0200",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Ruby on Rails?",
+    "options": [
+      "A JavaScript library",
+      "A web framework written in Ruby",
+      "A train simulation",
+      "A database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ruby on Rails is a server-side web framework written in Ruby that follows convention over configuration and the MVC pattern.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0201",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is middleware in backend development?",
+    "options": [
+      "Software that sits between the request and response",
+      "A database",
+      "A frontend component",
+      "A CSS property"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Middleware is software that sits between the client request and server response, processing requests, handling authentication, logging, and more.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0202",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is server-side rendering?",
+    "options": [
+      "Rendering pages in the browser",
+      "Generating HTML on the server and sending to client",
+      "Rendering images only",
+      "A CSS technique"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Server-side rendering generates complete HTML on the server and sends it to the client, improving initial load time and SEO.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0203",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a microservice architecture?",
+    "options": [
+      "Building application as a collection of small, independent services",
+      "A single large application",
+      "A database design",
+      "A frontend pattern"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Microservice architecture breaks an application into small, independently deployable services, each handling a specific business function.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0204",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is serverless computing?",
+    "options": [
+      "No servers involved",
+      "Running code without managing servers, using cloud functions",
+      "Disabled servers",
+      "Local development only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Serverless computing allows developers to run code without managing servers, using cloud functions that scale automatically and charge per execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0205",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is server-side programming?",
+    "options": [
+      "Code that runs in the browser",
+      "Code that runs on the web server",
+      "Code that runs in databases",
+      "Code that styles pages"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Server-side programming involves writing code that runs on the web server, handling business logic, database operations, and generating responses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0206",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is PHP?",
+    "options": [
+      "A client-side language",
+      "A server-side scripting language",
+      "A CSS framework",
+      "A database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PHP is a widely-used server-side scripting language designed for web development, powering platforms like WordPress and Laravel applications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0207",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Python commonly used for in web development?",
+    "options": [
+      "Only frontend",
+      "Server-side logic with frameworks like Django and Flask",
+      "Only data science",
+      "Styling web pages"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python is commonly used for server-side web development with frameworks like Django (full-featured) and Flask (lightweight).",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0208",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is JSP?",
+    "options": [
+      "JavaScript Pages",
+      "JavaServer Pages",
+      "Java Styling Pages",
+      "JavaScript Programming"
+    ],
+    "correctAnswer": 1,
+    "explanation": "JSP stands for JavaServer Pages, a technology for creating dynamic web content using Java on the server side.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0209",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is CGI in web development?",
+    "options": [
+      "Common Gateway Interface",
+      "Computer Graphics Interface",
+      "Code Generation Interface",
+      "Client Gateway Integration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CGI (Common Gateway Interface) is a standard protocol for web servers to execute programs that generate dynamic web content.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0210",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is session management in web applications?",
+    "options": [
+      "Managing user meetings",
+      "Maintaining user state across multiple requests",
+      "Database management",
+      "Code organization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Session management maintains user state across multiple HTTP requests, tracking user activity and preferences during their visit.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0211",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How is session information typically maintained?",
+    "options": [
+      "Only in URLs",
+      "Using cookies, session IDs, or tokens",
+      "In HTML comments",
+      "In CSS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Session information is typically maintained using cookies, session IDs, or tokens that identify the user across multiple requests.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0212",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is authentication in web applications?",
+    "options": [
+      "Verifying user identity",
+      "Determining user permissions",
+      "Managing user data",
+      "Styling login forms"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Authentication is the process of verifying a user's identity, typically through credentials like username and password.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0213",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is authorization in web applications?",
+    "options": [
+      "Verifying identity",
+      "Determining what resources a user can access",
+      "Creating user accounts",
+      "Logging user activities"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Authorization determines what resources and actions a verified user is permitted to access, enforcing access control policies.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0214",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a web framework?",
+    "options": [
+      "A structure for building web applications",
+      "A type of database",
+      "A CSS library",
+      "A browser"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A web framework provides a structured foundation of libraries and tools for building web applications, handling common tasks like routing and templating.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0215",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is routing in web applications?",
+    "options": [
+      "Mapping URLs to specific handlers or functions",
+      "Network routing",
+      "Database routing",
+      "CSS path"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Routing in web applications maps incoming URL requests to specific handler functions or controllers that process and respond to them.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0216",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a template engine?",
+    "options": [
+      "A tool for designing HTML templates",
+      "A tool that combines templates with data to generate HTML",
+      "A CSS preprocessor",
+      "A JavaScript library"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A template engine combines templates with data to generate dynamic HTML pages, separating presentation from business logic.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0217",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Jinja2?",
+    "options": [
+      "A JavaScript framework",
+      "A template engine for Python",
+      "A CSS framework",
+      "A database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Jinja2 is a popular template engine for Python, commonly used with Flask for generating dynamic HTML content.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0218",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is EJS?",
+    "options": [
+      "Embedded JavaScript templating",
+      "Enhanced JavaScript",
+      "External JavaScript",
+      "Encoded JavaScript"
+    ],
+    "correctAnswer": 0,
+    "explanation": "EJS (Embedded JavaScript) is a templating engine that lets you generate HTML with plain JavaScript embedded in templates.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0219",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a controller in MVC architecture?",
+    "options": [
+      "Handles user input and interacts with the model",
+      "Manages database connections",
+      "Renders the view",
+      "Stores data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In MVC architecture, the controller handles user input, processes requests, and coordinates between the model and view.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0220",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a model in MVC architecture?",
+    "options": [
+      "Manages data and business logic",
+      "Handles user interface",
+      "Processes HTTP requests",
+      "Routes URLs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In MVC architecture, the model manages data, business logic, and rules, representing the application's core data structure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0221",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a view in MVC architecture?",
+    "options": [
+      "Handles data logic",
+      "Presents data to the user",
+      "Processes input",
+      "Manages sessions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In MVC architecture, the view presents data to the user, rendering the user interface based on data from the model.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0222",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is ORM in backend development?",
+    "options": [
+      "Object-Relational Mapping",
+      "Object Request Model",
+      "Online Resource Management",
+      "Open Resource Mapping"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ORM (Object-Relational Mapping) is a technique that maps programming objects to database tables, enabling database operations using object-oriented code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0223",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of an ORM?",
+    "options": [
+      "To map objects to database tables",
+      "To create HTML",
+      "To style pages",
+      "To manage sessions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An ORM maps programming language objects to database tables, allowing developers to work with databases using familiar object-oriented syntax.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0224",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is SQLAlchemy?",
+    "options": [
+      "A JavaScript library",
+      "An ORM for Python",
+      "A CSS framework",
+      "A database"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SQLAlchemy is a popular ORM and SQL toolkit for Python that provides a full suite of tools for database access and management.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0225",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a database?",
+    "options": [
+      "A structured collection of data",
+      "A programming language",
+      "A web server",
+      "A browser"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A database is a structured collection of data organized for efficient storage, retrieval, and management of information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0226",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a relational database?",
+    "options": [
+      "Database with tables related to each other",
+      "Database with no relationships",
+      "Database that stores documents",
+      "Database that stores key-value pairs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A relational database organizes data into tables with rows and columns, using relationships (keys) to connect related data across tables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0227",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which language is used to query relational databases?",
+    "options": [
+      "HTML",
+      "CSS",
+      "SQL",
+      "JavaScript"
+    ],
+    "correctAnswer": 2,
+    "explanation": "SQL (Structured Query Language) is the standard language for querying and managing relational databases.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0228",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does SQL stand for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Sequential Query Language",
+      "Standard Query Language"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SQL stands for Structured Query Language, the standard language for interacting with relational database management systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0229",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a relational database?",
+    "options": [
+      "MongoDB",
+      "MySQL",
+      "Redis",
+      "Cassandra"
+    ],
+    "correctAnswer": 1,
+    "explanation": "MySQL is a popular open-source relational database management system. MongoDB is NoSQL, Redis is an in-memory store, and Cassandra is a distributed NoSQL database.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0230",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a NoSQL database?",
+    "options": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Oracle"
+    ],
+    "correctAnswer": 2,
+    "explanation": "MongoDB is a NoSQL document database that stores data in flexible, JSON-like documents rather than traditional tables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0231",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is MongoDB?",
+    "options": [
+      "A relational database",
+      "A NoSQL document database",
+      "A programming language",
+      "A web server"
+    ],
+    "correctAnswer": 1,
+    "explanation": "MongoDB is a NoSQL document database that stores data in flexible BSON format, ideal for handling unstructured or semi-structured data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0232",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a primary key in a database?",
+    "options": [
+      "A unique identifier for each record in a table",
+      "The first column in a table",
+      "A key to open the database",
+      "An index"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A primary key uniquely identifies each record in a database table, ensuring no duplicate rows exist.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0233",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a foreign key?",
+    "options": [
+      "A key from another country",
+      "A field that links to the primary key of another table",
+      "A duplicate key",
+      "A backup key"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A foreign key is a field in one table that references the primary key of another table, establishing a relationship between the tables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0234",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What SQL command is used to retrieve data?",
+    "options": [
+      "INSERT",
+      "UPDATE",
+      "SELECT",
+      "DELETE"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The SELECT command retrieves data from one or more database tables, and is the most commonly used SQL command.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0235",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What SQL command is used to add new data?",
+    "options": [
+      "SELECT",
+      "ADD",
+      "INSERT",
+      "CREATE"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The INSERT command adds new rows of data into a database table using the INSERT INTO syntax.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0236",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What SQL command is used to modify existing data?",
+    "options": [
+      "UPDATE",
+      "CHANGE",
+      "MODIFY",
+      "ALTER"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The UPDATE command modifies existing data in a database table, using SET to specify new values and WHERE to target specific rows.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0237",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What SQL command is used to remove data?",
+    "options": [
+      "REMOVE",
+      "DELETE",
+      "DROP",
+      "CLEAR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The DELETE command removes rows from a database table, typically used with a WHERE clause to specify which rows to remove.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0238",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a JOIN in SQL?",
+    "options": [
+      "Combining rows from two or more tables based on related columns",
+      "Adding two numbers",
+      "Connecting to database",
+      "Merging databases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A JOIN in SQL combines rows from two or more tables based on related columns, enabling queries across multiple tables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0239",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is database indexing?",
+    "options": [
+      "Creating a table of contents for faster data retrieval",
+      "Listing all databases",
+      "Indexing web pages",
+      "Numbering rows"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Database indexing creates a data structure that improves the speed of data retrieval operations by providing quick lookup paths to records.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0240",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is ACID in databases?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "A type of database",
+      "A SQL command",
+      "A database model"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability - four properties that guarantee reliable database transactions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0241",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a database connection pool?",
+    "options": [
+      "A pool of water",
+      "A cache of database connections for reuse",
+      "A type of database",
+      "A connection string"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A database connection pool maintains a cache of database connections that can be reused, reducing the overhead of creating new connections.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0242",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is SQL injection?",
+    "options": [
+      "Injecting SQL code into an application to attack the database",
+      "Inserting data quickly",
+      "A database backup method",
+      "A type of JOIN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SQL injection is a security vulnerability where attackers inject malicious SQL code through user input to manipulate or access the database.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0243",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How can SQL injection be prevented?",
+    "options": [
+      "Using more SQL",
+      "Using parameterized queries and input validation",
+      "Disabling the database",
+      "Using complex passwords only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SQL injection is prevented by using parameterized queries (prepared statements) and proper input validation to separate data from SQL commands.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0244",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is database migration?",
+    "options": [
+      "Moving database to another server",
+      "Managing and applying changes to database schema",
+      "Moving data between tables",
+      "Database backup"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Database migration is the process of managing and applying incremental changes to database schema, tracking versions of database structure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0245",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the OWASP Top Ten?",
+    "options": [
+      "A list of top ten web servers",
+      "A list of top ten security risks for web applications",
+      "A top ten programming languages list",
+      "A top ten frameworks list"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The OWASP Top Ten is a regularly updated list of the ten most critical security risks for web applications, serving as a security awareness guide.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0246",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Cross-Site Scripting (XSS)?",
+    "options": [
+      "A way to link websites",
+      "An attack where malicious scripts are injected into trusted websites",
+      "A browser feature",
+      "A CSS technique"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cross-Site Scripting (XSS) is an attack where malicious scripts are injected into trusted websites, executing in other users' browsers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0247",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the difference between stored and reflected XSS?",
+    "options": [
+      "Stored is saved on server, reflected is in request/response",
+      "Reflected is more dangerous",
+      "Stored affects only one user",
+      "They are the same"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stored XSS persists on the server (e.g., in a database) and affects all users, while reflected XSS is included in the request and reflected back immediately.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0248",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Cross-Site Request Forgery (CSRF)?",
+    "options": [
+      "Forging requests to another site",
+      "An attack that tricks user into executing unwanted actions",
+      "A way to copy websites",
+      "A security feature"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CSRF is an attack that tricks authenticated users into performing unintended actions on a web application where they are currently logged in.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0249",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How does CSRF typically work?",
+    "options": [
+      "By injecting scripts",
+      "By using the user's authenticated session to perform unauthorized actions",
+      "By stealing passwords",
+      "By hacking the server"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CSRF works by exploiting a user's authenticated session to submit unauthorized requests, often through hidden forms or malicious links.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0250",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is broken authentication?",
+    "options": [
+      "A feature",
+      "Weaknesses in authentication mechanisms that allow attackers to compromise credentials",
+      "A type of encryption",
+      "A login form"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Broken authentication refers to weaknesses in authentication mechanisms that allow attackers to compromise passwords, keys, or session tokens.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0251",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is sensitive data exposure?",
+    "options": [
+      "Sharing data publicly",
+      "When sensitive information is not properly protected",
+      "A backup method",
+      "Data encryption"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sensitive data exposure occurs when applications fail to properly protect sensitive information like passwords, credit card numbers, or personal data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0252",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is security misconfiguration?",
+    "options": [
+      "Proper security setup",
+      "Using insecure default configurations or incomplete configurations",
+      "A security feature",
+      "A firewall setting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Security misconfiguration happens when security settings are not properly defined, including insecure defaults, incomplete configurations, or unnecessary features.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0253",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is broken access control?",
+    "options": [
+      "Users accessing resources they shouldn't be allowed to",
+      "Proper permission system",
+      "A login system",
+      "Password protection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Broken access control occurs when users can access resources or perform actions beyond their intended permissions, violating the principle of least privilege.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0254",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is HTTPS?",
+    "options": [
+      "HTTP with encryption",
+      "A faster version of HTTP",
+      "HTTP without security",
+      "A different protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPS (HTTP Secure) is HTTP with encryption provided by SSL/TLS, ensuring data integrity and confidentiality during transmission.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0255",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does SSL/TLS provide?",
+    "options": [
+      "Faster browsing",
+      "Encryption, authentication, and data integrity",
+      "More storage",
+      "Better images"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SSL/TLS provides encryption (data privacy), authentication (verifying server identity), and data integrity (preventing tampering) for web communications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0256",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is an SSL certificate?",
+    "options": [
+      "A digital certificate that authenticates a website's identity and enables encryption",
+      "A type of virus",
+      "A browser plugin",
+      "A programming certificate"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An SSL certificate is a digital certificate that authenticates a website's identity and enables encrypted connections between the browser and server.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0257",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is input validation?",
+    "options": [
+      "Checking user input for correctness and safety",
+      "Entering data",
+      "Validating forms with JavaScript only",
+      "A database feature"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Input validation is the process of checking user input for correctness, completeness, and safety before processing, preventing injection attacks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0258",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the difference between whitelist and blacklist validation?",
+    "options": [
+      "Whitelist allows only known good, blacklist blocks known bad",
+      "They are the same",
+      "Blacklist is better",
+      "Whitelist is for colors only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Whitelist validation only allows known good input patterns, while blacklist validation blocks known bad patterns. Whitelist is generally more secure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0259",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is output encoding?",
+    "options": [
+      "Compressing output",
+      "Converting data to a safe format before displaying",
+      "Encrypting output",
+      "Minifying output"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Output encoding converts special characters to a safe format before displaying them, preventing XSS attacks by neutralizing potentially malicious scripts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0260",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a Content Security Policy (CSP)?",
+    "options": [
+      "A security standard to prevent XSS and other injection attacks",
+      "A content management system",
+      "A CSS property",
+      "A JavaScript framework"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Content Security Policy (CSP) is an HTTP header that prevents XSS and injection attacks by specifying which content sources are allowed to load.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0261",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is CORS?",
+    "options": [
+      "Cross-Origin Resource Sharing",
+      "Cross-Origin Request Security",
+      "Cross-Site Resource Sharing",
+      "Cross-Origin Response System"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CORS (Cross-Origin Resource Sharing) is a mechanism that allows web pages to make requests to a different domain than the one serving the page.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0262",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is session hijacking?",
+    "options": [
+      "Taking over a valid user session",
+      "Creating a new session",
+      "Ending a session",
+      "Saving a session"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Session hijacking is when an attacker takes over a legitimate user's active session, gaining unauthorized access to their account.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0263",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How can session hijacking be prevented?",
+    "options": [
+      "Using secure cookies, session timeouts, and HTTPS",
+      "Using longer session IDs only",
+      "Not using sessions",
+      "Using simple session IDs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Session hijacking is prevented by using secure and HttpOnly cookies, session timeouts, HTTPS encryption, and regenerating session IDs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0264",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a man-in-the-middle attack?",
+    "options": [
+      "Attacker intercepts communication between two parties",
+      "Attack on middle servers",
+      "A type of virus",
+      "Network maintenance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A man-in-the-middle attack occurs when an attacker intercepts and potentially alters communication between two parties without their knowledge.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0265",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is HTTPS redirection?",
+    "options": [
+      "Redirecting HTTP to HTTPS",
+      "Redirecting to another site",
+      "A 301 redirect",
+      "A meta refresh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPS redirection automatically redirects HTTP requests to HTTPS, ensuring all communication is encrypted and secure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0266",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is secure password storage practice?",
+    "options": [
+      "Storing passwords in plain text",
+      "Hashing passwords with salt",
+      "Encrypting passwords only",
+      "Using short passwords"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Secure password storage involves hashing passwords with a salt (random data) before storing, making it infeasible to reverse-engineer the original password.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0267",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is two-factor authentication (2FA)?",
+    "options": [
+      "Using two passwords",
+      "Using two different methods to verify identity",
+      "Logging in twice",
+      "Two-step login form"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Two-factor authentication requires two different methods to verify identity (e.g., password + SMS code), significantly improving account security.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0268",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a security header in HTTP?",
+    "options": [
+      "HTTP headers that enhance security",
+      "A secure connection",
+      "A firewall rule",
+      "An encryption method"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Security headers are HTTP response headers like HSTS, X-Frame-Options, and CSP that enhance web application security by instructing browsers on security policies.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0269",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is web performance optimization?",
+    "options": [
+      "Making websites look better",
+      "Techniques to make websites load faster",
+      "Adding more features",
+      "Using more images"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Web performance optimization involves techniques to make websites load faster and respond more quickly, improving user experience and SEO.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0270",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is minification in web development?",
+    "options": [
+      "Making fonts smaller",
+      "Removing unnecessary characters from code without changing functionality",
+      "Reducing image size",
+      "Using smaller screens"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Minification removes unnecessary characters (whitespace, comments) from code without changing functionality, reducing file size and improving load time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0271",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is code bundling?",
+    "options": [
+      "Combining multiple files into fewer files",
+      "Writing more code",
+      "Adding comments",
+      "Creating packages"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Code bundling combines multiple JavaScript or CSS files into fewer files, reducing the number of HTTP requests needed to load a page.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0272",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is lazy loading?",
+    "options": [
+      "Loading content only when needed",
+      "Loading everything at once",
+      "Slow loading",
+      "Not loading anything"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lazy loading defers loading of non-critical resources until they are needed (e.g., images below the fold), improving initial page load time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0273",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is browser caching?",
+    "options": [
+      "Storing website resources locally to avoid re-downloading",
+      "Deleting browser history",
+      "Clearing cookies",
+      "Saving passwords"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Browser caching stores website resources locally so they don't need to be re-downloaded on subsequent visits, significantly improving load times.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0274",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a CDN?",
+    "options": [
+      "Content Delivery Network",
+      "Code Distribution Network",
+      "Computer Data Network",
+      "Content Download Network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A CDN (Content Delivery Network) is a distributed network of servers that delivers web content to users based on their geographic location.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0275",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How does a CDN improve performance?",
+    "options": [
+      "By serving content from servers closer to users",
+      "By compressing images",
+      "By minifying code",
+      "By using faster computers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A CDN improves performance by serving content from servers geographically closer to users, reducing latency and load times.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0276",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is image optimization?",
+    "options": [
+      "Making images look better",
+      "Reducing image file size without significant quality loss",
+      "Adding more images",
+      "Removing images"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Image optimization reduces image file size while maintaining acceptable quality through compression, proper formats, and appropriate dimensions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0277",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is critical rendering path?",
+    "options": [
+      "The path to CSS files",
+      "Steps browser takes to render a page",
+      "A JavaScript path",
+      "Network route"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The critical rendering path is the sequence of steps a browser takes to convert HTML, CSS, and JavaScript into pixels on the screen.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0278",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is render-blocking resource?",
+    "options": [
+      "Resources that prevent page from rendering quickly",
+      "Resources that display content",
+      "CSS only",
+      "JavaScript only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Render-blocking resources are files (CSS, JavaScript) that prevent the browser from rendering the page until they are fully loaded and processed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0279",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is tree shaking in modern JavaScript?",
+    "options": [
+      "Removing dead code from bundles",
+      "Removing trees from images",
+      "CSS optimization",
+      "HTML cleanup"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tree shaking eliminates dead (unused) code from JavaScript bundles during the build process, reducing final bundle size.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0280",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a performance budget?",
+    "options": [
+      "Money for performance",
+      "A limit on page size or load time",
+      "Budget for hosting",
+      "Developer salary"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A performance budget sets limits on page metrics like size, load time, or number of requests, ensuring the site stays fast as features are added.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0281",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of async and defer attributes on script tags?",
+    "options": [
+      "To make scripts run faster",
+      "To control when scripts load and execute",
+      "To hide scripts",
+      "To encrypt scripts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The async and defer attributes control when external scripts load and execute, preventing them from blocking HTML parsing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0282",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the difference between async and defer?",
+    "options": [
+      "They are the same",
+      "async loads independently, defer loads in order after HTML parsing",
+      "async is faster",
+      "defer is older"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Async scripts load independently and execute immediately when ready, while defer scripts load in parallel but execute in order after HTML parsing completes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0283",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a Cumulative Layout Shift (CLS) in web performance?",
+    "options": [
+      "Changing layouts",
+      "A metric measuring visual stability",
+      "A CSS property",
+      "A JavaScript function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cumulative Layout Shift (CLS) is a Core Web Vital metric measuring visual stability by quantifying unexpected layout shifts during page load.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0284",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is unit testing?",
+    "options": [
+      "Testing entire application",
+      "Testing individual components or functions",
+      "Testing units of measurement",
+      "Testing user interface"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Unit testing tests individual components or functions in isolation, verifying that each unit of code works correctly on its own.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0285",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is integration testing?",
+    "options": [
+      "Testing how different modules work together",
+      "Testing single components",
+      "Testing UI only",
+      "Testing databases only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Integration testing verifies that different modules or components work correctly together, testing their combined behavior and interfaces.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0286",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is end-to-end testing?",
+    "options": [
+      "Testing from start to finish of application flow",
+      "Testing only the end",
+      "Testing APIs only",
+      "Testing endpoints only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "End-to-end testing validates the entire application flow from start to finish, simulating real user scenarios across all system layers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0287",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a testing framework?",
+    "options": [
+      "A tool for writing and running tests",
+      "A CSS framework",
+      "A JavaScript library",
+      "A database tool"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A testing framework provides tools, libraries, and conventions for writing, organizing, and running automated tests efficiently.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0288",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a JavaScript testing framework?",
+    "options": [
+      "Django",
+      "Jest",
+      "Laravel",
+      "Flask"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Jest is a popular JavaScript testing framework developed by Facebook, commonly used for testing React applications and Node.js code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0289",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is debugging?",
+    "options": [
+      "Writing code",
+      "Finding and fixing errors in code",
+      "Testing code",
+      "Optimizing code"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Debugging is the process of finding, analyzing, and fixing errors (bugs) in code to ensure correct program behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0290",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What are browser developer tools?",
+    "options": [
+      "Tools built into browsers for debugging and testing",
+      "External software",
+      "Code editors",
+      "Database tools"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Browser developer tools are built-in tools in web browsers for inspecting HTML/CSS, debugging JavaScript, monitoring network requests, and analyzing performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0291",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is console.log() used for?",
+    "options": [
+      "Logging into applications",
+      "Printing debug information to the console",
+      "Creating log files",
+      "Sending logs to server"
+    ],
+    "correctAnswer": 1,
+    "explanation": "console.log() outputs debug information to the browser's developer console, helping developers inspect values and track code execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0292",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a breakpoint in debugging?",
+    "options": [
+      "A point where code execution pauses for inspection",
+      "A broken point in code",
+      "A CSS property",
+      "An HTML tag"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A breakpoint is a marker set in code where execution pauses, allowing developers to inspect variable values and program state during debugging.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0293",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is manual testing?",
+    "options": [
+      "Testing done by humans without automation",
+      "Testing with machines",
+      "Testing manuals",
+      "Writing test cases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Manual testing is performed by humans who interact with the application to find defects, without using automation tools.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0294",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is automated testing?",
+    "options": [
+      "Testing with automation tools",
+      "Manual testing",
+      "Testing automatically",
+      "No testing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Automated testing uses software tools and scripts to execute test cases automatically, providing faster and more repeatable testing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0295",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a test case?",
+    "options": [
+      "A set of conditions to determine if a feature works correctly",
+      "A computer case",
+      "A test environment",
+      "A code file"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A test case defines specific conditions and expected results to verify that a feature or function works correctly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0296",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is test-driven development (TDD)?",
+    "options": [
+      "Writing tests after code",
+      "Writing tests before code, then writing code to pass tests",
+      "Testing during development",
+      "No testing approach"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Test-driven development (TDD) is a practice of writing failing tests first, then writing the minimum code to pass them, promoting better design.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0297",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is regression testing?",
+    "options": [
+      "Testing new features only",
+      "Testing to ensure new changes haven't broken existing functionality",
+      "Testing old versions",
+      "Testing databases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Regression testing verifies that new code changes haven't broken existing functionality, ensuring software stability after modifications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0298",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of linters in development?",
+    "options": [
+      "To find and fix code style issues and potential errors",
+      "To run tests",
+      "To compile code",
+      "To minify code"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Linters are tools that analyze code for style issues, potential errors, and best practice violations, helping maintain code quality and consistency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0299",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is web hosting?",
+    "options": [
+      "A service that makes websites accessible on the internet",
+      "Hosting parties",
+      "A programming service",
+      "A database service"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Web hosting is a service that stores website files on servers and makes them accessible on the internet via a domain name.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0300",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a domain name?",
+    "options": [
+      "The address of a website (e.g., example.com)",
+      "A category of websites",
+      "A server name",
+      "An IP address"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A domain name is the human-readable address of a website (e.g., example.com) that maps to a server's IP address through DNS.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0301",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is DNS?",
+    "options": [
+      "Domain Name System - translates domain names to IP addresses",
+      "Digital Network Service",
+      "Domain Network Security",
+      "Data Name System"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNS (Domain Name System) translates human-readable domain names into numerical IP addresses that computers use to locate servers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0302",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is deployment in web development?",
+    "options": [
+      "Making code available for use on a server",
+      "Writing code",
+      "Testing code",
+      "Deleting code"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deployment is the process of making a web application available for use by publishing code and assets to a production server.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0303",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is FTP used for?",
+    "options": [
+      "File Transfer Protocol - uploading files to servers",
+      "Fast Transfer Protocol",
+      "File Testing Protocol",
+      "Frontend Transfer Program"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FTP (File Transfer Protocol) is used for transferring files between a client and server, commonly used to upload website files to hosting servers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0304",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is continuous integration?",
+    "options": [
+      "Regularly merging code changes into a shared repository",
+      "Continuous testing",
+      "Continuous deployment",
+      "Writing code continuously"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Continuous integration is the practice of frequently merging code changes into a shared repository, with automated builds and tests on each merge.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0305",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is continuous deployment?",
+    "options": [
+      "Automatically deploying code changes to production",
+      "Manual deployment",
+      "Testing deployment",
+      "Planning deployment"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Continuous deployment automatically deploys every code change that passes testing to the production environment without manual intervention.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0306",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a staging environment?",
+    "options": [
+      "An environment that mirrors production for final testing",
+      "The production server",
+      "Development machine",
+      "A testing tool"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A staging environment mirrors the production environment and is used for final testing before deploying changes to the live site.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0307",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is version control?",
+    "options": [
+      "Managing changes to code over time",
+      "Controlling versions of software",
+      "A deployment tool",
+      "A testing framework"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Version control tracks and manages changes to code over time, enabling collaboration, history tracking, and the ability to revert changes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0308",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Git?",
+    "options": [
+      "A distributed version control system",
+      "A programming language",
+      "A hosting service",
+      "A database"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Git is a distributed version control system that tracks code changes, enables collaboration, and maintains a complete history of all modifications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0309",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a Web API?",
+    "options": [
+      "An API designed for web applications",
+      "A web page",
+      "A database",
+      "A server"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Web API is an application programming interface designed for web applications, allowing different systems to communicate over HTTP.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0310",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a REST API?",
+    "options": [
+      "An API that follows REST architectural constraints",
+      "An API that requires rest",
+      "A database API",
+      "A local API"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A REST API follows REST (Representational State Transfer) constraints, using standard HTTP methods and stateless communication for predictable web services.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0311",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is GraphQL?",
+    "options": [
+      "A query language for APIs",
+      "A database",
+      "A graph database",
+      "A CSS framework"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GraphQL is a query language for APIs that allows clients to request exactly the data they need, reducing over-fetching and under-fetching.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0312",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the difference between REST and GraphQL?",
+    "options": [
+      "REST has multiple endpoints, GraphQL typically has one endpoint with flexible queries",
+      "They are the same",
+      "GraphQL is older",
+      "REST is newer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "REST uses multiple fixed endpoints returning predefined data structures, while GraphQL uses a single endpoint with flexible queries that return exactly what's requested.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0313",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is an API endpoint?",
+    "options": [
+      "A URL where an API can be accessed",
+      "The end of an API",
+      "A server",
+      "A database connection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An API endpoint is a specific URL where an API resource can be accessed, representing a particular function or data set.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0314",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is authentication in APIs?",
+    "options": [
+      "Verifying the identity of the API client",
+      "Authorizing access",
+      "API design",
+      "API testing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "API authentication verifies the identity of clients making requests, ensuring only authorized applications and users can access the API.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0315",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is an API key?",
+    "options": [
+      "A unique identifier for API authentication",
+      "A key to open APIs",
+      "A database key",
+      "An encryption key"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An API key is a unique identifier passed with API requests for authentication, identifying the calling application or user.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0316",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is OAuth?",
+    "options": [
+      "An open standard for access delegation",
+      "A programming language",
+      "A database",
+      "An API"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OAuth is an open standard for access delegation, allowing users to grant third-party applications limited access to their resources without sharing credentials.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0317",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is JWT?",
+    "options": [
+      "JSON Web Token",
+      "JavaScript Web Tool",
+      "Java Web Technology",
+      "JSON Web Transfer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "JWT (JSON Web Token) is a compact, self-contained token format for securely transmitting information between parties as a JSON object.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0318",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is webhook?",
+    "options": [
+      "An HTTP callback that occurs when something happens",
+      "A hook in the web",
+      "A JavaScript function",
+      "An API endpoint"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A webhook is an HTTP callback that automatically sends real-time data to other applications when a specific event occurs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0319",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is Jamstack?",
+    "options": [
+      "JavaScript, APIs, and Markup architecture",
+      "A stack of jams",
+      "A programming language",
+      "A database"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Jamstack is a modern web architecture using JavaScript, APIs, and Markup, emphasizing pre-rendering and decoupling for better performance and security.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0320",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a headless CMS?",
+    "options": [
+      "A content management system without the frontend",
+      "A CMS with no content",
+      "A database",
+      "A framework"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A headless CMS provides content management without a built-in frontend, delivering content via APIs to any frontend framework or platform.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0321",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is server-side rendering (SSR)?",
+    "options": [
+      "Rendering pages on the server",
+      "Rendering in browser",
+      "Rendering images",
+      "Rendering only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Server-side rendering (SSR) generates complete HTML pages on the server for each request, improving initial load time and SEO.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0322",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is static site generation (SSG)?",
+    "options": [
+      "Generating HTML pages at build time",
+      "Generating pages at request time",
+      "Static pages only",
+      "No generation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Static site generation (SSG) pre-renders HTML pages at build time, serving fast, pre-built pages without server-side processing per request.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0323",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is incremental static regeneration?",
+    "options": [
+      "Updating static content without rebuilding entire site",
+      "Regenerating all pages",
+      "Static only",
+      "Dynamic only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Incremental static regeneration allows updating individual static pages without rebuilding the entire site, combining static generation with dynamic updates.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0324",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is PWA?",
+    "options": [
+      "Progressive Web Application",
+      "Professional Web App",
+      "Progressive Web Architecture",
+      "Primary Web Application"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PWA (Progressive Web Application) is a type of web app that uses modern web technologies to deliver app-like experiences.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0325",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What features do PWAs typically have?",
+    "options": [
+      "Offline capability, push notifications, installable",
+      "Only online",
+      "No special features",
+      "Desktop only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PWAs typically offer offline capability, push notifications, and installability, providing a native app-like experience from a web browser.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0326",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a service worker?",
+    "options": [
+      "A script that runs in the background for offline features",
+      "A web worker",
+      "A server worker",
+      "A database worker"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A service worker is a background script that enables features like offline caching, push notifications, and background sync for PWAs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-webdev-0327",
+    "subjectId": "uni-webdev",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the benefit of modern build tools?",
+    "options": [
+      "Automating tasks like bundling, minification, and transpilation",
+      "Slowing development",
+      "Removing features",
+      "Adding complexity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Modern build tools automate tasks like bundling, minification, transpilation, and optimization, improving development workflow and production performance.",
+    "source": "university"
+  }
+]

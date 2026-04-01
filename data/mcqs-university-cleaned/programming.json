@@ -1,0 +1,4786 @@
+[
+  {
+    "id": "uni-programming-0001",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is not a primitive data type in Java?",
+    "options": [
+      "int",
+      "float",
+      "String",
+      "char"
+    ],
+    "correctAnswer": 2,
+    "explanation": "String is not a primitive data type in Java; it is a reference type (object). The primitive types include int, float, char, boolean, etc.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0002",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which symbol is used to terminate a statement in C++?",
+    "options": [
+      ":",
+      ";",
+      ",",
+      "."
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, a semicolon (;) is used to terminate statements, marking the end of an executable instruction.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0003",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python, which function is used to check the type of a variable?",
+    "options": [
+      "type()",
+      "typeof()",
+      "check()",
+      "var()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In Python, the type() function returns the data type of a variable or value.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0004",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which data type is used to store True or False values?",
+    "options": [
+      "int",
+      "boolean",
+      "char",
+      "float"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The boolean data type stores True or False values, representing logical states in programming.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0005",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used to declare a constant variable in C++?",
+    "options": [
+      "constant",
+      "const",
+      "fixed",
+      "define"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, the 'const' keyword declares a constant variable whose value cannot be changed after initialization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0006",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which data type has the largest size in C++?",
+    "options": [
+      "int",
+      "float",
+      "double",
+      "char"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In C++, double has the largest size (typically 8 bytes) among the listed types, storing double-precision floating-point numbers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0007",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python, variables are created when:",
+    "options": [
+      "They are declared",
+      "They are assigned a value",
+      "Program starts",
+      "They are imported"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Python, variables are created when they are assigned a value - there is no separate declaration step.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0008",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a valid variable name?",
+    "options": [
+      "2value",
+      "value_2",
+      "value-2",
+      "class"
+    ],
+    "correctAnswer": 1,
+    "explanation": "value_2 is a valid variable name. Variable names cannot start with a digit, contain hyphens, or be reserved keywords.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0009",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used to define a class in Java?",
+    "options": [
+      "struct",
+      "define",
+      "class",
+      "object"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Java, the 'class' keyword is used to define a class, which serves as a blueprint for creating objects.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0010",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++, which data type is used to store a single character?",
+    "options": [
+      "char",
+      "string",
+      "text",
+      "character"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In C++, the char data type stores a single character and occupies 1 byte of memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0011",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function prints output in Python?",
+    "options": [
+      "echo()",
+      "print()",
+      "cout",
+      "display()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Python, the print() function is used to display output to the console.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0012",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator is used to access members of an object in Java?",
+    "options": [
+      ":",
+      "->",
+      ".",
+      "#"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Java, the dot (.) operator is used to access members (methods and fields) of an object.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0013",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++, the size of char is:",
+    "options": [
+      "1 byte",
+      "2 bytes",
+      "4 bytes",
+      "8 bytes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In C++, the size of char is 1 byte (8 bits), the smallest fundamental data type.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0014",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Python supports which type of typing?",
+    "options": [
+      "Static",
+      "Dynamic",
+      "Strict",
+      "Manual"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python supports dynamic typing, where variable types are determined at runtime rather than at compile time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0015",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used to declare variables in Java before Java 10?",
+    "options": [
+      "var",
+      "let",
+      "datatype name",
+      "dim"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Before Java 10, variables were declared using explicit datatype names (e.g., int x, String s). Java 10 introduced 'var' for type inference.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0016",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is mutable in Python?",
+    "options": [
+      "tuple",
+      "string",
+      "list",
+      "int"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lists are mutable in Python, meaning their elements can be changed after creation. Tuples, strings, and ints are immutable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0017",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is not a Python data type?",
+    "options": [
+      "set",
+      "tuple",
+      "arraylist",
+      "dictionary"
+    ],
+    "correctAnswer": 2,
+    "explanation": "ArrayList is not a Python data type. Python has set, tuple, list, and dictionary as built-in collection types.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0018",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++, variables must be declared:",
+    "options": [
+      "After use",
+      "Before use",
+      "Anywhere",
+      "Automatically"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, variables must be declared before use, specifying their data type so the compiler can allocate memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0019",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Java data type is used for decimal numbers?",
+    "options": [
+      "int",
+      "float",
+      "boolean",
+      "char"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Java, the float data type is used for decimal (floating-point) numbers with single precision.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0020",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Python data type is used for key-value pairs?",
+    "options": [
+      "List",
+      "Tuple",
+      "Dictionary",
+      "Set"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Python dictionary stores key-value pairs, allowing fast lookup by key.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0021",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator is used for addition?",
+    "options": [
+      "+",
+      "*",
+      "%",
+      "/"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The + operator is used for addition in most programming languages.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0022",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator gives remainder in C++?",
+    "options": [
+      "/",
+      "%",
+      "mod",
+      "//"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, the % (modulus) operator gives the remainder of integer division.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0023",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python, which operator is used for exponentiation?",
+    "options": [
+      "^",
+      "**",
+      "^^",
+      "exp"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Python, the ** operator is used for exponentiation (e.g., 2**3 = 8).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0024",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What will be the output? 5 + 3 * 2",
+    "options": [
+      "16",
+      "11",
+      "13",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Due to operator precedence, multiplication is performed before addition: 5 + (3 * 2) = 5 + 6 = 11.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0025",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator checks equality?",
+    "options": [
+      "=",
+      "==",
+      "===",
+      "!="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The == operator checks equality between two values, returning true if they are equal.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0026",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator is logical AND?",
+    "options": [
+      "&&",
+      "||",
+      "!",
+      "&"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The && operator performs logical AND, returning true only when both operands are true.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0027",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator increases value by 1 in C++?",
+    "options": [
+      "++",
+      "+1",
+      "inc",
+      "add"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In C++, the ++ operator (increment) increases a variable's value by 1.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0028",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The operator != means:",
+    "options": [
+      "equal",
+      "not equal",
+      "greater than",
+      "less than"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The != operator means 'not equal to', returning true when two values are different.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0029",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator is used for assignment?",
+    "options": [
+      "==",
+      "=",
+      ":=",
+      "->"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The = operator is the assignment operator, used to assign a value to a variable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0030",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator is used for logical OR?",
+    "options": [
+      "&&",
+      "||",
+      "!!",
+      "|"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The || operator performs logical OR, returning true when at least one operand is true.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0031",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator is used for floor division in Python?",
+    "options": [
+      "/",
+      "%",
+      "//",
+      "**"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Python, the // operator performs floor division, returning the largest integer less than or equal to the result.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0032",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator has highest precedence?",
+    "options": [
+      "*",
+      "+",
+      "()",
+      "-"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Parentheses () have the highest precedence among operators, forcing enclosed expressions to be evaluated first.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0033",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What will be the result? 10 % 3",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "0"
+    ],
+    "correctAnswer": 0,
+    "explanation": "10 % 3 = 1, because 10 divided by 3 is 3 with a remainder of 1.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0034",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Bitwise AND operator is:",
+    "options": [
+      "&",
+      "&&",
+      "|",
+      "||"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The & operator performs bitwise AND, comparing corresponding bits of two operands.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0035",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator negates a boolean value?",
+    "options": [
+      "~",
+      "!",
+      "-",
+      "not"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ! (logical NOT) operator negates a boolean value, turning true to false and vice versa.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0036",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python logical AND is written as:",
+    "options": [
+      "&&",
+      "and",
+      "&",
+      "&&&"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Python, logical AND is written as the keyword 'and' (not && as in C++ or Java).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0037",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator compares greater than?",
+    "options": [
+      ">",
+      "<",
+      ">=",
+      "<="
+    ],
+    "correctAnswer": 0,
+    "explanation": "The > operator compares whether the left operand is greater than the right operand.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0038",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator multiplies two numbers?",
+    "options": [
+      "*",
+      "x",
+      "mult",
+      "&"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The * operator multiplies two numbers in most programming languages.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0039",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator subtracts values?",
+    "options": [
+      "-",
+      "+",
+      "*",
+      "/"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The - operator subtracts the right operand from the left operand.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0040",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator returns True if both conditions are true?",
+    "options": [
+      "AND",
+      "OR",
+      "NOT",
+      "XOR"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The AND operator returns True only if both conditions are true.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0041",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which statement is used for decision making?",
+    "options": [
+      "loop",
+      "if",
+      "print",
+      "input"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The if statement is used for decision making (conditional execution), executing code based on whether a condition is true.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0042",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which loop executes at least once?",
+    "options": [
+      "for",
+      "while",
+      "do-while",
+      "foreach"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A do-while loop executes the loop body at least once before checking the condition, guaranteeing minimum one execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0043",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which loop is used when number of iterations is known?",
+    "options": [
+      "for",
+      "while",
+      "do",
+      "repeat"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A for loop is used when the number of iterations is known in advance, with initialization, condition, and increment in one line.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0044",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python, indentation is used to:",
+    "options": [
+      "improve readability",
+      "define blocks",
+      "separate statements",
+      "none"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Python, indentation defines code blocks, unlike other languages that use braces. Consistent indentation is mandatory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0045",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword exits a loop?",
+    "options": [
+      "stop",
+      "break",
+      "exit",
+      "end"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The break keyword exits a loop immediately, transferring control to the statement following the loop.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0046",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword skips the current iteration?",
+    "options": [
+      "break",
+      "continue",
+      "pass",
+      "stop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The continue keyword skips the remaining code in the current iteration and proceeds to the next iteration of the loop.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0047",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword defines a function in Python?",
+    "options": [
+      "func",
+      "function",
+      "def",
+      "define"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Python, the def keyword is used to define a function, followed by the function name and parameters.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0048",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Java, switch statement is used for:",
+    "options": [
+      "looping",
+      "selection",
+      "printing",
+      "input"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Java, the switch statement is used for selection (choosing between multiple options) based on a variable's value.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0049",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which loop checks condition before execution?",
+    "options": [
+      "while",
+      "do-while",
+      "both",
+      "none"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A while loop checks the condition before execution, and will not execute at all if the condition is initially false.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0050",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What will happen in infinite loop?",
+    "options": [
+      "program stops",
+      "program repeats forever",
+      "error occurs",
+      "compile error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An infinite loop causes the program to repeat forever because the loop condition never becomes false.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0051",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword ends a switch case in C++?",
+    "options": [
+      "stop",
+      "break",
+      "end",
+      "finish"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, the break keyword ends a switch case, preventing fall-through to subsequent cases.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0052",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which statement is used to handle multiple conditions?",
+    "options": [
+      "nested if",
+      "if-else-if",
+      "switch",
+      "all"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Nested if, if-else-if ladders, and switch statements can all handle multiple conditions, making all of these correct.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0053",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Python loop over list uses:",
+    "options": [
+      "for",
+      "iterate",
+      "loop",
+      "repeat"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In Python, a for loop is used to iterate over lists and other iterables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0054",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword does nothing but acts as placeholder in Python?",
+    "options": [
+      "break",
+      "pass",
+      "continue",
+      "stop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Python, the pass keyword does nothing but acts as a placeholder where code is syntactically required but no action is needed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0055",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A loop inside another loop is called:",
+    "options": [
+      "double loop",
+      "nested loop",
+      "inside loop",
+      "repeated loop"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nested loop is a loop placed inside another loop, with the inner loop completing all iterations for each iteration of the outer loop.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0056",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which loop condition must be boolean?",
+    "options": [
+      "while",
+      "if",
+      "for",
+      "all"
+    ],
+    "correctAnswer": 3,
+    "explanation": "All loop conditions (while, if, for) must evaluate to a boolean value (true/false) to determine execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0057",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++ infinite loop example:",
+    "options": [
+      "while(true)",
+      "for(;;)",
+      "both",
+      "none"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Both while(true) and for(;;) create infinite loops in C++, as neither has a terminating condition.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0058",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Python else can be used with:",
+    "options": [
+      "if",
+      "loops",
+      "both",
+      "none"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Python, else can be used with both if statements and loops - with loops, the else block executes when the loop completes normally.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0059",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which structure repeats instructions?",
+    "options": [
+      "sequence",
+      "selection",
+      "iteration",
+      "none"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Iteration (looping) is the control structure that repeats instructions, executing a block of code multiple times.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0060",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The simplest control structure is:",
+    "options": [
+      "sequence",
+      "selection",
+      "loop",
+      "decision"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sequence is the simplest control structure, where instructions are executed one after another in order.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0061",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Java loop variable initialization is in:",
+    "options": [
+      "condition",
+      "for statement",
+      "body",
+      "end"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Java, the loop variable initialization is specified in the for statement header (e.g., for(int i=0; ...)).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0062",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which statement tests condition after execution?",
+    "options": [
+      "while",
+      "do while",
+      "for",
+      "if"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A do-while loop tests the condition after execution, guaranteeing the loop body runs at least once.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0063",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If statement belongs to:",
+    "options": [
+      "selection structure",
+      "loop",
+      "function",
+      "variable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The if statement belongs to the selection (decision) structure, choosing which code to execute based on a condition.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0064",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which loop is entry-controlled?",
+    "options": [
+      "for",
+      "while",
+      "both",
+      "do-while"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Both for and while loops are entry-controlled - they check the condition before executing the loop body.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0065",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Nested if means:",
+    "options": [
+      "if inside if",
+      "loop inside loop",
+      "if inside loop",
+      "loop inside if"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nested if means an if statement inside another if statement, allowing multi-level conditional logic.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0066",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Python range() function is used in:",
+    "options": [
+      "loops",
+      "conditions",
+      "variables",
+      "functions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Python's range() function is commonly used in for loops to generate a sequence of numbers for iteration.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0067",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which structure allows multiple choices?",
+    "options": [
+      "switch",
+      "for",
+      "while",
+      "do"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The switch statement allows multiple choices by comparing a variable against several possible values.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0068",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which loop works with collections in Python?",
+    "options": [
+      "for",
+      "while",
+      "do",
+      "repeat"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In Python, a for loop works with collections (lists, tuples, dictionaries, strings) and other iterables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0069",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which statement ends program immediately?",
+    "options": [
+      "exit()",
+      "break",
+      "stop",
+      "finish"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The exit() function ends the program immediately, terminating all execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0070",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The loop body executes how many times in while(false)?",
+    "options": [
+      "once",
+      "zero",
+      "infinite",
+      "two"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A while(false) loop executes zero times because the condition is false from the start.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0071",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which structure is also called decision structure?",
+    "options": [
+      "selection",
+      "iteration",
+      "sequence",
+      "none"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The selection structure (if/else/switch) is also called a decision structure because it makes choices based on conditions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0072",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which loop is best for counting?",
+    "options": [
+      "for",
+      "while",
+      "do",
+      "if"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A for loop is best for counting because it combines initialization, condition, and increment in a single statement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0073",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If no condition matches in switch, which block executes?",
+    "options": [
+      "else",
+      "default",
+      "none",
+      "break"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If no condition matches in a switch statement, the default block executes, providing a fallback action.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0074",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Logical operators are used in:",
+    "options": [
+      "expressions",
+      "loops",
+      "decisions",
+      "all"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Logical operators are used in expressions, loops, and decisions - essentially all contexts where boolean conditions are evaluated.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0075",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Programming languages follow which control structures?",
+    "options": [
+      "sequence",
+      "selection",
+      "iteration",
+      "all"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Programming languages follow all three control structures: sequence, selection, and iteration.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0076",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the correct syntax to declare a function in C++?",
+    "options": [
+      "function int add()",
+      "int add()",
+      "add() int",
+      "function add int"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, a function is declared with the return type, name, and parameters: int add() is the correct syntax.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0077",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A function that does not return a value uses which keyword?",
+    "options": [
+      "null",
+      "void",
+      "empty",
+      "return"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The void keyword indicates that a function does not return a value.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0078",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which statement is used to call a function?",
+    "options": [
+      "invoke",
+      "run",
+      "function name with parentheses",
+      "execute"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A function is called by writing its name followed by parentheses, optionally with arguments.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0079",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following allows a function to have multiple definitions with different parameters?",
+    "options": [
+      "Function overriding",
+      "Function overloading",
+      "Function hiding",
+      "Function recursion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Function overloading allows multiple function definitions with the same name but different parameter lists.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0080",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Default arguments in functions must appear:",
+    "options": [
+      "Anywhere",
+      "At the beginning",
+      "At the end of parameter list",
+      "In the middle"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Default arguments must appear at the end of the parameter list so the compiler can correctly match provided arguments.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0081",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which object is used to display output in C++?",
+    "options": [
+      "cin",
+      "cout",
+      "get",
+      "input"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, cout (character output) is the object used to display output to the console.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0082",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator is used with cout?",
+    "options": [
+      ">>",
+      "<<",
+      "==",
+      "<>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The << (insertion) operator is used with cout to send data to the output stream.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0083",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which object is used to take input from the keyboard?",
+    "options": [
+      "cin",
+      "cout",
+      "input",
+      "scan"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In C++, cin (character input) is the object used to take input from the keyboard.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0084",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator is used with cin?",
+    "options": [
+      "<<",
+      ">>",
+      "==",
+      "<="
+    ],
+    "correctAnswer": 1,
+    "explanation": "The >> (extraction) operator is used with cin to read data from the input stream.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0085",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which header file is required for basic input/output operations?",
+    "options": [
+      "stdlib.h",
+      "conio.h",
+      "iostream",
+      "string"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The <iostream> header file is required for basic input/output operations using cin and cout in C++.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0086",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which manipulator is used to insert a new line?",
+    "options": [
+      "endl",
+      "newline",
+      "nextline",
+      "break"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The endl manipulator inserts a new line character and flushes the output buffer in C++.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0087",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which header file is required for using strings in C++?",
+    "options": [
+      "text",
+      "string",
+      "char",
+      "cstring"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <string> header file is required for using the string class in C++.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0088",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function returns the length of a string?",
+    "options": [
+      "size()",
+      "length()",
+      "Both A and B",
+      "count()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Both size() and length() return the number of characters in a string in C++ - they are functionally identical.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0089",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function is used to combine two strings?",
+    "options": [
+      "join()",
+      "append()",
+      "add()",
+      "merge()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The append() function is used to concatenate (combine) one string to the end of another in C++.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0090",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function is used to read a full line of text?",
+    "options": [
+      "cin >>",
+      "getline()",
+      "read()",
+      "scan()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The getline() function reads a full line of text including spaces, unlike cin >> which stops at whitespace.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0091",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Strings in C++ are stored as:",
+    "options": [
+      "Numbers",
+      "Boolean",
+      "Sequence of characters",
+      "Floating values"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Strings in C++ are stored as a sequence of characters in memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0092",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator can concatenate strings?",
+    "options": [
+      "+",
+      "*",
+      "%",
+      "/"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The + operator can concatenate (join) strings in C++ and many other languages.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0093",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "An array stores:",
+    "options": [
+      "Different types of values",
+      "Same type of values",
+      "Only integers",
+      "Only characters"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An array stores elements of the same data type in contiguous memory locations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0094",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the index of the first element of an array?",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "Depends on compiler"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Arrays use zero-based indexing, so the first element is at index 0.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0095",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the correct declaration of an array?",
+    "options": [
+      "int arr(5);",
+      "int arr[5];",
+      "array int[5];",
+      "arr int[5];"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, the correct array declaration syntax is: int arr[5]; specifying the type, name, and size.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0096",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you access the third element of an array named arr?",
+    "options": [
+      "arr(3)",
+      "arr[3]",
+      "arr[2]",
+      "arr[1]"
+    ],
+    "correctAnswer": 2,
+    "explanation": "With zero-based indexing, the third element is at index 2: arr[2].",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0097",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which loop is commonly used to traverse arrays?",
+    "options": [
+      "if loop",
+      "while loop",
+      "for loop",
+      "switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A for loop is commonly used to traverse arrays because it provides an index variable for accessing each element.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0098",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What will be the size of an array declared as int arr[10];?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "Compiler dependent"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An array declared as int arr[10] has a size of 10 elements (indices 0 through 9).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0099",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which C++ container works like a dynamic array?",
+    "options": [
+      "stack",
+      "queue",
+      "vector",
+      "set"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In C++, vector is a dynamic array container from the STL that can grow and shrink in size automatically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0100",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Java, functions are called:",
+    "options": [
+      "Procedures",
+      "Methods",
+      "Modules",
+      "Classes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Java, functions defined within a class are called methods.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0101",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the correct method declaration in Java?",
+    "options": [
+      "function int add()",
+      "int add()",
+      "method add()",
+      "add int()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Java, a method is declared with: returnType methodName(parameters), e.g., int add().",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0102",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used to return a value from a method?",
+    "options": [
+      "send",
+      "give",
+      "return",
+      "result1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The return keyword sends a value back from a method to the calling code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0103",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A method that does not return a value uses which keyword?",
+    "options": [
+      "null",
+      "empty",
+      "void",
+      "static1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A method that does not return a value uses the void keyword as its return type.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0104",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is method overloading?",
+    "options": [
+      "Same method name with different parameters",
+      "Same method name with same parameters",
+      "Different method names with same parameters",
+      "Calling a method twice"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Method overloading means defining multiple methods with the same name but different parameters (number, type, or order).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0105",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is recursion in Java?",
+    "options": [
+      "A loop inside method",
+      "A method calling itself",
+      "A method calling another method",
+      "A method returning multiple values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Recursion in Java is when a method calls itself, solving problems by breaking them into smaller subproblems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0106",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which class is commonly used to take input from the user in Java?",
+    "options": [
+      "Reader",
+      "Scanner",
+      "InputReader",
+      "ConsoleReader"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Scanner class is commonly used to take user input in Java, supporting various data types.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0107",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which package contains the Scanner class?",
+    "options": [
+      "java.io",
+      "java.lang",
+      "java.util",
+      "java.text1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Scanner class is in the java.util package and must be imported with import java.util.Scanner.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0108",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method is used to read an integer using Scanner?",
+    "options": [
+      "next()",
+      "nextLine()",
+      "nextInt()",
+      "getInt()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The nextInt() method of Scanner reads the next integer value from user input.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0109",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which statement prints output in Java?",
+    "options": [
+      "print()",
+      "System.print()",
+      "System.out.println()",
+      "cout<<"
+    ],
+    "correctAnswer": 2,
+    "explanation": "System.out.println() is the standard way to print output to the console in Java.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0110",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does println() do?",
+    "options": [
+      "Prints text without newline",
+      "Prints text with newline",
+      "Reads text",
+      "Deletes text"
+    ],
+    "correctAnswer": 1,
+    "explanation": "println() prints text followed by a newline character, moving the cursor to the next line after output.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0111",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which class is used to store strings in Java?",
+    "options": [
+      "text",
+      "String",
+      "Char",
+      "Letters"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The String class is used to store and manipulate strings in Java.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0112",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method returns the length of a string?",
+    "options": [
+      "size()",
+      "count()",
+      "length()",
+      "getSize()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The length() method returns the number of characters in a Java string.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0113",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method is used to convert a string to lowercase?",
+    "options": [
+      "lower()",
+      "toLowerCase()",
+      "small()",
+      "lowerCase()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The toLowerCase() method converts all characters in a string to lowercase.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0114",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method is used to compare two strings?",
+    "options": [
+      "compare()",
+      "equals()",
+      "match()",
+      "check()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The equals() method compares two strings for content equality in Java (unlike == which compares references).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0115",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method extracts a part of a string?",
+    "options": [
+      "substr()",
+      "substring()",
+      "slice()",
+      "cut()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The substring() method extracts a portion of a string based on specified start and end indices.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0116",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Strings in Java are:",
+    "options": [
+      "Mutable",
+      "Immutable",
+      "Changeable",
+      "Flexible"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Strings in Java are immutable - once created, their value cannot be changed. Any modification creates a new String object.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0117",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which symbol is used to declare an array in Java?",
+    "options": [
+      "()",
+      "[]",
+      "{}",
+      "<>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Java, square brackets [] are used to declare arrays, e.g., int[] arr.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0118",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the index of the first element in an array?",
+    "options": [
+      "1",
+      "-1",
+      "0",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Java (and most languages), array indexing starts at 0, so the first element is at index 0.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0119",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which is the correct array declaration?",
+    "options": [
+      "int arr(5);",
+      "int arr[5];",
+      "int[] arr = new int[5];",
+      "array int[5];"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct Java array declaration is: int[] arr = new int[5]; using the new keyword to allocate memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0120",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which property returns the size of an array?",
+    "options": [
+      "size",
+      "length",
+      "count",
+      "total"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Java, the length property (not a method) returns the size of an array.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0121",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which class represents a dynamic array in Java?",
+    "options": [
+      "List",
+      "ArrayList",
+      "Set",
+      "Stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ArrayList is Java's dynamic array implementation that can grow and shrink in size automatically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0122",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which package contains ArrayList?",
+    "options": [
+      "java.lang",
+      "java.io",
+      "java.util",
+      "java.text"
+    ],
+    "correctAnswer": 2,
+    "explanation": "ArrayList is in the java.util package, along with other collection classes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0123",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method adds an element to an ArrayList?",
+    "options": [
+      "put()",
+      "add()",
+      "insert()",
+      "push()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The add() method appends an element to the end of an ArrayList.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0124",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used to define a function in Python?",
+    "options": [
+      "function",
+      "def",
+      "func",
+      "define"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Python, the def keyword defines a function.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0125",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the correct syntax to define a function?",
+    "options": [
+      "function add():",
+      "def add():",
+      "define add():",
+      "add def():"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct Python function syntax is: def functionName(): followed by an indented body.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0126",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used to return a value from a function?",
+    "options": [
+      "send",
+      "give",
+      "return",
+      "output"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The return keyword sends a value back from a function to the caller.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0127",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What happens if a Python function does not include a return statement?",
+    "options": [
+      "Error occurs",
+      "Returns 0",
+      "Returns None",
+      "Returns false1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "If a Python function has no return statement, it implicitly returns None.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0128",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What are default parameters in Python functions?",
+    "options": [
+      "Parameters with fixed values",
+      "Parameters with predefined values",
+      "Parameters that cannot change",
+      "Parameters without values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Default parameters have predefined values that are used when no argument is passed for that parameter.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0129",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function is used to take input from the user in Python?",
+    "options": [
+      "input()",
+      "read()",
+      "scan()",
+      "get()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In Python, the input() function reads user input from the keyboard as a string.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0130",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function is used to display output?",
+    "options": [
+      "show()",
+      "print()",
+      "display()",
+      "output()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The print() function displays output to the console in Python.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0131",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What type of data does input() return by default?",
+    "options": [
+      "Integer",
+      "Float",
+      "String",
+      "Boolean"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The input() function always returns a string by default, even if the user enters a number.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0132",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How do you convert user input to an integer?",
+    "options": [
+      "int(input())",
+      "integer(input())",
+      "convert(input())",
+      "num(input())"
+    ],
+    "correctAnswer": 0,
+    "explanation": "int(input()) wraps input() with int() to convert the string input to an integer.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0133",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which symbol is used to format strings in modern Python?",
+    "options": [
+      "%",
+      "&",
+      "f",
+      "$"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In modern Python (3.6+), f-strings (prefixed with 'f') provide string formatting: f'Hello {name}'.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0134",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What will print(\"Hello\", \"World\") output?",
+    "options": [
+      "HelloWorld",
+      "Hello World",
+      "Hello,World",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "print('Hello', 'World') outputs 'Hello World' with a space separator between the arguments (default sep=' ').",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0135",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Strings in Python are enclosed in:",
+    "options": [
+      "Quotes",
+      "Brackets",
+      "Parentheses",
+      "Braces"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Strings in Python are enclosed in quotes - single (''), double (\"\"), or triple (''' or \"\"\") quotes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0136",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method converts a string to lowercase?",
+    "options": [
+      "lower()",
+      "small()",
+      "down()",
+      "lowerCase()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The lower() method converts all characters in a Python string to lowercase.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0137",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method converts a string to uppercase?",
+    "options": [
+      "big()",
+      "capital()",
+      "upper()",
+      "up()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The upper() method converts all characters in a Python string to uppercase.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0138",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method splits a string into a list?",
+    "options": [
+      "divide()",
+      "split()",
+      "break()",
+      "cut()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The split() method splits a string into a list of substrings based on a delimiter (default is whitespace).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0139",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator is used to concatenate strings?",
+    "options": [
+      "+",
+      "*",
+      "%",
+      "/"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The + operator concatenates (joins) strings in Python.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0140",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which data structure in Python is similar to an array?",
+    "options": [
+      "List",
+      "Set",
+      "Tuple",
+      "Dictionary"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Python list is the data structure most similar to an array, storing ordered, mutable collections of elements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0141",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the index of the first element in a list?",
+    "options": [
+      "1",
+      "-1",
+      "0",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Lists in Python use zero-based indexing, so the first element is at index 0.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0142",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which symbol is used to create a list?",
+    "options": [
+      "()",
+      "[]",
+      "{}",
+      "<>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Square brackets [] are used to create a list in Python, e.g., [1, 2, 3].",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0143",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method adds an element to the end of a list?",
+    "options": [
+      "add()",
+      "insert()",
+      "append()",
+      "push()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The append() method adds an element to the end of a Python list.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0144",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method removes the last element from a list?",
+    "options": [
+      "remove()",
+      "pop()",
+      "delete()",
+      "clear()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The pop() method removes and returns the last element from a list (or element at a specified index).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0145",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function returns the number of elements in a list?",
+    "options": [
+      "length()",
+      "size()",
+      "count()",
+      "len()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The len() function returns the number of elements in a Python list or other collection.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0146",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which collection stores key-value pairs in Python?",
+    "options": [
+      "List",
+      "Set",
+      "Tuple",
+      "Dictionary"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A dictionary in Python stores key-value pairs, created with curly braces: {'key': 'value'}.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0147",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept of OOP allows the use of the same function name for different purposes?",
+    "options": [
+      "Encapsulation",
+      "Polymorphism",
+      "Inheritance",
+      "Abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Polymorphism allows the same function name to be used for different purposes, enabling objects to take many forms.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0148",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does the self keyword represent in a class?",
+    "options": [
+      "It refers to the class itself",
+      "It refers to the current object",
+      "It refers to parent class",
+      "It refers to global variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The self keyword refers to the current object (instance) of the class, allowing access to its attributes and methods.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0149",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the process of hiding internal details and showing only functionality?",
+    "options": [
+      "Polymorphism",
+      "Abstraction",
+      "Encapsulation",
+      "Inheritance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Abstraction hides internal implementation details and shows only the essential functionality to the user.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0150",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which access specifier in C++ makes members accessible only within the same class?",
+    "options": [
+      "public",
+      "protected",
+      "private",
+      "global"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The private access specifier in C++ restricts member access to only within the same class.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0151",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used to create an object in C++ dynamically?",
+    "options": [
+      "create",
+      "malloc",
+      "new",
+      "object"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In C++, the new keyword dynamically allocates memory on the heap and returns a pointer to the object.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0152",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used to inherit a class in Java?",
+    "options": [
+      "implement",
+      "extends",
+      "inherits",
+      "derive"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Java, the extends keyword is used to inherit a class, establishing an is-a relationship.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0153",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used to refer to the current object in Java?",
+    "options": [
+      "this",
+      "self",
+      "object",
+      "current"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In Java, the this keyword refers to the current object instance, disambiguating between local and instance variables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0154",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Java supports which type of inheritance for classes?",
+    "options": [
+      "Multiple inheritance",
+      "Single inheritance only",
+      "Multilevel inheritance only",
+      "Multiple and hierarchical inheritance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Java supports single inheritance for classes (one parent class only) but allows multiple interface implementation. It also supports multilevel and hierarchical inheritance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0155",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Method overriding is an example of:",
+    "options": [
+      "Compile-time polymorphism",
+      "Run-time polymorphism",
+      "Encapsulation",
+      "Abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Method overriding is an example of run-time (dynamic) polymorphism, where the method to call is determined at runtime based on the object type.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0156",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keywords are used for exception handling in C++?",
+    "options": [
+      "try, catch, throw",
+      "check, catch, throw",
+      "try, throw, finally",
+      "exception, catch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In C++, exception handling uses try (to wrap risky code), catch (to handle exceptions), and throw (to raise exceptions).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0157",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which block is used to handle exceptions?",
+    "options": [
+      "try",
+      "catch",
+      "throw",
+      "error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The catch block handles exceptions that are thrown within the corresponding try block.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0158",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used to generate an exception?",
+    "options": [
+      "catch",
+      "throw",
+      "try",
+      "exception"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The throw keyword generates (raises) an exception, transferring control to the nearest matching catch block.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0159",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is true about multiple catch blocks in C++?",
+    "options": [
+      "Only one catch block is allowed",
+      "Multiple catch blocks can handle different exceptions",
+      "Catch blocks are optional",
+      "try block is optional"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Multiple catch blocks can handle different exception types in C++, each catching a specific exception class.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0160",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What happens if an exception is not caught in C++?",
+    "options": [
+      "Program ignores it",
+      "Program terminates",
+      "Compiler fixes it",
+      "Program continues normally"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If an exception is not caught in C++, the program terminates abnormally by calling std::terminate().",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0161",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which header file is commonly used for standard exceptions in C++?",
+    "options": [
+      "<error>",
+      "<exception>",
+      "<except>",
+      "<stdexcept>"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The <exception> header provides the base exception class, while <stdexcept> provides standard exception classes like runtime_error.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0162",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keywords are used for exception handling in Python?",
+    "options": [
+      "try, catch",
+      "try, except",
+      "check, catch",
+      "try, error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Python, exception handling uses try and except keywords (not try/catch as in C++ or Java).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0163",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python which block always executes whether an exception occurs or not?",
+    "options": [
+      "except",
+      "try",
+      "finally",
+      "error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The finally block always executes regardless of whether an exception occurred, used for cleanup code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0164",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which exception occurs when dividing by zero?",
+    "options": [
+      "ArithmeticError",
+      "ValueError",
+      "ZeroDivisionError",
+      "RuntimeError"
+    ],
+    "correctAnswer": 2,
+    "explanation": "ZeroDivisionError is raised when attempting to divide by zero in Python.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0165",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What will happen if an exception is not handled in Python?",
+    "options": [
+      "Program stops with an error message",
+      "Program continues",
+      "Compiler fixes it",
+      "Exception ignored"
+    ],
+    "correctAnswer": 0,
+    "explanation": "If an exception is not handled in Python, the program stops with an error message (traceback).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0166",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which class is the superclass of all exceptions in Java?",
+    "options": [
+      "Object",
+      "Throwable",
+      "Error",
+      "ExceptionHandler"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Throwable is the superclass of all exceptions and errors in Java, with Exception and Error as its direct subclasses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0167",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of exception must be handled at compile time in Java?",
+    "options": [
+      "Runtime exception",
+      "Checked exception",
+      "Logical exception",
+      "System exception"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Checked exceptions must be handled at compile time (either caught or declared), enforced by the Java compiler.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0168",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python, a module is usually stored as:",
+    "options": [
+      ".class file",
+      ".exe file",
+      ".py file",
+      ".obj file"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Python, modules are stored as .py files containing Python code that can be imported.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0169",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python which statement imports only a specific function from a module?",
+    "options": [
+      "import module",
+      "include module",
+      "from module import function",
+      "import function module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The 'from module import function' syntax imports only a specific function from a module in Python.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0170",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a built-in Python module?",
+    "options": [
+      "math",
+      "random",
+      "sys",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "math, random, and sys are all built-in Python modules available in the standard library.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0171",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python what does dir() function do when used with a module?",
+    "options": [
+      "Deletes module",
+      "Lists module attributes",
+      "Compiles module",
+      "Runs module"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The dir() function lists all attributes and methods of a module when used with a module name.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0172",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python, a directory is recognized as a package if it contains:",
+    "options": [
+      "main.py",
+      "init .py",
+      "package.py",
+      "module.py"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A directory is recognized as a Python package if it contains an __init__.py file (can be empty).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0173",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which syntax imports a module from a package?",
+    "options": [
+      "import package.module",
+      "include package.module",
+      "module.package import",
+      "using package"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The syntax 'import package.module' imports a specific module from within a package.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0174",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following represents hierarchical organization of modules?",
+    "options": [
+      "Package",
+      "Class",
+      "Function",
+      "Variable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A package represents a hierarchical organization of modules, grouping related modules in directories.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0175",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a standard Java package?",
+    "options": [
+      "java.util",
+      "java.lang",
+      "java.io",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "java.util, java.lang, and java.io are all standard Java packages providing core functionality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0176",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which header file contains functions for character handling?",
+    "options": [
+      "ctype.h",
+      "char.h",
+      "string.h",
+      "text.h"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The ctype.h (or cctype in C++) header contains functions for character handling like isalpha(), isdigit().",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0177",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which header file provides dynamic memory allocation functions?",
+    "options": [
+      "stdlib.h",
+      "memory.h",
+      "malloc.h",
+      "All of the above"
+    ],
+    "correctAnswer": 0,
+    "explanation": "stdlib.h provides dynamic memory allocation functions like malloc(), calloc(), realloc(), and free().",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0178",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of memory allocation happens during program execution?",
+    "options": [
+      "Static memory allocation",
+      "Dynamic memory allocation",
+      "Compile-time allocation",
+      "Fixed allocation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dynamic memory allocation occurs during program execution (runtime), allocating memory from the heap as needed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0179",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator is used for dynamic memory allocation in C++?",
+    "options": [
+      "malloc",
+      "alloc",
+      "new",
+      "create"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In C++, the new operator dynamically allocates memory on the heap and returns a pointer to the allocated space.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0180",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which memory area stores local variables and function calls?",
+    "options": [
+      "Heap",
+      "Stack",
+      "Cache",
+      "Register"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The stack stores local variables and function call information (return addresses, parameters) in a LIFO structure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0181",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which memory area is used for dynamic memory allocation?",
+    "options": [
+      "Heap",
+      "Stack",
+      "ROM",
+      "Cache"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The heap is used for dynamic memory allocation, where objects created with new/malloc are stored.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0182",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function is used for dynamic memory allocation in C language?",
+    "options": [
+      "new()",
+      "malloc()",
+      "alloc()",
+      "reserve()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C, malloc() (memory allocation) dynamically allocates a specified number of bytes from the heap.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0183",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which programming language automatically manages memory using garbage collection?",
+    "options": [
+      "C++",
+      "Assembly",
+      "Java",
+      "C"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Java automatically manages memory using garbage collection, freeing developers from manual memory deallocation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0184",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What happens if dynamically allocated memory is not released?",
+    "options": [
+      "Program runs faster",
+      "Memory leak occurs",
+      "Program stops compiling",
+      "Memory doubles automatically"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If dynamically allocated memory is not released, a memory leak occurs, gradually consuming available memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0185",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used in Java to request garbage collection?",
+    "options": [
+      "gc()",
+      "collect()",
+      "System.gc()",
+      "free()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "System.gc() is used in Java to suggest garbage collection, though the JVM decides when to actually run it.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0186",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which memory allocation is faster?",
+    "options": [
+      "Heap allocation",
+      "Stack allocation",
+      "Dynamic allocation",
+      "Virtual allocation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stack allocation is faster than heap allocation because it simply moves the stack pointer, without searching for free blocks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0187",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following problems occurs due to improper memory management?",
+    "options": [
+      "Memory leak",
+      "Fragmentation",
+      "Program crash",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Improper memory management can cause memory leaks, fragmentation, and program crashes - all of these problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0188",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Fragmentation occurs when:",
+    "options": [
+      "Memory is completely full",
+      "Memory is divided into small unused blocks",
+      "CPU is overloaded",
+      "Disk space is low"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fragmentation occurs when free memory is divided into small, scattered unused blocks, making large allocations difficult.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0189",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function is used to free dynamically allocated memory in C?",
+    "options": [
+      "free()",
+      "delete()",
+      "release()",
+      "clear()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The free() function deallocates dynamically allocated memory in C, returning it to the heap.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0190",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In OOP, objects are typically stored in which memory area?",
+    "options": [
+      "Stack",
+      "Heap",
+      "Cache",
+      "Register"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In OOP, objects are typically stored on the heap, especially when created dynamically or with new.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0191",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++, objects created using the new operator are stored in:",
+    "options": [
+      "Stack",
+      "Heap",
+      "ROM",
+      "Register"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Objects created with the new operator in C++ are allocated on the heap, requiring manual deletion with delete.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0192",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a destructor in OOP?",
+    "options": [
+      "Function used to create objects",
+      "Function used to destroy objects and release memory",
+      "Function used to allocate memory",
+      "Function used to copy objects"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A destructor is a special function that destroys objects and releases their resources when they go out of scope.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0193",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "When does a destructor get automatically called?",
+    "options": [
+      "When object is created",
+      "When object goes out of scope",
+      "When program starts",
+      "When constructor is called"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A destructor is automatically called when an object goes out of scope or is explicitly deleted.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0194",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a memory leak in object-oriented programs?",
+    "options": [
+      "Memory accessed by multiple objects",
+      "Memory allocated but not released after object use",
+      "Memory shared by classes",
+      "Memory used by CPU"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A memory leak in OOP occurs when memory allocated for objects is not properly released after the objects are no longer needed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0195",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a dangling pointer in C++?",
+    "options": [
+      "Pointer pointing to a valid object",
+      "Pointer pointing to deleted memory",
+      "Pointer pointing to a class",
+      "Pointer pointing to a function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A dangling pointer points to memory that has been freed/deleted, potentially causing undefined behavior if accessed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0196",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is method overriding?",
+    "options": [
+      "Defining multiple methods with same name but different parameters",
+      "Redefining a parent class method in a child class",
+      "Hiding data members",
+      "Creating private methods"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Method overriding is redefining a parent class method in a child class with the same signature to provide specialized behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0197",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword prevents inheritance of a class in Java?",
+    "options": [
+      "static",
+      "final",
+      "constant",
+      "private"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The final keyword in Java prevents a class from being inherited (subclassed).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0198",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword in C++ allows a function to be overridden in derived classes?",
+    "options": [
+      "override",
+      "virtual",
+      "dynamic",
+      "static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, the virtual keyword allows a function to be overridden in derived classes, enabling runtime polymorphism.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0199",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is composition in OOP?",
+    "options": [
+      "A class contains objects of another class",
+      "A class inherits another class",
+      "A class hides another class",
+      "A class deletes another class"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Composition in OOP means a class contains objects of another class as members, representing a 'has-a' relationship.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0200",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept allows objects of different classes to be treated as objects of a common superclass?",
+    "options": [
+      "Encapsulation",
+      "Polymorphism",
+      "Abstraction",
+      "Aggregation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Polymorphism allows objects of different classes to be treated as objects of a common superclass through inheritance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0201",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is dynamic binding?",
+    "options": [
+      "Binding method calls at compile time",
+      "Binding method calls at runtime",
+      "Binding variables at compile time",
+      "Binding classes at compile time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dynamic binding resolves method calls at runtime based on the actual object type, enabling polymorphic behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0202",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which inheritance type is NOT supported directly for classes in Java?",
+    "options": [
+      "Multiple inheritance",
+      "Single inheritance",
+      "Multilevel inheritance",
+      "Hierarchical inheritance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiple inheritance (inheriting from multiple classes) is NOT directly supported for classes in Java; interfaces are used instead.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0203",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes aggregation?",
+    "options": [
+      "Strong ownership relationship",
+      "Weak relationship between objects",
+      "Object duplication",
+      "Class hiding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aggregation is a weak 'has-a' relationship where contained objects can exist independently of the container.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0204",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept improves code reusability in OOP the most?",
+    "options": [
+      "Inheritance",
+      "Encapsulation",
+      "Abstraction",
+      "Polymorphism"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inheritance improves code reusability the most by allowing child classes to reuse parent class code without rewriting it.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0205",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which OOP principle allows restricting direct access to object data?",
+    "options": [
+      "Polymorphism",
+      "Encapsulation",
+      "Inheritance",
+      "Abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Encapsulation restricts direct access to object data by bundling data and methods together and using access modifiers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0206",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of inheritance involves one base class and multiple derived classes?",
+    "options": [
+      "Multiple inheritance",
+      "Multilevel inheritance",
+      "Hierarchical inheritance",
+      "Hybrid inheritance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hierarchical inheritance has one base class and multiple derived classes, each inheriting from the same parent.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0207",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Java block is executed only if no exception occurs?",
+    "options": [
+      "finally",
+      "else",
+      "try",
+      "catch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Java's try-catch-else pattern (using try-catch-finally), a block that runs only when no exception occurs would be after the try. However, Java doesn't have else with try; the closest is the try block itself completing normally.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0208",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main purpose of modules?",
+    "options": [
+      "Improve graphics",
+      "Organize and reuse code",
+      "Increase CPU speed",
+      "Store memory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The main purpose of modules is to organize and reuse code, promoting modularity and maintainability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0209",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which OOP concept allows methods with the same name but different parameters?",
+    "options": [
+      "Method overriding",
+      "Method overloading",
+      "Encapsulation",
+      "Abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Method overloading (compile-time polymorphism) allows methods with the same name but different parameters.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0210",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept represents a \"has-a\" relationship between classes?",
+    "options": [
+      "Inheritance",
+      "Composition",
+      "Polymorphism",
+      "Abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Composition represents a 'has-a' relationship where one class contains an instance of another class as a component.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0211",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is an abstract method?",
+    "options": [
+      "A method with implementation",
+      "A method without body",
+      "A private method",
+      "A static method"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An abstract method is declared without a body (implementation), requiring subclasses to provide the implementation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0212",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which block in exception handling is optional but used to execute cleanup code?",
+    "options": [
+      "try",
+      "catch",
+      "finally",
+      "throw"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The finally block is optional but used for cleanup code that must execute regardless of whether an exception occurred.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0213",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++, which mechanism allows handling exceptions of different types using inheritance?",
+    "options": [
+      "Virtual functions",
+      "Exception hierarchy",
+      "Templates",
+      "Namespaces"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Exception hierarchy in C++ uses class inheritance to organize exceptions, allowing catch blocks to handle parent exception types.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0214",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Python keyword is used to define a custom exception?",
+    "options": [
+      "create",
+      "raise",
+      "class",
+      "error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Python, the class keyword is used to define a custom exception class (inheriting from Exception), and raise is used to throw it.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0215",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of namespaces in C++?",
+    "options": [
+      "Memory allocation",
+      "Avoid name conflicts",
+      "Exception handling",
+      "File management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Namespaces in C++ avoid name conflicts by grouping identifiers under a named scope, preventing collisions between similarly named entities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0216",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which memory issue occurs when recursive function calls exceed limit?",
+    "options": [
+      "Heap overflow",
+      "Stack overflow",
+      "Memory leak",
+      "Buffer underflow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stack overflow occurs when recursive calls exceed the stack limit, consuming all available stack memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0217",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main advantage of using smart pointers in C++?",
+    "options": [
+      "Faster execution",
+      "Automatic memory management",
+      "Better syntax",
+      "Increased heap size"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Smart pointers in C++ provide automatic memory management, automatically deleting objects when they are no longer needed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0218",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept allows grouping related functions and variables under one unit?",
+    "options": [
+      "Object",
+      "Module",
+      "Package",
+      "Library"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A module groups related functions and variables into a single unit (file), promoting code organization and reusability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0219",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Java, interfaces support which feature?",
+    "options": [
+      "Multiple inheritance of classes",
+      "Multiple inheritance of types",
+      "Dynamic memory allocation",
+      "Compilation control"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Java interfaces support multiple inheritance of types, allowing a class to implement multiple interfaces.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0220",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a runtime error?",
+    "options": [
+      "Syntax error",
+      "Logical error",
+      "Null pointer exception",
+      "Missing semicolon"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A null pointer exception is a runtime error that occurs when trying to use a reference that points to null.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0221",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Java, what happens if a class implements an interface but does not implement all methods?",
+    "options": [
+      "It compiles normally",
+      "It becomes abstract",
+      "It becomes final",
+      "It causes runtime error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If a class implements an interface but doesn't implement all its methods, the class must be declared abstract.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0222",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which programming paradigm does Java primarily support?",
+    "options": [
+      "Procedural",
+      "Object-Oriented",
+      "Functional",
+      "Logical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Java primarily supports the Object-Oriented programming paradigm, with everything built around classes and objects.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0223",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which class is automatically inherited by all Java classes?",
+    "options": [
+      "Object",
+      "Base",
+      "System",
+      "Parent"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Object class is automatically inherited by all Java classes, serving as the root of the class hierarchy.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0224",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++, which keyword is used to prevent modification of a variable?",
+    "options": [
+      "fixed",
+      "const",
+      "final",
+      "static"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, the const keyword prevents modification of a variable after initialization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0225",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which design pattern ensures only one instance of a class exists?",
+    "options": [
+      "Factory",
+      "Singleton",
+      "Builder",
+      "Adapter"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Singleton design pattern ensures only one instance of a class exists throughout the application.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0226",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which term refers to executing multiple tasks simultaneously?",
+    "options": [
+      "Compilation",
+      "Parallelism",
+      "Interpretation",
+      "Execution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Parallelism refers to executing multiple tasks simultaneously, typically on multiple processors or cores.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0227",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Java, threads are created using:",
+    "options": [
+      "Thread class",
+      "Runnable interface",
+      "Both A and B",
+      "Process class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Java, threads can be created using either the Thread class or the Runnable interface - both approaches work.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0228",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword is used to synchronize threads in Java?",
+    "options": [
+      "lock",
+      "synchronized",
+      "thread-safe",
+      "atomic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The synchronized keyword in Java ensures thread-safe access to shared resources by allowing only one thread at a time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0229",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which module provides threading support in Python?",
+    "options": [
+      "thread",
+      "threading",
+      "parallel",
+      "multiprocessing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The threading module provides threading support in Python, allowing creation and management of threads.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0230",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which problem occurs when two threads access shared data simultaneously?",
+    "options": [
+      "Deadlock",
+      "Race condition",
+      "Memory leak",
+      "Overflow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A race condition occurs when two threads access shared data simultaneously, leading to unpredictable results.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0231",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which situation occurs when two threads wait indefinitely for each other?",
+    "options": [
+      "Race condition",
+      "Deadlock",
+      "Parallelism",
+      "Looping"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deadlock occurs when two or more threads wait indefinitely for each other to release resources they need.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0232",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which C++ library supports multithreading?",
+    "options": [
+      "<thread>",
+      "<parallel>",
+      "<multi>",
+      "<process>"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The <thread> library in C++11 and later provides multithreading support with classes for creating and managing threads.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0233",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Python module allows true parallel processing using multiple CPU cores?",
+    "options": [
+      "threading",
+      "multiprocessing",
+      "concurrent",
+      "async"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Python's multiprocessing module enables true parallel processing using multiple CPU cores, bypassing the GIL limitation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0234",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function starts a thread in Java?",
+    "options": [
+      "run()",
+      "start()",
+      "execute()",
+      "init()"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Java, the start() method begins thread execution, which internally calls the run() method in a new thread.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0235",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Python keyword is used in asynchronous programming?",
+    "options": [
+      "async",
+      "await",
+      "both",
+      "none"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Python, both async and await keywords are used together for asynchronous programming.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0236",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept improves performance using multiple processors?",
+    "options": [
+      "Multitasking",
+      "Parallel computing",
+      "Compilation",
+      "Virtualization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Parallel computing improves performance by distributing work across multiple processors, executing tasks simultaneously.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0237",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Java, which package provides concurrency utilities?",
+    "options": [
+      "java.thread",
+      "java.concurrent",
+      "java.util.concurrent",
+      "java.parallel"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The java.util.concurrent package provides concurrency utilities including thread pools, locks, and concurrent collections.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0238",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which term refers to executing tasks in overlapping time periods?",
+    "options": [
+      "Parallelism",
+      "Concurrency",
+      "Compilation",
+      "Optimization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Concurrency refers to executing tasks in overlapping time periods, where multiple tasks make progress though not necessarily simultaneously.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0239",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function waits for a thread to finish in Java?",
+    "options": [
+      "wait()",
+      "sleep()",
+      "join()",
+      "stop()"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The join() method waits for a thread to finish execution before the calling thread proceeds.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0240",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which issue occurs when threads compete for shared resources?",
+    "options": [
+      "Deadlock",
+      "Race condition",
+      "Starvation",
+      "All"
+    ],
+    "correctAnswer": 3,
+    "explanation": "When threads compete for shared resources, deadlock, race conditions, and starvation can all occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0241",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Python library supports asynchronous programming?",
+    "options": [
+      "asyncio",
+      "threading",
+      "multiprocessing",
+      "parallel"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The asyncio library in Python supports asynchronous programming with event loops, coroutines, and async I/O.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0242",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which term refers to dividing tasks among multiple threads?",
+    "options": [
+      "Scheduling",
+      "Parallelization",
+      "Compilation",
+      "Linking"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Parallelization divides tasks among multiple threads or processes for concurrent execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0243",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which mechanism prevents race conditions?",
+    "options": [
+      "Locks",
+      "Mutex",
+      "Synchronization",
+      "All"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Locks, mutex, and synchronization mechanisms all prevent race conditions by ensuring exclusive access to shared resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0244",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Java class pauses thread execution?",
+    "options": [
+      "Thread.sleep()",
+      "wait()",
+      "stop()",
+      "halt()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Thread.sleep() pauses the current thread's execution for a specified time in Java.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0245",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept improves responsiveness in applications?",
+    "options": [
+      "Multithreading",
+      "Compilation",
+      "Linking",
+      "Parsing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multithreading improves application responsiveness by allowing the UI to remain active while background tasks execute.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0246",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Debugging is the process of:",
+    "options": [
+      "writing code",
+      "finding and fixing errors",
+      "compiling programs",
+      "executing programs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Debugging is the process of finding and fixing errors (bugs) in code to ensure correct program behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0247",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of error occurs during compilation?",
+    "options": [
+      "Syntax error",
+      "Logical error",
+      "Runtime error",
+      "Semantic error"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Syntax errors are detected during compilation because they violate the language's grammar rules.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0248",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tool helps detect runtime errors in Python?",
+    "options": [
+      "debugger",
+      "profiler",
+      "interpreter",
+      "optimizer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A debugger helps detect runtime errors by allowing step-by-step execution and variable inspection in Python.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0249",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of testing checks individual program units?",
+    "options": [
+      "System testing",
+      "Integration testing",
+      "Unit testing",
+      "Acceptance testing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Unit testing checks individual program units (functions/methods) in isolation to verify they work correctly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0250",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python, which module is commonly used for unit testing?",
+    "options": [
+      "pytest",
+      "unittest",
+      "both",
+      "none"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Both pytest and unittest are commonly used for unit testing in Python.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0251",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of error produces incorrect output but no crash?",
+    "options": [
+      "Syntax error",
+      "Logical error",
+      "Runtime error",
+      "Compile error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A logical error produces incorrect output but doesn't crash the program, making it harder to detect than syntax or runtime errors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0252",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Optimization aims to:",
+    "options": [
+      "reduce program errors",
+      "improve performance",
+      "increase code length",
+      "slow execution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Optimization aims to improve program performance, including speed, memory usage, and resource efficiency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0253",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique improves memory usage?",
+    "options": [
+      "code duplication",
+      "memory optimization",
+      "recursion",
+      "compilation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Memory optimization techniques reduce unnecessary memory usage, improving program efficiency and preventing memory issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0254",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which debugging technique prints variable values during execution?",
+    "options": [
+      "step debugging",
+      "logging",
+      "tracing",
+      "print debugging"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Print debugging outputs variable values during execution using print statements, a simple but effective debugging technique.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0255",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which testing ensures system components work together?",
+    "options": [
+      "Unit testing",
+      "Integration testing",
+      "Regression testing",
+      "System testing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Integration testing ensures that system components work together correctly when combined.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0256",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which testing verifies bug fixes do not introduce new errors?",
+    "options": [
+      "Regression testing",
+      "Unit testing",
+      "Integration testing",
+      "Functional testing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Regression testing verifies that bug fixes and new changes haven't introduced new errors in existing functionality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0257",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Python tool measures program performance?",
+    "options": [
+      "profiler",
+      "debugger",
+      "compiler",
+      "optimizer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A profiler measures program performance, identifying bottlenecks in execution time and resource usage.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0258",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Code optimization focuses on:",
+    "options": [
+      "faster execution",
+      "reduced memory usage",
+      "improved efficiency",
+      "all"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Code optimization focuses on faster execution, reduced memory usage, and improved overall efficiency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0259",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which testing is performed by developers?",
+    "options": [
+      "Unit testing",
+      "Acceptance testing",
+      "Beta testing",
+      "User testing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Unit testing is typically performed by developers during the development process to test individual components.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0260",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A breakpoint is used in:",
+    "options": [
+      "debugging",
+      "compiling",
+      "linking",
+      "execution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A breakpoint is used in debugging to pause program execution at a specific line for inspection of variables and state.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0261",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of testing checks the entire system?",
+    "options": [
+      "Unit",
+      "System",
+      "Integration",
+      "Regression"
+    ],
+    "correctAnswer": 1,
+    "explanation": "System testing checks the entire integrated system against requirements, verifying end-to-end functionality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0262",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tool automatically runs tests after code changes?",
+    "options": [
+      "CI/CD",
+      "Compiler",
+      "Debugger",
+      "Editor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CI/CD (Continuous Integration/Continuous Deployment) tools automatically run tests after code changes, ensuring quality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0263",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which optimization reduces repeated calculations?",
+    "options": [
+      "caching",
+      "recursion",
+      "looping",
+      "duplication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Caching stores results of expensive computations for reuse, reducing repeated calculations and improving performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0264",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of testing is performed before release?",
+    "options": [
+      "Alpha testing",
+      "Beta testing",
+      "Both",
+      "None"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Both alpha testing (internal) and beta testing (external users) are performed before the official release.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0265",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which process improves code readability and maintainability?",
+    "options": [
+      "Refactoring",
+      "Debugging",
+      "Testing",
+      "Compilation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Refactoring improves code readability and maintainability by restructuring existing code without changing its external behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0266",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which methodology emphasizes iterative development?",
+    "options": [
+      "Waterfall",
+      "Agile",
+      "Spiral",
+      "Prototype"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Agile methodology emphasizes iterative development with short cycles (sprints), continuous feedback, and adaptive planning.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0267",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tool tracks code changes?",
+    "options": [
+      "Git",
+      "Compiler",
+      "Debugger",
+      "Interpreter"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Git is the most widely used version control tool for tracking code changes and enabling collaboration.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0268",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which platform hosts Git repositories online?",
+    "options": [
+      "GitHub",
+      "StackOverflow",
+      "Eclipse",
+      "Jenkins"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GitHub is a popular platform that hosts Git repositories online, providing collaboration features like pull requests and issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0269",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Continuous Integration means:",
+    "options": [
+      "merging code frequently",
+      "compiling manually",
+      "coding individually",
+      "testing rarely"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Continuous Integration means merging code changes frequently into a shared repository, with automated builds and tests.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0270",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which practice improves code quality through review?",
+    "options": [
+      "Code review",
+      "Compilation",
+      "Testing",
+      "Debugging"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Code review is the practice of having other developers examine code changes, improving quality and catching bugs early.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0271",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Documentation helps in:",
+    "options": [
+      "understanding code",
+      "maintenance",
+      "collaboration",
+      "all"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Documentation helps in understanding code, maintaining it, and facilitating collaboration among team members.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0272",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which principle avoids code duplication?",
+    "options": [
+      "DRY",
+      "KISS",
+      "SOLID",
+      "OOP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DRY (Don't Repeat Yourself) is the principle that avoids code duplication, promoting single authoritative sources of knowledge.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0273",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which principle means \"Keep It Simple\"?",
+    "options": [
+      "DRY",
+      "KISS",
+      "SOLID",
+      "YAGNI"
+    ],
+    "correctAnswer": 1,
+    "explanation": "KISS (Keep It Simple, Stupid) is a principle that advocates for simplicity in design, avoiding unnecessary complexity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0274",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which practice ensures small, frequent updates?",
+    "options": [
+      "Agile",
+      "Waterfall",
+      "Spiral",
+      "Prototype"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Agile ensures small, frequent updates through iterative development cycles and continuous delivery.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0275",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which document describes system functionality?",
+    "options": [
+      "Requirements specification",
+      "Source code",
+      "Test case",
+      "Output file"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A requirements specification document describes the system's intended functionality, features, and constraints.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0276",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tool automates building and testing software?",
+    "options": [
+      "Jenkins",
+      "Git",
+      "Python",
+      "Java"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Jenkins is a popular open-source CI/CD tool that automates building, testing, and deploying software.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0277",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which testing verifies user requirements?",
+    "options": [
+      "Acceptance testing",
+      "Unit testing",
+      "Integration testing",
+      "Regression testing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Acceptance testing verifies that the system meets user requirements and business needs before deployment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0278",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which development model follows sequential phases?",
+    "options": [
+      "Agile",
+      "Waterfall",
+      "Scrum",
+      "DevOps"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Waterfall model follows sequential development phases (requirements, design, implementation, testing, deployment) without going back.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0279",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DevOps combines:",
+    "options": [
+      "Development and Operations",
+      "Design and Testing",
+      "Coding and Debugging",
+      "Analysis and Implementation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DevOps combines Development and Operations teams and practices to shorten the development lifecycle and improve deployment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0280",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Code maintainability means:",
+    "options": [
+      "code runs fast",
+      "code is easy to modify",
+      "code is large",
+      "code is complex"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Code maintainability means code is easy to modify, update, and extend, typically achieved through clean, well-documented code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0281",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary goal of code refactoring?",
+    "options": [
+      "Adding new features",
+      "Improving code structure without changing behavior",
+      "Increasing program speed",
+      "Fixing runtime errors"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Code refactoring improves the internal code structure without changing its external behavior, making it cleaner and more maintainable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0282",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Pair programming is commonly used in which development methodology?",
+    "options": [
+      "Waterfall",
+      "Spiral",
+      "Agile / Extreme Programming (XP)",
+      "V-Model"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pair programming is commonly used in Agile/Extreme Programming (XP), where two developers work together at one workstation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0283",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept enables runtime polymorphism in C++?",
+    "options": [
+      "Templates",
+      "Virtual functions",
+      "Namespaces",
+      "Constructors"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Virtual functions in C++ enable runtime polymorphism by allowing derived classes to override base class methods.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0284",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main purpose of generics/templates?",
+    "options": [
+      "Improve execution speed",
+      "Enable type-safe reusable code",
+      "Manage memory",
+      "Handle exceptions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Generics/templates enable type-safe reusable code that works with different data types without sacrificing type safety.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0285",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++, which keyword helps in debugging by checking conditions?",
+    "options": [
+      "try",
+      "assert",
+      "debug",
+      "check"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, the assert macro checks conditions during debugging, terminating the program with an error if the condition is false.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0286",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does a stack trace show?",
+    "options": [
+      "Memory usage",
+      "Compilation steps",
+      "Sequence of function calls leading to error",
+      "Variable declaration"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A stack trace shows the sequence of function calls leading to an error, helping developers identify where and why an error occurred.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0287",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which is an example of debugging technique?",
+    "options": [
+      "Code encryption",
+      "Print statements",
+      "Hardware upgrade",
+      "File compression"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Print statements are a common debugging technique, inserting output at key points to track variable values and execution flow.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0288",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Debug mode in an IDE allows:",
+    "options": [
+      "Faster execution",
+      "Step-by-step execution",
+      "Code encryption",
+      "Memory deletion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Debug mode in an IDE allows step-by-step execution, letting developers pause, inspect variables, and trace through code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0289",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++, trace the output int x = 3; cout << x++ << \" \" << x;",
+    "options": [
+      "3 3",
+      "3 4",
+      "4 4",
+      "4 3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, x++ is post-increment: cout << x++ outputs 3 (current value), then x becomes 4, so cout << x outputs 4. Result: '3 4'.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0290",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python trace the output: for i in range(2): print(i, end=\" \")",
+    "options": [
+      "1 2",
+      "0 1",
+      "0 1 2",
+      "2 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "range(2) generates values 0 and 1, so the for loop prints '0 1 ' (with end=' ' replacing newlines with spaces).",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0291",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Java trace the output: String s = \"AI\"; s.concat(\"ML\"); System.out.println(s);",
+    "options": [
+      "AIML",
+      "ML",
+      "AI",
+      "Error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In Java, strings are immutable. s.concat('ML') creates a new string but doesn't modify s, so s remains 'AI'.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0292",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++ trace the output: int a = 7; int *p = &a; *p = 20; cout << a;",
+    "options": [
+      "7",
+      "20",
+      "Address",
+      "Error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The pointer p points to a, and *p = 20 modifies the value at that address, so a becomes 20. Output: 20.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0293",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++ trace the output: int f(int n){ return f(n-1); }",
+    "options": [
+      "0",
+      "Error at compile time",
+      "Stack overflow",
+      "1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The function f(n) calls itself with f(n-1) without a base case, causing infinite recursion and a stack overflow.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0294",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++ Which operator is used to get the address of a variable?",
+    "options": [
+      "*",
+      "&",
+      "->",
+      "::"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In C++, the & (address-of) operator returns the memory address of a variable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0295",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does a pointer store in C++?",
+    "options": [
+      "Value of a variable",
+      "Address of a variable",
+      "Type of a variable",
+      "Reference count"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A pointer stores the memory address of a variable, not its value directly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0296",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is TRUE about references?",
+    "options": [
+      "They can be null",
+      "They can be reseated",
+      "They must refer to an existing variable",
+      "They consume no memory"
+    ],
+    "correctAnswer": 2,
+    "explanation": "References in C++ must refer to an existing variable - they cannot be null and cannot be reseated after initialization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0297",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In C++ trace the output: int* p = new int(5); delete p; cout << *p;",
+    "options": [
+      "Correct",
+      "Memory leak",
+      "Dangling pointer",
+      "Compilation error"
+    ],
+    "correctAnswer": 2,
+    "explanation": "After delete p, accessing *p is undefined behavior (dangling pointer). The memory has been freed and the pointer is dangling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0298",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Python What does the yield keyword do?",
+    "options": [
+      "Stops program",
+      "Returns value and preserves state",
+      "Deletes variable",
+      "Creates thread"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The yield keyword in Python returns a value from a generator function and preserves its state for the next call.",
+    "source": "university"
+  },
+  {
+    "id": "uni-programming-0299",
+    "subjectId": "uni-programming",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is an iterator in Python?",
+    "options": [
+      "Object with iter and next methods",
+      "Loop variable",
+      "Function",
+      "List only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An iterator in Python is an object that implements __iter__() and __next__() methods, enabling iteration over a collection.",
+    "source": "university"
+  }
+]

@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "uni-problem-solving-0001",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the first step in effective problem solving?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The first step in effective problem solving is identifying the root cause, which ensures you address the actual issue rather than symptoms.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0002",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Why is problem solving considered a critical skill?",
+    "options": [
+      "It helps in identifying the root cause of a problem",
+      "It encourages random guessing",
+      "It promotes ignoring facts",
+      "It avoids logical steps"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Problem solving is critical because it enables systematic identification of root causes, leading to effective and lasting solutions rather than temporary fixes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0003",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which approach is fundamental to solving problems logically?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Making assumptions without data",
+      "Skipping analysis",
+      "Avoiding reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Logical problem solving fundamentally requires identifying the root cause through systematic analysis of facts and evidence.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0004",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does problem solving primarily involve?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Problem solving primarily involves identifying the root cause of issues through structured analysis, enabling targeted and effective solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0005",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a key aspect of problem solving?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A key aspect of problem solving is root cause identification, which prevents treating symptoms while the underlying issue persists.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0006",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Effective problem solving begins with:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Effective problem solving begins with identifying the root cause, as understanding the true source of a problem is essential before attempting solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0007",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the core of any problem-solving process?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The core of any problem-solving process is root cause identification, which provides the foundation for developing appropriate and effective solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0008",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method is most effective in problem solving?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The most effective method in problem solving is identifying the root cause, as it directly addresses the source of the issue rather than its effects.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0009",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The goal of problem solving is to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess answers",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The goal of problem solving is to identify the root cause so that solutions can be targeted, effective, and prevent recurrence of the problem.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0010",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a common misconception about problem solving?",
+    "options": [
+      "It requires identifying the root cause of a problem",
+      "It involves random guessing",
+      "It uses available information",
+      "It follows logical steps"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A common misconception is that problem solving involves random guessing. In reality, it requires systematic analysis, logical reasoning, and evidence-based approaches.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0011",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does problem analysis focus on?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Problem analysis focuses on identifying the root cause by examining all relevant factors, data, and relationships to understand why a problem exists.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0012",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Why is understanding a problem important?",
+    "options": [
+      "It helps in identifying the root cause of a problem",
+      "It encourages guessing",
+      "It promotes ignoring data",
+      "It avoids logic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Understanding a problem is important because it helps identify the root cause, ensuring that solutions address the actual issue rather than surface-level symptoms.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0013",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Analyzing a problem helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Analyzing a problem helps in identifying its root cause by breaking down complex situations into manageable components for systematic examination.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0014",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which step comes before solution generation?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Before generating solutions, you must first identify the root cause of the problem to ensure proposed solutions are relevant and effective.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0015",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Problem understanding requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Problem understanding requires identifying the root cause through careful examination of symptoms, context, and contributing factors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0016",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main outcome of problem analysis?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The main outcome of problem analysis is identifying the root cause, which provides clarity on what needs to be addressed for effective resolution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0017",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A deep dive into a problem helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A deep dive into a problem helps in identifying its root cause by uncovering hidden factors and relationships that surface-level analysis might miss.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0018",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is essential before proposing solutions?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Before proposing solutions, it is essential to identify the root cause to ensure solutions are well-targeted and address the actual problem.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0019",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Problem analysis is incomplete without:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Problem analysis is incomplete without identifying the root cause, as without this understanding, solutions may be ineffective or address wrong issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0020",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "To solve a problem effectively, you must first:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess answers",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "To solve a problem effectively, you must first identify its root cause, as this forms the foundation for developing appropriate and lasting solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0021",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Logical reasoning is based on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Logical reasoning is based on identifying the root cause of problems through systematic analysis of evidence, facts, and causal relationships.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0022",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the foundation of logical reasoning?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The foundation of logical reasoning is identifying root causes through evidence-based analysis, enabling sound conclusions and effective problem solving.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0023",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Reasoning helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Reasoning helps in identifying the root cause of problems by applying structured thinking to analyze evidence and draw valid conclusions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0024",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Logical reasoning involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Logical reasoning involves identifying root causes through systematic evaluation of evidence, premises, and causal relationships.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0025",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which skill is crucial for logical thinking?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The crucial skill for logical thinking is the ability to identify root causes by analyzing information systematically and drawing evidence-based conclusions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0026",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without logical reasoning, problem solving becomes:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without logical reasoning, problem solving becomes random guessing without analysis, as there is no structured approach to identify causes or evaluate solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0027",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Logical reasoning helps avoid:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Logical reasoning helps avoid random guessing without analysis by providing a structured framework for evaluating evidence and reaching sound conclusions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0028",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does logical reasoning primarily rely on?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Logical reasoning primarily relies on identifying root causes through systematic analysis of evidence and facts to draw valid conclusions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0029",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A logical thinker always aims at:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A logical thinker always aims at identifying the root cause of problems, using evidence and structured analysis to reach well-founded conclusions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0030",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Reasoning helps in drawing conclusions by:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Reasoning helps draw conclusions by identifying root causes through systematic evaluation of available evidence and logical analysis of relationships.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0031",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Algorithms are designed to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithms are designed to identify root causes of problems by providing step-by-step procedures that systematically process information to reach solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0032",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Flow control in algorithms helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flow control in algorithms helps in identifying the root cause by directing the sequence of operations based on conditions and logical decisions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0033",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main purpose of an algorithm?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The main purpose of an algorithm is to provide a systematic, step-by-step approach to identifying root causes and solving problems efficiently.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0034",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Algorithms are essential for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithms are essential for structured problem solving because they provide repeatable, logical steps to identify root causes and reach correct solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0035",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Flow control structures guide:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flow control structures guide the execution path of algorithms, enabling systematic analysis that helps identify the root cause of problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0036",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "An algorithm must be:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An algorithm must be well-defined and systematic, identifying root causes through clear, unambiguous steps that can be followed consistently.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0037",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What do algorithms ensure in problem solving?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithms ensure systematic identification of root causes in problem solving by providing structured, repeatable procedures for processing information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0038",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Flow control determines:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flow control determines the order of operations in problem solving, guiding the logical sequence needed to identify root causes effectively.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0039",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without algorithms, problem solving becomes:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without algorithms, problem solving becomes random guessing without analysis, as there is no structured procedure to follow for systematic resolution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0040",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Algorithms help in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithms help in identifying root causes by breaking down complex problems into manageable, sequential steps that can be executed systematically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0041",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data abstraction helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data abstraction helps in identifying root causes by simplifying complex information to focus on the most relevant aspects of a problem.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0042",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Representing data clearly supports:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Representing data clearly supports identifying the root cause by making patterns, relationships, and anomalies visible for systematic analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0043",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Abstraction simplifies complex problems by:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Abstraction simplifies complex problems by hiding unnecessary details and focusing on the essential elements needed to identify the root cause.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0044",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data representation is key to:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data representation is key to identifying root causes because properly organized information reveals patterns and relationships critical for analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0045",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does abstraction allow in problem solving?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Abstraction allows focusing on essential details in problem solving, enabling identification of root causes without being overwhelmed by complexity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0046",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without proper data representation, one might:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without proper data representation, one might randomly guess without analysis, as disorganized information makes it difficult to identify patterns and root causes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0047",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Abstraction focuses on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Abstraction focuses on identifying essential elements needed to find root causes by filtering out irrelevant details that can obscure the real problem.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0048",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data representation helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data representation helps in identifying root causes by organizing information in ways that reveal patterns, trends, and causal relationships.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0049",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the benefit of abstraction?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The benefit of abstraction is enabling root cause identification by reducing complexity to manageable levels while preserving essential information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0050",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Abstraction hides unnecessary details to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Abstraction hides unnecessary details to focus on what matters most for identifying root causes, making complex problems more approachable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0051",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Recognizing patterns helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Recognizing patterns helps in identifying root causes by revealing recurring themes and relationships that point to underlying issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0052",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Generalization allows us to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Generalization allows us to apply identified root causes and solutions broadly, extending insights from specific cases to similar problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0053",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Pattern recognition is useful for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pattern recognition is useful for identifying root causes because recurring patterns often indicate systematic issues that need to be addressed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0054",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does pattern recognition lead to?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pattern recognition leads to identifying root causes by revealing consistent relationships and trends that explain why problems occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0055",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Generalization helps in applying solutions to:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Generalization helps in applying root cause analysis to similar problems, extending solutions beyond individual cases to broader categories.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0056",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without pattern recognition, one might:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without pattern recognition, one might randomly guess without analysis, as the inability to see patterns makes it difficult to identify systematic root causes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0057",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Patterns help in predicting outcomes by:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Patterns help predict outcomes by identifying root causes and establishing relationships between variables that recur consistently.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0058",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Generalization is based on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Generalization is based on identifying root causes from specific observations and extending those insights to apply to similar situations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0059",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Recognizing trends is part of:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Recognizing trends is part of identifying root causes, as trends reveal underlying patterns and systematic factors driving problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0060",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a key benefit of generalization?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A key benefit of generalization is the ability to apply root cause insights to new situations, making problem solving more efficient.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0061",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Quantitative reasoning involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quantitative reasoning involves using numerical analysis to identify root causes, applying mathematical methods to understand relationships in data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0062",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Math helps in problem solving by:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Math helps in problem solving by providing tools to identify root causes through quantitative analysis, modeling, and statistical evaluation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0063",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Numerical data analysis assists in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Numerical data analysis assists in identifying root causes by revealing patterns, correlations, and statistical significance in quantitative information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0064",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does quantitative reasoning require?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quantitative reasoning requires the ability to identify root causes using numerical data, statistical methods, and mathematical analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0065",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Mathematical models help in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mathematical models help in identifying root causes by representing relationships between variables quantitatively for systematic analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0066",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without quantitative skills, one might:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without quantitative skills, one might randomly guess without analysis, as numerical reasoning is essential for evidence-based root cause identification.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0067",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Quantitative reasoning supports:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quantitative reasoning supports identifying root causes through data-driven analysis, ensuring conclusions are backed by numerical evidence.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0068",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Statistics play a role in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statistics play a role in identifying root causes by enabling systematic analysis of data to distinguish meaningful patterns from random variation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0069",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Mathematical reasoning helps avoid:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mathematical reasoning helps avoid random guessing without analysis by providing rigorous, quantitative methods for root cause identification.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0070",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Numbers and logic together help in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Numbers and logic together help in identifying root causes by combining quantitative evidence with structured reasoning for sound conclusions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0071",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Algorithmic thinking is about:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithmic thinking is about systematically identifying root causes by breaking problems into clear, sequential steps that can be followed logically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0072",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Step-by-step reasoning is central to:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Step-by-step reasoning is central to identifying root causes, as it provides a structured approach to analyzing problems methodically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0073",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Algorithmic thinking helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithmic thinking helps in identifying root causes by providing a systematic framework for breaking down and analyzing complex problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0074",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does algorithmic thinking emphasize?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithmic thinking emphasizes systematic root cause identification through clear, sequential procedures that ensure thorough analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0075",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without algorithmic thinking, solutions may be:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without algorithmic thinking, solutions may be random guessing without analysis, as the lack of structured approach leads to haphazard problem solving.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0076",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Algorithmic thinking promotes:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithmic thinking promotes systematic root cause identification through well-defined, repeatable procedures that ensure comprehensive analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0077",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "It involves breaking problems into:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithmic thinking involves breaking problems into manageable steps, each contributing to identifying the root cause through systematic analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0078",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Algorithmic thinking is essential in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithmic thinking is essential in identifying root causes because it provides the structured, step-by-step approach needed for complex problem analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0079",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "It helps in creating:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithmic thinking helps in creating systematic procedures for root cause identification that can be applied consistently across different problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0080",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which thinking style is most structured?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The most structured thinking style for identifying root causes is algorithmic thinking, which follows clear, logical steps to reach solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0081",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Critical thinking involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Critical thinking involves systematically identifying root causes by questioning assumptions, evaluating evidence, and reasoning logically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0082",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Decision making is improved by:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Decision making is improved by identifying root causes through critical analysis, ensuring choices are based on thorough understanding of the situation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0083",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is essential for sound decisions?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sound decisions require identifying the root cause of problems through critical analysis, ensuring decisions address the actual issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0084",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Critical thinking helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Critical thinking helps in identifying root causes by encouraging systematic evaluation of evidence, questioning assumptions, and logical analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0085",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without critical thinking, one might:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without critical thinking, one might randomly guess without analysis, as the lack of analytical skills prevents systematic root cause identification.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0086",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Decision making requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Decision making requires identifying root causes through careful analysis of available information, evidence evaluation, and logical reasoning.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0087",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Critical thinkers aim to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Critical thinkers aim to identify root causes by systematically evaluating evidence, questioning assumptions, and drawing well-supported conclusions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0088",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Good decisions are based on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Good decisions are based on identifying root causes through thorough analysis, ensuring that choices address the fundamental issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0089",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Critical thinking avoids:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Critical thinking avoids random guessing without analysis by providing frameworks for systematic evaluation and evidence-based root cause identification.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0090",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What improves the quality of decisions?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The quality of decisions improves when root causes are properly identified through critical thinking and systematic analysis of available evidence.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0091",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Debugging is the process of:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Debugging is the process of identifying the root cause of errors in code or systems by systematically tracing and analyzing unexpected behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0092",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Error analysis helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Error analysis helps in identifying root causes of defects by systematically examining failures to understand why they occurred.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0093",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the first step in debugging?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The first step in debugging is identifying the root cause of the error by reproducing the issue and systematically narrowing down its source.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0094",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Debugging requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Debugging requires identifying the root cause of problems through systematic testing, code inspection, and logical elimination of potential causes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0095",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without error analysis, one might:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without error analysis, one might randomly guess without analysis when trying to fix problems, leading to ineffective or incomplete solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0096",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Debugging is essential in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Debugging is essential in identifying root causes of software defects, ensuring that fixes address the actual problem rather than masking symptoms.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0097",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Error analysis prevents:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Error analysis prevents random guessing without analysis by providing systematic methods to trace problems back to their root causes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0098",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Finding bugs means:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Finding bugs means identifying the root cause of unexpected behavior in software through systematic testing and analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0099",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Debugging improves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Debugging improves the ability to identify root causes by developing systematic approaches to tracing and resolving errors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0100",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does error analysis reveal?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Error analysis reveals the root cause of problems by examining failure patterns, error messages, and system behavior to pinpoint the source of issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0101",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Efficiency in problem solving means:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Efficiency in problem solving means identifying root causes using optimal resources, minimizing time and effort while maximizing solution effectiveness.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0102",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Complexity awareness helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Complexity awareness helps in identifying root causes by understanding how problem size and structure affect the resources needed for analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0103",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is important for scalable solutions?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Scalable solutions require identifying root causes that account for growth and changing conditions, ensuring solutions remain effective at any scale.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0104",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Efficient algorithms focus on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Efficient algorithms focus on identifying root causes using minimal computational resources while still producing accurate and complete results.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0105",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without efficiency, solutions may be:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without efficiency, solutions may be random guessing without analysis, as inefficient approaches waste resources and fail to systematically identify causes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0106",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Complexity analysis involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Complexity analysis involves identifying root causes of performance issues by examining how algorithms and solutions scale with input size.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0107",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Efficiency is measured by:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Efficiency is measured by how well root causes are identified relative to the resources used, including time, space, and computational effort.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0108",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does Big O notation describe?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Big O notation describes algorithmic efficiency, helping identify root causes of performance problems by characterizing how resource usage grows with input size.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0109",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Optimizing solutions requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Optimizing solutions requires identifying root causes of inefficiency and addressing them through better algorithms, data structures, or approaches.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0110",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Complexity awareness avoids:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Complexity awareness avoids random guessing without analysis by providing frameworks to understand and manage the difficulty of problems systematically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0111",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Programming helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Programming helps in identifying root causes by providing tools to automate analysis, test hypotheses, and systematically process information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0112",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Code is written to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Code is written to identify root causes and implement solutions by translating problem-solving logic into executable instructions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0113",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Programming requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Programming requires identifying root causes through logical thinking, systematic analysis, and translating solutions into precise, executable code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0114",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without logic, programming becomes:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without logic, programming becomes random guessing without analysis, as code requires precise logical reasoning to correctly identify and solve problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0115",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software solutions depend on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Software solutions depend on identifying root causes through systematic analysis and implementing fixes through well-structured, logical code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0116",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Programming automates:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Programming automates the process of identifying root causes by enabling systematic testing, data analysis, and solution implementation at scale.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0117",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Debugging code involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Debugging code involves identifying the root cause of errors through systematic testing, code review, and logical analysis of program behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0118",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Algorithms are implemented via:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithms are implemented via programming to systematically identify root causes and solve problems through well-defined, executable procedures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0119",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Programming languages help in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Programming languages help in identifying root causes by providing tools and constructs for systematic analysis, testing, and solution development.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0120",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Good code is based on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Good code is based on identifying root causes and implementing clean, logical solutions that address the actual problem effectively.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0121",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data-driven decisions rely on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data-driven decisions rely on identifying root causes through analysis of factual information, ensuring conclusions are based on evidence rather than intuition.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0122",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Analyzing data helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Analyzing data helps in identifying root causes by revealing patterns, correlations, and trends that explain why problems occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0123",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is key to evidence-based solving?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Evidence-based solving requires identifying root causes through systematic analysis of data, ensuring solutions are grounded in factual information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0124",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without data, solutions may be:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without data, solutions may be random guessing without analysis, as there is no factual basis for identifying root causes or evaluating options.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0125",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data helps in validating:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data helps in validating root cause identification by providing evidence that supports or refutes hypotheses about why problems occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0126",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Trends in data reveal:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Trends in data reveal root causes by showing consistent patterns over time that point to underlying factors driving problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0127",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data-driven approaches avoid:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Data-driven approaches avoid random guessing without analysis by requiring evidence-based identification of root causes before proposing solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0128",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What supports objective decisions?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Objective decisions are supported by identifying root causes through data analysis, removing personal bias and ensuring evidence-based conclusions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0129",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data analysis tools help in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data analysis tools help in identifying root causes by providing capabilities to process, visualize, and interpret large amounts of information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0130",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Insights from data lead to:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Insights from data lead to identifying root causes and developing targeted solutions based on evidence rather than assumptions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0131",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Creativity in problem solving means:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Creativity in problem solving means identifying root causes through novel approaches and unconventional thinking that go beyond standard methods.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0132",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Innovation requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Innovation requires identifying root causes through creative thinking, exploring new perspectives and approaches to understand and solve problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0133",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Creative thinking helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Creative thinking helps in identifying root causes by encouraging exploration of unconventional connections and perspectives.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0134",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without creativity, solutions may be:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without creativity, solutions may be random guessing without analysis, as innovation is needed to find novel approaches to complex root causes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0135",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Innovative ideas come from:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Innovative ideas come from identifying root causes through creative exploration, combining different perspectives and approaches.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0136",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Creativity involves thinking:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Creativity involves thinking beyond conventional approaches to identify root causes and develop novel, effective solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0137",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Innovation solves problems in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Innovation solves problems in new ways by identifying root causes through creative analysis and developing original approaches.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0138",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What fuels out-of-the-box solutions?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Out-of-the-box solutions are fueled by creative identification of root causes, using unconventional thinking to uncover hidden factors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0139",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Creative thinkers aim to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Creative thinkers aim to identify root causes through innovative approaches, exploring possibilities that traditional methods might miss.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0140",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Innovation avoids:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Innovation avoids random guessing without analysis by applying creative but systematic approaches to root cause identification.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0141",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Real-world problems require:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Real-world problems require identifying root causes through practical analysis that considers context, constraints, and available resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0142",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Practical solutions depend on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Practical solutions depend on identifying root causes within real-world constraints, ensuring solutions are feasible and implementable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0143",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Everyday challenges need:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Everyday challenges need root cause identification to develop practical solutions that address actual issues in real-world contexts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0144",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without analysis, real-world solutions become:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without analysis, real-world solutions become random guessing without analysis, as complex situations require systematic root cause identification.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0145",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Context matters in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Context matters in identifying root causes because the same symptoms may have different underlying causes depending on the situation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0146",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Real-world problem solvers must:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Real-world problem solvers must identify root causes while considering practical constraints like time, budget, and resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0147",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Effective solutions in life require:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Effective solutions in life require identifying root causes through practical analysis that accounts for real-world complexity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0148",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Practical thinking involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Practical thinking involves identifying root causes in the context of real-world constraints and developing feasible solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0149",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Real-world issues demand:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Real-world issues demand root cause identification through analysis that considers multiple factors and stakeholder perspectives.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0150",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is key to solving daily problems?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The key to solving daily problems is identifying their root causes through systematic analysis of the situation and available information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0151",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Documenting solutions helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Documenting solutions helps in identifying root causes by creating records that can be referenced for similar problems in the future.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0152",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Clear communication ensures:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Clear communication ensures that identified root causes and solutions are understood by all stakeholders for effective implementation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0153",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Why is documentation important?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Documentation is important because it preserves the root cause analysis and solutions for future reference and knowledge sharing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0154",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without communication, solutions may be:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without communication, solutions may be random guessing without analysis, as stakeholders cannot share information needed for root cause identification.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0155",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Good documentation includes:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Good documentation includes the identified root causes, analysis methods, and solutions, providing a complete record of the problem-solving process.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0156",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Sharing solutions requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sharing solutions requires clear communication of identified root causes and the reasoning behind chosen solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0157",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Documentation prevents:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Documentation prevents random guessing without analysis by recording systematic approaches to root cause identification for reuse.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0158",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Clear records help in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Clear records help in identifying root causes of recurring problems by providing historical data on previous analyses and solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0159",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Communication of ideas relies on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Communication of ideas relies on clearly presenting identified root causes and proposed solutions to enable understanding and collaboration.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0160",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Effective documentation supports:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Effective documentation supports identifying root causes by maintaining organized records of analyses, findings, and solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0161",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the role of feedback in problem solving?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Feedback plays a critical role in identifying root causes by providing information about whether solutions effectively address the actual problem.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0162",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Iterative improvement depends on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Iterative improvement depends on identifying root causes through repeated cycles of testing, feedback, and refinement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0163",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Why is testing important in solutions?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Testing is important because it validates whether identified root causes are correct and solutions effectively address them.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0164",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without validation, solutions may be:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without validation, solutions may be random guessing without analysis, as there is no confirmation that root causes were correctly identified.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0165",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Prototyping helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Prototyping helps in identifying root causes by creating testable models that reveal whether proposed solutions address actual problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0166",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "User feedback is crucial for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "User feedback is crucial for identifying root causes because end users can provide insights about problems that analysis alone might miss.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0167",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does iteration improve?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Iteration improves root cause identification by incorporating feedback from each cycle to refine understanding and solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0168",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Piloting a solution helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Piloting a solution helps in identifying root causes by testing in real conditions whether the proposed solution addresses the actual problem.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0169",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Quality assurance involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quality assurance involves identifying root causes of defects through systematic testing and verification processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0170",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of a post-mortem?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A post-mortem's purpose is to identify root causes of failures or successes after a project, enabling improvement in future efforts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0171",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Lessons learned help in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lessons learned help in identifying root causes of past successes and failures, improving future problem-solving effectiveness.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0172",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Continuous improvement relies on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Continuous improvement relies on identifying root causes through ongoing analysis and feedback to progressively enhance processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0173",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Why is reflection important?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Reflection is important because it enables identification of root causes through thoughtful review of experiences and outcomes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0174",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Without reflection, one might:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without reflection, one might randomly guess without analysis, as the lack of review prevents learning from past root cause identification.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0175",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Benchmarking helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Benchmarking helps in identifying root causes of performance gaps by comparing current practices against best-in-class standards.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0176",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Best practices emerge from:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Best practices emerge from identifying root causes of success through systematic study and documentation of effective approaches.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0177",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Standards ensure:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Standards ensure consistent root cause identification by providing established frameworks and criteria for systematic analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0178",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Compliance requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Compliance requires identifying root causes of deviations from regulations and standards to ensure organizational adherence.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0179",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Ethics in problem solving involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ethics in problem solving involves identifying root causes while considering moral implications and ensuring solutions are fair and responsible.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0180",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Fairness in decisions requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fairness in decisions requires identifying root causes without bias, ensuring all perspectives are considered in the analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0181",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Bias can be avoided by:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bias can be avoided by identifying root causes through objective, evidence-based analysis rather than subjective assumptions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0182",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Inclusivity in problem solving means:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inclusivity in problem solving means identifying root causes by incorporating diverse perspectives and experiences in the analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0183",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Diversity of thought helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Diversity of thought helps in identifying root causes by bringing multiple perspectives that can reveal factors others might miss.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0184",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Collaboration improves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Collaboration improves root cause identification by combining the knowledge, skills, and perspectives of multiple team members.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0185",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Teamwork relies on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Teamwork relies on identifying root causes collectively, leveraging diverse expertise and perspectives for comprehensive analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0186",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Conflict resolution requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Conflict resolution requires identifying the root cause of disagreements to find solutions that address underlying issues, not just symptoms.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0187",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Negotiation skills depend on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Negotiation skills depend on identifying root causes of conflicting interests to find mutually beneficial solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0188",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Empathy in problem solving involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Empathy in problem solving involves identifying root causes by understanding the perspectives and experiences of those affected.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0189",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Stakeholder analysis requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stakeholder analysis requires identifying root causes of stakeholder concerns to address their needs effectively in solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0190",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Prioritization in problem solving means:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Prioritization in problem solving means identifying root causes and ranking them by impact and urgency to focus effort effectively.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0191",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Resource allocation depends on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Resource allocation depends on identifying root causes to ensure resources are directed toward addressing the most impactful issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0192",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Time management in problem solving requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Time management in problem solving requires identifying root causes efficiently, allocating appropriate time to analysis and solution development.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0193",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Budgeting for solutions involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Budgeting for solutions involves identifying root causes to estimate costs accurately and allocate funds to the most effective interventions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0194",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Risk assessment is part of:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Risk assessment is part of identifying root causes of potential problems before they occur, enabling proactive prevention.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0195",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Contingency planning requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Contingency planning requires identifying root causes of potential failures to develop backup plans that address the most likely issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0196",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Mitigation strategies depend on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mitigation strategies depend on identifying root causes of risks to develop targeted actions that reduce their likelihood or impact.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0197",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a SWOT analysis used for?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SWOT analysis is used for identifying root causes of organizational strengths, weaknesses, opportunities, and threats to inform strategic decisions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0198",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "PESTLE analysis helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PESTLE analysis helps in identifying root causes of external factors (Political, Economic, Social, Technological, Legal, Environmental) affecting decisions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0199",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cost-benefit analysis supports:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cost-benefit analysis supports identifying root causes by systematically evaluating whether proposed solutions justify their costs relative to expected benefits.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0200",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "ROI calculation is important for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ROI calculation is important for identifying root causes of investment decisions, ensuring resources are allocated to solutions with the greatest return.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0201",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Feasibility studies assess:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Feasibility studies assess whether proposed solutions to identified root causes are practically achievable given available resources and constraints.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0202",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Viability of solutions depends on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Viability of solutions depends on correctly identifying root causes and ensuring proposed solutions are sustainable and practical.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0203",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Sustainability in problem solving means:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sustainability in problem solving means identifying root causes and developing solutions that remain effective and maintainable over the long term.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0204",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Scalability requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Scalability requires identifying root causes and designing solutions that continue to work effectively as the problem scope grows.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0205",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Maintainability of solutions depends on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Maintainability of solutions depends on clearly identifying root causes and documenting solutions so they can be updated and sustained.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0206",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Usability testing ensures:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Usability testing ensures that solutions addressing identified root causes are practical and accessible for the intended users.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0207",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Accessibility in design requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Accessibility in design requires identifying root causes of barriers that prevent people from using solutions effectively.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0208",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "User-centered design focuses on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "User-centered design focuses on identifying root causes of user problems to create solutions that genuinely address their needs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0209",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Prototyping helps validate:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Prototyping helps validate whether identified root causes are correct by testing proposed solutions in a controlled environment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0210",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "MVPs are used to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MVPs (Minimum Viable Products) are used to test root cause hypotheses quickly by implementing the simplest solution that addresses the core problem.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0211",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Agile methodology emphasizes:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Agile methodology emphasizes identifying root causes iteratively, adapting solutions through short feedback cycles and continuous improvement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0212",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Scrum framework supports:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Scrum framework supports identifying root causes through structured sprints, daily standups, and retrospectives for continuous improvement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0213",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Kanban helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kanban helps in identifying root causes of workflow bottlenecks by visualizing work processes and limiting work in progress.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0214",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Lean principles aim to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lean principles aim to identify root causes of waste in processes, eliminating non-value-adding activities to improve efficiency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0215",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Six Sigma focuses on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Six Sigma focuses on identifying root causes of defects and variability using statistical methods to achieve near-perfect quality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0216",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Total Quality Management involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Total Quality Management involves identifying root causes of quality issues through organization-wide commitment to continuous improvement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0217",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Continuous improvement is key in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Continuous improvement is key in identifying root causes through iterative cycles of analysis, implementation, and review.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0218",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Kaizen emphasizes:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kaizen emphasizes identifying root causes through small, incremental improvements made continuously by all members of an organization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0219",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "PDCA cycle stands for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PDCA cycle stands for Plan-Do-Check-Act, a systematic framework for identifying root causes and implementing improvements iteratively.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0220",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DMAIC is used in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DMAIC (Define-Measure-Analyze-Improve-Control) is used in Six Sigma for systematically identifying root causes of process defects.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0221",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Root cause analysis tools include:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Root cause analysis tools include the Fishbone diagram, 5 Whys, and Pareto analysis, which systematically identify underlying causes of problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0222",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Fishbone diagram helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Fishbone (Ishikawa) diagram helps in identifying root causes by organizing potential causes into categories like people, process, equipment, and materials.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0223",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "5 Whys technique is used for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The 5 Whys technique is used for identifying root causes by repeatedly asking 'why' to drill down from symptoms to the fundamental cause.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0224",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Pareto analysis focuses on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pareto analysis focuses on identifying root causes by applying the 80/20 principle: 80% of problems typically stem from 20% of causes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0225",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Flowcharts help in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flowcharts help in identifying root causes by visually mapping processes to reveal where problems occur and how steps are connected.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0226",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Mind mapping supports:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mind mapping supports identifying root causes by visually organizing ideas and relationships to explore connections between factors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0227",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Brainstorming is used for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Brainstorming is used for identifying potential root causes by generating many ideas freely before evaluating and narrowing down options.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0228",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SCAMPER technique helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SCAMPER (Substitute, Combine, Adapt, Modify, Put to other uses, Eliminate, Reverse) helps in identifying root causes through creative questioning.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0229",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Lateral thinking involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lateral thinking involves identifying root causes through indirect, creative approaches that explore problems from unconventional angles.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0230",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Divergent thinking aims to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Divergent thinking aims to identify multiple potential root causes by generating many different ideas and exploring various possibilities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0231",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Convergent thinking focuses on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Convergent thinking focuses on identifying the most likely root cause by narrowing down multiple options to the best single answer.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0232",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Design thinking includes:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Design thinking includes identifying root causes through empathy, ideation, prototyping, and testing in a human-centered iterative process.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0233",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Empathy in design thinking means:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Empathy in design thinking means identifying root causes by deeply understanding users' experiences, needs, and pain points.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0234",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Ideation in design thinking involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ideation in design thinking involves identifying potential root causes and solutions by generating creative ideas through collaborative brainstorming.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0235",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Prototyping in design thinking tests:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Prototyping in design thinking tests whether identified root causes are correct by building and evaluating tangible solution concepts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0236",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Testing in design thinking validates:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Testing in design thinking validates root cause identification by gathering user feedback on whether solutions address actual problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0237",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Storyboarding helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Storyboarding helps in identifying root causes by visually narrating user experiences to reveal where problems occur in a process.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0238",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Journey mapping is used for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Journey mapping is used for identifying root causes of user experience problems by tracing the complete user interaction path.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0239",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Service blueprints assist in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Service blueprints assist in identifying root causes of service delivery problems by mapping both customer-facing and behind-the-scenes processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0240",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Affinity diagrams organize:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Affinity diagrams organize identified root causes by grouping related ideas and themes to find patterns and categories.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0241",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Tree diagrams break down:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tree diagrams break down root causes into hierarchical sub-causes, showing how different factors relate to and contribute to the main problem.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0242",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Matrix diagrams compare:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Matrix diagrams compare multiple root causes and solutions to evaluate relationships and identify the best combinations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0243",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Interrelationship digraphs show:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Interrelationship digraphs show how identified root causes are connected, revealing which causes have the most influence on the problem.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0244",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Prioritization matrices help in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Prioritization matrices help in ranking identified root causes by impact and effort, focusing resources on the most critical issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0245",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Activity network diagrams map:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Activity network diagrams map the sequence and dependencies of tasks needed to address identified root causes in a project.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0246",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Process decision program charts plan for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Process decision program charts plan for contingencies when addressing root causes, identifying what could go wrong and how to respond.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0247",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of a Gantt chart?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Gantt chart's purpose is to identify root causes of schedule problems by visualizing task timelines, dependencies, and progress.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0248",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "PERT charts are used for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PERT (Program Evaluation and Review Technique) charts are used for identifying root causes of project timing issues by estimating task durations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0249",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Critical path method helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The critical path method helps in identifying root causes of project delays by determining the longest sequence of dependent tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0250",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Work breakdown structures organize:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Work breakdown structures organize complex problems by decomposing them into manageable components for systematic root cause identification.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0251",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "RACI matrices define:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RACI matrices define who is Responsible, Accountable, Consulted, and Informed when identifying root causes and implementing solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0252",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Communication plans ensure:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Communication plans ensure that root cause findings and solutions are shared effectively with all stakeholders.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0253",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Stakeholder registers list:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stakeholder registers list all parties involved in or affected by root cause identification and solution implementation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0254",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Issue logs track:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Issue logs track identified root causes and their resolution status, ensuring problems are addressed systematically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0255",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Risk registers document:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Risk registers document identified root causes of potential risks along with their likelihood, impact, and mitigation strategies.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0256",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Change requests manage:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Change requests manage modifications to solutions when new root causes are identified or original analyses need revision.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0257",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Lessons learned databases store:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lessons learned databases store root cause analyses from past projects, enabling organizational learning and improved future problem solving.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0258",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Post-implementation reviews assess:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Post-implementation reviews assess whether identified root causes were correctly addressed and solutions achieved their intended outcomes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0259",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a project charter?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A project charter formally authorizes a project to identify root causes and implement solutions, defining scope, objectives, and stakeholders.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0260",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Scope statements define:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Scope statements define the boundaries of root cause analysis and solution implementation, clarifying what is included and excluded.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0261",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Deliverables are:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deliverables are the tangible outputs of root cause analysis and solution implementation, such as reports, fixes, or improved processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0262",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Milestones mark:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Milestones mark significant progress points in root cause identification and solution implementation, helping track project advancement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0263",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Dependencies in projects require:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dependencies in projects require understanding how root causes and solutions are interconnected, as changes in one area affect others.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0264",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Constraints in projects include:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Constraints in projects include limitations on time, budget, and resources that affect how root causes can be identified and addressed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0265",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Assumptions in planning must be:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Assumptions in planning must be validated against root cause evidence, as incorrect assumptions can lead to flawed analyses and solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0266",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is a business case?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A business case justifies root cause analysis and solution investment by documenting expected benefits, costs, and strategic alignment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0267",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Benefits realization involves:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Benefits realization involves tracking whether solutions to identified root causes deliver their expected value and outcomes over time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0268",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Value engineering aims to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Value engineering aims to identify root causes of unnecessary cost while maintaining function, optimizing the value of solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0269",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cost control requires:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cost control requires identifying root causes of budget overruns and implementing corrective actions to keep spending on track.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0270",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Budget variance analysis helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Budget variance analysis helps in identifying root causes of differences between planned and actual spending on problem-solving efforts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0271",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Earned value management tracks:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Earned value management tracks root cause resolution progress by comparing planned work, completed work, and actual costs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0272",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Performance metrics measure:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Performance metrics measure the effectiveness of root cause identification and solution implementation using quantifiable indicators.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0273",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "KPIs are used to:",
+    "options": [
+      "Identify the root cause of a problem",
+      "Randomly guess without analysis",
+      "Ignore available information",
+      "Avoid logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "KPIs (Key Performance Indicators) are used to track whether solutions to identified root causes are achieving desired performance levels.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0274",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Dashboards visualize:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dashboards visualize root cause analysis results and solution performance metrics, enabling quick assessment of problem-solving progress.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0275",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Scorecards track:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Scorecards track root cause resolution effectiveness across multiple dimensions, providing a comprehensive view of problem-solving performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0276",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Balanced scorecards consider:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Balanced scorecards consider financial, customer, process, and learning perspectives when identifying root causes and measuring solution success.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0277",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Benchmarking compares:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Benchmarking compares root cause identification and resolution approaches against industry leaders to identify improvement opportunities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0278",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Gap analysis identifies:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gap analysis identifies root causes of differences between current and desired states, highlighting what needs to change.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0279",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SWOT stands for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SWOT stands for Strengths, Weaknesses, Opportunities, and Threats, a framework for identifying root causes of strategic issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0280",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "PESTLE stands for:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PESTLE stands for Political, Economic, Social, Technological, Legal, and Environmental factors that help identify root causes of external challenges.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0281",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does SMART stand for?",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SMART stands for Specific, Measurable, Achievable, Relevant, and Time-bound, criteria for setting effective goals when addressing root causes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0282",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Objectives should be:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Objectives should be clearly defined when addressing root causes, following SMART criteria to ensure they are actionable and measurable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0283",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Goals must be:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Goals must be aligned with identified root causes to ensure problem-solving efforts are directed toward meaningful outcomes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0284",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Vision statements describe:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vision statements describe the desired future state after root causes are addressed, providing direction and motivation for problem solving.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0285",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Mission statements define:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mission statements define the purpose and approach for identifying root causes and implementing solutions within an organization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0286",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Core values guide:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Core values guide the ethical approach to identifying root causes and developing solutions, ensuring integrity throughout the process.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0287",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Organizational culture impacts:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Organizational culture impacts how root causes are identified and addressed, influencing openness to feedback and willingness to change.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0288",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Leadership styles affect:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Leadership styles affect root cause identification and solution implementation, influencing team engagement and decision-making approaches.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0289",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Motivation theories include:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Motivation theories include frameworks like Maslow's hierarchy and Herzberg's factors that help identify root causes of performance and engagement issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0290",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Team dynamics influence:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Team dynamics influence root cause identification effectiveness, as collaborative and psychologically safe teams produce better analysis outcomes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0291",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Conflict management strategies involve:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Conflict management strategies involve identifying the root cause of disagreements to find constructive resolutions that satisfy all parties.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0292",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Negotiation tactics require:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Negotiation tactics require identifying root causes of opposing positions to find common ground and mutually beneficial solutions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0293",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Persuasion skills depend on:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Persuasion skills depend on identifying root causes of resistance and presenting evidence-based arguments that address underlying concerns.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0294",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Emotional intelligence includes:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Emotional intelligence includes identifying root causes of emotional responses, enabling better self-management and interpersonal problem solving.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0295",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Self-awareness helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Self-awareness helps in identifying root causes of personal biases and reactions, improving objectivity in problem-solving processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0296",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Empathy supports:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Empathy supports identifying root causes by understanding others' perspectives, enabling more comprehensive and human-centered problem analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0297",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Social skills enhance:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Social skills enhance root cause identification by enabling effective collaboration, communication, and relationship building during problem solving.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0298",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Adaptability is key in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Adaptability is key in identifying root causes because problems evolve and new information may require adjusting the analysis approach.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0299",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Resilience helps in:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Resilience helps in identifying root causes by maintaining persistence through setbacks and continuing analysis even when initial approaches fail.",
+    "source": "university"
+  },
+  {
+    "id": "uni-problem-solving-0300",
+    "subjectId": "uni-problem-solving",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Lifelong learning supports:",
+    "options": [
+      "Identifying the root cause of a problem",
+      "Random guessing without analysis",
+      "Ignoring available information",
+      "Avoiding logical reasoning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lifelong learning supports identifying root causes by continuously expanding knowledge and skills that improve analytical and problem-solving capabilities.",
+    "source": "university"
+  }
+]

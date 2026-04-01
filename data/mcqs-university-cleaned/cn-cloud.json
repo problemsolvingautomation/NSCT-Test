@@ -1,0 +1,5394 @@
+[
+  {
+    "id": "uni-cn-cloud-0001",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which component of data communication defines rules for communication between devices?",
+    "options": [
+      "Message",
+      "Protocol",
+      "Medium",
+      "Receiver"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A protocol defines the rules and conventions for communication between devices, governing how data is formatted, transmitted, and received.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0002",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is the physical path through which data travels?",
+    "options": [
+      "Protocol",
+      "Medium",
+      "Sender",
+      "Receiver"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The medium (or transmission medium) is the physical path through which data travels from sender to receiver, such as cables or wireless signals.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0003",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which topology connects all devices to a central device?",
+    "options": [
+      "Bus",
+      "Ring",
+      "Star",
+      "Mesh"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In a star topology, all devices connect to a central device (hub or switch), which manages data communication between them.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0004",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which topology provides the highest reliability?",
+    "options": [
+      "Bus",
+      "Mesh",
+      "Star",
+      "Ring"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mesh topology provides the highest reliability because each device has dedicated links to other devices, offering multiple redundant paths.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0005",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A network that covers a small geographic area like a classroom is called:",
+    "options": [
+      "WAN",
+      "MAN",
+      "LAN",
+      "PAN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A LAN (Local Area Network) covers a small geographic area like a classroom, office, or building.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0006",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device forwards data packets between different networks?",
+    "options": [
+      "Switch",
+      "Router",
+      "Hub",
+      "Repeater"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A router forwards data packets between different networks using IP addresses to determine the best path for data transmission.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0007",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device operates at the data link layer and uses MAC addresses?",
+    "options": [
+      "Switch",
+      "Router",
+      "Gateway",
+      "Modem"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A switch operates at the data link layer (Layer 2) and uses MAC addresses to forward frames to the correct destination port.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0008",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which layer of OSI model is responsible for framing?",
+    "options": [
+      "Physical layer",
+      "Data link layer",
+      "Network layer",
+      "Transport layer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The data link layer (Layer 2) of the OSI model is responsible for framing, which organizes bits into frames for transmission.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0009",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which addressing is used at the data link layer?",
+    "options": [
+      "IP Address",
+      "MAC Address",
+      "Port Number",
+      "URL"
+    ],
+    "correctAnswer": 1,
+    "explanation": "MAC (Media Access Control) addresses are used at the data link layer for physical addressing of network interface cards.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0010",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main function of flow control?",
+    "options": [
+      "Detect errors",
+      "Control data speed between sender and receiver",
+      "Encrypt data",
+      "Compress data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Flow control regulates the data transmission speed between sender and receiver to prevent the receiver from being overwhelmed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0011",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique detects errors using an extra bit?",
+    "options": [
+      "CRC",
+      "Parity Check",
+      "Checksum",
+      "ARQ"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Parity check is an error detection technique that uses an extra bit (parity bit) to detect single-bit errors in transmitted data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0012",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which error detection technique is most reliable?",
+    "options": [
+      "Parity",
+      "CRC",
+      "ASCII",
+      "Binary"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CRC (Cyclic Redundancy Check) is the most reliable error detection technique among the options, using polynomial division to detect burst errors effectively.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0013",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What happens when a frame is lost during transmission?",
+    "options": [
+      "Data ignored",
+      "Frame retransmitted",
+      "System stops",
+      "Channel closed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When a frame is lost during transmission, error control mechanisms like ARQ trigger retransmission of the lost frame.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0014",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocol requires sender to wait for acknowledgment after each frame?",
+    "options": [
+      "Stop and Wait",
+      "Sliding Window",
+      "CSMA",
+      "Token Passing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stop-and-Wait protocol requires the sender to wait for an acknowledgment after sending each frame before sending the next one.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0015",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocol allows multiple frames to be sent before receiving acknowledgment?",
+    "options": [
+      "Stop and Wait",
+      "Sliding Window",
+      "Token Ring",
+      "Ethernet"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Sliding Window protocol allows multiple frames to be sent before requiring acknowledgment, improving transmission efficiency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0016",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocol checks if the channel is free before sending data?",
+    "options": [
+      "CSMA",
+      "ARQ",
+      "FTP",
+      "SMTP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CSMA (Carrier Sense Multiple Access) checks if the communication channel is free before sending data to avoid collisions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0017",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does CSMA/CD stand for?",
+    "options": [
+      "Carrier Signal Media Access",
+      "Carrier Sense Multiple Access with Collision Detection",
+      "Communication System Media Access",
+      "Computer Signal Management Access"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CSMA/CD stands for Carrier Sense Multiple Access with Collision Detection, used in Ethernet to detect and handle data collisions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0018",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which network technology uses CSMA/CD?",
+    "options": [
+      "Ethernet",
+      "WiFi",
+      "Bluetooth",
+      "Token Ring"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ethernet uses CSMA/CD for media access control, detecting collisions and initiating retransmission when they occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0019",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Token Ring networks, which device can transmit data?",
+    "options": [
+      "Any device",
+      "Device holding the token",
+      "First device",
+      "Router"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In Token Ring networks, only the device currently holding the token is permitted to transmit data, preventing collisions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0020",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Why does token passing reduce collisions?",
+    "options": [
+      "Only one node transmits at a time",
+      "Data compressed",
+      "Data encrypted",
+      "Network slowed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Token passing reduces collisions because only one node can transmit at a time - the node that holds the token.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0021",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device broadcasts data to all connected devices?",
+    "options": [
+      "Switch",
+      "Hub",
+      "Router",
+      "Bridge"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A hub broadcasts incoming data to all connected devices on all ports, operating at the physical layer without any intelligence.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0022",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device regenerates weak signals?",
+    "options": [
+      "Repeater",
+      "Router",
+      "Switch",
+      "Bridge"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A repeater regenerates weak signals to extend the transmission distance in a network, operating at the physical layer.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0023",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device connects two similar networks?",
+    "options": [
+      "Bridge",
+      "Gateway",
+      "Modem",
+      "Router"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A bridge connects two similar network segments and filters traffic based on MAC addresses at the data link layer.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0024",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device connects different types of networks and protocols?",
+    "options": [
+      "Router",
+      "Switch",
+      "Gateway",
+      "Hub"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A gateway connects different types of networks and protocols, performing protocol conversion at multiple layers of the OSI model.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0025",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device works at the physical layer?",
+    "options": [
+      "Router",
+      "Switch",
+      "Repeater",
+      "Bridge"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A repeater works at the physical layer (Layer 1), simply regenerating and amplifying electrical signals.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0026",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which factor determines how much data can be transmitted per second?",
+    "options": [
+      "Distance",
+      "Bandwidth",
+      "Noise",
+      "Delay"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bandwidth determines how much data can be transmitted per second over a communication channel, measured in bits per second.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0027",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Unwanted signals that affect communication are called:",
+    "options": [
+      "Noise",
+      "Error",
+      "Delay",
+      "Frame"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Noise refers to unwanted signals that interfere with communication, degrading signal quality and potentially causing errors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0028",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which delay occurs due to distance between sender and receiver?",
+    "options": [
+      "Transmission delay",
+      "Propagation delay",
+      "Processing delay",
+      "Queuing delay"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Propagation delay is the time it takes for a signal to travel from sender to receiver, determined by distance and signal speed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0029",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique divides a channel into multiple signals?",
+    "options": [
+      "Multiplexing",
+      "Switching",
+      "Routing",
+      "Encoding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiplexing divides a single communication channel into multiple sub-channels, allowing multiple signals to share the same medium.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0030",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the data unit at the Data Link Layer?",
+    "options": [
+      "Bit",
+      "Frame",
+      "Packet",
+      "Segment"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At the Data Link Layer, data is organized into frames, which include headers, data payload, and trailers for addressing and error detection.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0031",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main advantage of Bus topology?",
+    "options": [
+      "High reliability",
+      "Low cost",
+      "High security",
+      "High speed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The main advantage of bus topology is its low cost, as it requires minimal cabling using a single backbone cable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0032",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "How are devices connected in Ring topology?",
+    "options": [
+      "Through a central hub",
+      "In a circular path",
+      "Using multiple links",
+      "Using wireless signals"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In ring topology, devices are connected in a circular path where data travels in one direction from one device to the next.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0033",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the major disadvantage of Mesh topology?",
+    "options": [
+      "Low speed",
+      "Limited devices",
+      "High cost due to many connections",
+      "Poor security"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The major disadvantage of mesh topology is its high cost due to the large number of cables and connections required (n(n-1)/2 links).",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0034",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is an advantage of Star topology?",
+    "options": [
+      "Easy troubleshooting",
+      "Low bandwidth",
+      "High collision rate",
+      "Complex design"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Star topology allows easy troubleshooting because each device has a dedicated connection to the central hub, making it simple to isolate faults.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0035",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is an example of a WAN?",
+    "options": [
+      "Office network",
+      "Home WiFi",
+      "Internet",
+      "Bluetooth"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Internet is the largest example of a WAN (Wide Area Network), spanning the entire globe and connecting millions of networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0036",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which example represents a Personal Area Network (PAN)?",
+    "options": [
+      "Internet",
+      "LAN",
+      "Bluetooth connection between phone and headset",
+      "Campus network"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Bluetooth connection between a phone and headset is a Personal Area Network (PAN), covering a very short range (typically under 10 meters).",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0037",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the length of a MAC address?",
+    "options": [
+      "16 bits",
+      "32 bits",
+      "48 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A MAC address is 48 bits (6 bytes) long, typically represented as six pairs of hexadecimal digits.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0038",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of Frame Check Sequence (FCS)?",
+    "options": [
+      "Encryption",
+      "Error detection",
+      "Data compression",
+      "Addressing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Frame Check Sequence (FCS) is used for error detection, containing a CRC value that the receiver uses to verify frame integrity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0039",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Why are sequence numbers used in frames?",
+    "options": [
+      "Increase speed",
+      "Detect duplicate frames",
+      "Encrypt data",
+      "Reduce bandwidth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sequence numbers are used to detect duplicate frames and ensure correct ordering of received data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0040",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of the timeout mechanism?",
+    "options": [
+      "Reduce noise",
+      "Detect lost frames",
+      "Increase bandwidth",
+      "Compress data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The timeout mechanism detects lost frames by setting a timer; if no acknowledgment is received within the timeout period, the frame is retransmitted.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0041",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit of the Sliding Window protocol?",
+    "options": [
+      "Increased transmission efficiency",
+      "Reduced security",
+      "Reduced bandwidth",
+      "Increased collisions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Sliding Window protocol increases transmission efficiency by allowing multiple frames to be in transit simultaneously before requiring acknowledgment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0042",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "When does a collision occur in a network?",
+    "options": [
+      "When devices are idle",
+      "When two devices transmit simultaneously",
+      "When bandwidth increases",
+      "When frames are encrypted"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A collision occurs when two devices transmit data simultaneously on a shared channel, causing signal interference.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0043",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Why does a switch reduce network collisions?",
+    "options": [
+      "It slows down transmission",
+      "It forwards frames only to the destination port",
+      "It broadcasts data to all devices",
+      "It removes cables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A switch reduces collisions by forwarding frames only to the specific destination port based on MAC addresses, rather than broadcasting to all ports.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0044",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Why does a hub increase collisions in a network?",
+    "options": [
+      "It encrypts data",
+      "It broadcasts data to all ports",
+      "It reduces bandwidth",
+      "It uses MAC addresses"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A hub increases collisions because it broadcasts data to all ports, meaning all devices share the same collision domain.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0045",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does a bridge do in a network?",
+    "options": [
+      "Connects networks using IP addresses",
+      "Divides network into segments",
+      "Converts signals",
+      "Encrypts data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A bridge divides a network into segments, reducing collision domains by filtering traffic based on MAC addresses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0046",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of token passing in networks?",
+    "options": [
+      "Increase noise",
+      "Prevent collisions",
+      "Reduce bandwidth",
+      "Increase data size"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Token passing prevents collisions by ensuring only the device holding the token can transmit, providing orderly access to the network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0047",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique is used for error control in data communication?",
+    "options": [
+      "FTP",
+      "ARQ",
+      "HTTP",
+      "DNS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ARQ (Automatic Repeat Request) is used for error control, requiring acknowledgments and retransmitting lost or corrupted frames.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0048",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the formula for calculating the number of links in a full mesh network?",
+    "options": [
+      "n",
+      "n(n-1)/2",
+      "n+1",
+      "n-1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a full mesh network with n devices, the number of links is n(n-1)/2, as each device connects to every other device.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0049",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which standard defines Ethernet networks?",
+    "options": [
+      "IEEE 802.1",
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.11"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IEEE 802.3 is the standard that defines Ethernet networks, specifying physical layer and data link layer protocols for wired LANs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0050",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which standard defines WiFi networks?",
+    "options": [
+      "IEEE 802.3",
+      "IEEE 802.11",
+      "IEEE 802.5",
+      "IEEE 802.15"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IEEE 802.11 is the standard that defines WiFi (wireless LAN) networks, specifying protocols for wireless communication.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0051",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What information is stored in the frame header?",
+    "options": [
+      "Error detection bits",
+      "Addressing information",
+      "Data encryption key",
+      "File size"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The frame header stores addressing information including source and destination MAC addresses for proper frame delivery.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0052",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is stored in the frame trailer?",
+    "options": [
+      "IP address",
+      "Error detection code",
+      "File name",
+      "User data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The frame trailer stores the error detection code (typically FCS/CRC) used to verify the integrity of the received frame.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0053",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which layer ensures reliable node-to-node communication?",
+    "options": [
+      "Network Layer",
+      "Data Link Layer",
+      "Physical Layer",
+      "Application Layer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Data Link Layer ensures reliable node-to-node (hop-to-hop) communication by handling framing, error detection, and flow control.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0054",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What happens when noise increases in a communication channel?",
+    "options": [
+      "Error rate decreases",
+      "Error rate increases",
+      "Bandwidth increases",
+      "Data speed increases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When noise increases in a communication channel, the error rate increases because unwanted signals corrupt the transmitted data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0055",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the purpose of a repeater in networking?",
+    "options": [
+      "Convert protocols",
+      "Extend network distance",
+      "Encrypt data",
+      "Manage routing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A repeater extends network distance by regenerating weak signals, allowing data to travel farther without degradation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0056",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Why is flow control necessary in data communication?",
+    "options": [
+      "Prevent receiver overload",
+      "Increase encryption",
+      "Reduce noise",
+      "Increase cable length"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flow control prevents receiver overload by regulating the rate at which the sender transmits data, matching the receiver's processing capacity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0057",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which error detection technique is effective for detecting burst errors?",
+    "options": [
+      "Parity Check",
+      "CRC",
+      "ASCII",
+      "Binary"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CRC (Cyclic Redundancy Check) is particularly effective for detecting burst errors, using polynomial division on data blocks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0058",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function is mainly performed by the Data Link Layer?",
+    "options": [
+      "Routing",
+      "Framing",
+      "Encryption",
+      "Compression"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Framing is the main function performed by the Data Link Layer, organizing raw bits from the physical layer into structured frames.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0059",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which addressing method is used by the Data Link Layer?",
+    "options": [
+      "IP Address",
+      "MAC Address",
+      "Domain Name",
+      "Port Number"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Data Link Layer uses MAC (Media Access Control) addresses for physical addressing of network devices.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0060",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following tasks is managed by the Data Link Layer?",
+    "options": [
+      "Web browsing",
+      "Framing, addressing, and error detection",
+      "File compression",
+      "Database management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Data Link Layer manages framing, physical addressing, and error detection, ensuring reliable data transfer between adjacent nodes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0061",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which unit of data is used at the Data Link Layer?",
+    "options": [
+      "Bit",
+      "Packet",
+      "Frame",
+      "Segment"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The frame is the protocol data unit (PDU) at the Data Link Layer, containing header, data, and trailer sections.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0062",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of error occurs when unwanted signals affect data transmission?",
+    "options": [
+      "Frame error",
+      "Noise error",
+      "Protocol error",
+      "Address error"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Noise errors occur when unwanted electrical or electromagnetic signals interfere with data transmission, corrupting the original signal.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0063",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main function of a repeater?",
+    "options": [
+      "Routing data",
+      "Regenerating signals",
+      "Encrypting data",
+      "Storing frames"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The main function of a repeater is regenerating (amplifying) weak signals to extend the effective transmission distance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0064",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which topology provides multiple paths between devices?",
+    "options": [
+      "Bus",
+      "Star",
+      "Mesh",
+      "Ring"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mesh topology provides multiple paths between devices through dedicated point-to-point links, offering high redundancy and reliability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0065",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What happens when two devices send data at the same time on a shared channel?",
+    "options": [
+      "Transmission success",
+      "Collision occurs",
+      "Data encrypted",
+      "Data compressed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When two devices send data simultaneously on a shared channel, a collision occurs, corrupting both transmissions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0066",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method is used to avoid collisions in Ethernet networks?",
+    "options": [
+      "ARQ",
+      "CSMA/CD",
+      "Token passing",
+      "Sliding window"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CSMA/CD (Carrier Sense Multiple Access with Collision Detection) is the method used in Ethernet to detect and handle collisions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0067",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device filters frames based on MAC address?",
+    "options": [
+      "Hub",
+      "Bridge",
+      "Router",
+      "Repeater"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A bridge filters frames based on MAC addresses, forwarding traffic only to the appropriate network segment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0068",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which network type connects devices within a building?",
+    "options": [
+      "LAN",
+      "WAN",
+      "MAN",
+      "PAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A LAN (Local Area Network) connects devices within a building or small area like an office or school.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0069",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which layer is responsible for physical addressing?",
+    "options": [
+      "Network Layer",
+      "Data Link Layer",
+      "Transport Layer",
+      "Application Layer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Data Link Layer is responsible for physical (MAC) addressing, identifying devices on the local network segment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0070",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main cause of transmission errors in networks?",
+    "options": [
+      "High bandwidth",
+      "Noise",
+      "Protocol",
+      "Topology"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Noise is the main cause of transmission errors in networks, corrupting signals as they travel through the communication medium.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0071",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device connects different networks together?",
+    "options": [
+      "Router",
+      "Hub",
+      "Switch",
+      "Bridge"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A router connects different networks together, forwarding packets between them based on IP addressing and routing tables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0072",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique allows multiple signals to share a single communication channel?",
+    "options": [
+      "Routing",
+      "Multiplexing",
+      "Switching",
+      "Encoding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Multiplexing allows multiple signals to share a single communication channel by dividing it by time, frequency, or wavelength.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0073",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which standard defines wireless LAN technology?",
+    "options": [
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.11",
+      "IEEE 802.1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "IEEE 802.11 defines wireless LAN (Wi-Fi) technology, specifying standards for wireless network communication.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0074",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which topology uses a single backbone cable?",
+    "options": [
+      "Bus",
+      "Star",
+      "Mesh",
+      "Ring"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bus topology uses a single backbone cable to which all devices connect, with data traveling along the entire cable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0075",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does flow control prevent?",
+    "options": [
+      "Data duplication",
+      "Receiver overload",
+      "Signal delay",
+      "Encryption errors"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Flow control prevents receiver overload by ensuring the sender doesn't transmit data faster than the receiver can process it.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0076",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocol requests retransmission of corrupted frames?",
+    "options": [
+      "ARQ",
+      "FTP",
+      "HTTP",
+      "SMTP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ARQ (Automatic Repeat Request) requests retransmission of corrupted or lost frames, ensuring reliable data delivery.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0077",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What type of network covers an entire city?",
+    "options": [
+      "LAN",
+      "MAN",
+      "PAN",
+      "SAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A MAN (Metropolitan Area Network) covers an entire city or large campus, larger than a LAN but smaller than a WAN.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0078",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device broadcasts incoming frames to all ports?",
+    "options": [
+      "Switch",
+      "Router",
+      "Hub",
+      "Bridge"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A hub broadcasts incoming frames to all ports, as it operates at the physical layer without any MAC address awareness.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0079",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which addressing method identifies a device on a network interface?",
+    "options": [
+      "IP Address",
+      "MAC Address",
+      "Port Number",
+      "Domain Name"
+    ],
+    "correctAnswer": 1,
+    "explanation": "MAC (Media Access Control) addresses identify specific network interfaces, burned into the hardware by the manufacturer.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0080",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of delay occurs due to signal travel time?",
+    "options": [
+      "Processing delay",
+      "Propagation delay",
+      "Transmission delay",
+      "Queue delay"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Propagation delay occurs due to signal travel time across the physical medium, depending on distance and propagation speed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0081",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which field in a frame is used to detect transmission errors?",
+    "options": [
+      "Header",
+      "Data",
+      "Trailer",
+      "Address"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The trailer field in a frame contains the error detection code (FCS/CRC) used to detect transmission errors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0082",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What does CRC stand for?",
+    "options": [
+      "Cyclic Redundancy Check",
+      "Central Routing Code",
+      "Communication Rate Control",
+      "Cyclic Routing Channel"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CRC stands for Cyclic Redundancy Check, a robust error detection method using polynomial division.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0083",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which topology is easiest to expand?",
+    "options": [
+      "Star",
+      "Bus",
+      "Ring",
+      "Mesh"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Star topology is easiest to expand because new devices simply connect to the central hub or switch without disrupting existing connections.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0084",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which network device directs packets using logical addressing?",
+    "options": [
+      "Router",
+      "Switch",
+      "Bridge",
+      "Hub"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A router directs packets using logical (IP) addressing, determining the best path through the network using routing tables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0085",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique organizes data into frames before transmission?",
+    "options": [
+      "Framing",
+      "Routing",
+      "Switching",
+      "Encoding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Framing organizes raw data into structured frames with headers and trailers before transmission at the Data Link Layer.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0086",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of error detection uses polynomial division?",
+    "options": [
+      "Parity Check",
+      "CRC",
+      "Checksum",
+      "ASCII"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CRC uses polynomial division to generate a check value, making it highly effective at detecting burst errors in transmitted data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0087",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which network topology has a central control device?",
+    "options": [
+      "Bus",
+      "Star",
+      "Mesh",
+      "Ring"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Star topology has a central control device (hub or switch) through which all communication passes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0088",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which network device operates mainly at the data link layer?",
+    "options": [
+      "Switch",
+      "Router",
+      "Gateway",
+      "Modem"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A switch operates mainly at the data link layer (Layer 2), forwarding frames based on MAC addresses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0089",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which topology becomes completely disconnected if the backbone cable fails?",
+    "options": [
+      "Star",
+      "Bus",
+      "Mesh",
+      "Ring"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In bus topology, if the backbone cable fails, the entire network becomes disconnected as all devices share the same cable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0090",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which process allows devices to share a communication channel?",
+    "options": [
+      "Access control",
+      "Routing",
+      "Encryption",
+      "Encoding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Access control is the process that allows devices to share a communication channel in an orderly manner, preventing collisions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0091",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which network type connects personal devices within a few meters?",
+    "options": [
+      "LAN",
+      "PAN",
+      "WAN",
+      "MAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A PAN (Personal Area Network) connects personal devices within a few meters, such as Bluetooth connections.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0092",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device translates between different network protocols?",
+    "options": [
+      "Router",
+      "Gateway",
+      "Switch",
+      "Hub"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A gateway translates between different network protocols, enabling communication between incompatible networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0093",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which component is responsible for sending data in communication?",
+    "options": [
+      "Receiver",
+      "Sender",
+      "Protocol",
+      "Medium"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The sender is the component responsible for generating and sending data in a communication system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0094",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which network component receives the transmitted message?",
+    "options": [
+      "Sender",
+      "Protocol",
+      "Receiver",
+      "Medium"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The receiver is the network component that receives the transmitted message from the sender.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0095",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which factor determines how fast data can be transmitted?",
+    "options": [
+      "Noise",
+      "Bandwidth",
+      "Topology",
+      "Protocol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bandwidth determines how fast data can be transmitted, representing the maximum data transfer capacity of a channel.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0096",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which unit represents data at the physical layer?",
+    "options": [
+      "Bit",
+      "Frame",
+      "Packet",
+      "Segment"
+    ],
+    "correctAnswer": 0,
+    "explanation": "At the physical layer, data is represented as bits (0s and 1s), the most basic unit of digital data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0097",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which addressing type is permanent and assigned by manufacturer?",
+    "options": [
+      "IP Address",
+      "MAC Address",
+      "Domain Name",
+      "Port Number"
+    ],
+    "correctAnswer": 1,
+    "explanation": "MAC addresses are permanent addresses assigned by the manufacturer, uniquely identifying each network interface card.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0098",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which topology provides the highest fault tolerance?",
+    "options": [
+      "Bus",
+      "Ring",
+      "Mesh",
+      "Star"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mesh topology provides the highest fault tolerance because multiple redundant paths exist between devices.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0099",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which layer is responsible for framing, physical addressing, and error detection?",
+    "options": [
+      "Network Layer",
+      "Data Link Layer",
+      "Transport Layer",
+      "Application Layer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Data Link Layer is responsible for framing, physical addressing (MAC), and error detection, ensuring reliable node-to-node delivery.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0100",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Network Layer is the \tlayer of the OSI model.",
+    "options": [
+      "First",
+      "Second",
+      "Third",
+      "Fourth"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Network Layer is the third layer of the OSI model, responsible for logical addressing and routing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0101",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The primary function of the Network Layer is:",
+    "options": [
+      "Routing packets",
+      "Framing",
+      "Encryption",
+      "Error detection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The primary function of the Network Layer is routing packets from source to destination across multiple networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0102",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data unit at the Network Layer is called:",
+    "options": [
+      "Frame",
+      "Packet",
+      "Segment",
+      "Bit"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The data unit at the Network Layer is called a packet, which contains the IP header and payload data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0103",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device operates at the Network Layer?",
+    "options": [
+      "Switch",
+      "Hub",
+      "Router",
+      "Repeater"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A router operates at the Network Layer (Layer 3), using IP addresses to forward packets between networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0104",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Network Layer is responsible for:",
+    "options": [
+      "Logical addressing",
+      "Routing",
+      "Path determination",
+      "All of these"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The Network Layer handles logical addressing, routing, and path determination - all of these are its core responsibilities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0105",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IP stands for:",
+    "options": [
+      "Internet Protocol",
+      "Internal Protocol",
+      "Internet Process",
+      "Interface Protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IP stands for Internet Protocol, the fundamental protocol for addressing and routing packets across networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0106",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IPv4 address length is:",
+    "options": [
+      "16 bits",
+      "32 bits",
+      "64 bits",
+      "128 bits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An IPv4 address is 32 bits long, typically represented as four decimal octets separated by dots (e.g., 192.168.1.1).",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0107",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IPv6 address length is:",
+    "options": [
+      "32 bits",
+      "64 bits",
+      "128 bits",
+      "256 bits"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An IPv6 address is 128 bits long, providing a vastly larger address space than IPv4 to accommodate growing internet devices.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0108",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "An IP address identifies:",
+    "options": [
+      "Network cable",
+      "Device on a network",
+      "Router port",
+      "Switch port"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An IP address identifies a specific device on a network, providing a logical address for routing and communication.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0109",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IPv4 address is divided into:",
+    "options": [
+      "Network and host parts",
+      "Frame and packet parts",
+      "Sender and receiver parts",
+      "Header and trailer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An IPv4 address is divided into network and host parts, with the network part identifying the network and the host part identifying the specific device.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0110",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Class A IP address range starts with:",
+    "options": [
+      "1-126",
+      "128-191",
+      "192-223",
+      "224-239"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Class A IP addresses range from 1-126 in the first octet, supporting large networks with millions of hosts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0111",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Class B IP address range is:",
+    "options": [
+      "1-126",
+      "128-191",
+      "192-223",
+      "224-239"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Class B IP addresses range from 128-191 in the first octet, supporting medium-sized networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0112",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Class C IP address range is:",
+    "options": [
+      "1-126",
+      "128-191",
+      "192-223",
+      "224-239"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Class C IP addresses range from 192-223 in the first octet, supporting small networks with up to 254 hosts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0113",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Class D IP addresses are used for:",
+    "options": [
+      "Multicasting",
+      "Private networks",
+      "Public networks",
+      "Broadcasting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Class D IP addresses (224-239) are reserved for multicasting, allowing one-to-many communication.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0114",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Class E IP addresses are reserved for:",
+    "options": [
+      "Research",
+      "Private networks",
+      "Multicast",
+      "Broadcast"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Class E IP addresses (240-255) are reserved for experimental and research purposes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0115",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Subnetting is used to:",
+    "options": [
+      "Divide network into smaller networks",
+      "Increase bandwidth",
+      "Encrypt data",
+      "Compress data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Subnetting divides a larger network into smaller sub-networks, improving address management and network performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0116",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Subnet mask is used to:",
+    "options": [
+      "Identify network and host parts",
+      "Encrypt IP address",
+      "Increase speed",
+      "Reduce traffic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A subnet mask identifies which portion of an IP address represents the network and which represents the host.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0117",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Default subnet mask of Class C is:",
+    "options": [
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.255"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The default subnet mask for Class C is 255.255.255.0, with the first three octets identifying the network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0118",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Default subnet mask of Class B is:",
+    "options": [
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.255"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The default subnet mask for Class B is 255.255.0.0, with the first two octets identifying the network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0119",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Default subnet mask of Class A is:",
+    "options": [
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.255"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The default subnet mask for Class A is 255.0.0.0, with only the first octet identifying the network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0120",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Routing means:",
+    "options": [
+      "Selecting path for data transmission",
+      "Encrypting packets",
+      "Compressing packets",
+      "Framing data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Routing is the process of selecting the optimal path for data transmission from source to destination across networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0121",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Routing is performed by:",
+    "options": [
+      "Switch",
+      "Router",
+      "Hub",
+      "Bridge"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Routing is performed by routers, which use routing tables and algorithms to determine the best path for packets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0122",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Routing table stores:",
+    "options": [
+      "Path information",
+      "MAC address",
+      "Passwords",
+      "File data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A routing table stores path information including destination networks, next hops, and metrics for routing decisions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0123",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Static routing means:",
+    "options": [
+      "Manually configured routes",
+      "Automatic routing",
+      "Dynamic routing",
+      "Wireless routing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Static routing involves manually configured routes by a network administrator, suitable for small or simple networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0124",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Dynamic routing means:",
+    "options": [
+      "Automatic route updates",
+      "Manual routes",
+      "Static configuration",
+      "No routing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dynamic routing automatically updates routes using routing protocols, adapting to network topology changes in real time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0125",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "RIP stands for:",
+    "options": [
+      "Routing Information Protocol",
+      "Router Internet Protocol",
+      "Routing Interface Protocol",
+      "Random Internet Protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RIP stands for Routing Information Protocol, a distance-vector routing protocol that uses hop count as its metric.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0126",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "OSPF stands for:",
+    "options": [
+      "Open Shortest Path First",
+      "Online Secure Protocol Framework",
+      "Open System Packet Framework",
+      "Optical Switching Protocol Format"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OSPF stands for Open Shortest Path First, a link-state routing protocol that calculates the shortest path using Dijkstra's algorithm.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0127",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "BGP stands for:",
+    "options": [
+      "Border Gateway Protocol",
+      "Basic Gateway Protocol",
+      "Binary Gateway Protocol",
+      "Bridge Gateway Protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "BGP stands for Border Gateway Protocol, the primary routing protocol used between autonomous systems on the internet.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0128",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "RIP uses:",
+    "options": [
+      "Distance vector routing",
+      "Link state routing",
+      "Static routing",
+      "Wireless routing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RIP uses distance vector routing, where routers share their routing tables with neighbors and choose routes based on hop count.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0129",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "OSPF uses:",
+    "options": [
+      "Link state routing",
+      "Distance vector routing",
+      "Static routing",
+      "Random routing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OSPF uses link state routing, where routers maintain a complete map of the network topology to calculate optimal paths.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0130",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Packet forwarding means:",
+    "options": [
+      "Sending packets to next hop",
+      "Encrypting packets",
+      "Compressing packets",
+      "Storing packets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Packet forwarding is the process of sending packets to the next hop (next router) along the path to the destination.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0131",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Next hop refers to:",
+    "options": [
+      "Next router in path",
+      "Next computer",
+      "Next server",
+      "Next protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The next hop refers to the next router in the path that a packet must traverse to reach its destination.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0132",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TTL in IP packet stands for:",
+    "options": [
+      "Time To Live",
+      "Total Time Limit",
+      "Transfer Time Level",
+      "Transmission Time Line"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TTL stands for Time To Live, a field in the IP packet header that limits how long a packet can exist in the network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0133",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TTL prevents:",
+    "options": [
+      "Infinite looping of packets",
+      "Packet loss",
+      "Encryption",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TTL prevents infinite looping of packets by decrementing at each hop; when it reaches zero, the packet is discarded.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0134",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Packet header contains:",
+    "options": [
+      "Address information",
+      "File data",
+      "Password",
+      "Compression data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The packet header contains address information including source and destination IP addresses, TTL, and protocol identifiers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0135",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "ICMP stands for:",
+    "options": [
+      "Internet Control Message Protocol",
+      "Internet Communication Management Protocol",
+      "Internal Control Message Process",
+      "Internet Channel Message Protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ICMP stands for Internet Control Message Protocol, used for network diagnostics and error reporting.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0136",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "ICMP is used for:",
+    "options": [
+      "Error reporting",
+      "File transfer",
+      "Email sending",
+      "Encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ICMP is used for error reporting and diagnostic functions, such as ping and traceroute commands.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0137",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "ARP stands for:",
+    "options": [
+      "Address Resolution Protocol",
+      "Automatic Routing Protocol",
+      "Advanced Routing Process",
+      "Address Routing Protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ARP stands for Address Resolution Protocol, which maps network layer addresses to data link layer addresses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0138",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "ARP converts:",
+    "options": [
+      "IP address to MAC address",
+      "MAC to IP",
+      "IP to DNS",
+      "DNS to IP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ARP converts IP addresses to MAC addresses, enabling communication between the network and data link layers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0139",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "RARP stands for:",
+    "options": [
+      "Reverse Address Resolution Protocol",
+      "Routing Address Resolution Protocol",
+      "Remote Address Resolution Protocol",
+      "Random Address Resolution Protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RARP stands for Reverse Address Resolution Protocol, which maps MAC addresses back to IP addresses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0140",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Network Layer ensures:",
+    "options": [
+      "End-to-end delivery of packets",
+      "Node-to-node delivery",
+      "File transfer",
+      "Application communication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Network Layer ensures end-to-end delivery of packets across multiple networks from the source host to the destination host.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0141",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Logical addressing is provided by:",
+    "options": [
+      "Network Layer",
+      "Data Link Layer",
+      "Physical Layer",
+      "Transport Layer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Logical addressing (IP addressing) is provided by the Network Layer, enabling devices to be uniquely identified across networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0142",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Router uses:",
+    "options": [
+      "Routing table",
+      "MAC table",
+      "ARP table only",
+      "File table"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A router uses a routing table to determine the best path for forwarding packets to their destinations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0143",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Network congestion occurs when:",
+    "options": [
+      "Too many packets in network",
+      "Router fails",
+      "Switch fails",
+      "Cable breaks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Network congestion occurs when too many packets flood the network, exceeding its capacity and causing delays or packet loss.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0144",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Network Layer protocols include:",
+    "options": [
+      "IP",
+      "ICMP",
+      "ARP",
+      "All of these"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Network Layer protocols include IP (addressing/routing), ICMP (error reporting), and ARP (address resolution) - all of these.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0145",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Packet switching is used in:",
+    "options": [
+      "Internet",
+      "Telephone networks",
+      "Radio networks",
+      "Television networks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Packet switching is used in the Internet, where data is divided into packets that are independently routed to the destination.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0146",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IPv6 was introduced to:",
+    "options": [
+      "Solve IPv4 address shortage",
+      "Increase encryption",
+      "Reduce bandwidth",
+      "Replace routers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IPv6 was introduced primarily to solve the IPv4 address shortage, providing 128-bit addresses compared to IPv4's 32-bit addresses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0147",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Router selects path based on:",
+    "options": [
+      "Routing algorithm",
+      "Encryption method",
+      "Data size",
+      "Cable type"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A router selects the best path based on routing algorithms (like Dijkstra's or Bellman-Ford) and metrics in its routing table.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0148",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Network Layer is responsible for:",
+    "options": [
+      "Inter-network communication",
+      "Data encryption",
+      "File compression",
+      "Hardware control"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Network Layer is responsible for inter-network communication, enabling data to travel across multiple interconnected networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0149",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main goal of the Network Layer is:",
+    "options": [
+      "Reliable packet delivery across networks",
+      "Framing data",
+      "Error detection",
+      "File transfer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The main goal of the Network Layer is reliable packet delivery across networks, using logical addressing and routing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0150",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Transport Layer is the \tlayer in the OSI model.",
+    "options": [
+      "Third",
+      "Fourth",
+      "Fifth",
+      "Sixth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Transport Layer is the fourth layer in the OSI model, responsible for end-to-end communication and data integrity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0151",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main function of the Transport Layer is:",
+    "options": [
+      "End-to-end communication",
+      "Routing",
+      "Framing",
+      "Encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The main function of the Transport Layer is providing reliable end-to-end communication between processes on different hosts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0152",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data unit at the Transport Layer is called:",
+    "options": [
+      "Packet",
+      "Frame",
+      "Segment",
+      "Bit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The data unit at the Transport Layer is called a segment (for TCP) or datagram (for UDP).",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0153",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Transport Layer provides:",
+    "options": [
+      "Process-to-process communication",
+      "Node-to-node communication",
+      "Device-to-device communication",
+      "Network-to-network communication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Transport Layer provides process-to-process communication using port numbers to identify specific applications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0154",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocols operate at the Transport Layer?",
+    "options": [
+      "TCP and UDP",
+      "IP and ARP",
+      "HTTP and FTP",
+      "DNS and SMTP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP and UDP are the two main protocols operating at the Transport Layer, offering reliable and unreliable transport respectively.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0155",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TCP stands for:",
+    "options": [
+      "Transmission Control Protocol",
+      "Transfer Communication Protocol",
+      "Transmission Communication Process",
+      "Transfer Control Process"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP stands for Transmission Control Protocol, providing reliable, ordered, and error-checked delivery of data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0156",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TCP is a:",
+    "options": [
+      "Connection-oriented protocol",
+      "Connectionless protocol",
+      "Routing protocol",
+      "Encryption protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP is a connection-oriented protocol, establishing a connection before data transfer using a three-way handshake.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0157",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TCP ensures:",
+    "options": [
+      "Reliable transmission",
+      "Fast routing",
+      "Data compression",
+      "Encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP ensures reliable transmission through acknowledgments, retransmission of lost segments, and error checking.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0158",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TCP uses:",
+    "options": [
+      "Acknowledgment system",
+      "Packet switching only",
+      "Broadcasting",
+      "Multicasting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP uses an acknowledgment system where the receiver confirms receipt of data, triggering retransmission if acknowledgments are not received.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0159",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TCP guarantees:",
+    "options": [
+      "Ordered data delivery",
+      "Unordered delivery",
+      "Random delivery",
+      "Broadcast delivery"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP guarantees ordered data delivery by using sequence numbers to reassemble segments in the correct order at the destination.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0160",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "UDP stands for:",
+    "options": [
+      "User Datagram Protocol",
+      "Universal Data Protocol",
+      "User Data Process",
+      "Universal Datagram Process"
+    ],
+    "correctAnswer": 0,
+    "explanation": "UDP stands for User Datagram Protocol, a connectionless transport protocol offering fast but unreliable data delivery.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0161",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "UDP is:",
+    "options": [
+      "Connectionless protocol",
+      "Connection-oriented protocol",
+      "Reliable protocol",
+      "Routing protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "UDP is a connectionless protocol that sends datagrams without establishing a connection, offering lower overhead than TCP.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0162",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "UDP provides:",
+    "options": [
+      "Fast transmission",
+      "Reliable delivery",
+      "Error correction",
+      "Flow control"
+    ],
+    "correctAnswer": 0,
+    "explanation": "UDP provides fast transmission with minimal overhead since it doesn't perform connection setup, acknowledgments, or retransmission.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0163",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data unit in UDP is called:",
+    "options": [
+      "Segment",
+      "Datagram",
+      "Packet",
+      "Frame"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The data unit in UDP is called a datagram, which is a self-contained unit of data with addressing information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0164",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "UDP is commonly used for:",
+    "options": [
+      "Streaming services",
+      "Email",
+      "File storage",
+      "Data encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "UDP is commonly used for streaming services where speed is more important than reliability, as some data loss is acceptable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0165",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Port numbers are used to identify:",
+    "options": [
+      "Processes or applications",
+      "Network cables",
+      "Routers",
+      "Switches"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Port numbers identify specific processes or applications on a host, enabling the Transport Layer to deliver data to the correct service.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0166",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Port number size is:",
+    "options": [
+      "8 bits",
+      "16 bits",
+      "32 bits",
+      "64 bits"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Port numbers are 16 bits in size, allowing a range from 0 to 65535.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0167",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Range of port numbers is:",
+    "options": [
+      "0-65535",
+      "0-1024",
+      "1-5000",
+      "100-9999"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The range of port numbers is 0-65535, divided into well-known (0-1023), registered (1024-49151), and dynamic (49152-65535) ports.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0168",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Well-known ports range is:",
+    "options": [
+      "0-1023",
+      "1024-49151",
+      "49152-65535",
+      "0-65535"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Well-known ports range from 0-1023 and are assigned to commonly used services by IANA.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0169",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Example of a well-known port:",
+    "options": [
+      "Port 80",
+      "Port 3000",
+      "Port 6000",
+      "Port 50000"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Port 80 is a well-known port assigned to HTTP (web) traffic.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0170",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Flow control ensures:",
+    "options": [
+      "Sender does not overwhelm receiver",
+      "Faster encryption",
+      "Data compression",
+      "Network routing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flow control ensures the sender does not overwhelm the receiver by regulating the rate of data transmission.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0171",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TCP flow control uses:",
+    "options": [
+      "Sliding window protocol",
+      "Stop-and-Wait",
+      "Token passing",
+      "CSMA/CD"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP flow control uses the sliding window protocol, adjusting the window size based on the receiver's buffer capacity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0172",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Window size determines:",
+    "options": [
+      "Amount of data sent before acknowledgment",
+      "Network speed",
+      "Cable length",
+      "Router capacity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Window size determines the amount of data that can be sent before requiring acknowledgment from the receiver.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0173",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Sliding window protocol improves:",
+    "options": [
+      "Efficiency of transmission",
+      "Encryption",
+      "Network routing",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The sliding window protocol improves efficiency by allowing multiple segments to be in transit simultaneously.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0174",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Flow control prevents:",
+    "options": [
+      "Buffer overflow",
+      "Encryption failure",
+      "Routing error",
+      "Network failure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Flow control prevents buffer overflow at the receiver by ensuring data is sent at a rate the receiver can handle.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0175",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": ". Error control ensures:",
+    "options": [
+      "Reliable communication",
+      "Fast routing",
+      "Encryption",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Error control ensures reliable communication by detecting and correcting errors in transmitted data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0176",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TCP detects errors using:",
+    "options": [
+      "Checksum",
+      "CRC",
+      "Parity bit",
+      "Encryption key"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP detects errors using a checksum field in the segment header, computed over the header and data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0177",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "When an error occurs, TCP:",
+    "options": [
+      "Retransmits the segment",
+      "Deletes data",
+      "Stops communication",
+      "Compresses data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "When TCP detects an error, it retransmits the affected segment using its reliable delivery mechanism.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0178",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Acknowledgment (ACK) indicates:",
+    "options": [
+      "Successful receipt of data",
+      "Data loss",
+      "Routing failure",
+      "Encryption success"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An acknowledgment (ACK) indicates successful receipt of data, confirming the sender can proceed with further transmission.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0179",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Negative acknowledgment means:",
+    "options": [
+      "Data error occurred",
+      "Data received correctly",
+      "Network speed increased",
+      "Router failure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A negative acknowledgment (NAK) indicates a data error occurred, requesting the sender to retransmit the corrupted segment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0180",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Congestion occurs when:",
+    "options": [
+      "Network traffic exceeds capacity",
+      "Network is idle",
+      "Cable is disconnected",
+      "Router is turned off"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Congestion occurs when network traffic exceeds the network's capacity, leading to packet loss, delays, and degraded performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0181",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TCP congestion control helps:",
+    "options": [
+      "Reduce network traffic",
+      "Increase encryption",
+      "Compress data",
+      "Change IP address"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP congestion control helps reduce network traffic by dynamically adjusting the sending rate based on network conditions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0182",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Slow Start algorithm is used in:",
+    "options": [
+      "TCP congestion control",
+      "UDP communication",
+      "Routing protocols",
+      "Encryption methods"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Slow Start algorithm is used in TCP congestion control, gradually increasing the transmission rate to find the network's capacity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0183",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Congestion window controls:",
+    "options": [
+      "Amount of data transmitted",
+      "Network security",
+      "Router speed",
+      "Data compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The congestion window controls the amount of data a sender can transmit before receiving acknowledgment, limiting traffic during congestion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0184",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Congestion control improves:",
+    "options": [
+      "Network performance",
+      "Data encryption",
+      "Data storage",
+      "File size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Congestion control improves network performance by preventing excessive traffic that would degrade throughput and increase latency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0185",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TCP connection establishment uses:",
+    "options": [
+      "Three-way handshake",
+      "Two-way handshake",
+      "One-way handshake",
+      "Four-way handshake"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP connection establishment uses a three-way handshake (SYN, SYN-ACK, ACK) to synchronize and establish a reliable connection.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0186",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Three-way handshake involves:",
+    "options": [
+      "SYN, SYN-ACK, ACK",
+      "ACK, ACK, ACK",
+      "SYN, ACK",
+      "FIN, ACK"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The three-way handshake involves SYN (client requests connection), SYN-ACK (server acknowledges and requests), and ACK (client confirms).",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0187",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Connection termination uses:",
+    "options": [
+      "Four-way handshake",
+      "Three-way handshake",
+      "Two-way handshake",
+      "One-way handshake"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP connection termination uses a four-way handshake (FIN, ACK, FIN, ACK) to gracefully close the connection from both sides.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0188",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SYN packet is used to:",
+    "options": [
+      "Start connection",
+      "End connection",
+      "Send data",
+      "Encrypt data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A SYN (synchronize) packet initiates a TCP connection by requesting synchronization of sequence numbers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0189",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "FIN packet is used to:",
+    "options": [
+      "Terminate connection",
+      "Start communication",
+      "Encrypt data",
+      "Compress data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A FIN (finish) packet is used to terminate a TCP connection, signaling that the sender has no more data to transmit.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0190",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Transport Layer provides:",
+    "options": [
+      "End-to-end delivery",
+      "Node-to-node delivery",
+      "Device-to-device delivery",
+      "Network-to-network delivery"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Transport Layer provides end-to-end delivery of data between applications running on different hosts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0191",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Transport Layer sits between:",
+    "options": [
+      "Network layer and Session layer",
+      "Physical layer and Data link layer",
+      "Application layer and Presentation layer",
+      "Data link layer and Physical layer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Transport Layer sits between the Network Layer (below) and the Session Layer (above) in the OSI model.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0192",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "UDP does not provide:",
+    "options": [
+      "Reliability",
+      "Speed",
+      "Fast communication",
+      "Low overhead"
+    ],
+    "correctAnswer": 0,
+    "explanation": "UDP does not provide reliability - it offers no guarantees of delivery, ordering, or error correction.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0193",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TCP header contains:",
+    "options": [
+      "Port numbers",
+      "Sequence numbers",
+      "Acknowledgment numbers",
+      "All of these"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The TCP header contains port numbers, sequence numbers, and acknowledgment numbers, along with other control information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0194",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Sequence numbers help in:",
+    "options": [
+      "Maintaining correct order of data",
+      "Increasing bandwidth",
+      "Encrypting data",
+      "Compressing files"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sequence numbers help maintain the correct order of data by numbering each segment for proper reassembly at the destination.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0195",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Transport Layer protocols work between:",
+    "options": [
+      "Applications",
+      "Routers",
+      "Switches",
+      "Cables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Transport Layer protocols work between applications (processes) on different hosts, using port numbers to identify them.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0196",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TCP is preferred for:",
+    "options": [
+      "Reliable data transfer",
+      "Fast streaming",
+      "Broadcasting",
+      "Multicasting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TCP is preferred for reliable data transfer where every byte must be delivered correctly, such as file transfers and web browsing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0197",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "UDP is preferred for:",
+    "options": [
+      "Real-time applications",
+      "File transfer",
+      "Email communication",
+      "Secure communication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "UDP is preferred for real-time applications like video streaming and gaming, where low latency is more important than reliability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0198",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main goal of the Transport Layer is:",
+    "options": [
+      "Reliable end-to-end communication between processes",
+      "Routing packets",
+      "Physical transmission of data",
+      "Data encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The main goal of the Transport Layer is reliable end-to-end communication between processes, using port numbers for addressing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0199",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Application Layer is the \tlayer of the OSI model.",
+    "options": [
+      "Fifth",
+      "Sixth",
+      "Seventh",
+      "Fourth"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Application Layer is the seventh (topmost) layer of the OSI model, providing services directly to end users.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0200",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Application Layer provides services directly to:",
+    "options": [
+      "End users",
+      "Routers",
+      "Switches",
+      "Cables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Application Layer provides services directly to end users, enabling interaction with network applications like browsers and email clients.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0201",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which OSI layer interacts with the user?",
+    "options": [
+      "Network Layer",
+      "Application Layer",
+      "Data Link Layer",
+      "Physical Layer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Application Layer interacts directly with the user through software applications like web browsers and email programs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0202",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Application Layer is closest to the:",
+    "options": [
+      "User",
+      "Hardware",
+      "Router",
+      "Switch"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Application Layer is closest to the user, serving as the interface between the user and the network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0203",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which layer provides network services to applications?",
+    "options": [
+      "Transport Layer",
+      "Application Layer",
+      "Physical Layer",
+      "Data Link Layer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Application Layer provides network services to applications, offering protocols for communication, data transfer, and resource sharing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0204",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "HTTP stands for:",
+    "options": [
+      "Hyper Text Transfer Protocol",
+      "High Text Transfer Protocol",
+      "Hyper Terminal Transfer Protocol",
+      "Hyperlink Text Transfer Protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTP stands for Hyper Text Transfer Protocol, the foundation protocol for data communication on the World Wide Web.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0205",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TTP is used for:",
+    "options": [
+      "Web communication",
+      "Email",
+      "File transfer",
+      "Routing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTP is used for web communication, enabling browsers to request and receive web pages from servers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0206",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Default port number for HTTP is:",
+    "options": [
+      "20",
+      "21",
+      "80",
+      "443"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The default port number for HTTP is 80, which is automatically used for web requests when no port is specified.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0207",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Secure version of HTTP is:",
+    "options": [
+      "HTTPS",
+      "SHTTP",
+      "HTTS",
+      "HTCP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPS (HTTP Secure) is the secure version of HTTP, encrypting communication using SSL/TLS.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0208",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "HTTPS uses port:",
+    "options": [
+      "80",
+      "21",
+      "443",
+      "25"
+    ],
+    "correctAnswer": 2,
+    "explanation": "HTTPS uses port 443 for encrypted web communication.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0209",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "FTP stands for:",
+    "options": [
+      "File Transfer Protocol",
+      "Fast Transfer Protocol",
+      "File Transmission Process",
+      "Fast Transmission Process"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FTP stands for File Transfer Protocol, used for transferring files between a client and server.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0210",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "FTP is used to:",
+    "options": [
+      "Transfer files",
+      "Send emails",
+      "Route packets",
+      "Encrypt data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FTP is used to transfer files between computers on a network, supporting upload and download operations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0211",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "FTP uses port number:",
+    "options": [
+      "20 and 21",
+      "80",
+      "25",
+      "53"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FTP uses port 20 for data transfer and port 21 for control commands.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0212",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "FTP works on:",
+    "options": [
+      "Client-server model",
+      "Peer-to-peer",
+      "Broadcast network",
+      "Ring network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FTP works on the client-server model, where clients connect to FTP servers to upload or download files.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0213",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Anonymous FTP allows:",
+    "options": [
+      "Public access without account",
+      "Secure login only",
+      "Router configuration",
+      "Email transfer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Anonymous FTP allows public access to files without requiring a user account or password.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0214",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SMTP stands for:",
+    "options": [
+      "Simple Mail Transfer Protocol",
+      "Secure Mail Transfer Protocol",
+      "System Mail Transfer Protocol",
+      "Standard Mail Transmission Process"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SMTP stands for Simple Mail Transfer Protocol, the standard protocol for sending emails across networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0215",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SMTP is used for:",
+    "options": [
+      "Sending emails",
+      "Receiving emails",
+      "Routing emails",
+      "Encrypting emails"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SMTP is used specifically for sending emails from a client to a server or between mail servers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0216",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Default SMTP port is:",
+    "options": [
+      "25",
+      "21",
+      "80",
+      "53"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The default SMTP port is 25, used for email transmission between mail servers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0217",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "POP3 stands for:",
+    "options": [
+      "Post Office Protocol version 3",
+      "Packet Office Protocol 3",
+      "Private Office Protocol 3",
+      "Post Online Protocol 3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "POP3 stands for Post Office Protocol version 3, used by email clients to retrieve messages from a mail server.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0218",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "POP3 is used to:",
+    "options": [
+      "Retrieve email from server",
+      "Send email",
+      "Route packets",
+      "Encrypt data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "POP3 is used to retrieve (download) email from a mail server to the client device.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0219",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IMAP stands for:",
+    "options": [
+      "Internet Message Access Protocol",
+      "Internet Mail Access Process",
+      "Internal Mail Access Protocol",
+      "Internet Message Authentication Protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IMAP stands for Internet Message Access Protocol, allowing users to access and manage email directly on the server.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0220",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IMAP allows users to:",
+    "options": [
+      "Access email on server",
+      "Send emails only",
+      "Transfer files",
+      "Encrypt emails"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IMAP allows users to access and manage email stored on the server, enabling multi-device email access.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0221",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Default IMAP port number is:",
+    "options": [
+      "143",
+      "25",
+      "21",
+      "80"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The default IMAP port number is 143 for unencrypted connections.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0222",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IMAP is better than POP3 because:",
+    "options": [
+      "Emails remain on server",
+      "Faster routing",
+      "Better encryption",
+      "Smaller packets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IMAP is better than POP3 because emails remain on the server, allowing access from multiple devices simultaneously.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0223",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Secure IMAP uses port:",
+    "options": [
+      "993",
+      "25",
+      "80",
+      "20"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Secure IMAP (IMAPS) uses port 993 with SSL/TLS encryption for secure email access.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0224",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DNS stands for:",
+    "options": [
+      "Domain Name System",
+      "Data Name System",
+      "Domain Network System",
+      "Data Network Service"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNS stands for Domain Name System, which resolves human-readable domain names to IP addresses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0225",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DNS converts:",
+    "options": [
+      "Domain name to IP address",
+      "IP to MAC",
+      "MAC to IP",
+      "Data to packet"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNS converts domain names (like www.google.com) to IP addresses that computers use to locate servers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0226",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DNS uses port number:",
+    "options": [
+      "53",
+      "21",
+      "80",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNS uses port number 53 for both TCP and UDP queries.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0227",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Example of a domain name:",
+    "options": [
+      "www.google.com",
+      "192.168.1.1",
+      "255.255.255.0",
+      "10.0.0.1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "www.google.com is an example of a domain name - a human-readable address that DNS resolves to an IP address.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0228",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DNS servers store:",
+    "options": [
+      "Domain-IP mappings",
+      "Passwords",
+      "Emails",
+      "Files"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNS servers store domain-to-IP mappings in zone files, enabling domain name resolution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0229",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DHCP stands for:",
+    "options": [
+      "Dynamic Host Configuration Protocol",
+      "Data Host Configuration Process",
+      "Dynamic Hardware Configuration Protocol",
+      "Domain Host Communication Protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DHCP stands for Dynamic Host Configuration Protocol, automating network configuration for devices.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0230",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DHCP automatically assigns:",
+    "options": [
+      "IP addresses",
+      "MAC addresses",
+      "Email addresses",
+      "Port numbers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DHCP automatically assigns IP addresses and other network configuration parameters to devices on the network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0231",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DHCP reduces:",
+    "options": [
+      "Manual network configuration",
+      "Network speed",
+      "Data transfer",
+      "Encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DHCP reduces the need for manual network configuration by automatically assigning IP addresses, subnet masks, and gateways.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0232",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DHCP works on:",
+    "options": [
+      "Client-server model",
+      "Peer-to-peer",
+      "Broadcast only",
+      "Token passing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DHCP works on the client-server model, where clients request configuration and servers assign network parameters.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0233",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DHCP uses ports:",
+    "options": [
+      "67 and 68",
+      "20 and 21",
+      "80 and 443",
+      "25 and 110"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DHCP uses port 67 (server) and port 68 (client) for communication.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0234",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Telnet is used for:",
+    "options": [
+      "Remote login",
+      "Email transfer",
+      "File transfer",
+      "DNS resolution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Telnet is used for remote login, allowing users to access and manage remote systems via command line.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0235",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Default port for Telnet is:",
+    "options": [
+      "23",
+      "80",
+      "21",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The default port for Telnet is 23, used for unencrypted remote terminal connections.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0236",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SSH stands for:",
+    "options": [
+      "Secure Shell",
+      "Secure System Host",
+      "System Secure Host",
+      "Shell Security Host"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SSH stands for Secure Shell, providing encrypted remote access and command execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0237",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SSH provides:",
+    "options": [
+      "Secure remote access",
+      "File compression",
+      "Email transfer",
+      "Packet routing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SSH provides secure remote access by encrypting all communication between client and server.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0238",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Default SSH port is:",
+    "options": [
+      "22",
+      "21",
+      "80",
+      "25"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The default SSH port is 22, used for secure remote connections.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0239",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Web browsers use:",
+    "options": [
+      "HTTP",
+      "FTP",
+      "SMTP",
+      "ARP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Web browsers use HTTP (and HTTPS) to request and display web pages from servers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0240",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Email services use:",
+    "options": [
+      "SMTP, POP3, IMAP",
+      "FTP and DNS",
+      "HTTP and ARP",
+      "RIP and OSPF"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Email services use SMTP for sending, and POP3 or IMAP for receiving and accessing emails.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0241",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DNS improves:",
+    "options": [
+      "Internet usability",
+      "Network speed",
+      "Cable quality",
+      "Encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNS improves internet usability by allowing users to access websites using memorable domain names instead of numerical IP addresses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0242",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Application Layer protocols provide:",
+    "options": [
+      "Network services to users",
+      "Routing services",
+      "Data encryption only",
+      "Physical data transmission"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Application Layer protocols provide network services directly to users and applications, enabling communication over the network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0243",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Application Layer protocols include:",
+    "options": [
+      "HTTP",
+      "FTP",
+      "DNS",
+      "All of these"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Application Layer protocols include HTTP (web), FTP (file transfer), DNS (name resolution), and many more - all of these.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0244",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Application Layer is responsible for:",
+    "options": [
+      "User interface to network services",
+      "Packet routing",
+      "Data framing",
+      "Signal transmission"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Application Layer provides the user interface to network services, acting as the bridge between users and the network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0245",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Application Layer protocols are used by:",
+    "options": [
+      "Software applications",
+      "Routers",
+      "Switches",
+      "Network cables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Application Layer protocols are used by software applications to communicate over the network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0246",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Example of Application Layer service:",
+    "options": [
+      "Web browsing",
+      "Packet forwarding",
+      "Signal transmission",
+      "Framing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Web browsing is an example of an Application Layer service, using HTTP to request and display web content.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0247",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Email communication requires:",
+    "options": [
+      "SMTP and POP3/IMAP",
+      "HTTP and FTP",
+      "RIP and OSPF",
+      "ARP and RARP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Email communication requires SMTP for sending and POP3/IMAP for receiving, all operating at the Application Layer.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0248",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main goal of the Application Layer is:",
+    "options": [
+      "Provide network services directly to applications and users",
+      "Route packets",
+      "Detect errors",
+      "Control hardware"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The main goal of the Application Layer is to provide network services directly to applications and end users.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0249",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Wireless Networks) Which IEEE standard defines Wi-Fi networks?",
+    "options": [
+      "IEEE 802.3",
+      "IEEE 802.11",
+      "IEEE 802.15",
+      "IEEE 802.16"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IEEE 802.11 defines Wi-Fi (wireless LAN) network standards, specifying protocols for wireless communication.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0250",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which frequency bands are commonly used by Wi-Fi?",
+    "options": [
+      "1 GHz and 2 GHz",
+      "2.4 GHz and 5 GHz",
+      "900 MHz only",
+      "10 GHz"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Wi-Fi commonly uses 2.4 GHz and 5 GHz frequency bands, with newer standards also supporting 6 GHz.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0251",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Bluetooth technology is based on which IEEE standard?",
+    "options": [
+      "802.15",
+      "802.11",
+      "802.16",
+      "802.3"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bluetooth technology is based on IEEE 802.15 standard, designed for short-range wireless personal area networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0252",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which wireless network type covers the smallest area?",
+    "options": [
+      "WLAN",
+      "WPAN",
+      "WMAN",
+      "WWAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "WPAN (Wireless Personal Area Network) covers the smallest area, typically within a few meters using Bluetooth or similar technologies.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0253",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocol is used by Wi-Fi for medium access?",
+    "options": [
+      "CSMA/CD",
+      "CSMA/CA",
+      "TDMA",
+      "FDMA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Wi-Fi uses CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) for medium access control in wireless networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0254",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device connects wireless users to a wired LAN?",
+    "options": [
+      "Router",
+      "Access Point",
+      "Switch",
+      "Repeater"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An Access Point (AP) connects wireless users to a wired LAN, acting as a bridge between wireless and wired networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0255",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "WiMAX is defined by which IEEE standard?",
+    "options": [
+      "802.16",
+      "802.11",
+      "802.3",
+      "802.5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WiMAX is defined by IEEE 802.16, providing broadband wireless access over metropolitan area distances.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0256",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "ZigBee is mainly designed for:",
+    "options": [
+      "High speed multimedia",
+      "IoT and sensor networks",
+      "Satellite communication",
+      "Optical networking"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ZigBee is mainly designed for IoT and sensor networks, offering low-power, low-data-rate wireless communication.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0257",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The coverage region of a base station is called:",
+    "options": [
+      "Cluster",
+      "Node",
+      "Cell",
+      "Sector"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The coverage region of a base station in cellular networks is called a cell, with multiple cells forming the network coverage area.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0258",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Movement of a mobile device between cells is called:",
+    "options": [
+      "Roaming",
+      "Routing",
+      "Switching",
+      "Fragmentation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Roaming is the movement of a mobile device between cells while maintaining connectivity to the network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0259",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Transfer of connection between cells is called:",
+    "options": [
+      "Handoff",
+      "Broadcast",
+      "Encryption",
+      "Multiplexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Handoff (or handover) is the transfer of an active connection from one cell to another as a mobile device moves.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0260",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "LTE is associated with which generation?",
+    "options": [
+      "2G",
+      "3G",
+      "4G",
+      "1G"
+    ],
+    "correctAnswer": 2,
+    "explanation": "LTE (Long Term Evolution) is associated with 4G cellular technology, providing high-speed mobile broadband.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0261",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Spread spectrum improves:",
+    "options": [
+      "Security and interference resistance",
+      "Packet delay",
+      "Storage",
+      "Power usage"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Spread spectrum improves security and interference resistance by spreading signals across a wide frequency band.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0262",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Typical Bluetooth range is approximately:",
+    "options": [
+      "10 meters",
+      "1 km",
+      "100 km",
+      "500 meters"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Typical Bluetooth range is approximately 10 meters (Class 2), suitable for personal area networking.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0263",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Wi-Fi 6 corresponds to:",
+    "options": [
+      "802.11g",
+      "802.11n",
+      "802.11ac",
+      "802.11ax"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Wi-Fi 6 corresponds to IEEE 802.11ax, offering improved performance in dense environments with features like OFDMA and MU-MIMO.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0264",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "OFDM stands for:",
+    "options": [
+      "Orthogonal Frequency Division Multiplexing",
+      "Optical Frequency Division Method",
+      "Open Frequency Division Method",
+      "Orthogonal Frame Division Method"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OFDM stands for Orthogonal Frequency Division Multiplexing, a modulation technique that divides a channel into multiple orthogonal subcarriers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0265",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "An ad-hoc wireless network:",
+    "options": [
+      "Uses a central router",
+      "Requires satellite",
+      "Has no fixed infrastructure",
+      "Works only with fiber"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An ad-hoc wireless network has no fixed infrastructure - devices communicate directly with each other without access points.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0266",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "RSSI measures:",
+    "options": [
+      "Data speed",
+      "Signal strength",
+      "Latency",
+      "Packet size"
+    ],
+    "correctAnswer": 1,
+    "explanation": "RSSI (Received Signal Strength Indicator) measures signal strength, indicating the power level of a received wireless signal.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0267",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which problem occurs when nodes cannot detect each other's transmission?",
+    "options": [
+      "Hidden node problem",
+      "Broadcast storm",
+      "Routing loop",
+      "Fragmentation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The hidden node problem occurs when two nodes cannot detect each other's transmissions, leading to collisions at a shared receiver.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0268",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "MIMO technology improves:",
+    "options": [
+      "Bandwidth and throughput",
+      "Battery usage",
+      "Cable length",
+      "Storage capacity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MIMO (Multiple Input Multiple Output) uses multiple antennas to improve bandwidth and throughput in wireless communications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0269",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "NFC communication range is typically:",
+    "options": [
+      "Few centimeters",
+      "10 km",
+      "100 m",
+      "1 km"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NFC (Near Field Communication) has a range of typically a few centimeters (up to 10 cm), used for contactless payments and data exchange.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0270",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Beacon frames are used for:",
+    "options": [
+      "Network synchronization",
+      "Encryption",
+      "Routing",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Beacon frames are used for network synchronization in Wi-Fi, advertising the network's presence and providing timing information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0271",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DSSS stands for:",
+    "options": [
+      "Direct Sequence Spread Spectrum",
+      "Dynamic Signal Spread System",
+      "Distributed Signal Switching System",
+      "Data Spread Spectrum System"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DSSS stands for Direct Sequence Spread Spectrum, a spread spectrum technique that spreads data over a wider bandwidth for noise resistance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0272",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which network supports self-healing paths?",
+    "options": [
+      "Mesh network",
+      "Bus network",
+      "Star network",
+      "Ring network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mesh networks support self-healing paths, automatically rerouting traffic if a node fails, providing high reliability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0273",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Multipath fading occurs due to:",
+    "options": [
+      "Multiple signal reflections",
+      "Packet encryption",
+      "Routing loops",
+      "Hardware failure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multipath fading occurs due to multiple signal reflections off buildings, terrain, and other objects, causing signal variations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0274",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Wi-Fi hotspot provides:",
+    "options": [
+      "Wireless internet access",
+      "Satellite connectivity",
+      "Optical networking",
+      "Cable routing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Wi-Fi hotspot provides wireless internet access in a specific location, connecting devices to the internet wirelessly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0275",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IEEE 802.11g maximum theoretical speed:",
+    "options": [
+      "11 Mbps",
+      "54 Mbps",
+      "100 Mbps",
+      "600 Mbps"
+    ],
+    "correctAnswer": 1,
+    "explanation": "IEEE 802.11g has a maximum theoretical speed of 54 Mbps, operating in the 2.4 GHz frequency band.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0276",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Channel bonding increases:",
+    "options": [
+      "Bandwidth",
+      "Packet loss",
+      "Interference",
+      "Power consumption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Channel bonding increases bandwidth by combining adjacent channels into a wider channel for higher throughput.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0277",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique allows multiple users to share a channel?",
+    "options": [
+      "Multiplexing",
+      "Routing",
+      "Encryption",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiplexing allows multiple users to share a single communication channel by dividing it in time, frequency, or code domains.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0278",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "ZigBee is known for:",
+    "options": [
+      "Low power consumption",
+      "High speed video",
+      "Large bandwidth",
+      "Satellite communication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ZigBee is known for its low power consumption, making it ideal for battery-powered IoT sensors and devices.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0279",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In wireless communication, interference mainly affects:",
+    "options": [
+      "Signal quality",
+      "File storage",
+      "Disk speed",
+      "Printer performance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In wireless communication, interference mainly affects signal quality, causing errors, reduced throughput, and degraded performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0280",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cloud computing provides services over:",
+    "options": [
+      "Internet",
+      "USB",
+      "LAN only",
+      "Satellite only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cloud computing provides on-demand computing services (servers, storage, applications) delivered over the Internet.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0281",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IaaS stands for:",
+    "options": [
+      "Infrastructure as a Service",
+      "Internet as a Service",
+      "Integration as a Service",
+      "Instance as a Service"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IaaS (Infrastructure as a Service) provides virtualized computing resources like servers, storage, and networking over the internet.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0282",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "PaaS mainly provides:",
+    "options": [
+      "Development platform",
+      "Network cables",
+      "Physical routers",
+      "Operating systems only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PaaS (Platform as a Service) provides a development platform with tools, libraries, and runtime environments for building applications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0283",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SaaS delivers:",
+    "options": [
+      "Software applications online",
+      "Hardware devices",
+      "Network switches",
+      "Optical fibers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SaaS (Software as a Service) delivers complete software applications online, accessible through a web browser.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0284",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which company provides major cloud services?",
+    "options": [
+      "Amazon",
+      "Intel",
+      "Cisco",
+      "Oracle hardware"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amazon (through AWS - Amazon Web Services) is one of the largest cloud service providers globally.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0285",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Virtualization allows:",
+    "options": [
+      "Multiple VMs on one machine",
+      "Only one OS per machine",
+      "Hardware removal",
+      "No operating system"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Virtualization allows running multiple virtual machines on a single physical server, maximizing hardware utilization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0286",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Hypervisor is used to:",
+    "options": [
+      "Manage virtual machines",
+      "Encrypt files",
+      "Compress data",
+      "Route packets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hypervisor manages virtual machines by allocating hardware resources and isolating each VM's operating environment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0287",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Google Docs is example of:",
+    "options": [
+      "SaaS",
+      "IaaS",
+      "PaaS",
+      "DaaS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Google Docs is an example of SaaS, as it delivers a complete word processing application through the web browser.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0288",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cloud scalability refers to:",
+    "options": [
+      "Ability to increase resources",
+      "Removing security",
+      "Increasing latency",
+      "Decreasing reliability"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cloud scalability refers to the ability to increase or decrease computing resources as demand changes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0289",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Elasticity means:",
+    "options": [
+      "Automatic scaling of resources",
+      "Manual hardware upgrade",
+      "Slower network",
+      "Reduced storage"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elasticity in cloud computing means resources automatically scale up or down based on current demand without manual intervention.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0290",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a primary characteristic of cloud computing?",
+    "options": [
+      "Limited scalability",
+      "On-demand self-service",
+      "Dedicated hardware ownership",
+      "Manual provisioning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "On-demand self-service is a primary characteristic of cloud computing, allowing users to provision resources without human interaction with the provider.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0291",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which cloud service model provides virtual machines, storage, and networking resources?",
+    "options": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "DaaS"
+    ],
+    "correctAnswer": 2,
+    "explanation": "IaaS (Infrastructure as a Service) provides virtual machines, storage, and networking resources for users to manage.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0292",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which deployment model is operated solely for a single organization?",
+    "options": [
+      "Public Cloud",
+      "Private Cloud",
+      "Hybrid Cloud",
+      "Community Cloud"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A private cloud is operated solely for a single organization, providing dedicated infrastructure and enhanced security.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0293",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which organization developed the widely accepted definition of cloud computing?",
+    "options": [
+      "IEEE",
+      "NIST",
+      "ISO",
+      "ITU"
+    ],
+    "correctAnswer": 1,
+    "explanation": "NIST (National Institute of Standards and Technology) developed the widely accepted definition and characteristics of cloud computing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0294",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which cloud service model provides a ready-to-use application over the internet?",
+    "options": [
+      "SaaS",
+      "IaaS",
+      "PaaS",
+      "NaaS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SaaS (Software as a Service) provides ready-to-use applications over the internet, like Gmail or Microsoft 365.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0295",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technology is primarily used to enable virtualization in cloud computing?",
+    "options": [
+      "Hypervisor",
+      "Compiler",
+      "Assembler",
+      "Interpreter"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hypervisor is the primary technology used to enable virtualization, managing the creation and operation of virtual machines.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0296",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is an example of a public cloud provider?",
+    "options": [
+      "Microsoft Azure",
+      "Private Datacenter",
+      "Local Server",
+      "Personal Computer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Microsoft Azure is a major public cloud provider, offering IaaS, PaaS, and SaaS services to organizations worldwide.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0297",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which feature allows cloud resources to automatically scale up or down?",
+    "options": [
+      "Elasticity",
+      "Encryption",
+      "Authentication",
+      "Replication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Elasticity allows cloud resources to automatically scale up during high demand and scale down during low demand.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0298",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which cloud model combines public and private clouds?",
+    "options": [
+      "Hybrid Cloud",
+      "Private Cloud",
+      "Community Cloud",
+      "Edge Cloud"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hybrid cloud combines public and private clouds, allowing data and applications to move between them for flexibility.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0299",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which storage service stores unstructured data in the cloud?",
+    "options": [
+      "Block Storage",
+      "Object Storage",
+      "File Storage",
+      "Local Storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Object storage stores unstructured data (like images, videos, backups) as objects with metadata, ideal for cloud scalability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0300",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The CIA triad includes:",
+    "options": [
+      "Confidentiality Integrity Availability",
+      "Control Internet Access",
+      "Centralized Information Access",
+      "Communication Integrity Algorithm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The CIA triad consists of Confidentiality, Integrity, and Availability - the three fundamental pillars of information security.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0301",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Encryption converts:",
+    "options": [
+      "Plaintext to ciphertext",
+      "Ciphertext to plaintext",
+      "Packets to frames",
+      "Frames to bits"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Encryption converts plaintext (readable data) to ciphertext (scrambled data) using an algorithm and key to protect confidentiality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0302",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "AES is:",
+    "options": [
+      "Symmetric encryption algorithm",
+      "Hash function",
+      "Routing protocol",
+      "Compression algorithm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AES (Advanced Encryption Standard) is a symmetric encryption algorithm widely used for securing sensitive data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0303",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "RSA is:",
+    "options": [
+      "Asymmetric encryption",
+      "Symmetric encryption",
+      "Hashing method",
+      "Firewall rule"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RSA is an asymmetric encryption algorithm that uses a public key for encryption and a private key for decryption.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0304",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Firewall is used to:",
+    "options": [
+      "Control network traffic",
+      "Compress data",
+      "Store files",
+      "Increase bandwidth"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A firewall controls network traffic by filtering packets based on security rules, protecting networks from unauthorized access.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0305",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IDS stands for:",
+    "options": [
+      "Intrusion Detection System",
+      "Internet Data Server",
+      "Internal Device Service",
+      "Integrated Data System"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IDS stands for Intrusion Detection System, which monitors network traffic for suspicious activities and potential threats.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0306",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "VPN provides:",
+    "options": [
+      "Secure remote access",
+      "Faster CPU",
+      "Disk storage",
+      "Wireless coverage"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A VPN (Virtual Private Network) provides secure remote access by creating an encrypted tunnel over a public network.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0307",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Phishing attack attempts to:",
+    "options": [
+      "Steal sensitive information",
+      "Increase bandwidth",
+      "Improve encryption",
+      "Fix vulnerabilities"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Phishing attacks attempt to steal sensitive information by impersonating trusted entities through fraudulent emails or websites.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0308",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Malware includes:",
+    "options": [
+      "Virus worm trojan",
+      "Router switch hub",
+      "HTML CSS JS",
+      "LAN MAN WAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Malware includes viruses, worms, and trojans - malicious software designed to damage, disrupt, or gain unauthorized access.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0309",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DDoS attack aims to:",
+    "options": [
+      "Overload service",
+      "Improve routing",
+      "Encrypt files",
+      "Authenticate users"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A DDoS (Distributed Denial of Service) attack aims to overload a service by flooding it with massive traffic from multiple sources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0310",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "HTTPS provides security using:",
+    "options": [
+      "TLS/SSL encryption",
+      "FTP protocol",
+      "SMTP protocol",
+      "Telnet"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HTTPS provides security using TLS/SSL encryption, ensuring confidentiality and integrity of data transmitted between client and server.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0311",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "NGN stands for:",
+    "options": [
+      "Next Generation Network",
+      "Network Global Node",
+      "New Grid Network",
+      "Node Generation Network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NGN stands for Next Generation Network, a packet-based network architecture for multimedia services.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0312",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "NGN is primarily based on:",
+    "options": [
+      "IP technology",
+      "Analog switching",
+      "Circuit switching only",
+      "Satellite only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NGN is primarily based on IP technology, using packet switching to converge voice, data, and multimedia services.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0313",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "VoIP means:",
+    "options": [
+      "Voice over Internet Protocol",
+      "Video over Internet Port",
+      "Voice Optical Interface",
+      "Virtual Output IP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VoIP (Voice over Internet Protocol) transmits voice communications over IP networks instead of traditional telephone lines.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0314",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SIP protocol is used for:",
+    "options": [
+      "Session initiation",
+      "Data compression",
+      "Packet filtering",
+      "Encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SIP (Session Initiation Protocol) is used for initiating, maintaining, and terminating multimedia sessions like voice and video calls.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0315",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IMS stands for:",
+    "options": [
+      "IP Multimedia Subsystem",
+      "Internet Messaging Server",
+      "Integrated Mobile System",
+      "Intelligent Management Server"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IMS stands for IP Multimedia Subsystem, an architectural framework for delivering multimedia services over IP networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0316",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "5G networks provide:",
+    "options": [
+      "High speed and low latency",
+      "Only voice calls",
+      "No internet",
+      "Satellite only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "5G networks provide high speed (up to 10 Gbps) and ultra-low latency, enabling applications like IoT and autonomous vehicles.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0317",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Network slicing is mainly used in:",
+    "options": [
+      "5G networks",
+      "2G networks",
+      "Ethernet LAN",
+      "DSL networks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Network slicing is mainly used in 5G networks, creating multiple virtual networks on shared physical infrastructure for different services.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0318",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which security goal ensures that information is not disclosed to unauthorized users?",
+    "options": [
+      "Integrity",
+      "Confidentiality",
+      "Availability",
+      "Authentication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Confidentiality ensures that information is not disclosed to unauthorized users, protecting data privacy through encryption and access control.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0319",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which security goal ensures that data is accurate and not modified?",
+    "options": [
+      "Integrity",
+      "Confidentiality",
+      "Availability",
+      "Authorization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Integrity ensures that data remains accurate, complete, and unmodified during storage and transmission.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0320",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of attack attempts to make a service unavailable to users?",
+    "options": [
+      "Phishing",
+      "DoS Attack",
+      "Man-in-the-middle",
+      "Spoofing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A DoS (Denial of Service) attack attempts to make a service unavailable by overwhelming it with traffic or exploiting vulnerabilities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0321",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocol is commonly used to securely browse websites?",
+    "options": [
+      "HTTP",
+      "FTP",
+      "HTTPS",
+      "SMTP"
+    ],
+    "correctAnswer": 2,
+    "explanation": "HTTPS (HTTP Secure) is the protocol used to securely browse websites, encrypting communication with TLS/SSL.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0322",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique hides the content of a message to protect it from unauthorized access?",
+    "options": [
+      "Compression",
+      "Encryption",
+      "Fragmentation",
+      "Encoding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Encryption hides the content of a message by converting it to an unreadable format, protecting it from unauthorized access.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0323",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of malware replicates itself without attaching to other programs?",
+    "options": [
+      "Worm",
+      "Trojan",
+      "Virus",
+      "Spyware"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A worm replicates itself independently without attaching to other programs, spreading across networks automatically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0324",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which authentication method uses two different verification factors?",
+    "options": [
+      "Single-factor authentication",
+      "Multi-factor authentication",
+      "Password authentication",
+      "Token authentication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Multi-factor authentication uses two or more different verification factors (something you know, have, or are) for stronger security.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0325",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which network device monitors and filters incoming and outgoing network traffic based on security rules?",
+    "options": [
+      "Router",
+      "Switch",
+      "Firewall",
+      "Repeater"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A firewall monitors and filters incoming and outgoing network traffic based on predefined security rules.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0326",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which attack involves intercepting communication between two parties?",
+    "options": [
+      "Man-in-the-middle attack",
+      "DoS attack",
+      "Brute force attack",
+      "Dictionary attack"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A man-in-the-middle attack involves an attacker intercepting communication between two parties to eavesdrop or alter messages.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0327",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocol is used for secure remote login to servers?",
+    "options": [
+      "Telnet",
+      "SSH",
+      "FTP",
+      "SNMP"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SSH (Secure Shell) is used for secure remote login to servers, providing encrypted command-line access.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0328",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which attack involves sending fraudulent emails to trick users into revealing sensitive information?",
+    "options": [
+      "Phishing",
+      "Sniffing",
+      "Spoofing",
+      "Injection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Phishing involves sending fraudulent emails that appear legitimate to trick users into revealing sensitive information like passwords.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0329",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method ensures that a user cannot deny performing a specific action?",
+    "options": [
+      "Authentication",
+      "Authorization",
+      "Non-repudiation",
+      "Confidentiality"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Non-repudiation ensures that a user cannot deny performing a specific action, typically achieved through digital signatures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0330",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which network security technique monitors traffic to detect suspicious activities?",
+    "options": [
+      "IDS",
+      "DHCP",
+      "DNS",
+      "NAT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An IDS (Intrusion Detection System) monitors network traffic to detect suspicious activities and potential security threats.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0331",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which encryption uses the same key for encryption and decryption?",
+    "options": [
+      "Asymmetric encryption",
+      "Symmetric encryption",
+      "Hashing",
+      "Digital signature"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Symmetric encryption uses the same key for both encryption and decryption, offering fast performance for large data volumes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0332",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which encryption uses two different keys (public and private)?",
+    "options": [
+      "Symmetric encryption",
+      "Asymmetric encryption",
+      "Hashing",
+      "Encoding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Asymmetric encryption uses two different keys - a public key for encryption and a private key for decryption.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0333",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocol secures email transmission?",
+    "options": [
+      "SMTP",
+      "POP3",
+      "S/MIME",
+      "FTP"
+    ],
+    "correctAnswer": 2,
+    "explanation": "S/MIME (Secure/Multipurpose Internet Mail Extensions) secures email transmission with encryption and digital signatures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0334",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of firewall filters traffic based on IP addresses and ports?",
+    "options": [
+      "Packet filtering firewall",
+      "Proxy firewall",
+      "Application firewall",
+      "Stateful firewall"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A packet filtering firewall examines packet headers and filters traffic based on IP addresses, port numbers, and protocols.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0335",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which attack involves guessing passwords by systematically trying all possibilities?",
+    "options": [
+      "Phishing",
+      "Brute force attack",
+      "DoS attack",
+      "Spoofing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A brute force attack systematically tries all possible password combinations until the correct one is found.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0336",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which security technique converts data into a fixed-length string for integrity verification?",
+    "options": [
+      "Encryption",
+      "Hashing",
+      "Encoding",
+      "Compression"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hashing converts data into a fixed-length string (hash) for integrity verification; any change in data produces a different hash.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cn-cloud-0337",
+    "subjectId": "uni-cn-cloud",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocol provides network-layer security for IP communications?",
+    "options": [
+      "SSL",
+      "TLS",
+      "IPSec",
+      "SSH"
+    ],
+    "correctAnswer": 2,
+    "explanation": "IPSec (Internet Protocol Security) provides network-layer security for IP communications through authentication and encryption.",
+    "source": "university"
+  }
+]

@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "uni-os-0001",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of process scheduling in an operating system?",
+    "options": [
+      "Cache management",
+      "Linked file allocation",
+      "Thread management",
+      "Context switching"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Process scheduling manages the allocation of CPU time to various processes, maximizing CPU utilization and ensuring fair execution of all processes in the system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0002",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of CPU scheduling?",
+    "options": [
+      "Virtual memory management",
+      "Page replacement",
+      "Priority scheduling",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CPU scheduling determines which process runs on the CPU at any given time, using algorithms like Priority, Round Robin, or SJF to optimize CPU utilization and response time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0003",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does context switching mainly attempt to solve?",
+    "options": [
+      "Linked file allocation",
+      "Priority scheduling",
+      "Resource allocation",
+      "CPU utilization"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Context switching saves and restores the state of a process so the CPU can switch between processes, enabling multitasking and efficient CPU utilization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0004",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is process states important?",
+    "options": [
+      "Interrupt handling",
+      "Resource allocation",
+      "Mutex locking",
+      "Indexed file allocation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Process states (new, ready, running, waiting, terminated) help the OS track and manage resource allocation for each process throughout its lifecycle.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0005",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of inter-process communication?",
+    "options": [
+      "Device management",
+      "Round robin scheduling",
+      "Shortest job first scheduling",
+      "Process scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inter-process communication (IPC) enables processes to exchange data and synchronize their actions, which is essential for coordinating cooperating processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0006",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through deadlock detection?",
+    "options": [
+      "Process synchronization",
+      "Context switching",
+      "Disk scheduling",
+      "Critical section control"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deadlock detection identifies situations where processes are permanently blocked waiting for resources held by each other, enabling the system to take corrective action.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0007",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires deadlock prevention?",
+    "options": [
+      "Disk scheduling",
+      "Deadlock detection",
+      "Resource allocation",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Deadlock prevention ensures at least one of the four necessary conditions for deadlock (mutual exclusion, hold and wait, no preemption, circular wait) cannot occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0008",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by deadlock avoidance?",
+    "options": [
+      "Round robin scheduling",
+      "Page replacement",
+      "Critical section control",
+      "Process synchronization"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Deadlock avoidance dynamically examines resource allocation state to ensure the system never enters an unsafe state, preventing deadlocks before they occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0009",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of Banker's algorithm?",
+    "options": [
+      "Mutex locking",
+      "Context switching",
+      "Cache management",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Banker's algorithm is a deadlock avoidance method that checks whether granting a resource request will leave the system in a safe state before allocating resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0010",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using race condition?",
+    "options": [
+      "Indexed file allocation",
+      "Thread management",
+      "Mutex locking",
+      "Page replacement"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A race condition occurs when multiple processes access shared data concurrently, and the outcome depends on the execution order. Mutex locks and synchronization primitives prevent this.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0011",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of critical section in an operating system?",
+    "options": [
+      "Context switching",
+      "Indexed file allocation",
+      "Virtual memory management",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A critical section is a code segment that accesses shared resources and must be executed by only one process at a time, requiring mutual exclusion mechanisms like mutex locks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0012",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of process synchronization?",
+    "options": [
+      "Context switching",
+      "Process scheduling",
+      "Thread management",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Process synchronization coordinates the execution of processes to ensure correct operation when accessing shared resources, using mechanisms like semaphores and mutexes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0013",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does semaphores mainly attempt to solve?",
+    "options": [
+      "Priority scheduling",
+      "Deadlock prevention",
+      "Cache management",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Semaphores are synchronization tools that use integer variables to control access to shared resources, solving critical section problems and coordinating process execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0014",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is mutex locks important?",
+    "options": [
+      "Semaphore synchronization",
+      "Disk scheduling",
+      "Memory management",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mutex (mutual exclusion) locks ensure that only one process can access a critical section at a time, preventing race conditions and maintaining data consistency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0015",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of monitors?",
+    "options": [
+      "Memory management",
+      "Page replacement",
+      "Mutex locking",
+      "Deadlock prevention"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Monitors are high-level synchronization constructs that encapsulate shared data and procedures, providing a structured approach to process synchronization and mutual exclusion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0016",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through multithreading?",
+    "options": [
+      "Linked file allocation",
+      "Inter-process communication",
+      "Mutex locking",
+      "Context switching"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Multithreading allows a process to have multiple threads of execution running concurrently, improving CPU utilization and application responsiveness.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0017",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires kernel threads?",
+    "options": [
+      "Semaphore synchronization",
+      "Mutex locking",
+      "Cache management",
+      "Indexed file allocation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kernel threads are managed by the operating system kernel, enabling true parallelism on multiprocessor systems and better CPU utilization for concurrent tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0018",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by user threads?",
+    "options": [
+      "Demand paging",
+      "Memory management",
+      "Resource allocation",
+      "Critical section control"
+    ],
+    "correctAnswer": 2,
+    "explanation": "User threads are managed in user space without kernel involvement, offering lightweight thread management with faster creation and context switching.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0019",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of thread scheduling?",
+    "options": [
+      "Mutex locking",
+      "Thread management",
+      "Semaphore synchronization",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Thread scheduling determines the order and duration of thread execution on the CPU, managing thread states and transitions to optimize system throughput.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0020",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using virtual memory?",
+    "options": [
+      "Device management",
+      "CPU utilization",
+      "Virtual memory management",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Virtual memory extends available memory by using disk space as an extension of RAM, allowing processes to use more memory than physically available.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0021",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of paging in an operating system?",
+    "options": [
+      "Critical section control",
+      "Resource allocation",
+      "Page replacement",
+      "File system management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Paging divides physical memory into fixed-size frames and logical memory into pages of the same size, enabling non-contiguous memory allocation and efficient memory management.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0022",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of segmentation?",
+    "options": [
+      "Page replacement",
+      "Process scheduling",
+      "Context switching",
+      "Memory management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Segmentation divides memory into variable-size segments based on logical divisions of a program, supporting the user view of memory organization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0023",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does demand paging mainly attempt to solve?",
+    "options": [
+      "Semaphore synchronization",
+      "Context switching",
+      "Disk scheduling",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Demand paging loads pages into memory only when they are needed (on demand), reducing memory usage and initial load time by avoiding loading unused pages.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0024",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is page replacement important?",
+    "options": [
+      "Deadlock detection",
+      "Virtual memory management",
+      "Context switching",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Page replacement algorithms select which memory pages to swap out when new pages need to be loaded, optimizing virtual memory management and minimizing page faults.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0025",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of LRU algorithm?",
+    "options": [
+      "Deadlock detection",
+      "Round robin scheduling",
+      "File system management",
+      "Indexed file allocation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "LRU (Least Recently Used) is a page replacement algorithm that evicts the page that has not been used for the longest time, approximating optimal page replacement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0026",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through FIFO algorithm?",
+    "options": [
+      "Memory management",
+      "Cache management",
+      "Thread management",
+      "Page replacement"
+    ],
+    "correctAnswer": 3,
+    "explanation": "FIFO (First In, First Out) is a simple page replacement algorithm that evicts the oldest page in memory, though it may suffer from Belady's anomaly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0027",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires optimal page replacement?",
+    "options": [
+      "Priority scheduling",
+      "Critical section control",
+      "Shortest job first scheduling",
+      "Linked file allocation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Optimal page replacement evicts the page that will not be used for the longest period in the future, providing the theoretical best performance for comparison.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0028",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by thrashing?",
+    "options": [
+      "Demand paging",
+      "Resource allocation",
+      "Semaphore synchronization",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Thrashing occurs when a system spends more time swapping pages between memory and disk than executing processes, severely degrading performance due to insufficient memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0029",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of working set model?",
+    "options": [
+      "File system management",
+      "Thread management",
+      "Shortest job first scheduling",
+      "Context switching"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The working set model tracks the set of pages a process is actively using to determine optimal memory allocation, helping prevent thrashing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0030",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using memory management?",
+    "options": [
+      "Resource allocation",
+      "Shortest job first scheduling",
+      "Semaphore synchronization",
+      "Thread management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Memory management handles allocation and deallocation of memory space to processes, ensuring efficient use of RAM through techniques like paging and virtual memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0031",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of internal fragmentation in an operating system?",
+    "options": [
+      "Round robin scheduling",
+      "Linked file allocation",
+      "Interrupt handling",
+      "Disk scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Internal fragmentation occurs when allocated memory blocks are slightly larger than requested, wasting space within allocated regions in fixed-size allocation schemes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0032",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of external fragmentation?",
+    "options": [
+      "Resource allocation",
+      "File system management",
+      "Shortest job first scheduling",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "External fragmentation occurs when free memory is scattered in small non-contiguous blocks, making it difficult to allocate large contiguous memory regions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0033",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does disk scheduling mainly attempt to solve?",
+    "options": [
+      "File system management",
+      "CPU utilization",
+      "Critical section control",
+      "Page replacement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Disk scheduling algorithms determine the order in which disk I/O requests are processed, optimizing seek time and improving overall disk access performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0034",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is SCAN algorithm important?",
+    "options": [
+      "Process scheduling",
+      "Cache management",
+      "Priority scheduling",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The SCAN (elevator) algorithm moves the disk arm in one direction servicing requests, then reverses, providing fair access and preventing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0035",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of C-SCAN algorithm?",
+    "options": [
+      "Priority scheduling",
+      "Linked file allocation",
+      "Mutex locking",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "C-SCAN (Circular SCAN) moves the disk arm in one direction only, jumping back to the beginning after reaching the end, providing more uniform wait times than SCAN.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0036",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through SSTF scheduling?",
+    "options": [
+      "Mutex locking",
+      "Inter-process communication",
+      "Thread management",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SSTF (Shortest Seek Time First) scheduling selects the disk request closest to the current head position, minimizing seek time but potentially causing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0037",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires file system?",
+    "options": [
+      "Mutex locking",
+      "Inter-process communication",
+      "Shortest job first scheduling",
+      "Page replacement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The file system organizes and manages how data is stored and retrieved on storage devices, providing hierarchical structure and access control.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0038",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by file allocation?",
+    "options": [
+      "Semaphore synchronization",
+      "Indexed file allocation",
+      "Deadlock detection",
+      "Resource allocation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "File allocation methods (contiguous, linked, indexed) determine how file data blocks are organized on disk, affecting access speed and storage efficiency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0039",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of indexed allocation?",
+    "options": [
+      "Context switching",
+      "Resource allocation",
+      "Deadlock prevention",
+      "Demand paging"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Indexed allocation uses an index block to store pointers to all data blocks of a file, supporting both sequential and direct access without external fragmentation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0040",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using linked allocation?",
+    "options": [
+      "Linked file allocation",
+      "Semaphore synchronization",
+      "Page replacement",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Linked allocation stores files as linked lists of disk blocks, eliminating external fragmentation and allowing files to grow dynamically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0041",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of inode in an operating system?",
+    "options": [
+      "Process scheduling",
+      "Context switching",
+      "Page replacement",
+      "Critical section control"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An inode (index node) is a data structure that stores file metadata and pointers to data blocks, serving as the fundamental file identification mechanism in Unix-like systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0042",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of file descriptors?",
+    "options": [
+      "Demand paging",
+      "Mutex locking",
+      "Memory management",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "File descriptors are integer handles that uniquely identify open files within a process, enabling the OS to manage and track file access operations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0043",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does I/O buffering mainly attempt to solve?",
+    "options": [
+      "Priority scheduling",
+      "Inter-process communication",
+      "File system management",
+      "Page replacement"
+    ],
+    "correctAnswer": 2,
+    "explanation": "I/O buffering temporarily stores data during transfer between devices and memory, smoothing speed differences between devices and improving overall system performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0044",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is spooling important?",
+    "options": [
+      "Interrupt handling",
+      "Demand paging",
+      "Disk scheduling",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Spooling (Simultaneous Peripheral Operations On-Line) buffers data for slow devices like printers, allowing the CPU to continue processing while I/O completes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0045",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of interrupts?",
+    "options": [
+      "Resource allocation",
+      "Round robin scheduling",
+      "Demand paging",
+      "Interrupt handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Interrupts signal the CPU to pause current execution and handle urgent events, enabling efficient device management and responsive I/O handling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0046",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through system calls?",
+    "options": [
+      "Inter-process communication",
+      "Process synchronization",
+      "Mutex locking",
+      "Demand paging"
+    ],
+    "correctAnswer": 0,
+    "explanation": "System calls provide an interface between user programs and the operating system kernel, allowing controlled access to hardware and system services.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0047",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires kernel mode?",
+    "options": [
+      "Deadlock detection",
+      "CPU utilization",
+      "Thread management",
+      "Resource allocation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kernel mode grants full access to hardware and system resources, enabling the OS to execute privileged instructions for resource management and protection.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0048",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by user mode?",
+    "options": [
+      "Device management",
+      "Deadlock detection",
+      "Linked file allocation",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "User mode restricts direct hardware access, protecting the system from erroneous or malicious user programs while allowing normal application execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0049",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of microkernel?",
+    "options": [
+      "Deadlock prevention",
+      "Virtual memory management",
+      "Resource allocation",
+      "Context switching"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A microkernel provides minimal core OS services (IPC, basic scheduling, memory management) with other services running in user space, improving modularity and reliability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0050",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using monolithic kernel?",
+    "options": [
+      "Mutex locking",
+      "Page replacement",
+      "Round robin scheduling",
+      "Interrupt handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A monolithic kernel runs all OS services in kernel space as a single large process, providing fast performance through direct function calls but with less modularity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0051",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of hybrid kernel in an operating system?",
+    "options": [
+      "Semaphore synchronization",
+      "Process scheduling",
+      "Linked file allocation",
+      "Resource allocation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A hybrid kernel combines aspects of monolithic and microkernels, keeping critical services in kernel space while allowing some to run in user space for flexibility.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0052",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of multiprogramming?",
+    "options": [
+      "Context switching",
+      "Cache management",
+      "Linked file allocation",
+      "Deadlock prevention"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiprogramming keeps multiple programs in memory simultaneously, switching between them to maximize CPU utilization when one program waits for I/O.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0053",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does multitasking mainly attempt to solve?",
+    "options": [
+      "Linked file allocation",
+      "Deadlock detection",
+      "Critical section control",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Multitasking enables the CPU to execute multiple tasks seemingly simultaneously by rapidly switching between them, improving system throughput and user experience.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0054",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is time sharing important?",
+    "options": [
+      "Round robin scheduling",
+      "CPU utilization",
+      "Demand paging",
+      "Device management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Time sharing allocates fixed CPU time slices to each process in rotation, ensuring fair and interactive access for multiple users and processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0055",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of device drivers?",
+    "options": [
+      "Virtual memory management",
+      "Priority scheduling",
+      "Shortest job first scheduling",
+      "Deadlock prevention"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Device drivers are software modules that provide a standard interface between the OS and specific hardware devices, enabling device management and hardware abstraction.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0056",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through DMA transfer?",
+    "options": [
+      "Mutex locking",
+      "Round robin scheduling",
+      "Linked file allocation",
+      "Critical section control"
+    ],
+    "correctAnswer": 2,
+    "explanation": "DMA (Direct Memory Access) allows hardware devices to transfer data directly to/from memory without CPU intervention, freeing the CPU for other tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0057",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires cache coherence?",
+    "options": [
+      "Round robin scheduling",
+      "File system management",
+      "Shortest job first scheduling",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cache coherence ensures all processors in a multiprocessor system see the same data in their caches, maintaining memory consistency across shared resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0058",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by NUMA architecture?",
+    "options": [
+      "Memory management",
+      "Critical section control",
+      "Semaphore synchronization",
+      "Thread management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NUMA (Non-Uniform Memory Access) architecture provides each processor with local memory while allowing access to remote memory, optimizing memory management in multiprocessor systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0059",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of distributed OS?",
+    "options": [
+      "Device management",
+      "Thread management",
+      "Page replacement",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A distributed OS manages a collection of independent computers and makes them appear as a single system, coordinating resource allocation across networked machines.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0060",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using real-time scheduling?",
+    "options": [
+      "Virtual memory management",
+      "Mutex locking",
+      "Process scheduling",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Real-time scheduling ensures tasks meet strict timing deadlines through priority-based scheduling, critical for time-sensitive applications like embedded systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0061",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of priority scheduling in an operating system?",
+    "options": [
+      "Priority scheduling",
+      "Device management",
+      "Demand paging",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Priority scheduling assigns priorities to processes and schedules the highest priority process first, ensuring important tasks receive CPU time promptly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0062",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of round robin scheduling?",
+    "options": [
+      "Process synchronization",
+      "Virtual memory management",
+      "Indexed file allocation",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Round Robin scheduling assigns equal time slices (quanta) to each process in circular order, ensuring fair CPU allocation and preventing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0063",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does shortest job first scheduling mainly attempt to solve?",
+    "options": [
+      "Process synchronization",
+      "CPU utilization",
+      "Page replacement",
+      "Resource allocation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Shortest Job First (SJF) scheduling selects the process with the smallest execution time next, minimizing average waiting time across all processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0064",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of process scheduling?",
+    "options": [
+      "Mutex locking",
+      "Shortest job first scheduling",
+      "Page replacement",
+      "Disk scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Process scheduling manages the allocation of CPU time to various processes, maximizing CPU utilization and ensuring fair execution of all processes in the system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0065",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through CPU scheduling?",
+    "options": [
+      "Context switching",
+      "File system management",
+      "Device management",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CPU scheduling determines which process runs on the CPU at any given time, using algorithms like Priority, Round Robin, or SJF to optimize CPU utilization and response time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0066",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires context switching?",
+    "options": [
+      "CPU utilization",
+      "Memory management",
+      "File system management",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Context switching saves and restores the state of a process so the CPU can switch between processes, enabling multitasking and efficient CPU utilization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0067",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by process states?",
+    "options": [
+      "Priority scheduling",
+      "Context switching",
+      "Cache management",
+      "Process scheduling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Process states (new, ready, running, waiting, terminated) help the OS track and manage resource allocation for each process throughout its lifecycle.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0068",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of inter-process communication?",
+    "options": [
+      "Resource allocation",
+      "Page replacement",
+      "Deadlock prevention",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inter-process communication (IPC) enables processes to exchange data and synchronize their actions, which is essential for coordinating cooperating processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0069",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using deadlock detection?",
+    "options": [
+      "Interrupt handling",
+      "Virtual memory management",
+      "Linked file allocation",
+      "CPU utilization"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Deadlock detection identifies situations where processes are permanently blocked waiting for resources held by each other, enabling the system to take corrective action.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0070",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of deadlock prevention in an operating system?",
+    "options": [
+      "Thread management",
+      "Disk scheduling",
+      "Demand paging",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Deadlock prevention ensures at least one of the four necessary conditions for deadlock (mutual exclusion, hold and wait, no preemption, circular wait) cannot occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0071",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of deadlock avoidance?",
+    "options": [
+      "Deadlock prevention",
+      "Device management",
+      "File system management",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deadlock avoidance dynamically examines resource allocation state to ensure the system never enters an unsafe state, preventing deadlocks before they occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0072",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does Banker's algorithm mainly attempt to solve?",
+    "options": [
+      "Thread management",
+      "Virtual memory management",
+      "Context switching",
+      "Cache management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Banker's algorithm is a deadlock avoidance method that checks whether granting a resource request will leave the system in a safe state before allocating resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0073",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is race condition important?",
+    "options": [
+      "Memory management",
+      "Critical section control",
+      "File system management",
+      "Resource allocation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A race condition occurs when multiple processes access shared data concurrently, and the outcome depends on the execution order. Mutex locks and synchronization primitives prevent this.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0074",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of critical section?",
+    "options": [
+      "Virtual memory management",
+      "Cache management",
+      "Round robin scheduling",
+      "Device management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A critical section is a code segment that accesses shared resources and must be executed by only one process at a time, requiring mutual exclusion mechanisms like mutex locks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0075",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through process synchronization?",
+    "options": [
+      "Resource allocation",
+      "Priority scheduling",
+      "Memory management",
+      "CPU utilization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Process synchronization coordinates the execution of processes to ensure correct operation when accessing shared resources, using mechanisms like semaphores and mutexes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0076",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires semaphores?",
+    "options": [
+      "Round robin scheduling",
+      "Process scheduling",
+      "Critical section control",
+      "Mutex locking"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Semaphores are synchronization tools that use integer variables to control access to shared resources, solving critical section problems and coordinating process execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0077",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by mutex locks?",
+    "options": [
+      "Virtual memory management",
+      "Device management",
+      "Process scheduling",
+      "Context switching"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mutex (mutual exclusion) locks ensure that only one process can access a critical section at a time, preventing race conditions and maintaining data consistency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0078",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of monitors?",
+    "options": [
+      "Linked file allocation",
+      "Device management",
+      "Demand paging",
+      "Mutex locking"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Monitors are high-level synchronization constructs that encapsulate shared data and procedures, providing a structured approach to process synchronization and mutual exclusion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0079",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using multithreading?",
+    "options": [
+      "Mutex locking",
+      "Priority scheduling",
+      "Inter-process communication",
+      "Cache management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Multithreading allows a process to have multiple threads of execution running concurrently, improving CPU utilization and application responsiveness.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0080",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of kernel threads in an operating system?",
+    "options": [
+      "Deadlock prevention",
+      "Indexed file allocation",
+      "Interrupt handling",
+      "Page replacement"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kernel threads are managed by the operating system kernel, enabling true parallelism on multiprocessor systems and better CPU utilization for concurrent tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0081",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of user threads?",
+    "options": [
+      "Cache management",
+      "File system management",
+      "Thread management",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "User threads are managed in user space without kernel involvement, offering lightweight thread management with faster creation and context switching.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0082",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does thread scheduling mainly attempt to solve?",
+    "options": [
+      "Deadlock detection",
+      "Thread management",
+      "Round robin scheduling",
+      "Disk scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Thread scheduling determines the order and duration of thread execution on the CPU, managing thread states and transitions to optimize system throughput.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0083",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is virtual memory important?",
+    "options": [
+      "Memory management",
+      "Deadlock detection",
+      "CPU utilization",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Virtual memory extends available memory by using disk space as an extension of RAM, allowing processes to use more memory than physically available.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0084",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of paging?",
+    "options": [
+      "Inter-process communication",
+      "Process scheduling",
+      "File system management",
+      "Deadlock prevention"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Paging divides physical memory into fixed-size frames and logical memory into pages of the same size, enabling non-contiguous memory allocation and efficient memory management.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0085",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through segmentation?",
+    "options": [
+      "Round robin scheduling",
+      "Priority scheduling",
+      "Resource allocation",
+      "File system management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Segmentation divides memory into variable-size segments based on logical divisions of a program, supporting the user view of memory organization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0086",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires demand paging?",
+    "options": [
+      "Memory management",
+      "Demand paging",
+      "Semaphore synchronization",
+      "Context switching"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Demand paging loads pages into memory only when they are needed (on demand), reducing memory usage and initial load time by avoiding loading unused pages.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0087",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by page replacement?",
+    "options": [
+      "Indexed file allocation",
+      "Interrupt handling",
+      "Disk scheduling",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Page replacement algorithms select which memory pages to swap out when new pages need to be loaded, optimizing virtual memory management and minimizing page faults.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0088",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of LRU algorithm?",
+    "options": [
+      "Interrupt handling",
+      "Critical section control",
+      "Inter-process communication",
+      "Linked file allocation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "LRU (Least Recently Used) is a page replacement algorithm that evicts the page that has not been used for the longest time, approximating optimal page replacement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0089",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using FIFO algorithm?",
+    "options": [
+      "Context switching",
+      "Cache management",
+      "Critical section control",
+      "Mutex locking"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FIFO (First In, First Out) is a simple page replacement algorithm that evicts the oldest page in memory, though it may suffer from Belady's anomaly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0090",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of optimal page replacement in an operating system?",
+    "options": [
+      "Context switching",
+      "Inter-process communication",
+      "Memory management",
+      "Device management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Optimal page replacement evicts the page that will not be used for the longest period in the future, providing the theoretical best performance for comparison.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0091",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of thrashing?",
+    "options": [
+      "Memory management",
+      "File system management",
+      "Priority scheduling",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Thrashing occurs when a system spends more time swapping pages between memory and disk than executing processes, severely degrading performance due to insufficient memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0092",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does working set model mainly attempt to solve?",
+    "options": [
+      "Device management",
+      "Thread management",
+      "Process synchronization",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The working set model tracks the set of pages a process is actively using to determine optimal memory allocation, helping prevent thrashing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0093",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is memory management important?",
+    "options": [
+      "Deadlock prevention",
+      "Thread management",
+      "Memory management",
+      "CPU utilization"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Memory management handles allocation and deallocation of memory space to processes, ensuring efficient use of RAM through techniques like paging and virtual memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0094",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of internal fragmentation?",
+    "options": [
+      "Interrupt handling",
+      "Semaphore synchronization",
+      "Thread management",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Internal fragmentation occurs when allocated memory blocks are slightly larger than requested, wasting space within allocated regions in fixed-size allocation schemes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0095",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through external fragmentation?",
+    "options": [
+      "Round robin scheduling",
+      "Interrupt handling",
+      "Virtual memory management",
+      "Memory management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "External fragmentation occurs when free memory is scattered in small non-contiguous blocks, making it difficult to allocate large contiguous memory regions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0096",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires disk scheduling?",
+    "options": [
+      "Priority scheduling",
+      "Resource allocation",
+      "Thread management",
+      "Process scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Disk scheduling algorithms determine the order in which disk I/O requests are processed, optimizing seek time and improving overall disk access performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0097",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by SCAN algorithm?",
+    "options": [
+      "Thread management",
+      "Virtual memory management",
+      "File system management",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The SCAN (elevator) algorithm moves the disk arm in one direction servicing requests, then reverses, providing fair access and preventing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0098",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of C-SCAN algorithm?",
+    "options": [
+      "Interrupt handling",
+      "Critical section control",
+      "Round robin scheduling",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C-SCAN (Circular SCAN) moves the disk arm in one direction only, jumping back to the beginning after reaching the end, providing more uniform wait times than SCAN.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0099",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using SSTF scheduling?",
+    "options": [
+      "Process scheduling",
+      "Inter-process communication",
+      "Critical section control",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SSTF (Shortest Seek Time First) scheduling selects the disk request closest to the current head position, minimizing seek time but potentially causing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0100",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of file system in an operating system?",
+    "options": [
+      "Deadlock detection",
+      "Process synchronization",
+      "Critical section control",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The file system organizes and manages how data is stored and retrieved on storage devices, providing hierarchical structure and access control.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0101",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of file allocation?",
+    "options": [
+      "Demand paging",
+      "Process synchronization",
+      "Thread management",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "File allocation methods (contiguous, linked, indexed) determine how file data blocks are organized on disk, affecting access speed and storage efficiency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0102",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does indexed allocation mainly attempt to solve?",
+    "options": [
+      "Deadlock detection",
+      "Shortest job first scheduling",
+      "Mutex locking",
+      "Context switching"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Indexed allocation uses an index block to store pointers to all data blocks of a file, supporting both sequential and direct access without external fragmentation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0103",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is linked allocation important?",
+    "options": [
+      "Process synchronization",
+      "Process scheduling",
+      "Semaphore synchronization",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Linked allocation stores files as linked lists of disk blocks, eliminating external fragmentation and allowing files to grow dynamically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0104",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of inode?",
+    "options": [
+      "Process scheduling",
+      "Deadlock prevention",
+      "Mutex locking",
+      "Cache management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An inode (index node) is a data structure that stores file metadata and pointers to data blocks, serving as the fundamental file identification mechanism in Unix-like systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0105",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through file descriptors?",
+    "options": [
+      "Shortest job first scheduling",
+      "Resource allocation",
+      "Round robin scheduling",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "File descriptors are integer handles that uniquely identify open files within a process, enabling the OS to manage and track file access operations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0106",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires I/O buffering?",
+    "options": [
+      "Priority scheduling",
+      "Disk scheduling",
+      "Demand paging",
+      "Cache management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "I/O buffering temporarily stores data during transfer between devices and memory, smoothing speed differences between devices and improving overall system performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0107",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by spooling?",
+    "options": [
+      "Linked file allocation",
+      "Process scheduling",
+      "Page replacement",
+      "Mutex locking"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Spooling (Simultaneous Peripheral Operations On-Line) buffers data for slow devices like printers, allowing the CPU to continue processing while I/O completes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0108",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of interrupts?",
+    "options": [
+      "Round robin scheduling",
+      "Cache management",
+      "Shortest job first scheduling",
+      "Mutex locking"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Interrupts signal the CPU to pause current execution and handle urgent events, enabling efficient device management and responsive I/O handling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0109",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using system calls?",
+    "options": [
+      "Interrupt handling",
+      "Virtual memory management",
+      "Indexed file allocation",
+      "Disk scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "System calls provide an interface between user programs and the operating system kernel, allowing controlled access to hardware and system services.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0110",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of kernel mode in an operating system?",
+    "options": [
+      "File system management",
+      "Disk scheduling",
+      "Thread management",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kernel mode grants full access to hardware and system resources, enabling the OS to execute privileged instructions for resource management and protection.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0111",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of user mode?",
+    "options": [
+      "Inter-process communication",
+      "Disk scheduling",
+      "Deadlock detection",
+      "File system management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "User mode restricts direct hardware access, protecting the system from erroneous or malicious user programs while allowing normal application execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0112",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does microkernel mainly attempt to solve?",
+    "options": [
+      "Thread management",
+      "Device management",
+      "CPU utilization",
+      "Context switching"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A microkernel provides minimal core OS services (IPC, basic scheduling, memory management) with other services running in user space, improving modularity and reliability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0113",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is monolithic kernel important?",
+    "options": [
+      "Thread management",
+      "Memory management",
+      "Interrupt handling",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A monolithic kernel runs all OS services in kernel space as a single large process, providing fast performance through direct function calls but with less modularity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0114",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of hybrid kernel?",
+    "options": [
+      "Linked file allocation",
+      "Deadlock detection",
+      "Round robin scheduling",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hybrid kernel combines aspects of monolithic and microkernels, keeping critical services in kernel space while allowing some to run in user space for flexibility.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0115",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through multiprogramming?",
+    "options": [
+      "Thread management",
+      "Priority scheduling",
+      "CPU utilization",
+      "Indexed file allocation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Multiprogramming keeps multiple programs in memory simultaneously, switching between them to maximize CPU utilization when one program waits for I/O.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0116",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires multitasking?",
+    "options": [
+      "Context switching",
+      "Memory management",
+      "Device management",
+      "CPU utilization"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Multitasking enables the CPU to execute multiple tasks seemingly simultaneously by rapidly switching between them, improving system throughput and user experience.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0117",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by time sharing?",
+    "options": [
+      "Process synchronization",
+      "Deadlock prevention",
+      "Round robin scheduling",
+      "Interrupt handling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Time sharing allocates fixed CPU time slices to each process in rotation, ensuring fair and interactive access for multiple users and processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0118",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of device drivers?",
+    "options": [
+      "Context switching",
+      "Critical section control",
+      "Device management",
+      "Disk scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Device drivers are software modules that provide a standard interface between the OS and specific hardware devices, enabling device management and hardware abstraction.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0119",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using DMA transfer?",
+    "options": [
+      "Linked file allocation",
+      "Round robin scheduling",
+      "Memory management",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "DMA (Direct Memory Access) allows hardware devices to transfer data directly to/from memory without CPU intervention, freeing the CPU for other tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0120",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of cache coherence in an operating system?",
+    "options": [
+      "Semaphore synchronization",
+      "Memory management",
+      "Inter-process communication",
+      "Critical section control"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cache coherence ensures all processors in a multiprocessor system see the same data in their caches, maintaining memory consistency across shared resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0121",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of NUMA architecture?",
+    "options": [
+      "Demand paging",
+      "Page replacement",
+      "Deadlock prevention",
+      "CPU utilization"
+    ],
+    "correctAnswer": 3,
+    "explanation": "NUMA (Non-Uniform Memory Access) architecture provides each processor with local memory while allowing access to remote memory, optimizing memory management in multiprocessor systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0122",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does distributed OS mainly attempt to solve?",
+    "options": [
+      "Indexed file allocation",
+      "CPU utilization",
+      "File system management",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A distributed OS manages a collection of independent computers and makes them appear as a single system, coordinating resource allocation across networked machines.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0123",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is real-time scheduling important?",
+    "options": [
+      "File system management",
+      "Demand paging",
+      "Semaphore synchronization",
+      "Page replacement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Real-time scheduling ensures tasks meet strict timing deadlines through priority-based scheduling, critical for time-sensitive applications like embedded systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0124",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of priority scheduling?",
+    "options": [
+      "Process scheduling",
+      "Demand paging",
+      "Critical section control",
+      "Page replacement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Priority scheduling assigns priorities to processes and schedules the highest priority process first, ensuring important tasks receive CPU time promptly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0125",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through round robin scheduling?",
+    "options": [
+      "Priority scheduling",
+      "Resource allocation",
+      "Linked file allocation",
+      "Demand paging"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Round Robin scheduling assigns equal time slices (quanta) to each process in circular order, ensuring fair CPU allocation and preventing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0126",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires shortest job first scheduling?",
+    "options": [
+      "Cache management",
+      "Indexed file allocation",
+      "Semaphore synchronization",
+      "Process scheduling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Shortest Job First (SJF) scheduling selects the process with the smallest execution time next, minimizing average waiting time across all processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0127",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of process scheduling?",
+    "options": [
+      "Context switching",
+      "Inter-process communication",
+      "Deadlock detection",
+      "File system management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Process scheduling manages the allocation of CPU time to various processes, maximizing CPU utilization and ensuring fair execution of all processes in the system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0128",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using CPU scheduling?",
+    "options": [
+      "Process scheduling",
+      "Virtual memory management",
+      "Page replacement",
+      "CPU utilization"
+    ],
+    "correctAnswer": 3,
+    "explanation": "CPU scheduling determines which process runs on the CPU at any given time, using algorithms like Priority, Round Robin, or SJF to optimize CPU utilization and response time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0129",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of context switching in an operating system?",
+    "options": [
+      "Thread management",
+      "Disk scheduling",
+      "Page replacement",
+      "Resource allocation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Context switching saves and restores the state of a process so the CPU can switch between processes, enabling multitasking and efficient CPU utilization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0130",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of process states?",
+    "options": [
+      "Interrupt handling",
+      "Memory management",
+      "Indexed file allocation",
+      "Device management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Process states (new, ready, running, waiting, terminated) help the OS track and manage resource allocation for each process throughout its lifecycle.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0131",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does inter-process communication mainly attempt to solve?",
+    "options": [
+      "Virtual memory management",
+      "Page replacement",
+      "Indexed file allocation",
+      "Mutex locking"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Inter-process communication (IPC) enables processes to exchange data and synchronize their actions, which is essential for coordinating cooperating processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0132",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is deadlock detection important?",
+    "options": [
+      "Deadlock prevention",
+      "Thread management",
+      "Disk scheduling",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deadlock detection identifies situations where processes are permanently blocked waiting for resources held by each other, enabling the system to take corrective action.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0133",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of deadlock prevention?",
+    "options": [
+      "File system management",
+      "Semaphore synchronization",
+      "Virtual memory management",
+      "Indexed file allocation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deadlock prevention ensures at least one of the four necessary conditions for deadlock (mutual exclusion, hold and wait, no preemption, circular wait) cannot occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0134",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through deadlock avoidance?",
+    "options": [
+      "Thread management",
+      "Round robin scheduling",
+      "Virtual memory management",
+      "Interrupt handling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Deadlock avoidance dynamically examines resource allocation state to ensure the system never enters an unsafe state, preventing deadlocks before they occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0135",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires Banker's algorithm?",
+    "options": [
+      "Process synchronization",
+      "Inter-process communication",
+      "Priority scheduling",
+      "Deadlock prevention"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Banker's algorithm is a deadlock avoidance method that checks whether granting a resource request will leave the system in a safe state before allocating resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0136",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by race condition?",
+    "options": [
+      "Thread management",
+      "Linked file allocation",
+      "Mutex locking",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A race condition occurs when multiple processes access shared data concurrently, and the outcome depends on the execution order. Mutex locks and synchronization primitives prevent this.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0137",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of critical section?",
+    "options": [
+      "Shortest job first scheduling",
+      "Process scheduling",
+      "Device management",
+      "Deadlock prevention"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A critical section is a code segment that accesses shared resources and must be executed by only one process at a time, requiring mutual exclusion mechanisms like mutex locks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0138",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using process synchronization?",
+    "options": [
+      "Page replacement",
+      "File system management",
+      "Deadlock detection",
+      "Cache management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Process synchronization coordinates the execution of processes to ensure correct operation when accessing shared resources, using mechanisms like semaphores and mutexes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0139",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of semaphores in an operating system?",
+    "options": [
+      "Priority scheduling",
+      "Shortest job first scheduling",
+      "CPU utilization",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Semaphores are synchronization tools that use integer variables to control access to shared resources, solving critical section problems and coordinating process execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0140",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of mutex locks?",
+    "options": [
+      "Demand paging",
+      "Round robin scheduling",
+      "Semaphore synchronization",
+      "Cache management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mutex (mutual exclusion) locks ensure that only one process can access a critical section at a time, preventing race conditions and maintaining data consistency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0141",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does monitors mainly attempt to solve?",
+    "options": [
+      "Critical section control",
+      "Shortest job first scheduling",
+      "Memory management",
+      "Process synchronization"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Monitors are high-level synchronization constructs that encapsulate shared data and procedures, providing a structured approach to process synchronization and mutual exclusion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0142",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is multithreading important?",
+    "options": [
+      "Page replacement",
+      "Resource allocation",
+      "Linked file allocation",
+      "Demand paging"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Multithreading allows a process to have multiple threads of execution running concurrently, improving CPU utilization and application responsiveness.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0143",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of kernel threads?",
+    "options": [
+      "CPU utilization",
+      "Shortest job first scheduling",
+      "Interrupt handling",
+      "Thread management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kernel threads are managed by the operating system kernel, enabling true parallelism on multiprocessor systems and better CPU utilization for concurrent tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0144",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through user threads?",
+    "options": [
+      "Cache management",
+      "Disk scheduling",
+      "Page replacement",
+      "Process synchronization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "User threads are managed in user space without kernel involvement, offering lightweight thread management with faster creation and context switching.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0145",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires thread scheduling?",
+    "options": [
+      "Thread management",
+      "Page replacement",
+      "Priority scheduling",
+      "Linked file allocation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Thread scheduling determines the order and duration of thread execution on the CPU, managing thread states and transitions to optimize system throughput.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0146",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by virtual memory?",
+    "options": [
+      "CPU utilization",
+      "Critical section control",
+      "Demand paging",
+      "Memory management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Virtual memory extends available memory by using disk space as an extension of RAM, allowing processes to use more memory than physically available.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0147",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of paging?",
+    "options": [
+      "Cache management",
+      "Deadlock detection",
+      "Critical section control",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Paging divides physical memory into fixed-size frames and logical memory into pages of the same size, enabling non-contiguous memory allocation and efficient memory management.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0148",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using segmentation?",
+    "options": [
+      "Shortest job first scheduling",
+      "Interrupt handling",
+      "Memory management",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Segmentation divides memory into variable-size segments based on logical divisions of a program, supporting the user view of memory organization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0149",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of demand paging in an operating system?",
+    "options": [
+      "Memory management",
+      "Mutex locking",
+      "Thread management",
+      "Disk scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Demand paging loads pages into memory only when they are needed (on demand), reducing memory usage and initial load time by avoiding loading unused pages.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0150",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of page replacement?",
+    "options": [
+      "Priority scheduling",
+      "Interrupt handling",
+      "Virtual memory management",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Page replacement algorithms select which memory pages to swap out when new pages need to be loaded, optimizing virtual memory management and minimizing page faults.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0151",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does LRU algorithm mainly attempt to solve?",
+    "options": [
+      "Cache management",
+      "Demand paging",
+      "Deadlock detection",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "LRU (Least Recently Used) is a page replacement algorithm that evicts the page that has not been used for the longest time, approximating optimal page replacement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0152",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is FIFO algorithm important?",
+    "options": [
+      "Disk scheduling",
+      "Mutex locking",
+      "Priority scheduling",
+      "Device management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FIFO (First In, First Out) is a simple page replacement algorithm that evicts the oldest page in memory, though it may suffer from Belady's anomaly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0153",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of optimal page replacement?",
+    "options": [
+      "Round robin scheduling",
+      "Inter-process communication",
+      "Virtual memory management",
+      "Memory management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Optimal page replacement evicts the page that will not be used for the longest period in the future, providing the theoretical best performance for comparison.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0154",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through thrashing?",
+    "options": [
+      "Semaphore synchronization",
+      "Linked file allocation",
+      "Round robin scheduling",
+      "Indexed file allocation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Thrashing occurs when a system spends more time swapping pages between memory and disk than executing processes, severely degrading performance due to insufficient memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0155",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires working set model?",
+    "options": [
+      "Device management",
+      "Disk scheduling",
+      "Shortest job first scheduling",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The working set model tracks the set of pages a process is actively using to determine optimal memory allocation, helping prevent thrashing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0156",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by memory management?",
+    "options": [
+      "Demand paging",
+      "Device management",
+      "File system management",
+      "Mutex locking"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Memory management handles allocation and deallocation of memory space to processes, ensuring efficient use of RAM through techniques like paging and virtual memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0157",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of internal fragmentation?",
+    "options": [
+      "Interrupt handling",
+      "Linked file allocation",
+      "Round robin scheduling",
+      "Page replacement"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Internal fragmentation occurs when allocated memory blocks are slightly larger than requested, wasting space within allocated regions in fixed-size allocation schemes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0158",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using external fragmentation?",
+    "options": [
+      "Inter-process communication",
+      "Device management",
+      "Memory management",
+      "Disk scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "External fragmentation occurs when free memory is scattered in small non-contiguous blocks, making it difficult to allocate large contiguous memory regions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0159",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of disk scheduling in an operating system?",
+    "options": [
+      "Disk scheduling",
+      "Interrupt handling",
+      "Resource allocation",
+      "Mutex locking"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Disk scheduling algorithms determine the order in which disk I/O requests are processed, optimizing seek time and improving overall disk access performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0160",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of SCAN algorithm?",
+    "options": [
+      "Memory management",
+      "Semaphore synchronization",
+      "Inter-process communication",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The SCAN (elevator) algorithm moves the disk arm in one direction servicing requests, then reverses, providing fair access and preventing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0161",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does C-SCAN algorithm mainly attempt to solve?",
+    "options": [
+      "Resource allocation",
+      "Context switching",
+      "Mutex locking",
+      "CPU utilization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "C-SCAN (Circular SCAN) moves the disk arm in one direction only, jumping back to the beginning after reaching the end, providing more uniform wait times than SCAN.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0162",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is SSTF scheduling important?",
+    "options": [
+      "Semaphore synchronization",
+      "Cache management",
+      "Device management",
+      "Deadlock prevention"
+    ],
+    "correctAnswer": 2,
+    "explanation": "SSTF (Shortest Seek Time First) scheduling selects the disk request closest to the current head position, minimizing seek time but potentially causing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0163",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of file system?",
+    "options": [
+      "Indexed file allocation",
+      "Process synchronization",
+      "Resource allocation",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The file system organizes and manages how data is stored and retrieved on storage devices, providing hierarchical structure and access control.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0164",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through file allocation?",
+    "options": [
+      "Memory management",
+      "Deadlock prevention",
+      "Priority scheduling",
+      "Mutex locking"
+    ],
+    "correctAnswer": 0,
+    "explanation": "File allocation methods (contiguous, linked, indexed) determine how file data blocks are organized on disk, affecting access speed and storage efficiency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0165",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires indexed allocation?",
+    "options": [
+      "Priority scheduling",
+      "Deadlock detection",
+      "Critical section control",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Indexed allocation uses an index block to store pointers to all data blocks of a file, supporting both sequential and direct access without external fragmentation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0166",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by linked allocation?",
+    "options": [
+      "Page replacement",
+      "Mutex locking",
+      "Deadlock detection",
+      "Context switching"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Linked allocation stores files as linked lists of disk blocks, eliminating external fragmentation and allowing files to grow dynamically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0167",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of inode?",
+    "options": [
+      "Context switching",
+      "Process synchronization",
+      "Virtual memory management",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An inode (index node) is a data structure that stores file metadata and pointers to data blocks, serving as the fundamental file identification mechanism in Unix-like systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0168",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using file descriptors?",
+    "options": [
+      "Critical section control",
+      "Process scheduling",
+      "Interrupt handling",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 3,
+    "explanation": "File descriptors are integer handles that uniquely identify open files within a process, enabling the OS to manage and track file access operations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0169",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of I/O buffering in an operating system?",
+    "options": [
+      "Demand paging",
+      "Deadlock prevention",
+      "Context switching",
+      "Indexed file allocation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "I/O buffering temporarily stores data during transfer between devices and memory, smoothing speed differences between devices and improving overall system performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0170",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of spooling?",
+    "options": [
+      "Cache management",
+      "Deadlock prevention",
+      "CPU utilization",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Spooling (Simultaneous Peripheral Operations On-Line) buffers data for slow devices like printers, allowing the CPU to continue processing while I/O completes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0171",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does interrupts mainly attempt to solve?",
+    "options": [
+      "Interrupt handling",
+      "Priority scheduling",
+      "Demand paging",
+      "Page replacement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Interrupts signal the CPU to pause current execution and handle urgent events, enabling efficient device management and responsive I/O handling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0172",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is system calls important?",
+    "options": [
+      "Round robin scheduling",
+      "Deadlock detection",
+      "Demand paging",
+      "Cache management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "System calls provide an interface between user programs and the operating system kernel, allowing controlled access to hardware and system services.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0173",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of kernel mode?",
+    "options": [
+      "Semaphore synchronization",
+      "Page replacement",
+      "Virtual memory management",
+      "Demand paging"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kernel mode grants full access to hardware and system resources, enabling the OS to execute privileged instructions for resource management and protection.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0174",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through user mode?",
+    "options": [
+      "Mutex locking",
+      "Interrupt handling",
+      "Shortest job first scheduling",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "User mode restricts direct hardware access, protecting the system from erroneous or malicious user programs while allowing normal application execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0175",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires microkernel?",
+    "options": [
+      "CPU utilization",
+      "Linked file allocation",
+      "Thread management",
+      "Page replacement"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A microkernel provides minimal core OS services (IPC, basic scheduling, memory management) with other services running in user space, improving modularity and reliability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0176",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by monolithic kernel?",
+    "options": [
+      "Virtual memory management",
+      "Resource allocation",
+      "Deadlock prevention",
+      "Device management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A monolithic kernel runs all OS services in kernel space as a single large process, providing fast performance through direct function calls but with less modularity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0177",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of hybrid kernel?",
+    "options": [
+      "Page replacement",
+      "Cache management",
+      "Mutex locking",
+      "Thread management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A hybrid kernel combines aspects of monolithic and microkernels, keeping critical services in kernel space while allowing some to run in user space for flexibility.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0178",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using multiprogramming?",
+    "options": [
+      "File system management",
+      "Semaphore synchronization",
+      "Context switching",
+      "Mutex locking"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Multiprogramming keeps multiple programs in memory simultaneously, switching between them to maximize CPU utilization when one program waits for I/O.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0179",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of multitasking in an operating system?",
+    "options": [
+      "Linked file allocation",
+      "Process scheduling",
+      "Indexed file allocation",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Multitasking enables the CPU to execute multiple tasks seemingly simultaneously by rapidly switching between them, improving system throughput and user experience.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0180",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of time sharing?",
+    "options": [
+      "Virtual memory management",
+      "Shortest job first scheduling",
+      "Round robin scheduling",
+      "Device management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Time sharing allocates fixed CPU time slices to each process in rotation, ensuring fair and interactive access for multiple users and processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0181",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does device drivers mainly attempt to solve?",
+    "options": [
+      "Cache management",
+      "Linked file allocation",
+      "Thread management",
+      "Critical section control"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Device drivers are software modules that provide a standard interface between the OS and specific hardware devices, enabling device management and hardware abstraction.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0182",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is DMA transfer important?",
+    "options": [
+      "File system management",
+      "Page replacement",
+      "CPU utilization",
+      "Device management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "DMA (Direct Memory Access) allows hardware devices to transfer data directly to/from memory without CPU intervention, freeing the CPU for other tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0183",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of cache coherence?",
+    "options": [
+      "Demand paging",
+      "Resource allocation",
+      "Context switching",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cache coherence ensures all processors in a multiprocessor system see the same data in their caches, maintaining memory consistency across shared resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0184",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through NUMA architecture?",
+    "options": [
+      "Semaphore synchronization",
+      "Inter-process communication",
+      "Virtual memory management",
+      "Deadlock prevention"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NUMA (Non-Uniform Memory Access) architecture provides each processor with local memory while allowing access to remote memory, optimizing memory management in multiprocessor systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0185",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires distributed OS?",
+    "options": [
+      "Disk scheduling",
+      "Critical section control",
+      "Device management",
+      "Process synchronization"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A distributed OS manages a collection of independent computers and makes them appear as a single system, coordinating resource allocation across networked machines.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0186",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by real-time scheduling?",
+    "options": [
+      "Device management",
+      "Priority scheduling",
+      "Critical section control",
+      "Process scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Real-time scheduling ensures tasks meet strict timing deadlines through priority-based scheduling, critical for time-sensitive applications like embedded systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0187",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of priority scheduling?",
+    "options": [
+      "Deadlock prevention",
+      "Page replacement",
+      "Process scheduling",
+      "Process synchronization"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Priority scheduling assigns priorities to processes and schedules the highest priority process first, ensuring important tasks receive CPU time promptly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0188",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using round robin scheduling?",
+    "options": [
+      "Critical section control",
+      "Inter-process communication",
+      "Memory management",
+      "Disk scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Round Robin scheduling assigns equal time slices (quanta) to each process in circular order, ensuring fair CPU allocation and preventing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0189",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of shortest job first scheduling in an operating system?",
+    "options": [
+      "Critical section control",
+      "Context switching",
+      "Page replacement",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Shortest Job First (SJF) scheduling selects the process with the smallest execution time next, minimizing average waiting time across all processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0190",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does process scheduling mainly attempt to solve?",
+    "options": [
+      "Deadlock prevention",
+      "CPU utilization",
+      "Disk scheduling",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Process scheduling manages the allocation of CPU time to various processes, maximizing CPU utilization and ensuring fair execution of all processes in the system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0191",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is CPU scheduling important?",
+    "options": [
+      "Priority scheduling",
+      "Critical section control",
+      "Resource allocation",
+      "Page replacement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CPU scheduling determines which process runs on the CPU at any given time, using algorithms like Priority, Round Robin, or SJF to optimize CPU utilization and response time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0192",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of context switching?",
+    "options": [
+      "Mutex locking",
+      "Page replacement",
+      "Shortest job first scheduling",
+      "Process scheduling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Context switching saves and restores the state of a process so the CPU can switch between processes, enabling multitasking and efficient CPU utilization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0193",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through process states?",
+    "options": [
+      "File system management",
+      "Memory management",
+      "Interrupt handling",
+      "Page replacement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Process states (new, ready, running, waiting, terminated) help the OS track and manage resource allocation for each process throughout its lifecycle.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0194",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires inter-process communication?",
+    "options": [
+      "Demand paging",
+      "Page replacement",
+      "Deadlock detection",
+      "CPU utilization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Inter-process communication (IPC) enables processes to exchange data and synchronize their actions, which is essential for coordinating cooperating processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0195",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by deadlock detection?",
+    "options": [
+      "Semaphore synchronization",
+      "Resource allocation",
+      "Shortest job first scheduling",
+      "Page replacement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deadlock detection identifies situations where processes are permanently blocked waiting for resources held by each other, enabling the system to take corrective action.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0196",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of deadlock prevention?",
+    "options": [
+      "CPU utilization",
+      "Semaphore synchronization",
+      "Disk scheduling",
+      "Memory management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deadlock prevention ensures at least one of the four necessary conditions for deadlock (mutual exclusion, hold and wait, no preemption, circular wait) cannot occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0197",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using deadlock avoidance?",
+    "options": [
+      "Interrupt handling",
+      "File system management",
+      "Context switching",
+      "Indexed file allocation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Deadlock avoidance dynamically examines resource allocation state to ensure the system never enters an unsafe state, preventing deadlocks before they occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0198",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of Banker's algorithm in an operating system?",
+    "options": [
+      "Indexed file allocation",
+      "Virtual memory management",
+      "Round robin scheduling",
+      "Device management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Banker's algorithm is a deadlock avoidance method that checks whether granting a resource request will leave the system in a safe state before allocating resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0199",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of race condition?",
+    "options": [
+      "Process scheduling",
+      "Process synchronization",
+      "Context switching",
+      "Critical section control"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A race condition occurs when multiple processes access shared data concurrently, and the outcome depends on the execution order. Mutex locks and synchronization primitives prevent this.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0200",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does critical section mainly attempt to solve?",
+    "options": [
+      "Critical section control",
+      "Interrupt handling",
+      "Process scheduling",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A critical section is a code segment that accesses shared resources and must be executed by only one process at a time, requiring mutual exclusion mechanisms like mutex locks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0201",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is process synchronization important?",
+    "options": [
+      "File system management",
+      "Thread management",
+      "Deadlock prevention",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Process synchronization coordinates the execution of processes to ensure correct operation when accessing shared resources, using mechanisms like semaphores and mutexes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0202",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of semaphores?",
+    "options": [
+      "Deadlock detection",
+      "Linked file allocation",
+      "Process synchronization",
+      "Page replacement"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Semaphores are synchronization tools that use integer variables to control access to shared resources, solving critical section problems and coordinating process execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0203",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through mutex locks?",
+    "options": [
+      "CPU utilization",
+      "Device management",
+      "Critical section control",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mutex (mutual exclusion) locks ensure that only one process can access a critical section at a time, preventing race conditions and maintaining data consistency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0204",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires monitors?",
+    "options": [
+      "Process synchronization",
+      "Memory management",
+      "Round robin scheduling",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Monitors are high-level synchronization constructs that encapsulate shared data and procedures, providing a structured approach to process synchronization and mutual exclusion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0205",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by multithreading?",
+    "options": [
+      "Inter-process communication",
+      "Memory management",
+      "Indexed file allocation",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multithreading allows a process to have multiple threads of execution running concurrently, improving CPU utilization and application responsiveness.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0206",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of kernel threads?",
+    "options": [
+      "File system management",
+      "Interrupt handling",
+      "Virtual memory management",
+      "Resource allocation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kernel threads are managed by the operating system kernel, enabling true parallelism on multiprocessor systems and better CPU utilization for concurrent tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0207",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using user threads?",
+    "options": [
+      "File system management",
+      "Thread management",
+      "Indexed file allocation",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "User threads are managed in user space without kernel involvement, offering lightweight thread management with faster creation and context switching.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0208",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of thread scheduling in an operating system?",
+    "options": [
+      "File system management",
+      "Critical section control",
+      "Disk scheduling",
+      "Linked file allocation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Thread scheduling determines the order and duration of thread execution on the CPU, managing thread states and transitions to optimize system throughput.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0209",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of virtual memory?",
+    "options": [
+      "Interrupt handling",
+      "Process synchronization",
+      "Inter-process communication",
+      "Thread management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Virtual memory extends available memory by using disk space as an extension of RAM, allowing processes to use more memory than physically available.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0210",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does paging mainly attempt to solve?",
+    "options": [
+      "Process synchronization",
+      "Process scheduling",
+      "Critical section control",
+      "Resource allocation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Paging divides physical memory into fixed-size frames and logical memory into pages of the same size, enabling non-contiguous memory allocation and efficient memory management.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0211",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is segmentation important?",
+    "options": [
+      "Virtual memory management",
+      "Deadlock prevention",
+      "Process synchronization",
+      "Thread management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Segmentation divides memory into variable-size segments based on logical divisions of a program, supporting the user view of memory organization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0212",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of demand paging?",
+    "options": [
+      "Process synchronization",
+      "Deadlock prevention",
+      "Context switching",
+      "Device management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Demand paging loads pages into memory only when they are needed (on demand), reducing memory usage and initial load time by avoiding loading unused pages.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0213",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through page replacement?",
+    "options": [
+      "Round robin scheduling",
+      "Linked file allocation",
+      "Semaphore synchronization",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Page replacement algorithms select which memory pages to swap out when new pages need to be loaded, optimizing virtual memory management and minimizing page faults.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0214",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires LRU algorithm?",
+    "options": [
+      "Demand paging",
+      "Disk scheduling",
+      "Process scheduling",
+      "Thread management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "LRU (Least Recently Used) is a page replacement algorithm that evicts the page that has not been used for the longest time, approximating optimal page replacement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0215",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by FIFO algorithm?",
+    "options": [
+      "Round robin scheduling",
+      "File system management",
+      "CPU utilization",
+      "Cache management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "FIFO (First In, First Out) is a simple page replacement algorithm that evicts the oldest page in memory, though it may suffer from Belady's anomaly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0216",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of optimal page replacement?",
+    "options": [
+      "Indexed file allocation",
+      "Interrupt handling",
+      "Round robin scheduling",
+      "Cache management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Optimal page replacement evicts the page that will not be used for the longest period in the future, providing the theoretical best performance for comparison.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0217",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using thrashing?",
+    "options": [
+      "Interrupt handling",
+      "File system management",
+      "Process scheduling",
+      "Deadlock prevention"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Thrashing occurs when a system spends more time swapping pages between memory and disk than executing processes, severely degrading performance due to insufficient memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0218",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of working set model in an operating system?",
+    "options": [
+      "Page replacement",
+      "Device management",
+      "Semaphore synchronization",
+      "Linked file allocation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The working set model tracks the set of pages a process is actively using to determine optimal memory allocation, helping prevent thrashing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0219",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of memory management?",
+    "options": [
+      "Process scheduling",
+      "Resource allocation",
+      "Indexed file allocation",
+      "Thread management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Memory management handles allocation and deallocation of memory space to processes, ensuring efficient use of RAM through techniques like paging and virtual memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0220",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does internal fragmentation mainly attempt to solve?",
+    "options": [
+      "Inter-process communication",
+      "Indexed file allocation",
+      "Round robin scheduling",
+      "Page replacement"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Internal fragmentation occurs when allocated memory blocks are slightly larger than requested, wasting space within allocated regions in fixed-size allocation schemes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0221",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is external fragmentation important?",
+    "options": [
+      "Critical section control",
+      "Page replacement",
+      "Thread management",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "External fragmentation occurs when free memory is scattered in small non-contiguous blocks, making it difficult to allocate large contiguous memory regions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0222",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of disk scheduling?",
+    "options": [
+      "Context switching",
+      "Deadlock detection",
+      "Inter-process communication",
+      "Memory management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Disk scheduling algorithms determine the order in which disk I/O requests are processed, optimizing seek time and improving overall disk access performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0223",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through SCAN algorithm?",
+    "options": [
+      "Deadlock prevention",
+      "Shortest job first scheduling",
+      "Resource allocation",
+      "Thread management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The SCAN (elevator) algorithm moves the disk arm in one direction servicing requests, then reverses, providing fair access and preventing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0224",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires C-SCAN algorithm?",
+    "options": [
+      "Priority scheduling",
+      "Inter-process communication",
+      "Mutex locking",
+      "Memory management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "C-SCAN (Circular SCAN) moves the disk arm in one direction only, jumping back to the beginning after reaching the end, providing more uniform wait times than SCAN.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0225",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by SSTF scheduling?",
+    "options": [
+      "Process scheduling",
+      "Interrupt handling",
+      "Shortest job first scheduling",
+      "Resource allocation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "SSTF (Shortest Seek Time First) scheduling selects the disk request closest to the current head position, minimizing seek time but potentially causing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0226",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of file system?",
+    "options": [
+      "Demand paging",
+      "Memory management",
+      "Process synchronization",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The file system organizes and manages how data is stored and retrieved on storage devices, providing hierarchical structure and access control.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0227",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using file allocation?",
+    "options": [
+      "Memory management",
+      "Deadlock detection",
+      "Cache management",
+      "Resource allocation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "File allocation methods (contiguous, linked, indexed) determine how file data blocks are organized on disk, affecting access speed and storage efficiency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0228",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of indexed allocation in an operating system?",
+    "options": [
+      "Deadlock detection",
+      "Inter-process communication",
+      "Disk scheduling",
+      "Context switching"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Indexed allocation uses an index block to store pointers to all data blocks of a file, supporting both sequential and direct access without external fragmentation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0229",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of linked allocation?",
+    "options": [
+      "Round robin scheduling",
+      "File system management",
+      "Process synchronization",
+      "Deadlock prevention"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Linked allocation stores files as linked lists of disk blocks, eliminating external fragmentation and allowing files to grow dynamically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0230",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does inode mainly attempt to solve?",
+    "options": [
+      "Round robin scheduling",
+      "Process synchronization",
+      "Shortest job first scheduling",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An inode (index node) is a data structure that stores file metadata and pointers to data blocks, serving as the fundamental file identification mechanism in Unix-like systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0231",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is file descriptors important?",
+    "options": [
+      "Shortest job first scheduling",
+      "Resource allocation",
+      "Page replacement",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "File descriptors are integer handles that uniquely identify open files within a process, enabling the OS to manage and track file access operations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0232",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of I/O buffering?",
+    "options": [
+      "Linked file allocation",
+      "Round robin scheduling",
+      "Shortest job first scheduling",
+      "Thread management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "I/O buffering temporarily stores data during transfer between devices and memory, smoothing speed differences between devices and improving overall system performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0233",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through spooling?",
+    "options": [
+      "Resource allocation",
+      "Deadlock prevention",
+      "Device management",
+      "Indexed file allocation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Spooling (Simultaneous Peripheral Operations On-Line) buffers data for slow devices like printers, allowing the CPU to continue processing while I/O completes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0234",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires interrupts?",
+    "options": [
+      "Resource allocation",
+      "File system management",
+      "Semaphore synchronization",
+      "Critical section control"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Interrupts signal the CPU to pause current execution and handle urgent events, enabling efficient device management and responsive I/O handling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0235",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by system calls?",
+    "options": [
+      "Deadlock prevention",
+      "File system management",
+      "Demand paging",
+      "Round robin scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "System calls provide an interface between user programs and the operating system kernel, allowing controlled access to hardware and system services.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0236",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of kernel mode?",
+    "options": [
+      "Process scheduling",
+      "Demand paging",
+      "Priority scheduling",
+      "File system management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Kernel mode grants full access to hardware and system resources, enabling the OS to execute privileged instructions for resource management and protection.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0237",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using user mode?",
+    "options": [
+      "Resource allocation",
+      "Thread management",
+      "Mutex locking",
+      "Device management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "User mode restricts direct hardware access, protecting the system from erroneous or malicious user programs while allowing normal application execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0238",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of microkernel in an operating system?",
+    "options": [
+      "Mutex locking",
+      "Thread management",
+      "Deadlock detection",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A microkernel provides minimal core OS services (IPC, basic scheduling, memory management) with other services running in user space, improving modularity and reliability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0239",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of monolithic kernel?",
+    "options": [
+      "Virtual memory management",
+      "Inter-process communication",
+      "File system management",
+      "CPU utilization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A monolithic kernel runs all OS services in kernel space as a single large process, providing fast performance through direct function calls but with less modularity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0240",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does hybrid kernel mainly attempt to solve?",
+    "options": [
+      "Critical section control",
+      "Deadlock detection",
+      "Resource allocation",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A hybrid kernel combines aspects of monolithic and microkernels, keeping critical services in kernel space while allowing some to run in user space for flexibility.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0241",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is multiprogramming important?",
+    "options": [
+      "Critical section control",
+      "Thread management",
+      "Disk scheduling",
+      "Mutex locking"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multiprogramming keeps multiple programs in memory simultaneously, switching between them to maximize CPU utilization when one program waits for I/O.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0242",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of multitasking?",
+    "options": [
+      "Disk scheduling",
+      "Indexed file allocation",
+      "Cache management",
+      "Resource allocation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Multitasking enables the CPU to execute multiple tasks seemingly simultaneously by rapidly switching between them, improving system throughput and user experience.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0243",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through time sharing?",
+    "options": [
+      "Deadlock prevention",
+      "Inter-process communication",
+      "File system management",
+      "Context switching"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Time sharing allocates fixed CPU time slices to each process in rotation, ensuring fair and interactive access for multiple users and processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0244",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires device drivers?",
+    "options": [
+      "Process scheduling",
+      "Deadlock detection",
+      "Mutex locking",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Device drivers are software modules that provide a standard interface between the OS and specific hardware devices, enabling device management and hardware abstraction.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0245",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by DMA transfer?",
+    "options": [
+      "Virtual memory management",
+      "Demand paging",
+      "Cache management",
+      "File system management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DMA (Direct Memory Access) allows hardware devices to transfer data directly to/from memory without CPU intervention, freeing the CPU for other tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0246",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of cache coherence?",
+    "options": [
+      "Cache management",
+      "Context switching",
+      "Mutex locking",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cache coherence ensures all processors in a multiprocessor system see the same data in their caches, maintaining memory consistency across shared resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0247",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using NUMA architecture?",
+    "options": [
+      "Thread management",
+      "Deadlock prevention",
+      "Device management",
+      "Process synchronization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NUMA (Non-Uniform Memory Access) architecture provides each processor with local memory while allowing access to remote memory, optimizing memory management in multiprocessor systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0248",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of distributed OS in an operating system?",
+    "options": [
+      "Deadlock prevention",
+      "Device management",
+      "Linked file allocation",
+      "Disk scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A distributed OS manages a collection of independent computers and makes them appear as a single system, coordinating resource allocation across networked machines.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0249",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of real-time scheduling?",
+    "options": [
+      "Virtual memory management",
+      "Indexed file allocation",
+      "Priority scheduling",
+      "Demand paging"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Real-time scheduling ensures tasks meet strict timing deadlines through priority-based scheduling, critical for time-sensitive applications like embedded systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0250",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does priority scheduling mainly attempt to solve?",
+    "options": [
+      "Deadlock detection",
+      "Deadlock prevention",
+      "Round robin scheduling",
+      "Page replacement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Priority scheduling assigns priorities to processes and schedules the highest priority process first, ensuring important tasks receive CPU time promptly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0251",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is round robin scheduling important?",
+    "options": [
+      "Resource allocation",
+      "Cache management",
+      "File system management",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Round Robin scheduling assigns equal time slices (quanta) to each process in circular order, ensuring fair CPU allocation and preventing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0252",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of shortest job first scheduling?",
+    "options": [
+      "Mutex locking",
+      "Memory management",
+      "Indexed file allocation",
+      "Process synchronization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Shortest Job First (SJF) scheduling selects the process with the smallest execution time next, minimizing average waiting time across all processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0253",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires process scheduling?",
+    "options": [
+      "Indexed file allocation",
+      "Inter-process communication",
+      "Process scheduling",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Process scheduling manages the allocation of CPU time to various processes, maximizing CPU utilization and ensuring fair execution of all processes in the system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0254",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by CPU scheduling?",
+    "options": [
+      "Process synchronization",
+      "Thread management",
+      "Indexed file allocation",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 3,
+    "explanation": "CPU scheduling determines which process runs on the CPU at any given time, using algorithms like Priority, Round Robin, or SJF to optimize CPU utilization and response time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0255",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of context switching?",
+    "options": [
+      "Memory management",
+      "Demand paging",
+      "Resource allocation",
+      "Deadlock detection"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Context switching saves and restores the state of a process so the CPU can switch between processes, enabling multitasking and efficient CPU utilization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0256",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using process states?",
+    "options": [
+      "Disk scheduling",
+      "Cache management",
+      "Indexed file allocation",
+      "Thread management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Process states (new, ready, running, waiting, terminated) help the OS track and manage resource allocation for each process throughout its lifecycle.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0257",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of inter-process communication in an operating system?",
+    "options": [
+      "CPU utilization",
+      "Process scheduling",
+      "Shortest job first scheduling",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Inter-process communication (IPC) enables processes to exchange data and synchronize their actions, which is essential for coordinating cooperating processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0258",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of deadlock detection?",
+    "options": [
+      "Process synchronization",
+      "Device management",
+      "Page replacement",
+      "Interrupt handling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deadlock detection identifies situations where processes are permanently blocked waiting for resources held by each other, enabling the system to take corrective action.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0259",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does deadlock prevention mainly attempt to solve?",
+    "options": [
+      "File system management",
+      "Virtual memory management",
+      "Context switching",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deadlock prevention ensures at least one of the four necessary conditions for deadlock (mutual exclusion, hold and wait, no preemption, circular wait) cannot occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0260",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is deadlock avoidance important?",
+    "options": [
+      "File system management",
+      "Interrupt handling",
+      "Mutex locking",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Deadlock avoidance dynamically examines resource allocation state to ensure the system never enters an unsafe state, preventing deadlocks before they occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0261",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of Banker's algorithm?",
+    "options": [
+      "Deadlock prevention",
+      "Page replacement",
+      "Round robin scheduling",
+      "Indexed file allocation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Banker's algorithm is a deadlock avoidance method that checks whether granting a resource request will leave the system in a safe state before allocating resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0262",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through race condition?",
+    "options": [
+      "Virtual memory management",
+      "File system management",
+      "Cache management",
+      "Mutex locking"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A race condition occurs when multiple processes access shared data concurrently, and the outcome depends on the execution order. Mutex locks and synchronization primitives prevent this.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0263",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires critical section?",
+    "options": [
+      "Deadlock detection",
+      "Virtual memory management",
+      "Critical section control",
+      "Mutex locking"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A critical section is a code segment that accesses shared resources and must be executed by only one process at a time, requiring mutual exclusion mechanisms like mutex locks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0264",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by process synchronization?",
+    "options": [
+      "Virtual memory management",
+      "Process scheduling",
+      "Deadlock prevention",
+      "Thread management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Process synchronization coordinates the execution of processes to ensure correct operation when accessing shared resources, using mechanisms like semaphores and mutexes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0265",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of semaphores?",
+    "options": [
+      "Semaphore synchronization",
+      "File system management",
+      "Device management",
+      "Thread management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Semaphores are synchronization tools that use integer variables to control access to shared resources, solving critical section problems and coordinating process execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0266",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using mutex locks?",
+    "options": [
+      "File system management",
+      "Virtual memory management",
+      "Inter-process communication",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Mutex (mutual exclusion) locks ensure that only one process can access a critical section at a time, preventing race conditions and maintaining data consistency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0267",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of monitors in an operating system?",
+    "options": [
+      "Memory management",
+      "Priority scheduling",
+      "Disk scheduling",
+      "Cache management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Monitors are high-level synchronization constructs that encapsulate shared data and procedures, providing a structured approach to process synchronization and mutual exclusion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0268",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of multithreading?",
+    "options": [
+      "Process synchronization",
+      "Cache management",
+      "Resource allocation",
+      "Device management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Multithreading allows a process to have multiple threads of execution running concurrently, improving CPU utilization and application responsiveness.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0269",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does kernel threads mainly attempt to solve?",
+    "options": [
+      "Device management",
+      "Shortest job first scheduling",
+      "Disk scheduling",
+      "Page replacement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kernel threads are managed by the operating system kernel, enabling true parallelism on multiprocessor systems and better CPU utilization for concurrent tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0270",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is user threads important?",
+    "options": [
+      "Resource allocation",
+      "Inter-process communication",
+      "Deadlock prevention",
+      "Device management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "User threads are managed in user space without kernel involvement, offering lightweight thread management with faster creation and context switching.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0271",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of thread scheduling?",
+    "options": [
+      "Virtual memory management",
+      "Disk scheduling",
+      "Process scheduling",
+      "Deadlock prevention"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Thread scheduling determines the order and duration of thread execution on the CPU, managing thread states and transitions to optimize system throughput.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0272",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through virtual memory?",
+    "options": [
+      "Context switching",
+      "Deadlock prevention",
+      "Process synchronization",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Virtual memory extends available memory by using disk space as an extension of RAM, allowing processes to use more memory than physically available.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0273",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires paging?",
+    "options": [
+      "Virtual memory management",
+      "Shortest job first scheduling",
+      "Thread management",
+      "Disk scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Paging divides physical memory into fixed-size frames and logical memory into pages of the same size, enabling non-contiguous memory allocation and efficient memory management.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0274",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by segmentation?",
+    "options": [
+      "Priority scheduling",
+      "Interrupt handling",
+      "Device management",
+      "Process synchronization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Segmentation divides memory into variable-size segments based on logical divisions of a program, supporting the user view of memory organization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0275",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of demand paging?",
+    "options": [
+      "File system management",
+      "Device management",
+      "Virtual memory management",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Demand paging loads pages into memory only when they are needed (on demand), reducing memory usage and initial load time by avoiding loading unused pages.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0276",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using page replacement?",
+    "options": [
+      "Context switching",
+      "Memory management",
+      "Interrupt handling",
+      "Semaphore synchronization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Page replacement algorithms select which memory pages to swap out when new pages need to be loaded, optimizing virtual memory management and minimizing page faults.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0277",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of LRU algorithm in an operating system?",
+    "options": [
+      "Process synchronization",
+      "Linked file allocation",
+      "Deadlock prevention",
+      "Resource allocation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "LRU (Least Recently Used) is a page replacement algorithm that evicts the page that has not been used for the longest time, approximating optimal page replacement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0278",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of FIFO algorithm?",
+    "options": [
+      "Inter-process communication",
+      "Virtual memory management",
+      "Indexed file allocation",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "FIFO (First In, First Out) is a simple page replacement algorithm that evicts the oldest page in memory, though it may suffer from Belady's anomaly.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0279",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does optimal page replacement mainly attempt to solve?",
+    "options": [
+      "Linked file allocation",
+      "Demand paging",
+      "Round robin scheduling",
+      "Device management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Optimal page replacement evicts the page that will not be used for the longest period in the future, providing the theoretical best performance for comparison.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0280",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is thrashing important?",
+    "options": [
+      "Thread management",
+      "Page replacement",
+      "Cache management",
+      "Process synchronization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Thrashing occurs when a system spends more time swapping pages between memory and disk than executing processes, severely degrading performance due to insufficient memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0281",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of working set model?",
+    "options": [
+      "CPU utilization",
+      "Virtual memory management",
+      "Page replacement",
+      "Critical section control"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The working set model tracks the set of pages a process is actively using to determine optimal memory allocation, helping prevent thrashing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0282",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through memory management?",
+    "options": [
+      "Memory management",
+      "Disk scheduling",
+      "Deadlock prevention",
+      "Demand paging"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Memory management handles allocation and deallocation of memory space to processes, ensuring efficient use of RAM through techniques like paging and virtual memory.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0283",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires internal fragmentation?",
+    "options": [
+      "Semaphore synchronization",
+      "Virtual memory management",
+      "Cache management",
+      "Process synchronization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Internal fragmentation occurs when allocated memory blocks are slightly larger than requested, wasting space within allocated regions in fixed-size allocation schemes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0284",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by external fragmentation?",
+    "options": [
+      "Page replacement",
+      "File system management",
+      "Interrupt handling",
+      "Cache management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "External fragmentation occurs when free memory is scattered in small non-contiguous blocks, making it difficult to allocate large contiguous memory regions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0285",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of disk scheduling?",
+    "options": [
+      "Memory management",
+      "Device management",
+      "File system management",
+      "Critical section control"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Disk scheduling algorithms determine the order in which disk I/O requests are processed, optimizing seek time and improving overall disk access performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0286",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using SCAN algorithm?",
+    "options": [
+      "Memory management",
+      "Process synchronization",
+      "File system management",
+      "Device management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The SCAN (elevator) algorithm moves the disk arm in one direction servicing requests, then reverses, providing fair access and preventing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0287",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of C-SCAN algorithm in an operating system?",
+    "options": [
+      "Priority scheduling",
+      "Page replacement",
+      "Round robin scheduling",
+      "File system management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "C-SCAN (Circular SCAN) moves the disk arm in one direction only, jumping back to the beginning after reaching the end, providing more uniform wait times than SCAN.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0288",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of SSTF scheduling?",
+    "options": [
+      "Deadlock prevention",
+      "Shortest job first scheduling",
+      "Thread management",
+      "Indexed file allocation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "SSTF (Shortest Seek Time First) scheduling selects the disk request closest to the current head position, minimizing seek time but potentially causing starvation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0289",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does file system mainly attempt to solve?",
+    "options": [
+      "Virtual memory management",
+      "Deadlock prevention",
+      "Linked file allocation",
+      "Interrupt handling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The file system organizes and manages how data is stored and retrieved on storage devices, providing hierarchical structure and access control.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0290",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is file allocation important?",
+    "options": [
+      "Process synchronization",
+      "Deadlock prevention",
+      "Priority scheduling",
+      "Context switching"
+    ],
+    "correctAnswer": 0,
+    "explanation": "File allocation methods (contiguous, linked, indexed) determine how file data blocks are organized on disk, affecting access speed and storage efficiency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0291",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system limitation led to the development of indexed allocation?",
+    "options": [
+      "Critical section control",
+      "Context switching",
+      "File system management",
+      "Thread management"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Indexed allocation uses an index block to store pointers to all data blocks of a file, supporting both sequential and direct access without external fragmentation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0292",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the main benefit achieved through linked allocation?",
+    "options": [
+      "Thread management",
+      "Virtual memory management",
+      "CPU utilization",
+      "Process scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Linked allocation stores files as linked lists of disk blocks, eliminating external fragmentation and allowing files to grow dynamically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0293",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which system behavior most likely requires inode?",
+    "options": [
+      "Indexed file allocation",
+      "Process scheduling",
+      "Critical section control",
+      "Shortest job first scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An inode (index node) is a data structure that stores file metadata and pointers to data blocks, serving as the fundamental file identification mechanism in Unix-like systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0294",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What challenge in resource management is addressed by file descriptors?",
+    "options": [
+      "Interrupt handling",
+      "Inter-process communication",
+      "Mutex locking",
+      "Context switching"
+    ],
+    "correctAnswer": 1,
+    "explanation": "File descriptors are integer handles that uniquely identify open files within a process, enabling the OS to manage and track file access operations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0295",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes the purpose of I/O buffering?",
+    "options": [
+      "Process synchronization",
+      "Shortest job first scheduling",
+      "Interrupt handling",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 2,
+    "explanation": "I/O buffering temporarily stores data during transfer between devices and memory, smoothing speed differences between devices and improving overall system performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0296",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What system performance issue can be reduced by using spooling?",
+    "options": [
+      "Demand paging",
+      "Round robin scheduling",
+      "Semaphore synchronization",
+      "File system management"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Spooling (Simultaneous Peripheral Operations On-Line) buffers data for slow devices like printers, allowing the CPU to continue processing while I/O completes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0297",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary objective of interrupts in an operating system?",
+    "options": [
+      "Deadlock prevention",
+      "Shortest job first scheduling",
+      "Memory management",
+      "Inter-process communication"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Interrupts signal the CPU to pause current execution and handle urgent events, enabling efficient device management and responsive I/O handling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0298",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scenario best illustrates the concept of system calls?",
+    "options": [
+      "Interrupt handling",
+      "Deadlock detection",
+      "Disk scheduling",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "System calls provide an interface between user programs and the operating system kernel, allowing controlled access to hardware and system services.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0299",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What problem does kernel mode mainly attempt to solve?",
+    "options": [
+      "Semaphore synchronization",
+      "Device management",
+      "Disk scheduling",
+      "Cache management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kernel mode grants full access to hardware and system resources, enabling the OS to execute privileged instructions for resource management and protection.",
+    "source": "university"
+  },
+  {
+    "id": "uni-os-0300",
+    "subjectId": "uni-os",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In modern operating systems, why is user mode important?",
+    "options": [
+      "Critical section control",
+      "Indexed file allocation",
+      "Round robin scheduling",
+      "Virtual memory management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "User mode restricts direct hardware access, protecting the system from erroneous or malicious user programs while allowing normal application execution.",
+    "source": "university"
+  }
+]

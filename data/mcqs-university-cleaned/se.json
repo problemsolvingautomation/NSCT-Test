@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "uni-se-0001",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software Engineering is defined as the application of a systematic, disciplined, and quantifiable approach to:",
+    "options": [
+      "Hardware development",
+      "Software development, operation, and maintenance",
+      "Computer networking",
+      "Data storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Software Engineering applies systematic, disciplined, and quantifiable approaches to the development, operation, and maintenance of software, as defined by IEEE.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0002",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The term software crisis emerged in the:",
+    "options": [
+      "1940s",
+      "1950s",
+      "1960s",
+      "1990s"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The software crisis emerged in the 1960s when the increasing complexity of software projects led to budget overruns, delays, and unreliable software.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0003",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a fundamental component of software?",
+    "options": [
+      "Programs",
+      "Documentation",
+      "Data structures",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Software consists of programs (executable code), documentation (manuals and guides), and data structures that collectively form a complete software product.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0004",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which characteristic differentiates software from hardware?",
+    "options": [
+      "Software is physical",
+      "Software does not wear out",
+      "Software is manufactured",
+      "Software requires electricity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Unlike hardware, software does not wear out physically over time. It may become obsolete or accumulate defects from changes, but it does not degrade from use.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0005",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The primary objective of software engineering is to produce software that is:",
+    "options": [
+      "Expensive",
+      "Reliable and efficient",
+      "Complex",
+      "Hardware dependent"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The primary objective of software engineering is to produce software that is reliable (works correctly) and efficient (uses resources optimally) within time and budget constraints.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0006",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A software process refers to:",
+    "options": [
+      "The physical assembly of computers",
+      "A set of activities used to develop and maintain software",
+      "A hardware testing method",
+      "A programming language"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A software process is a structured set of activities including specification, design, implementation, validation, and evolution used to develop and maintain software.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0007",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a generic software engineering activity?",
+    "options": [
+      "Specification",
+      "Development",
+      "Validation",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Specification, development, and validation are all generic software engineering framework activities that apply across different process models.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0008",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The activity that defines what the system should do is called:",
+    "options": [
+      "Coding",
+      "Requirement engineering",
+      "Maintenance",
+      "Debugging"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Requirement engineering defines what the system should do by identifying, analyzing, documenting, and managing the needs and expectations of stakeholders.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0009",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software validation ensures that:",
+    "options": [
+      "The software is free from errors",
+      "The software meets user requirements",
+      "The program runs faster",
+      "Hardware compatibility exists"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Software validation ensures the software meets user requirements and expectations, answering the question \"Are we building the right product?\"",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0010",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The modification of software after delivery is known as:",
+    "options": [
+      "Testing",
+      "Maintenance",
+      "Implementation",
+      "Verification"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Software maintenance involves modifying software after delivery to fix defects, improve performance, or adapt to changing environments and requirements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0011",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is NOT a generic framework activity in software engineering?",
+    "options": [
+      "Planning",
+      "Modeling",
+      "Manufacturing",
+      "Deployment"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Manufacturing is a hardware production concept, not a software engineering framework activity. Software activities include planning, modeling, construction, and deployment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0012",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The IEEE definition of software engineering emphasizes:",
+    "options": [
+      "Random programming",
+      "Structured and measurable development methods",
+      "Hardware engineering",
+      "Database management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The IEEE definition emphasizes structured and measurable development methods, applying engineering principles to software development for predictable, quality results.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0013",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of software manages computer hardware resources?",
+    "options": [
+      "System software",
+      "Application software",
+      "Embedded software",
+      "Scientific software"
+    ],
+    "correctAnswer": 0,
+    "explanation": "System software manages computer hardware resources and provides a platform for running application software, including operating systems and device drivers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0014",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Embedded software is mainly used in:",
+    "options": [
+      "Operating systems",
+      "Word processors",
+      "Hardware devices and control systems",
+      "Database servers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Embedded software is designed to run on hardware devices and control systems such as automotive controllers, medical devices, and IoT sensors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0015",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The term legacy system refers to:",
+    "options": [
+      "Newly developed software",
+      "Outdated software still in use",
+      "Temporary programs",
+      "Experimental software"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A legacy system is outdated software still in use because it performs critical functions, despite being difficult to maintain or upgrade.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0016",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The process of checking whether the software is built correctly according to specifications is called:",
+    "options": [
+      "Verification",
+      "Maintenance",
+      "Coding",
+      "Installation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Verification checks whether the software is built correctly according to specifications, answering \"Are we building the product right?\"",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0017",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software that performs specific tasks for users is called:",
+    "options": [
+      "System software",
+      "Application software",
+      "Utility software",
+      "Firmware"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Application software performs specific tasks for users such as word processing, spreadsheets, or email, as opposed to system software that manages hardware.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0018",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The major challenge in software engineering projects is:",
+    "options": [
+      "Hardware availability",
+      "Managing complexity and changing requirements",
+      "Internet connectivity",
+      "Processor speed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Managing complexity and changing requirements is the major challenge in software engineering, as requirements evolve and systems grow increasingly complex.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0019",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A software process model that follows a linear and sequential approach is called:",
+    "options": [
+      "Spiral Model",
+      "Agile Model",
+      "Waterfall Model",
+      "RAD Model"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Waterfall Model follows a linear and sequential approach where each phase must be completed before the next begins, making it suitable for well-defined projects.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0020",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In the Waterfall model, which phase comes immediately after system design?",
+    "options": [
+      "Coding",
+      "Testing",
+      "Maintenance",
+      "Deployment"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In the Waterfall model, coding (implementation) comes immediately after system design, translating the design specifications into executable program code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0021",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Spiral Model mainly combines which two models?",
+    "options": [
+      "Waterfall and Prototyping",
+      "Iterative and Risk Analysis",
+      "Agile and RAD",
+      "V-Model and Incremental"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Spiral Model combines iterative development with systematic risk analysis at each iteration, incorporating elements of both prototyping and sequential development.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0022",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which process model is risk-driven and focuses heavily on risk analysis?",
+    "options": [
+      "Spiral Model",
+      "Waterfall Model",
+      "Incremental Model",
+      "Prototype Model"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Spiral Model is risk-driven, with each loop of the spiral beginning with risk identification and analysis before proceeding with development activities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0023",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In the Prototyping model, the prototype is mainly developed to:",
+    "options": [
+      "Replace the final system",
+      "Understand and refine user requirements",
+      "Reduce testing effort",
+      "Increase coding speed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the Prototyping model, a prototype is developed to help understand and refine user requirements through hands-on interaction before building the final system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0024",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which software process model delivers the system in small functional parts called increments?",
+    "options": [
+      "Incremental Model",
+      "Waterfall Model",
+      "V-Model",
+      "Spiral Model"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Incremental Model delivers the system in small functional parts (increments), with each increment adding new functionality to the previously delivered versions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0025",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The V-Model is also known as:",
+    "options": [
+      "Verification and Validation Model",
+      "Visual Model",
+      "Virtual Model",
+      "Variable Model"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The V-Model (Verification and Validation Model) maps each development phase to a corresponding testing phase, ensuring comprehensive validation at every level.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0026",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In the V-Model, each development phase is associated with:",
+    "options": [
+      "Maintenance phase",
+      "Testing phase",
+      "Design phase",
+      "Coding phase"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the V-Model, each development phase on the left side is directly associated with a corresponding testing phase on the right side.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0027",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which model emphasizes rapid development using reusable components and tools?",
+    "options": [
+      "RAD Model",
+      "Spiral Model",
+      "Waterfall Model",
+      "V-Model"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The RAD (Rapid Application Development) Model emphasizes rapid development using reusable components, visual tools, and iterative prototyping to accelerate delivery.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0028",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Agile model focuses primarily on:",
+    "options": [
+      "Heavy documentation",
+      "Customer collaboration and iterative delivery",
+      "Fixed requirements",
+      "Sequential development"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Agile model focuses on customer collaboration and iterative delivery, prioritizing working software and responsiveness to change over rigid processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0029",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which software process model is most suitable when requirements are unclear at the beginning?",
+    "options": [
+      "Prototyping Model",
+      "Waterfall Model",
+      "V-Model",
+      "Big Bang Model"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Prototyping Model is most suitable when requirements are unclear, as it allows stakeholders to interact with a prototype to clarify and refine their needs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0030",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Big Bang Model is typically used for:",
+    "options": [
+      "Large and complex projects",
+      "Small experimental projects",
+      "Government systems",
+      "Safety-critical systems"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Big Bang Model is typically used for small experimental projects with minimal planning, where requirements are not well understood and the scope is limited.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0031",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In the Incremental Model, each increment goes through which phases?",
+    "options": [
+      "Design only",
+      "Requirements only",
+      "Complete development cycle",
+      "Testing only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In the Incremental Model, each increment goes through a complete development cycle including requirements, design, coding, and testing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0032",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which model is considered rigid and difficult to modify once a phase is completed?",
+    "options": [
+      "Agile Model",
+      "Waterfall Model",
+      "Spiral Model",
+      "Incremental Model"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Waterfall Model is considered rigid because once a phase is completed, it is difficult and costly to go back and make changes to earlier phases.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0033",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Spiral Model consists of multiple loops, where each loop represents:",
+    "options": [
+      "Coding phase",
+      "Development cycle",
+      "Testing phase",
+      "Maintenance stage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the Spiral Model, each loop represents a complete development cycle including planning, risk analysis, engineering, and evaluation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0034",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which process model is best suited for large and high-risk projects?",
+    "options": [
+      "Waterfall Model",
+      "Spiral Model",
+      "Big Bang Model",
+      "RAD Model"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Spiral Model is best suited for large and high-risk projects because its iterative risk analysis helps identify and mitigate risks early.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0035",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The primary objective of Agile methodology is to:",
+    "options": [
+      "Eliminate documentation",
+      "Deliver working software frequently",
+      "Avoid customer interaction",
+      "Increase project cost"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The primary objective of Agile methodology is to deliver working software frequently in short iterations, providing continuous value to customers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0036",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which process model integrates systematic testing with each development phase?",
+    "options": [
+      "Prototyping Model",
+      "V-Model",
+      "Big Bang Model",
+      "RAD Model"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The V-Model integrates systematic testing with each development phase, where unit testing corresponds to detailed design, integration testing to architectural design, etc.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0037",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Agile software development primarily emphasizes:",
+    "options": [
+      "Detailed documentation",
+      "Sequential development",
+      "Customer collaboration",
+      "Fixed project scope"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Agile software development primarily emphasizes customer collaboration, valuing direct interaction and feedback over comprehensive documentation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0038",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Agile Manifesto was introduced in:",
+    "options": [
+      "1995",
+      "2001",
+      "2005",
+      "2010"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Agile Manifesto was introduced in 2001 by 17 software developers who outlined four core values and twelve principles for agile software development.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0039",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a core value of the Agile Manifesto?",
+    "options": [
+      "Processes and tools over individuals",
+      "Working software over comprehensive documentation",
+      "Contract negotiation over collaboration",
+      "Following a strict plan over responding to change"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A core Agile Manifesto value is \"Working software over comprehensive documentation,\" meaning functional software is the primary measure of progress.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0040",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Agile development divides the project into small cycles called:",
+    "options": [
+      "Modules",
+      "Iterations",
+      "Phases",
+      "Pipelines"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Agile development divides work into small time-boxed cycles called iterations (or sprints in Scrum), each producing a potentially shippable increment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0041",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Agile methodology, the list of project requirements is called the:",
+    "options": [
+      "Sprint backlog",
+      "Product backlog",
+      "Requirement log",
+      "Task board"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The product backlog is a prioritized list of all project requirements (user stories and features) maintained by the Product Owner in Agile methodology.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0042",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Agile framework is widely used for managing iterative development?",
+    "options": [
+      "Scrum",
+      "Waterfall",
+      "V-Model",
+      "Spiral"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Scrum is the most widely used Agile framework, providing a structured approach to iterative development with defined roles, events, and artifacts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0043",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Scrum, the person responsible for maximizing product value is called the:",
+    "options": [
+      "Scrum Master",
+      "Product Owner",
+      "Project Manager",
+      "System Analyst"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Product Owner in Scrum is responsible for maximizing product value by managing the product backlog and ensuring the team works on the most valuable features.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0044",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Scrum meeting held daily to track progress is called:",
+    "options": [
+      "Sprint Planning",
+      "Sprint Review",
+      "Daily Stand-up",
+      "Retrospective"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Daily Stand-up (Daily Scrum) is a brief daily meeting where team members share progress, plans, and blockers to maintain transparency and coordination.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0045",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Agile development, a sprint typically lasts:",
+    "options": [
+      "1-4 weeks",
+      "6-8 months",
+      "2 years",
+      "1 day"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A sprint in Agile typically lasts 1-4 weeks, providing a short, consistent time-box for the team to deliver a potentially releasable product increment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0046",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Agile practice involves writing tests before coding?",
+    "options": [
+      "Pair Programming",
+      "Continuous Integration",
+      "Test-Driven Development",
+      "Refactoring"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Test-Driven Development (TDD) involves writing automated tests before writing the actual code, ensuring the code meets specified requirements from the start.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0047",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Agile principle that focuses on improving code structure without changing functionality is:",
+    "options": [
+      "Refactoring",
+      "Integration",
+      "Deployment",
+      "Prototyping"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Refactoring improves the internal structure of code without changing its external behavior, making it cleaner, more maintainable, and easier to extend.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0048",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Agile technique involves two programmers working together on the same code?",
+    "options": [
+      "Incremental coding",
+      "Pair programming",
+      "Code sharing",
+      "Dual programming"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pair programming involves two programmers working together at one workstation, with one writing code (driver) and the other reviewing in real-time (navigator).",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0049",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Continuous integration in Agile means:",
+    "options": [
+      "Writing all code at once",
+      "Integrating code frequently into a shared repository",
+      "Testing only at the end",
+      "Integrating documentation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Continuous integration means developers frequently integrate their code changes into a shared repository, with automated builds and tests to detect issues early.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0050",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Scrum, the Scrum Master is responsible for:",
+    "options": [
+      "Managing budget",
+      "Removing obstacles for the team",
+      "Writing all code",
+      "Approving requirements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Scrum Master facilitates the Scrum process by removing obstacles for the team, ensuring Scrum practices are followed, and protecting the team from external disruptions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0051",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The meeting where the team reflects on improvements after a sprint is called:",
+    "options": [
+      "Sprint Review",
+      "Sprint Retrospective",
+      "Sprint Planning",
+      "Daily Scrum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Sprint Retrospective is held after a sprint where the team reflects on what went well, what could improve, and commits to actionable improvements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0052",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Agile framework focuses heavily on engineering practices like pair programming and TDD?",
+    "options": [
+      "Extreme Programming (XP)",
+      "Scrum",
+      "Kanban",
+      "Lean"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Extreme Programming (XP) focuses heavily on engineering practices like pair programming, TDD, continuous integration, and frequent releases to improve software quality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0053",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In Agile, user stories are used to:",
+    "options": [
+      "Replace coding",
+      "Describe features from the user's perspective",
+      "Document system architecture",
+      "Perform testing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "User stories describe features from the user's perspective in a simple format (\"As a [user], I want [feature], so that [benefit]\"), capturing requirements in Agile.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0054",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Agile development encourages:",
+    "options": [
+      "Late testing only",
+      "Minimal customer involvement",
+      "Continuous feedback and improvement",
+      "Strict sequential phases"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Agile development encourages continuous feedback and improvement through regular retrospectives, customer reviews, and iterative refinement of both process and product.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0055",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Requirement Engineering primarily deals with:",
+    "options": [
+      "Software coding",
+      "Identifying, analyzing, and documenting system requirements",
+      "Testing the system",
+      "Maintaining the software"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Requirement Engineering deals with identifying, analyzing, and documenting system requirements to ensure the software meets stakeholder needs and expectations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0056",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The process of collecting requirements from stakeholders is known as:",
+    "options": [
+      "Requirement validation",
+      "Requirement elicitation",
+      "Requirement specification",
+      "Requirement management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Requirement elicitation is the process of collecting requirements from stakeholders through techniques like interviews, workshops, surveys, and observation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0057",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which document contains a detailed description of system requirements?",
+    "options": [
+      "Software Design Document (SDD)",
+      "Software Requirement Specification (SRS)",
+      "Test Plan",
+      "User Manual"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Software Requirement Specification (SRS) document contains a detailed description of all functional and non-functional requirements for the system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0058",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Requirements that describe system behavior and functionality are called:",
+    "options": [
+      "Non-functional requirements",
+      "Functional requirements",
+      "User requirements",
+      "Technical requirements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Functional requirements describe what the system should do - its behavior, features, and functions that directly serve user needs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0059",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Requirements that specify performance, security, or usability constraints are called:",
+    "options": [
+      "Functional requirements",
+      "Non-functional requirements",
+      "System requirements",
+      "Operational requirements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Non-functional requirements specify quality attributes like performance, security, usability, and reliability that constrain how the system performs its functions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0060",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique involves structured interaction with stakeholders to gather requirements?",
+    "options": [
+      "Interview",
+      "Compilation",
+      "Coding",
+      "Refactoring"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Interviews involve structured interaction with stakeholders to gather requirements by asking targeted questions about their needs, expectations, and workflows.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0061",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A graphical representation used to describe interactions between users and a system is called:",
+    "options": [
+      "Flowchart",
+      "Use Case Diagram",
+      "Data Table",
+      "Structure Chart"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Use Case Diagram is a UML diagram that graphically represents interactions between users (actors) and the system, showing the system's functional scope.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0062",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Requirement analysis mainly focuses on:",
+    "options": [
+      "Writing program code",
+      "Detecting conflicts and refining requirements",
+      "System deployment",
+      "Maintenance activities"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Requirement analysis focuses on detecting conflicts between requirements, resolving ambiguities, and refining requirements into a clear, complete specification.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0063",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The process of checking whether requirements reflect the real needs of stakeholders is called:",
+    "options": [
+      "Requirement validation",
+      "Requirement design",
+      "Requirement coding",
+      "Requirement maintenance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Requirement validation checks whether documented requirements accurately reflect the real needs of stakeholders and are feasible, consistent, and complete.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0064",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A requirement that can be tested and verified is called:",
+    "options": [
+      "Ambiguous requirement",
+      "Verifiable requirement",
+      "Complex requirement",
+      "Temporary requirement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A verifiable requirement is one that can be objectively tested and measured to confirm the system meets it, essential for quality assurance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0065",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The activity of organizing and documenting requirements in a standard format is known as:",
+    "options": [
+      "Requirement specification",
+      "Requirement elicitation",
+      "Requirement verification",
+      "Requirement implementation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Requirement specification is the activity of organizing and documenting requirements in a standard, structured format (typically the SRS document).",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0066",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which model is commonly used to represent system functions and data flow during requirement analysis?",
+    "options": [
+      "Data Flow Diagram (DFD)",
+      "ER Diagram",
+      "Structure Chart",
+      "Control Chart"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data Flow Diagrams (DFDs) represent system functions and data flow, showing how data moves through processes, stores, and external entities during requirement analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0067",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The process of managing requirement changes during development is called:",
+    "options": [
+      "Requirement control",
+      "Requirement management",
+      "Requirement design",
+      "Requirement coding"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Requirement management handles changes to requirements during development, including tracking, impact analysis, and maintaining traceability of requirement modifications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0068",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which characteristic ensures that requirements are clear and have only one interpretation?",
+    "options": [
+      "Ambiguity",
+      "Consistency",
+      "Unambiguity",
+      "Completeness"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Unambiguity ensures that each requirement has only one clear interpretation, preventing misunderstandings between stakeholders and developers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0069",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A requirement that can be traced to its origin is known as:",
+    "options": [
+      "Traceable requirement",
+      "Abstract requirement",
+      "Logical requirement",
+      "Dynamic requirement"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A traceable requirement can be traced back to its origin (stakeholder need or business rule) and forward to design, code, and test cases.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0070",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which stakeholder is primarily responsible for understanding and analyzing system requirements?",
+    "options": [
+      "Software tester",
+      "System analyst",
+      "Network administrator",
+      "Hardware engineer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The system analyst is primarily responsible for understanding, analyzing, and bridging the gap between stakeholder needs and technical system requirements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0071",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Prototyping in requirement engineering is mainly used to:",
+    "options": [
+      "Finalize coding",
+      "Validate and clarify requirements",
+      "Reduce maintenance",
+      "Replace documentation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Prototyping in requirement engineering helps validate and clarify requirements by giving stakeholders a tangible model to interact with and provide feedback on.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0072",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a quality attribute of a good SRS document?",
+    "options": [
+      "Ambiguous",
+      "Incomplete",
+      "Consistent",
+      "Redundant"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Consistency is a quality attribute of a good SRS document, meaning requirements should not contradict each other and should form a coherent whole.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0073",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software Project Management mainly focuses on:",
+    "options": [
+      "Writing program code",
+      "Planning, organizing, and controlling software development activities",
+      "Testing software only",
+      "Designing hardware systems"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Software Project Management focuses on planning, organizing, and controlling all software development activities to deliver projects on time, within budget, and with quality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0074",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The first phase in software project management is:",
+    "options": [
+      "Project planning",
+      "Project execution",
+      "Project initiation",
+      "Project monitoring"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Project initiation is the first phase where the project is formally authorized, objectives are defined, stakeholders are identified, and the project charter is created.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0075",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The document that defines project objectives, scope, and stakeholders is called:",
+    "options": [
+      "Project Charter",
+      "Test Plan",
+      "Design Document",
+      "Maintenance Report"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Project Charter defines project objectives, scope, stakeholders, authority, and initial resource allocation, formally authorizing the project.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0076",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A graphical representation used to show project tasks and schedules is known as:",
+    "options": [
+      "Data Flow Diagram",
+      "Gantt Chart",
+      "ER Diagram",
+      "State Diagram"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Work Breakdown Structure (WBS) decomposes the project into smaller, manageable tasks and deliverables, forming the foundation for planning and tracking.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0077",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique is used to estimate project cost and effort based on lines of code?",
+    "options": [
+      "Agile estimation",
+      "COCOMO Model",
+      "Spiral estimation",
+      "V-Model estimation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Gantt chart is a visual scheduling tool that displays project tasks along a timeline, showing start dates, durations, and dependencies.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0078",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In project management, milestones represent:",
+    "options": [
+      "Coding errors",
+      "Important project checkpoints",
+      "Hardware failures",
+      "Testing tools"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The critical path is the longest sequence of dependent activities that determines the minimum project duration; any delay on it delays the entire project.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0079",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The process of identifying potential problems that may affect a project is called:",
+    "options": [
+      "Risk management",
+      "Cost estimation",
+      "Requirement analysis",
+      "Quality control"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Software cost estimation predicts the effort, time, and resources needed for a project, essential for budgeting and planning.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0080",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which activity involves assigning tasks and responsibilities to team members?",
+    "options": [
+      "Resource allocation",
+      "Requirement specification",
+      "System testing",
+      "Maintenance planning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "COCOMO (Constructive Cost Model) is a widely used algorithmic model that estimates software development effort based on lines of code and project characteristics.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0081",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The technique used to determine the longest path of activities in a project schedule is:",
+    "options": [
+      "PERT",
+      "CPM",
+      "RAD",
+      "Agile"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Function Point Analysis estimates software size by counting user-facing functions (inputs, outputs, inquiries, files, interfaces) regardless of implementation technology.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0082",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which project management tool represents task dependencies using a network diagram?",
+    "options": [
+      "PERT Chart",
+      "Gantt Chart",
+      "Flowchart",
+      "Data Table"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A milestone marks a significant point in the project timeline, representing the completion of a major deliverable or phase.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0083",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The process of comparing actual progress with planned progress is known as:",
+    "options": [
+      "Project execution",
+      "Project monitoring",
+      "Project coding",
+      "Project documentation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Project risk management involves identifying, analyzing, and responding to potential threats that could negatively impact project objectives.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0084",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which factor mainly influences software project cost estimation?",
+    "options": [
+      "Code complexity",
+      "Programming language",
+      "Team experience",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The project manager is primarily responsible for overall project success including planning, execution, monitoring, and delivering within constraints.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0085",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The critical path in project scheduling represents:",
+    "options": [
+      "Shortest path in the project",
+      "Sequence of activities determining project duration",
+      "Optional project tasks",
+      "Testing sequence"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Earned Value Management (EVM) tracks project performance by comparing planned work, completed work, and actual costs to measure schedule and budget variance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0086",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which activity ensures that the software product meets required quality standards?",
+    "options": [
+      "Quality assurance",
+      "Requirement elicitation",
+      "Risk analysis",
+      "Resource allocation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Resource allocation assigns people, equipment, and budget to project tasks based on requirements and availability to optimize project execution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0087",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The process of controlling modifications to project scope is called:",
+    "options": [
+      "Scope management",
+      "Risk control",
+      "Resource management",
+      "Cost management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The primary purpose of status meetings is to track progress, identify issues, and ensure alignment among team members and stakeholders.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0088",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A person responsible for planning and managing a software project is called:",
+    "options": [
+      "System Analyst",
+      "Software Tester",
+      "Project Manager",
+      "Database Administrator"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Project scope defines the boundaries of what the project will deliver, including features, functions, and constraints, preventing scope creep.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0089",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which estimation technique is based on expert judgment and experience?",
+    "options": [
+      "Algorithmic estimation",
+      "Expert judgment estimation",
+      "Parametric estimation",
+      "Automated estimation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A project baseline is an approved version of the project plan (scope, schedule, cost) used as a reference point for measuring performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0090",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The final phase of project management where project activities are formally completed is called:",
+    "options": [
+      "Project closure",
+      "Project testing",
+      "Project planning",
+      "Project design"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Schedule compression techniques like crashing (adding resources) and fast-tracking (parallelizing activities) aim to shorten the project timeline.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0091",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software design is the process of:",
+    "options": [
+      "Writing program code",
+      "Transforming requirements into a structured solution",
+      "Testing software",
+      "Maintaining software"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Software design is the process of defining architecture, components, interfaces, and data structures that satisfy specified requirements for a software system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0092",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main objective of software design is to:",
+    "options": [
+      "Reduce testing time",
+      "Provide a blueprint for implementation",
+      "Eliminate documentation",
+      "Replace requirement analysis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Architectural design defines the overall structure of the software system, identifying major components, their responsibilities, and how they interact.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0093",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which design level focuses on the overall system architecture?",
+    "options": [
+      "Detailed design",
+      "Architectural design",
+      "Interface design",
+      "Component design"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cohesion measures how closely related the responsibilities within a single module are. High cohesion means a module performs one well-defined task.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0094",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The design that describes internal logic and algorithms of components is called:",
+    "options": [
+      "High-level design",
+      "Low-level design",
+      "System design",
+      "Conceptual design"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Coupling measures the degree of interdependence between software modules. Low coupling means modules are relatively independent, making the system more maintainable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0095",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which principle ensures that each module performs a single well-defined task?",
+    "options": [
+      "High cohesion",
+      "Low cohesion",
+      "High coupling",
+      "Tight coupling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Good software design aims for high cohesion (focused modules) and low coupling (independent modules) to maximize maintainability and reusability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0096",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The degree of interdependence between modules is called:",
+    "options": [
+      "Cohesion",
+      "Coupling",
+      "Modularity",
+      "Abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A modular design approach divides software into separate, self-contained modules that can be developed, tested, and maintained independently.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0097",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of coupling occurs when modules share global data?",
+    "options": [
+      "Data coupling",
+      "Common coupling",
+      "Control coupling",
+      "Content coupling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Abstraction hides complex implementation details and exposes only essential features, simplifying how other parts of the system interact with a component.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0098",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The process of dividing a system into smaller manageable modules is known as:",
+    "options": [
+      "Encapsulation",
+      "Modularity",
+      "Integration",
+      "Compilation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A design pattern provides a reusable solution to a commonly recurring design problem, capturing best practices as templates that can be adapted.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0099",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which design concept focuses on hiding internal details and exposing only essential features?",
+    "options": [
+      "Abstraction",
+      "Coupling",
+      "Cohesion",
+      "Decomposition"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Singleton pattern ensures a class has only one instance throughout the application and provides a global point of access to it.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0100",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The design principle that hides implementation details from users is called:",
+    "options": [
+      "Encapsulation",
+      "Decomposition",
+      "Integration",
+      "Configuration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Observer pattern is used when one object (subject) needs to notify multiple dependent objects (observers) about state changes, enabling loose coupling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0101",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A diagram used to represent system components and their relationships is called:",
+    "options": [
+      "Class Diagram",
+      "Flowchart",
+      "Data Table",
+      "Decision Tree"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Factory pattern provides an interface for creating objects without specifying the exact class, allowing flexible and decoupled object instantiation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0102",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which design method focuses on breaking a system into smaller subsystems?",
+    "options": [
+      "Top-down design",
+      "Bottom-up design",
+      "Incremental design",
+      "Rapid design"
+    ],
+    "correctAnswer": 0,
+    "explanation": "UML (Unified Modeling Language) is the standard notation used for creating software design models, including class diagrams, sequence diagrams, and use case diagrams.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0103",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which design approach starts with detailed components and integrates them into a complete system?",
+    "options": [
+      "Top-down design",
+      "Bottom-up design",
+      "Structured design",
+      "Modular design"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A class diagram shows the static structure of a system by displaying classes, their attributes, methods, and relationships between them.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0104",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A good software design should primarily aim for:",
+    "options": [
+      "High coupling and low cohesion",
+      "Low coupling and high cohesion",
+      "High complexity",
+      "Large modules"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A sequence diagram shows the time-ordered interactions between objects, depicting how messages are exchanged to accomplish a specific functionality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0105",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Interface design mainly focuses on:",
+    "options": [
+      "Database structure",
+      "Interaction between system components or users",
+      "Coding techniques",
+      "Hardware configuration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An activity diagram represents workflows and business processes as sequences of activities, decisions, and parallel operations, similar to flowcharts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0106",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which diagram represents dynamic interactions between objects over time?",
+    "options": [
+      "Sequence Diagram",
+      "Class Diagram",
+      "ER Diagram",
+      "Structure Chart"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A state diagram models the different states an object can be in and the transitions triggered by events, useful for objects with complex lifecycle behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0107",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The concept of step-by-step refinement of a program design is known as:",
+    "options": [
+      "Design decomposition",
+      "Stepwise refinement",
+      "Encapsulation",
+      "Abstraction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A component diagram shows the organization and dependencies among physical software components, representing the modular structure of the system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0108",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The design stage in software development comes after:",
+    "options": [
+      "Coding",
+      "Requirement analysis",
+      "Testing",
+      "Maintenance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A deployment diagram shows the physical deployment of software components on hardware nodes, mapping software artifacts to the infrastructure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0109",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which design principle emphasizes representing only the essential features of an entity while hiding unnecessary details?",
+    "options": [
+      "Abstraction",
+      "Coupling",
+      "Refactoring",
+      "Cohesion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MVC (Model-View-Controller) separates an application into three components: Model (data/logic), View (presentation), and Controller (user input handling).",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0110",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A software module is said to have high cohesion when it:",
+    "options": [
+      "Depends heavily on other modules",
+      "Performs a single, well-defined task",
+      "Contains many unrelated functions",
+      "Has no interface"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Client-server architecture divides the system into clients that request services and servers that provide them, enabling centralized data management.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0111",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes coupling in software design?",
+    "options": [
+      "The internal strength of a module",
+      "The number of comments in code",
+      "The degree of interdependence between modules",
+      "The size of a class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Layered architecture organizes software into hierarchical layers (e.g., presentation, business logic, data access), where each layer provides services to the layer above.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0112",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Stepwise refinement in software design means:",
+    "options": [
+      "Starting from code and moving to requirements",
+      "Ignoring details in early design",
+      "Replacing architecture with testing",
+      "Developing the design in increasing levels of detail"
+    ],
+    "correctAnswer": 3,
+    "explanation": "An interface defines a contract specifying what methods a component provides without revealing how they are implemented, enabling loose coupling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0113",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is most desirable in a good software design?",
+    "options": [
+      "High cohesion and low coupling",
+      "High coupling and low cohesion",
+      "High complexity and high dependency",
+      "Low modularity and high redundancy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Architectural styles like client-server, layered, microservices, and event-driven provide proven structural patterns for organizing software systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0114",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Functional independence of modules is achieved when modules have:",
+    "options": [
+      "Low cohesion and high coupling",
+      "High cohesion and low coupling",
+      "Low cohesion and low abstraction",
+      "High inheritance and no interfaces"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Data design focuses on structuring and organizing data elements, defining data models, database schemas, and data flow within the system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0115",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which design model focuses on data structures, architecture, interfaces, and components?",
+    "options": [
+      "Testing model",
+      "Deployment model",
+      "Design model",
+      "Maintenance model"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Adapter pattern allows incompatible interfaces to work together by wrapping one interface to make it compatible with another expected interface.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0116",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Information hiding means that a module should:",
+    "options": [
+      "Avoid all documentation",
+      "Expose all internal data",
+      "Hide implementation details behind interfaces",
+      "Share all variables globally"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Microservices architecture decomposes an application into small, independently deployable services that communicate via APIs, improving scalability and maintainability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0117",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which UML diagram is most suitable for showing the static relationships among classes?",
+    "options": [
+      "Sequence diagram",
+      "Use case diagram",
+      "Activity diagram",
+      "Class diagram"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Information hiding restricts access to internal details of a module, exposing only what is necessary through a well-defined interface to reduce complexity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0118",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main benefit of modularity in software design is:",
+    "options": [
+      "Easier understanding, testing, and maintenance",
+      "More duplicated code",
+      "Increased dependency",
+      "Removal of all design decisions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Refactoring improves software design by restructuring existing code to improve its internal quality without changing its observable behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0119",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a behavioral design pattern?",
+    "options": [
+      "Adapter",
+      "Singleton",
+      "Observer",
+      "Bridge"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The user interface (UI) is the point of interaction between the user and the software system, determining how users communicate with the application.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0120",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The Factory pattern is mainly used to:",
+    "options": [
+      "Separate interface from implementation",
+      "Create objects without exposing exact creation logic",
+      "Reduce cohesion",
+      "Increase code duplication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Good UI design follows principles of consistency, simplicity, visibility, and feedback to make the interface intuitive and easy to use.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0121",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A design is considered maintainable if it:",
+    "options": [
+      "Is difficult to understand",
+      "Uses tightly coupled modules",
+      "Can be modified easily with minimal side effects",
+      "Avoids all documentation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "User-centered design places the user at the center of the design process, involving users through research, testing, and iteration to meet their needs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0122",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes top-down design?",
+    "options": [
+      "Designing detailed low-level modules first",
+      "Designing from the overall system toward detailed components",
+      "Starting with testing cases",
+      "Writing code before analysis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Usability refers to how easily and effectively users can interact with a system to achieve their goals with satisfaction and efficiency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0123",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Bottom-up design starts with:",
+    "options": [
+      "User manuals",
+      "High-level requirements only",
+      "Detailed reusable components",
+      "Deployment diagrams"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Consistency in UI means similar elements behave similarly throughout the application, reducing the learning curve and preventing user confusion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0124",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A software interface specification mainly defines:",
+    "options": [
+      "Employee roles",
+      "Communication rules between components",
+      "Testing budgets",
+      "Coding syntax of a language"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A wireframe is a low-fidelity visual representation of a user interface layout, showing the arrangement of elements without detailed design or styling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0125",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a key sign of poor design?",
+    "options": [
+      "Clear separation of responsibilities",
+      "Consistent naming",
+      "Reusable modules",
+      "Excessive dependency among modules"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A mockup is a high-fidelity, static visual representation of the UI that closely resembles the final product, including colors, typography, and imagery.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0126",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Refactoring improves software design by:",
+    "options": [
+      "Changing functionality for users",
+      "Improving internal structure without changing behavior",
+      "Removing all abstraction",
+      "Eliminating documentation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Accessibility ensures that software interfaces can be used by people with disabilities, including support for screen readers, keyboard navigation, and color contrast.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0127",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software architecture primarily defines:",
+    "options": [
+      "The detailed syntax of code",
+      "The high-level structure of a system",
+      "Test cases for modules",
+      "User training procedures"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Navigation design organizes how users move through an application, structuring menus, links, and pathways to help users find information efficiently.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0128",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In software architecture, a component is:",
+    "options": [
+      "A physical network cable",
+      "A user manual",
+      "A modular unit with specific responsibilities",
+      "A project milestone"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Feedback in UI refers to visual, auditory, or haptic responses that inform users about the result of their actions, confirming that the system received input.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0129",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Connectors in architecture are responsible for:",
+    "options": [
+      "Writing code",
+      "Linking hardware ports",
+      "Storing user data",
+      "Enabling interaction among components"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A prototype in UI design is an interactive model of the interface used to test and refine design concepts before full implementation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0130",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which architecture style organizes software into layers of services?",
+    "options": [
+      "Layered architecture",
+      "Repository architecture",
+      "Pipe-and-filter architecture",
+      "Event-driven architecture"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Heuristic evaluation is a usability inspection method where evaluators review the interface against established usability principles (heuristics) to find problems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0131",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In a layered architecture, each layer usually:",
+    "options": [
+      "Ignores the layer above it",
+      "Uses services of the layer below and serves the layer above",
+      "Communicates with all layers directly",
+      "Has no defined role"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Error prevention in UI design anticipates potential user errors and uses design elements (like confirmation dialogs) to prevent them before they occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0132",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which architectural style is most appropriate for centralized shared data?",
+    "options": [
+      "Event-driven",
+      "Client-server",
+      "Repository",
+      "Layered"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Learnability measures how easily new users can learn to use the interface effectively, which is a key factor in user satisfaction and adoption.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0133",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The client-server architecture separates systems into:",
+    "options": [
+      "Data objects and classes",
+      "Processes and threads",
+      "Service requesters and service providers",
+      "Interfaces and adapters"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Color contrast in UI design ensures text and interactive elements are clearly visible against backgrounds, improving readability and accessibility.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0134",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which quality attribute refers to the ability to handle increased workload?",
+    "options": [
+      "Portability",
+      "Usability",
+      "Maintainability",
+      "Scalability"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Typography in UI affects readability and visual hierarchy by using appropriate fonts, sizes, weights, and spacing to guide users through content.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0135",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Microservices architecture is characterized by:",
+    "options": [
+      "One monolithic code base only",
+      "Large tightly coupled modules",
+      "Small independently deployable services",
+      "No communication between services"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Grid-based layouts organize UI elements in a structured grid pattern, creating visual consistency, alignment, and orderly arrangement of content.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0136",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a major advantage of software architecture?",
+    "options": [
+      "It eliminates all coding",
+      "It helps satisfy quality attributes early",
+      "It replaces requirements engineering",
+      "It avoids documentation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Breadcrumbs are navigation aids showing the user's current location in the application hierarchy, allowing easy navigation back to previous levels.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0137",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The pipe-and-filter architectural style is best suited for:",
+    "options": [
+      "Sequential transformation of data",
+      "Centralized control of UI",
+      "Role-based security only",
+      "Distributed databases only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A modal dialog is a UI element that requires user interaction before they can return to the parent application, used for critical actions or confirmations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0138",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Event-driven architecture is particularly useful when:",
+    "options": [
+      "Components must respond to asynchronous events",
+      "Only one module exists",
+      "There is no user interaction",
+      "Data is never shared"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A tooltip provides brief contextual information when a user hovers over an element, offering help without cluttering the interface.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0139",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which document commonly records major architectural decisions?",
+    "options": [
+      "Test case report",
+      "Configuration log",
+      "Software Architecture Document",
+      "Payroll sheet"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dark patterns are deceptive UI designs that trick users into actions they did not intend, violating ethical design principles.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0140",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "An architectural view is used to:",
+    "options": [
+      "Replace source code",
+      "Represent a system from a particular stakeholder concern",
+      "Test performance directly",
+      "Define coding standards only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gestalt principles (proximity, similarity, closure, continuity) describe how humans perceive visual elements as organized groups, guiding effective UI layout.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0141",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which UML diagram is most suitable for representing physical deployment nodes?",
+    "options": [
+      "Deployment diagram",
+      "Class diagram",
+      "Sequence diagram",
+      "State diagram"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fitts's Law states that the time to reach a target is proportional to the distance and inversely proportional to its size, guiding button and element sizing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0142",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Architectural degradation occurs when:",
+    "options": [
+      "Architecture becomes clearer with time",
+      "Continuous uncontrolled changes reduce structural quality",
+      "Testing is automated",
+      "Security policies are strengthened"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Progressive disclosure shows only essential information initially and reveals more details on demand, reducing cognitive load and keeping the interface clean.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0143",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which architecture style is commonly used in web applications with presentation, logic, and data tiers?",
+    "options": [
+      "Pipe-and-filter",
+      "Three-tier architecture",
+      "Event bus architecture",
+      "Blackboard architecture"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A design system is a collection of reusable components, guidelines, and standards that ensure consistency across an organization's products and interfaces.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0144",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Architectural evaluation is performed to:",
+    "options": [
+      "Measure typing speed",
+      "Check compliance with hardware vendors only",
+      "Assess whether the architecture meets quality and functional needs",
+      "Eliminate all future changes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A hamburger menu is a navigation icon (three horizontal lines) that hides the main menu behind a toggle, commonly used on mobile interfaces.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0145",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main objective of user interface design is to:",
+    "options": [
+      "Maximize internal code complexity",
+      "Create effective and satisfying interaction for users",
+      "Avoid feedback",
+      "Replace system testing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Infinite scrolling loads content continuously as the user scrolls, common in social media feeds, eliminating the need for pagination.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0146",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which UI principle ensures similar elements behave in similar ways?",
+    "options": [
+      "Consistency",
+      "Encapsulation",
+      "Refactoring",
+      "Coupling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Voice UI enables user interaction through spoken commands and voice recognition, used in virtual assistants and hands-free applications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0147",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Usability mainly refers to:",
+    "options": [
+      "Processor speed",
+      "Memory usage",
+      "Ease of learning and using the interface",
+      "Number of code files"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Micro-interactions are small, subtle animations or feedback (like a button press animation) that enhance user experience by making interfaces feel responsive.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0148",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a good example of feedback in UI?",
+    "options": [
+      "Hidden errors",
+      "A progress indicator during upload",
+      "Removing navigation options",
+      "Silent failure of commands"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A card-based layout presents content in distinct rectangular containers (cards), each containing a summary that can be expanded for more details.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0149",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Error prevention in UI design aims to:",
+    "options": [
+      "Increase user confusion",
+      "Delay system response",
+      "Minimize chances of user mistakes",
+      "Hide warnings"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A/B testing compares two versions of a UI to determine which performs better based on user behavior metrics, enabling data-driven design decisions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0150",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A wireframe is:",
+    "options": [
+      "A complete coded system",
+      "A rough visual layout of interface elements",
+      "A test execution report",
+      "A network diagram"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Affordance in UI design means an element's appearance suggests how it should be used - for example, a button looks clickable, a slider looks draggable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0151",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Prototyping in UI design helps to:",
+    "options": [
+      "Finalize deployment architecture",
+      "Test and refine interface ideas early",
+      "Replace all documentation",
+      "Eliminate user feedback"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Implementation (coding) is the phase where the software design is translated into executable source code using a programming language.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0152",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best supports readability in an interface?",
+    "options": [
+      "Tiny fonts and no spacing",
+      "Random alignment",
+      "Clear labels and proper visual spacing",
+      "Excessive animation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Coding standards define consistent rules for writing code (naming conventions, formatting, commenting) to improve readability and team collaboration.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0153",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Accessibility in UI design means:",
+    "options": [
+      "Designing only for expert users",
+      "Supporting users with diverse abilities",
+      "Using mouse input only",
+      "Avoiding keyboard shortcuts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A code review involves systematically examining source code by peers to find defects, improve quality, and share knowledge within the team.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0154",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which UI element is most suitable for selecting one option from several mutually exclusive options?",
+    "options": [
+      "Check box",
+      "Text area",
+      "Radio button",
+      "Progress bar"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Radio buttons are the most suitable UI element for selecting one option from several mutually exclusive choices, as only one can be selected at a time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0155",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Visual hierarchy helps users by:",
+    "options": [
+      "Making all items equally prominent",
+      "Hiding important actions",
+      "Organizing attention toward the most important elements first",
+      "Removing labels"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Static analysis examines source code without executing it, using tools to detect potential bugs, security vulnerabilities, and coding standard violations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0156",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which design approach focuses on users' needs, goals, and limitations?",
+    "options": [
+      "Hardware-centered design",
+      "User-centered design",
+      "Technology-first design",
+      "Code-centered design"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Version control systems (like Git) track changes to source code over time, enabling collaboration, history tracking, and reverting to previous versions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0157",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is an example of direct manipulation in UI?",
+    "options": [
+      "Dragging a file into a folder",
+      "Editing configuration code manually",
+      "Restarting the system after every command",
+      "Writing only command scripts"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An IDE (Integrated Development Environment) provides a comprehensive set of tools including code editor, compiler, debugger, and build tools in a single application.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0158",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A responsive interface is one that:",
+    "options": [
+      "Works only on desktop screens",
+      "Avoids mobile devices",
+      "Adapts to different screen sizes and devices",
+      "Uses fixed layouts only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A responsive interface adapts to different screen sizes and devices using flexible layouts, media queries, and fluid grids to provide optimal user experience.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0159",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a poor UI design practice?",
+    "options": [
+      "Immediate system feedback",
+      "Consistent button placement",
+      "Clear grouping of related form fields",
+      "Overloading one screen with too much information"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Debugging is the systematic process of identifying the root cause of a software defect and correcting it to restore expected behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0160",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Confirmation dialogs are especially useful for:",
+    "options": [
+      "Frequent harmless actions",
+      "Destructive actions such as delete",
+      "Every single mouse movement",
+      "Displaying advertisements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Unit testing verifies that individual units (functions or methods) of code work correctly in isolation, typically written and executed by developers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0161",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Minimalist design recommends:",
+    "options": [
+      "Showing every possible control on the home screen",
+      "Including only essential information and controls",
+      "Hiding all instructions",
+      "Avoiding structure"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Continuous integration involves automatically building and testing code whenever changes are committed, detecting integration problems early in development.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0162",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Usability testing is mainly conducted to:",
+    "options": [
+      "Measure bandwidth",
+      "Verify payroll systems",
+      "Observe whether users can effectively perform tasks",
+      "Replace integration testing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Usability testing is conducted to observe whether users can effectively perform tasks with the software, identifying usability issues through real user interaction.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0163",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Coding standards are mainly intended to:",
+    "options": [
+      "Increase ambiguity",
+      "Improve readability and consistency",
+      "Replace testing",
+      "Remove modularity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Refactoring improves internal code structure while preserving external behavior, making code more maintainable, readable, and extensible.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0164",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is the best indicator of maintainable code?",
+    "options": [
+      "Duplicated logic everywhere",
+      "Long functions with unclear names",
+      "Consistent style and meaningful identifiers",
+      "Global variables in every module"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Code smell is a surface indication of a deeper problem in the code, such as duplicated logic, long methods, or excessive parameters, suggesting refactoring is needed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0165",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Refactoring is the process of:",
+    "options": [
+      "Adding new features only",
+      "Improving internal code structure without changing external behavior",
+      "Deleting documentation",
+      "Changing requirements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Build automation tools (like Maven, Gradle, or Make) automatically compile, test, and package source code into deployable artifacts, reducing manual errors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0166",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Defensive programming encourages developers to:",
+    "options": [
+      "Assume all inputs are valid",
+      "Avoid validation",
+      "Anticipate unexpected situations and handle them safely",
+      "Remove exception handling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Defensive programming encourages developers to anticipate unexpected situations (invalid inputs, edge cases, failures) and handle them safely with proper validation and error handling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0167",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following supports code reuse the most?",
+    "options": [
+      "Hard-coded values",
+      "Generic functions and well-defined classes",
+      "Repeated copy-paste blocks",
+      "Hidden dependencies"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Code documentation through comments and documentation generators helps other developers understand the purpose, behavior, and usage of code components.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0168",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Dead code is code that:",
+    "options": [
+      "Is highly reusable",
+      "Is never executed or no longer needed",
+      "Improves performance automatically",
+      "Has many comments"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Technical debt accumulates when quick, suboptimal coding decisions are made to meet deadlines, requiring future rework to maintain code quality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0169",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A version control system is used to:",
+    "options": [
+      "Track and manage source code changes",
+      "Replace compilers",
+      "Design networks",
+      "Remove all bugs automatically"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An API (Application Programming Interface) defines how software components interact, specifying methods, data formats, and protocols for communication.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0170",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a common sign of poor implementation?",
+    "options": [
+      "Short focused functions",
+      "Meaningful variable names",
+      "Deeply nested duplicated logic",
+      "Automated builds"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Deeply nested duplicated logic is a common sign of poor implementation, indicating code that is hard to read, maintain, and prone to bugs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0171",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Exception handling is primarily used to:",
+    "options": [
+      "Prevent documentation",
+      "Manage runtime errors gracefully",
+      "Increase coupling",
+      "Replace testing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Error handling manages unexpected situations during execution by catching exceptions and providing meaningful error messages or graceful recovery.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0172",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes portability in coding?",
+    "options": [
+      "Code can run on different platforms with little change",
+      "Code has no functions",
+      "Code is locked to one machine",
+      "Code uses only global data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Logging records events and actions during software execution, providing valuable information for debugging, monitoring, and auditing system behavior.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0173",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Magic numbers should be avoided because they:",
+    "options": [
+      "Clarify intent immediately",
+      "Make maintenance and understanding harder",
+      "Improve modularity",
+      "Reduce the need for named constants in all cases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "DRY (Don't Repeat Yourself) eliminates code duplication by abstracting common logic into reusable functions or modules, reducing maintenance effort.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0174",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Encapsulation helps implementation by:",
+    "options": [
+      "Exposing all internal details",
+      "Protecting data and hiding implementation details",
+      "Increasing duplication",
+      "Avoiding interfaces"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Encapsulation protects data and hides implementation details by bundling data and methods together and exposing only a controlled interface.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0175",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which practice is most effective for early detection of coding issues?",
+    "options": [
+      "Deployment testing only",
+      "Code review",
+      "User training",
+      "Acceptance sign-off"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A linter is a static analysis tool that checks source code for programming errors, coding style violations, and potential bugs without executing the code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0176",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A function with too many parameters may indicate:",
+    "options": [
+      "Good modularity",
+      "Strong cohesion",
+      "Possible design weakness and low readability",
+      "Perfect abstraction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Containerization (e.g., Docker) packages software with all its dependencies into isolated containers, ensuring consistent behavior across different environments.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0177",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main role of a compiler is to:",
+    "options": [
+      "Translate source code into machine or intermediate code",
+      "Test usability",
+      "Draw UML diagrams",
+      "Estimate project risk"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Makefile defines build rules and dependencies, automating the compilation process by specifying how source files are transformed into executable programs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0178",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best supports secure coding?",
+    "options": [
+      "Trusting all input data",
+      "Validating and sanitizing external inputs",
+      "Storing secrets in plain text",
+      "Ignoring boundary cases"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Validating and sanitizing external inputs is essential for secure coding, preventing injection attacks and ensuring only expected data enters the system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0179",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Low coupling in implementation means:",
+    "options": [
+      "Modules are highly dependent on each other",
+      "Modules interact minimally through clear interfaces",
+      "Code is stored in one file only",
+      "Variables are global"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dependency injection provides external dependencies to a component rather than having it create them, improving testability and decoupling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0180",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "An IDE typically provides:",
+    "options": [
+      "Only source code storage",
+      "Only testing reports",
+      "Editing, debugging, and build support",
+      "Only network simulation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Feature flags allow developers to enable or disable features at runtime without deploying new code, supporting gradual rollouts and A/B testing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0181",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The fundamental purpose of software testing is to:",
+    "options": [
+      "Guarantee software is defect-free",
+      "Find defects and verify expected behavior",
+      "Replace design activities",
+      "Avoid user feedback"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Software testing is a process of evaluating software to detect differences between expected and actual behavior, ensuring quality and reliability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0182",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Unit testing is primarily concerned with:",
+    "options": [
+      "Entire organizations",
+      "The interaction between integrated subsystems",
+      "Individual components or functions",
+      "Acceptance by customers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Verification checks whether the software conforms to its specification (\"Are we building the product right?\"), while validation checks it meets user needs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0183",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Integration testing focuses on:",
+    "options": [
+      "Interaction between combined modules",
+      "Only user manuals",
+      "Only hardware installation",
+      "Team management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Black-box testing tests functionality without examining internal code structure, focusing on inputs and expected outputs based on requirements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0184",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "System testing verifies:",
+    "options": [
+      "Only the database",
+      "The complete integrated system against requirements",
+      "Only source code comments",
+      "Project scope only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "White-box testing examines the internal structure and logic of the code, designing test cases based on code paths, branches, and conditions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0185",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Acceptance testing is mainly used to determine whether:",
+    "options": [
+      "The software meets business and user needs",
+      "All code paths are executed",
+      "Developers are satisfied",
+      "The architecture is layered"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Integration testing verifies that individual modules work correctly when combined together, detecting interface defects between components.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0186",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Regression testing is performed to:",
+    "options": [
+      "Verify old functionality still works after changes",
+      "Test hardware speed",
+      "Replace integration testing",
+      "Train users"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Regression testing verifies that previously working functionality still works correctly after code changes, bug fixes, or new feature additions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0187",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Black-box testing is based on:",
+    "options": [
+      "Internal code structure",
+      "External behavior and expected outputs",
+      "Class inheritance only",
+      "Developer salary records"
+    ],
+    "correctAnswer": 1,
+    "explanation": "System testing validates the complete, integrated system against requirements, testing the entire application as a whole in an environment close to production.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0188",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "White-box testing emphasizes:",
+    "options": [
+      "UI attractiveness",
+      "Contract compliance",
+      "Internal logic, branches, and paths",
+      "User preference surveys"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Acceptance testing is performed by end users or clients to validate that the system meets their business requirements and is ready for deployment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0189",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Boundary value analysis is useful because errors often occur:",
+    "options": [
+      "In architecture documents",
+      "Near the limits of input ranges",
+      "In employee records",
+      "In deployment rooms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Boundary value analysis focuses on testing values at the edges of input ranges (minimum, maximum, just inside, just outside), where defects commonly occur.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0190",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Equivalence partitioning reduces testing effort by:",
+    "options": [
+      "Dividing inputs into representative classes",
+      "Testing every input individually",
+      "Ignoring invalid data",
+      "Replacing test cases with assumptions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Equivalence partitioning divides inputs into representative classes where all values in a class are expected to behave similarly, reducing the number of test cases needed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0191",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Smoke testing is generally used to:",
+    "options": [
+      "Check basic stability of a build before detailed testing",
+      "Measure fire safety",
+      "Replace stress testing",
+      "Verify all use cases completely"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Statement coverage measures the percentage of executable source code statements that are exercised by test cases, indicating basic testing thoroughness.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0192",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Stress testing evaluates system behavior:",
+    "options": [
+      "Under ideal conditions only",
+      "Under extreme or beyond-normal load",
+      "Only during code review",
+      "Only for user manuals"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Branch coverage measures whether each branch (true/false path) of every decision point has been executed, providing stronger coverage than statement coverage.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0193",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Performance testing mainly examines:",
+    "options": [
+      "Code comments",
+      "Visual design only",
+      "Speed, responsiveness, and stability under workload",
+      "Documentation structure"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Alpha testing is performed by internal developers or testers at the development site before releasing the software to external users.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0194",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Retesting is performed to:",
+    "options": [
+      "Confirm a specific defect has been fixed",
+      "Remove requirements",
+      "Replace validation",
+      "Estimate cost"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Retesting (confirmation testing) is performed specifically to confirm that a previously identified defect has been successfully fixed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0195",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Beta testing is usually carried out:",
+    "options": [
+      "Internally by developers only",
+      "By selected users in a real environment",
+      "Before coding begins",
+      "Without functional software"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A test case defines a specific set of inputs, execution conditions, and expected results designed to verify a particular aspect of the software.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0196",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A test oracle is:",
+    "options": [
+      "A random guess",
+      "A method for determining expected test outcomes",
+      "A compiler plugin",
+      "A database server"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A test plan documents the testing strategy, objectives, scope, schedule, resources, and approach for the entire testing effort.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0197",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Code coverage measures:",
+    "options": [
+      "Percentage of source code executed by tests",
+      "Number of users trained",
+      "Quality of documentation fonts",
+      "Size of the project budget"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Beta testing is performed by external users in a real-world environment to identify remaining defects before the final release.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0198",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which statement about testing is most accurate?",
+    "options": [
+      "Testing proves absence of all defects",
+      "Testing is needed only after coding",
+      "Testing can reveal defects, not prove perfection",
+      "Testing replaces quality assurance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Testing can reveal the presence of defects but cannot prove their absence, as exhaustive testing of all possible inputs is practically impossible.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0199",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software maintenance refers to:",
+    "options": [
+      "Activities performed after delivery to correct or improve software",
+      "Only initial coding",
+      "Only project estimation",
+      "Only documentation printing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Performance testing evaluates system behavior under various workload conditions, measuring response times, throughput, and resource utilization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0200",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Corrective maintenance is performed to:",
+    "options": [
+      "Adapt software to new environments",
+      "Fix faults discovered after delivery",
+      "Improve performance only",
+      "Reduce future risks only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stress testing pushes the system beyond normal operational capacity to determine how it behaves under extreme load and when it breaks down.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0201",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Adaptive maintenance is needed when:",
+    "options": [
+      "The software must work in a changed environment",
+      "New coding begins",
+      "A project charter is updated",
+      "User training ends"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Software maintenance is the process of modifying software after delivery to fix defects, improve performance, or adapt to environmental changes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0202",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Perfective maintenance generally aims to:",
+    "options": [
+      "Remove all modules",
+      "Fix syntax errors only",
+      "Improve functionality, performance, or usability",
+      "Change project ownership only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Perfective maintenance aims to improve the software's functionality, performance, or usability based on user feedback and evolving requirements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0203",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Preventive maintenance seeks to:",
+    "options": [
+      "Reduce future maintenance problems",
+      "Add customer-requested features only",
+      "Replace system testing",
+      "Convert all software to hardware"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Corrective maintenance fixes discovered bugs and defects in the software after it has been deployed to production.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0204",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software evolution describes:",
+    "options": [
+      "Gradual change of software over time",
+      "Physical wear of disks",
+      "Automatic deletion of code",
+      "Ending all software support"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Adaptive maintenance modifies the software to accommodate changes in the operating environment such as new hardware, operating systems, or regulations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0205",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Legacy systems are often difficult to evolve because they:",
+    "options": [
+      "Always use modern technology",
+      "Usually have excellent documentation",
+      "May be built on outdated platforms with poor structure",
+      "Never change"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Preventive maintenance proactively restructures or optimizes code to prevent future problems, improving maintainability before issues arise.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0206",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Reverse engineering is used to:",
+    "options": [
+      "Understand an existing system from code and artifacts",
+      "Avoid maintenance",
+      "Delete architecture documents",
+      "Replace testing tools"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Software reengineering restructures existing software to improve its maintainability and quality, often including reverse engineering and code restructuring.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0207",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Re-engineering mainly focuses on:",
+    "options": [
+      "Improving internal structure of an existing system",
+      "Eliminating all functions",
+      "Writing new requirements only",
+      "Building hardware devices"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Reverse engineering analyzes existing software to understand its structure, functionality, and design without access to original documentation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0208",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Technical debt is best defined as:",
+    "options": [
+      "Money spent on software tools",
+      "Future cost caused by quick but poor technical decisions",
+      "License fees for frameworks",
+      "The cost of documentation printing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Legacy system migration moves an outdated system to a modern platform while preserving its functionality and data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0209",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Impact analysis helps maintainers to:",
+    "options": [
+      "Check how a proposed change affects other parts of the system",
+      "Remove all old code immediately",
+      "Skip regression testing",
+      "Replace design reviews"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The cost of fixing a defect increases significantly the later it is found in the development lifecycle, making early detection crucial.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0210",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which factor most increases maintenance difficulty?",
+    "options": [
+      "Clear architecture",
+      "Consistent coding standards",
+      "Tightly coupled poorly documented code",
+      "High cohesion"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Maintenance typically consumes 60-80% of the total software lifecycle cost, making it the most resource-intensive phase.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0211",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Regression testing during maintenance is important because:",
+    "options": [
+      "Changes may introduce side effects in existing functionality",
+      "Old features never break",
+      "Testing after release is unnecessary",
+      "Maintenance affects only documentation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Software aging refers to the gradual degradation of software quality over time due to accumulated changes, patches, and environmental drift.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0212",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Program comprehension means:",
+    "options": [
+      "Understanding the existing code before modifying it",
+      "Deleting old versions",
+      "Measuring response time",
+      "Replacing analysts"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Impact analysis assesses the potential effects of proposed changes before implementing them, identifying affected components and estimating effort.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0213",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software aging refers to:",
+    "options": [
+      "Hardware failure",
+      "Increased difficulty in maintaining software due to accumulated changes",
+      "Expiration of source code",
+      "Automatic loss of functionality with time only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Service Level Agreement (SLA) defines the expected level of service including response times, uptime guarantees, and support procedures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0214",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Configuration management during maintenance helps control:",
+    "options": [
+      "Changes to versions and related artifacts",
+      "User interface colors",
+      "Office attendance",
+      "Processor temperature"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Configuration management during maintenance controls changes to software versions, documentation, and related artifacts, ensuring consistency and traceability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0215",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Maintainability is the ease with which software can be:",
+    "options": [
+      "Marketed and sold",
+      "Understood, corrected, adapted, and enhanced",
+      "Printed on paper",
+      "Executed without memory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Software Quality Assurance (SQA) encompasses all activities that ensure software processes and products meet quality standards and requirements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0216",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software Quality Assurance is primarily concerned with:",
+    "options": [
+      "Ensuring processes and products satisfy quality standards",
+      "Only writing source code",
+      "Only testing final builds",
+      "Only hiring staff"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A software defect is any deviation from expected behavior as defined by requirements, including bugs, errors, and failures in the software.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0217",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SQA differs from testing because SQA focuses more on:",
+    "options": [
+      "Defect prevention through process quality",
+      "Writing acceptance criteria only",
+      "Running compilers",
+      "Preparing UI prototypes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Formal Technical Reviews (FTRs) are structured peer reviews of work products to detect defects early, improving quality before testing begins.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0218",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A quality audit is performed to:",
+    "options": [
+      "Check process compliance with standards and plans",
+      "Generate code automatically",
+      "Train users",
+      "Replace inspections"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A quality audit checks whether processes comply with established standards and plans, identifying deviations and recommending corrective actions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0219",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The quality assurance plan mainly defines:",
+    "options": [
+      "Payroll rules",
+      "Quality procedures, standards, and responsibilities",
+      "Programming syntax",
+      "Network topology"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ISO 9001 provides a framework for quality management systems, establishing requirements for consistent processes and continuous improvement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0220",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Verification asks:",
+    "options": [
+      "Are we building the right product?",
+      "Is the software profitable?",
+      "Are we building the product right?",
+      "Can we skip testing?"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CMMI (Capability Maturity Model Integration) defines maturity levels for software processes, guiding organizations to improve their development practices systematically.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0221",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Validation asks:",
+    "options": [
+      "Are we building the right product?",
+      "Are we coding efficiently?",
+      "Are we using enough comments?",
+      "Are we following budget only?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Software reliability measures the probability that the software will perform without failure for a specified period under specified conditions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0222",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a preventive SQA activity?",
+    "options": [
+      "Fixing a production failure",
+      "Conducting formal design reviews",
+      "Restarting services",
+      "Archiving code"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Conducting formal design reviews is a preventive SQA activity that catches defects early in the design phase before they propagate to implementation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0223",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Peer reviews support quality assurance by:",
+    "options": [
+      "Detecting defects early in work products",
+      "Replacing all tests",
+      "Avoiding collaboration",
+      "Preventing future maintenance forever"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Walkthrough is an informal review technique where the author presents the work product to peers, who provide feedback and identify potential issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0224",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A software metric is used to:",
+    "options": [
+      "Remove all defects automatically",
+      "Quantify attributes of product or process",
+      "Replace configuration management",
+      "Approve budgets only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inspection is a formal, systematic review process with defined roles (moderator, reader, recorder) aimed at detecting defects in work products.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0225",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Defect density is a measure of:",
+    "options": [
+      "Defects relative to software size",
+      "Developer salaries",
+      "Number of interface colors",
+      "User login frequency"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cost of quality includes prevention costs, appraisal costs, internal failure costs, and external failure costs associated with achieving and maintaining quality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0226",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Root cause analysis aims to:",
+    "options": [
+      "Rename files",
+      "Identify underlying causes of defects",
+      "Increase schedule pressure",
+      "Eliminate documentation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Root cause analysis identifies the underlying fundamental causes of defects rather than just symptoms, enabling permanent corrective actions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0227",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Standards are important in SQA because they:",
+    "options": [
+      "Provide a consistent basis for evaluation and work practices",
+      "Remove the need for expertise",
+      "Eliminate all bugs",
+      "Apply only to hardware"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Six Sigma aims to reduce process variation and defects to near-zero levels (3.4 defects per million) through data-driven quality improvement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0228",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Process improvement in SQA aims to:",
+    "options": [
+      "Reduce discipline",
+      "Continuously improve development practices",
+      "Replace architecture",
+      "Avoid measurement"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A quality plan defines specific quality objectives, standards, processes, and metrics for a particular project, tailoring the quality approach.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0229",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a product quality attribute?",
+    "options": [
+      "Reliability",
+      "Office rent",
+      "Team hierarchy",
+      "Contract duration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Peer review has team members examine each other's work products to find defects and share knowledge, improving both quality and team capability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0230",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Statistical quality control in software uses:",
+    "options": [
+      "Random guesses",
+      "Quantitative data and measurements",
+      "Only interviews",
+      "Only source code formatting"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Statistical quality control uses quantitative data and measurements (like defect density, code coverage) to monitor and improve software quality objectively.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0231",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A checklist during inspection helps by:",
+    "options": [
+      "Guiding systematic review and reducing omission",
+      "Replacing standards",
+      "Avoiding documentation",
+      "Limiting reviewer participation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Software metrics are quantitative measures used to assess the quality, complexity, and progress of software products and processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0232",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SQA is most effective when it is:",
+    "options": [
+      "Applied only at project end",
+      "Integrated throughout the software life cycle",
+      "Limited to testing teams only",
+      "Used only after failures occur"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lines of Code (LOC) is a basic size metric that counts the number of lines in source code, used for estimating effort and measuring productivity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0233",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A software metric is best defined as:",
+    "options": [
+      "A qualitative opinion about software",
+      "A quantitative measure of a software attribute",
+      "A replacement for reviews",
+      "A project contract"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cyclomatic complexity measures the number of independent paths through a program's control flow, indicating code complexity and testing difficulty.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0234",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a product metric?",
+    "options": [
+      "Defect density",
+      "Average effort per week",
+      "Cost variance",
+      "Team size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Defect density measures the number of confirmed defects per unit size of software (e.g., per KLOC), indicating the quality of the code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0235",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a process metric?",
+    "options": [
+      "Number of defects per KLOC",
+      "Cyclomatic complexity",
+      "Mean time to fix defects",
+      "Number of classes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Code coverage measures the percentage of source code exercised by test cases, with common types including statement, branch, and path coverage.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0236",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Metrics are useful in software engineering because they:",
+    "options": [
+      "Eliminate all uncertainty",
+      "Support objective analysis and decision-making",
+      "Replace all management judgment",
+      "Prevent all change requests"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Function points measure software size based on user-facing functionality (inputs, outputs, inquiries, files, interfaces) independent of technology.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0237",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "LOC stands for:",
+    "options": [
+      "Level of coupling",
+      "Logic of coding",
+      "Lines of Code",
+      "Length of class"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Halstead metrics measure software complexity using counts of operators and operands to calculate volume, difficulty, and effort.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0238",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Function Point Analysis measures software size based on:",
+    "options": [
+      "Hardware devices",
+      "Delivered functionality to the user",
+      "Only source code lines",
+      "Only number of programmers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Coupling metrics measure the degree of interdependence between modules, with lower coupling indicating better modular design.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0239",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cyclomatic complexity measures:",
+    "options": [
+      "User satisfaction",
+      "Project budget",
+      "The number of independent paths in a program",
+      "Number of interface windows"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cohesion metrics assess how closely related the elements within a module are, with higher cohesion indicating a more focused, well-designed module.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0240",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A higher cyclomatic complexity generally suggests:",
+    "options": [
+      "Easier testing and simpler logic",
+      "Lower code risk automatically",
+      "Greater structural complexity and testing effort",
+      "Better reusability in all cases"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Schedule variance measures the difference between planned and actual progress, indicating whether the project is ahead of or behind schedule.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0241",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Mean Time Between Failures (MTBF) is associated with:",
+    "options": [
+      "Reliability measurement",
+      "Coding style",
+      "Data normalization",
+      "Interface responsiveness only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mean Time Between Failures (MTBF) measures the average time a system operates without failure, indicating reliability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0242",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Mean Time To Repair (MTTR) measures:",
+    "options": [
+      "The average time to correct and restore service after failure",
+      "The average number of lines per module",
+      "The total number of test cases",
+      "The number of users per release"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mean Time To Repair (MTTR) measures the average time needed to diagnose and fix a failure and restore the system to operation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0243",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which metric is most useful for maintainability assessment?",
+    "options": [
+      "Number of sales reports",
+      "Coupling and complexity measures",
+      "User age statistics",
+      "Screen brightness"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Productivity metrics like LOC per person-month or function points per person-month measure how efficiently the development team produces software.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0244",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A valid software metric should be:",
+    "options": [
+      "Ambiguous",
+      "Difficult to interpret",
+      "Clearly defined and repeatable",
+      "Based only on personal opinion"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A metric baseline establishes initial measurement values against which future measurements are compared to track improvement or degradation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0245",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Measurement helps project control by:",
+    "options": [
+      "Providing data on progress, quality, and effort",
+      "Eliminating the need for planning",
+      "Avoiding all risk",
+      "Removing customers from decisions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Maintainability index combines several metrics (cyclomatic complexity, LOC, Halstead volume) into a single score indicating how easy the software is to maintain.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0246",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Goal-Question-Metric (GQM) is used to:",
+    "options": [
+      "Link metrics to organizational goals through questions",
+      "Replace testing strategies",
+      "Write code faster",
+      "Standardize hardware selection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Goal-Question-Metric (GQM) links metrics to organizational goals by defining goals, formulating questions about those goals, and identifying metrics to answer them.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0247",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a size-oriented metric?",
+    "options": [
+      "Function points",
+      "Lines of Code",
+      "Defect removal efficiency",
+      "MTTR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Defect removal efficiency measures the percentage of defects found and fixed before release compared to total defects, indicating the effectiveness of quality activities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0248",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Defect Removal Efficiency (DRE) evaluates:",
+    "options": [
+      "How effectively defects are removed before release",
+      "Hardware utilization",
+      "Number of UI screens",
+      "Data transfer speed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Test effectiveness ratio compares the number of defects found during testing to the total defects (including those found after release), measuring test quality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0249",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is most likely a misuse of metrics?",
+    "options": [
+      "Using them to guide improvement",
+      "Using them in context with judgment",
+      "Using one metric alone to make all decisions",
+      "Tracking trends over time"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Software Configuration Management (SCM) is the discipline of controlling and tracking changes to software artifacts throughout the development lifecycle.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0250",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software Configuration Management primarily deals with:",
+    "options": [
+      "Controlling and tracking changes to software artifacts",
+      "Designing database schemas",
+      "Training users",
+      "Measuring processor performance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SCM primarily deals with controlling and tracking changes to all software artifacts including source code, documents, test cases, and build configurations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0251",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A configuration item is:",
+    "options": [
+      "Any software artifact placed under control",
+      "Only a source code file",
+      "Only a hardware device",
+      "Only a design diagram"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A baseline is an approved snapshot of a software configuration item at a specific point in time, serving as a reference for future changes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0252",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Version control systems help teams by:",
+    "options": [
+      "Tracking changes and supporting collaboration",
+      "Eliminating all merge conflicts",
+      "Replacing testing",
+      "Preventing all defects"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Configuration Item (CI) is any artifact placed under configuration management, such as source code files, documents, test scripts, and configuration files.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0253",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A baseline in SCM is:",
+    "options": [
+      "A temporary draft that changes every minute",
+      "An approved reference version used for future comparison",
+      "A deleted file",
+      "A user account list"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A version control system tracks and manages changes to files over time, maintaining a complete history and enabling collaboration among developers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0254",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Change control ensures that:",
+    "options": [
+      "All changes are ignored",
+      "Only approved and evaluated changes are implemented",
+      "Every developer changes anything anytime",
+      "Source code is never modified"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Change control ensures that only approved and properly evaluated changes are implemented, preventing unauthorized or poorly assessed modifications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0255",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Configuration status accounting is concerned with:",
+    "options": [
+      "Recording and reporting the status of configuration items and changes",
+      "User training schedules",
+      "Interface colors",
+      "Budget estimation only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A change request is a formal proposal to modify a software configuration item, documenting what needs to change and why.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0256",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Configuration auditing is used to:",
+    "options": [
+      "Check whether configuration items conform to requirements and records",
+      "Rewrite requirements",
+      "Replace design reviews",
+      "Increase coupling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Configuration Control Board (CCB) is a group responsible for evaluating, approving, or rejecting proposed changes to configuration items.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0257",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Branching in version control is useful for:",
+    "options": [
+      "Creating isolated lines of development",
+      "Deleting release history",
+      "Avoiding collaboration",
+      "Preventing merges forever"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Branching creates a separate line of development from the main codebase, allowing parallel work on features, fixes, or releases without affecting the main branch.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0258",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Merging in SCM means:",
+    "options": [
+      "Splitting a project into modules",
+      "Combining changes from different branches",
+      "Removing baselines",
+      "Archiving documentation only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Merging in SCM combines changes from different branches back into a single branch, integrating parallel development work.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0259",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A build in SCM refers to:",
+    "options": [
+      "A compiled and assembled version of the software",
+      "A user acceptance report",
+      "A project contract",
+      "A risk checklist only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A build is the process of compiling source code, linking libraries, and assembling all components into a deployable software package.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0260",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Release management is concerned with:",
+    "options": [
+      "Planning and delivering approved versions to users",
+      "Drawing class diagrams",
+      "Writing only unit tests",
+      "Hiring developers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A release is a formally distributed version of the software made available to users, typically after passing all quality gates and approval processes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0261",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a major benefit of SCM?",
+    "options": [
+      "Better traceability and control over software changes",
+      "No need for documentation",
+      "Elimination of all bugs",
+      "Removal of reviews"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Configuration auditing verifies that configuration items conform to their documented specifications and that all changes have been properly recorded.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0262",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Check-in and check-out operations are associated with:",
+    "options": [
+      "Configuration repositories",
+      "Network hardware",
+      "User registration systems",
+      "Payroll management"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Check-in and check-out operations are associated with configuration repositories, controlling access to files by managing who can modify them at any time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0263",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "An SCM repository stores:",
+    "options": [
+      "Controlled versions of source and related artifacts",
+      "Only executable files",
+      "Only user passwords",
+      "Only architecture diagrams"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Status accounting tracks and reports the current status and history of all configuration items, providing visibility into the state of the software.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0264",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Traceability in SCM helps to:",
+    "options": [
+      "Link requirements, changes, versions, and related artifacts",
+      "Hide design decisions",
+      "Reduce documentation",
+      "Increase ambiguity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A diff tool highlights differences between two versions of a file, helping developers understand what changed between revisions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0265",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is most likely to cause configuration problems?",
+    "options": [
+      "Uncontrolled parallel changes",
+      "Version labeling",
+      "Baseline approval",
+      "Change logs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A commit is a recorded snapshot of changes to files in a version control repository, creating a permanent record with a message describing the changes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0266",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A tag or label in version control is typically used to:",
+    "options": [
+      "Mark a specific version or release point",
+      "Delete files permanently",
+      "Replace branches",
+      "Prevent documentation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A tag or label marks a specific version or release point in version control, creating a named reference to a particular snapshot for easy retrieval.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0267",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software risk management is concerned with:",
+    "options": [
+      "Identifying, analyzing, and responding to project risks",
+      "Writing code only",
+      "Replacing architecture design",
+      "Avoiding all planning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A software risk is a potential event that could negatively impact the project's schedule, cost, quality, or scope if it occurs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0268",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A software risk is best defined as:",
+    "options": [
+      "A guaranteed project failure",
+      "An uncertain event that may negatively affect objectives",
+      "A completed defect fix",
+      "A coding standard"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Risk identification is the process of systematically finding and documenting potential risks that could affect the project's success.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0269",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Risk identification is the process of:",
+    "options": [
+      "Discovering potential problems that may affect the project",
+      "Solving all risks immediately",
+      "Eliminating uncertainty completely",
+      "Avoiding all estimates"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Risk analysis evaluates identified risks by assessing their likelihood of occurrence and potential impact on project objectives.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0270",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Risk analysis typically considers:",
+    "options": [
+      "Only team size",
+      "Probability and impact",
+      "Only technical details",
+      "Coding style only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Risk mitigation involves taking proactive steps to reduce the probability or impact of identified risks before they materialize.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0271",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A risk register is used to:",
+    "options": [
+      "Store project source code",
+      "Track identified risks and planned responses",
+      "Replace schedules",
+      "Record payroll data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A risk register is a document that lists all identified risks along with their likelihood, impact, mitigation strategies, and assigned owners.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0272",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Risk mitigation means:",
+    "options": [
+      "Ignoring low risks",
+      "Reducing probability or impact of a risk",
+      "Accepting all risks",
+      "Deleting requirements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Requirements volatility (frequently changing requirements) is a common risk factor that can lead to scope creep, rework, and project delays.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0273",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which response is most suitable when a risk must not be allowed to occur?",
+    "options": [
+      "Accept",
+      "Transfer",
+      "Avoid",
+      "Ignore"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Risk avoidance eliminates the risk entirely by changing the project plan to remove the threat, such as choosing proven technology over experimental.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0274",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Risk monitoring means:",
+    "options": [
+      "Watching identified risks and reassessing them over time",
+      "Testing only after release",
+      "Measuring CPU temperature",
+      "Freezing all project activity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Risk monitoring involves continuously watching identified risks and reassessing their status, likelihood, and impact throughout the project lifecycle.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0275",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a common technical risk?",
+    "options": [
+      "Requirement volatility",
+      "Office relocation",
+      "Budget approval delay only",
+      "Staff vacation schedule only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Risk transfer shifts the impact of a risk to a third party through mechanisms like insurance, outsourcing, or contractual agreements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0276",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is a project risk?",
+    "options": [
+      "Insufficient staff or unrealistic schedule",
+      "SQL syntax error",
+      "Button color mismatch",
+      "Data type conversion only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Contingency planning prepares alternative courses of action (Plan B) to be executed if identified risks actually materialize despite mitigation efforts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0277",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A contingency plan is prepared to:",
+    "options": [
+      "Define what to do if a risk materializes",
+      "Replace the main schedule",
+      "Avoid documentation",
+      "Remove all uncertainty instantly"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Technical risk relates to the possibility that technology, tools, or technical approaches may not work as expected or may not be feasible.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0278",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Risk exposure is commonly understood as:",
+    "options": [
+      "The combination of likelihood and loss/impact",
+      "A project's number of developers",
+      "Testing effort only",
+      "A legal contract value"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Risk exposure (expected loss) is calculated as the combination of the probability of occurrence and the potential loss or impact if the risk materializes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0279",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Risk prioritization helps managers:",
+    "options": [
+      "Focus on the most significant risks first",
+      "Ignore all minor risks completely",
+      "Replace requirement analysis",
+      "Cancel testing activities"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Risk prioritization ranks risks based on their combined likelihood and impact, focusing attention and resources on the most critical threats.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0280",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is an external risk?",
+    "options": [
+      "Changes in laws or regulations",
+      "Poor coding standards",
+      "Low module cohesion",
+      "Missing comments in code"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Risk acceptance means acknowledging a risk without taking active mitigation steps, typically for low-impact or low-probability risks where the cost of mitigation exceeds the risk.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0281",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Prototyping can reduce risk mainly by:",
+    "options": [
+      "Clarifying requirements and technical feasibility",
+      "Increasing uncertainty",
+      "Replacing maintenance",
+      "Removing quality assurance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A risk response plan documents the specific actions to be taken when risks occur, including responsible parties, timelines, and escalation procedures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0282",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which statement is most accurate about software risks?",
+    "options": [
+      "Risks disappear after planning",
+      "Risks should be managed continuously throughout the project",
+      "Risks matter only at the end",
+      "Risks are always technical only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Project risk is associated with the overall project management aspects, including schedule, budget, resources, and organizational factors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0283",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Software security engineering is primarily concerned with:",
+    "options": [
+      "Building software that resists malicious attacks and misuse",
+      "Increasing interface colors",
+      "Replacing testing with encryption",
+      "Avoiding all user input"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Software security engineering integrates security practices throughout the software development lifecycle to build systems that resist attacks and protect data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0284",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes confidentiality?",
+    "options": [
+      "Preventing unauthorized disclosure of information",
+      "Ensuring software is easy to modify",
+      "Making systems faster",
+      "Improving portability"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Confidentiality ensures that sensitive information is accessible only to authorized individuals, preventing unauthorized disclosure of data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0285",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Integrity in software security means:",
+    "options": [
+      "Data is protected from unauthorized alteration",
+      "Data is compressed efficiently",
+      "Users are trained regularly",
+      "Screens are responsive"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Integrity ensures that data remains accurate, complete, and unaltered by unauthorized parties, maintaining trustworthiness of information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0286",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Availability refers to:",
+    "options": [
+      "Ensuring systems and data are accessible when needed",
+      "Hiding all resources",
+      "Limiting all users permanently",
+      "Replacing backups"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Availability ensures that systems and data are accessible and usable when needed by authorized users, maintaining operational continuity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0287",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Authentication is the process of:",
+    "options": [
+      "Verifying the identity of a user or system",
+      "Granting permissions automatically",
+      "Encrypting all traffic",
+      "Monitoring logs only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Threat modeling is a structured approach to identifying and evaluating potential security threats and vulnerabilities in a software system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0288",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Authorization determines:",
+    "options": [
+      "Who a user is",
+      "What an authenticated user is allowed to do",
+      "Whether data is encrypted",
+      "Whether software is portable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Authentication verifies the identity of a user or system component, confirming they are who they claim to be before granting access.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0289",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is the best example of secure coding practice?",
+    "options": [
+      "Trusting all input",
+      "Validating and sanitizing inputs",
+      "Storing passwords in plain text",
+      "Ignoring exceptions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Authorization determines what actions and resources an authenticated user is permitted to access, enforcing access control policies.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0290",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SQL injection is an attack that targets:",
+    "options": [
+      "Database queries built from unsafe input",
+      "User interface colors",
+      "Project budgets",
+      "Deployment diagrams"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SQL injection targets database queries built from unsafe user input, allowing attackers to manipulate queries to access or modify unauthorized data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0291",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cross-Site Scripting (XSS) mainly occurs when:",
+    "options": [
+      "Untrusted input is included in web pages without proper handling",
+      "Databases are normalized",
+      "Passwords are hashed strongly",
+      "Firewalls are configured properly"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cross-site scripting (XSS) injects malicious scripts into web pages viewed by other users, potentially stealing session data or redirecting users.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0292",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Encryption is used to:",
+    "options": [
+      "Convert data into a protected form unreadable without a key",
+      "Increase coupling",
+      "Replace authentication",
+      "Remove audit trails"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Input validation checks all user-supplied data for correctness and safety before processing, preventing injection attacks and data corruption.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0293",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Hashing is commonly used for:",
+    "options": [
+      "Secure storage of passwords",
+      "Recoverable encryption of files",
+      "User interface rendering",
+      "Database indexing only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Encryption converts readable data (plaintext) into an unreadable format (ciphertext) using algorithms and keys, protecting data confidentiality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0294",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The principle of least privilege means:",
+    "options": [
+      "Users should have only the minimum access necessary",
+      "Every user should be admin",
+      "Security logs are optional",
+      "Interfaces should be hidden"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The principle of least privilege means users should have only the minimum level of access rights necessary to perform their job functions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0295",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Threat modeling is used to:",
+    "options": [
+      "Identify threats, vulnerabilities, and mitigations early",
+      "Replace testing",
+      "Write deployment code",
+      "Remove architecture"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A security vulnerability is a weakness in software that can be exploited by attackers to compromise the system's confidentiality, integrity, or availability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0296",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A vulnerability is:",
+    "options": [
+      "A weakness that can be exploited",
+      "A successful attack only",
+      "A secure configuration",
+      "A backup copy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Penetration testing simulates real-world attacks against a system to identify exploitable security vulnerabilities before malicious actors do.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0297",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Multi-factor authentication improves security by:",
+    "options": [
+      "Requiring more than one type of verification",
+      "Reducing password strength",
+      "Removing user identity checks",
+      "Disabling logs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Secure coding practices include input validation, output encoding, proper authentication, secure session management, and defensive error handling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0298",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Logging and auditing are important because they:",
+    "options": [
+      "Support detection, investigation, and accountability",
+      "Eliminate need for prevention",
+      "Replace access control",
+      "Prevent all attacks automatically"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Logging and auditing support detection of security incidents, forensic investigation of breaches, and accountability by recording who did what and when.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0299",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Secure software design should address security:",
+    "options": [
+      "Only after deployment",
+      "Only after user complaints",
+      "Throughout the software life cycle",
+      "Only during coding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Access control lists (ACLs) define which users or groups have permissions to perform specific operations on particular resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-se-0300",
+    "subjectId": "uni-se",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best summarizes software security engineering?",
+    "options": [
+      "It is only about antivirus tools",
+      "It integrates security requirements, design, coding, and validation into development",
+      "It replaces software quality assurance",
+      "It focuses only on network hardware"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Defense in depth applies multiple layers of security controls so that if one layer is breached, additional layers continue to protect the system.",
+    "source": "university"
+  }
+]

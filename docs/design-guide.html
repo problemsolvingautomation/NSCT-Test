@@ -1,0 +1,1700 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NSCT Quiz App — Design Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ===== CSS VARIABLES ===== */
+    :root {
+      --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+      /* Light Mode */
+      --bg: #F8FAFC;
+      --surface: #FFFFFF;
+      --text-primary: #1E293B;
+      --text-secondary: #64748B;
+      --primary: #0D9488;
+      --primary-hover: #0F766E;
+      --primary-light: #CCFBF1;
+      --correct: #10B981;
+      --correct-light: #D1FAE5;
+      --incorrect: #EF4444;
+      --incorrect-light: #FEE2E2;
+      --warning: #F59E0B;
+      --warning-light: #FEF3C7;
+      --border: #E2E8F0;
+      --shadow-card: 0 1px 3px rgba(0,0,0,0.08);
+      --shadow-card-hover: 0 4px 12px rgba(0,0,0,0.12);
+      --shadow-nav: 0 1px 2px rgba(0,0,0,0.06);
+      --code-bg: #F1F5F9;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0F172A;
+      --surface: #1E293B;
+      --text-primary: #F1F5F9;
+      --text-secondary: #94A3B8;
+      --primary: #2DD4BF;
+      --primary-hover: #5EEAD4;
+      --primary-light: #134E4A;
+      --correct: #34D399;
+      --correct-light: #064E3B;
+      --incorrect: #FB7185;
+      --incorrect-light: #4C0519;
+      --warning: #FBBF24;
+      --warning-light: #451A03;
+      --border: #334155;
+      --shadow-card: 0 1px 3px rgba(0,0,0,0.3);
+      --shadow-card-hover: 0 4px 12px rgba(0,0,0,0.4);
+      --shadow-nav: 0 1px 2px rgba(0,0,0,0.2);
+      --code-bg: #0F172A;
+    }
+
+    /* ===== RESET & BASE ===== */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-family);
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    /* ===== STICKY NAVBAR ===== */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      box-shadow: var(--shadow-nav);
+      padding: 0 24px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: background 0.3s ease;
+    }
+
+    .navbar-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .navbar-brand svg {
+      width: 32px;
+      height: 32px;
+    }
+
+    .theme-toggle {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 6px 14px;
+      cursor: pointer;
+      font-family: var(--font-family);
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-primary);
+      transition: all 0.2s ease;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--primary);
+    }
+
+    .theme-toggle .icon {
+      font-size: 16px;
+    }
+
+    /* ===== CONTAINER ===== */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    /* ===== SECTION ===== */
+    .section {
+      margin-bottom: 64px;
+    }
+
+    .section-header {
+      margin-bottom: 32px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid var(--primary);
+    }
+
+    .section-number {
+      display: inline-block;
+      background: var(--primary);
+      color: #FFFFFF;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 8px;
+    }
+
+    [data-theme="dark"] .section-number {
+      color: #0F172A;
+    }
+
+    .section-title {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--text-primary);
+    }
+
+    .section-subtitle {
+      font-size: 15px;
+      color: var(--text-secondary);
+      margin-top: 4px;
+    }
+
+    /* ===== COLOR PALETTE ===== */
+    .palette-group-label {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: var(--text-primary);
+    }
+
+    .palette-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+
+    .color-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow-card);
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    .color-card:hover {
+      box-shadow: var(--shadow-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .color-swatch {
+      height: 80px;
+      width: 100%;
+      position: relative;
+    }
+
+    .color-swatch .hex-overlay {
+      position: absolute;
+      bottom: 6px;
+      right: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 10px;
+      background: rgba(0,0,0,0.35);
+      color: #FFFFFF;
+      font-family: 'Courier New', monospace;
+    }
+
+    .color-info {
+      padding: 12px;
+    }
+
+    .color-name {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .color-role {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-top: 2px;
+    }
+
+    /* ===== TYPOGRAPHY ===== */
+    .type-specimen {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 16px;
+      box-shadow: var(--shadow-card);
+      display: flex;
+      align-items: baseline;
+      gap: 24px;
+      flex-wrap: wrap;
+    }
+
+    .type-sample {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .type-meta {
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: 180px;
+    }
+
+    .type-meta-tag {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 6px;
+      background: var(--code-bg);
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+      font-family: 'Courier New', monospace;
+      width: fit-content;
+    }
+
+    .type-h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.01em; }
+    .type-h2 { font-size: 24px; font-weight: 600; letter-spacing: -0.01em; }
+    .type-question { font-size: 20px; font-weight: 500; }
+    .type-option { font-size: 17px; font-weight: 400; }
+    .type-body { font-size: 16px; font-weight: 400; line-height: 1.7; }
+    .type-label { font-size: 14px; font-weight: 500; }
+    .type-button { font-size: 16px; font-weight: 600; }
+    .type-caption { font-size: 13px; font-weight: 400; color: var(--text-secondary); }
+
+    /* ===== SPACING SYSTEM ===== */
+    .spacing-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+
+    .spacing-label {
+      font-size: 14px;
+      font-weight: 500;
+      font-family: 'Courier New', monospace;
+      color: var(--text-secondary);
+      min-width: 60px;
+      text-align: right;
+    }
+
+    .spacing-bar {
+      height: 24px;
+      background: var(--primary);
+      border-radius: 6px;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+      position: relative;
+    }
+
+    .spacing-bar:hover {
+      opacity: 1;
+    }
+
+    .spacing-px {
+      font-size: 12px;
+      color: var(--text-secondary);
+      min-width: 40px;
+    }
+
+    /* ===== BORDER RADIUS ===== */
+    .radius-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 20px;
+    }
+
+    .radius-item {
+      text-align: center;
+    }
+
+    .radius-box {
+      width: 80px;
+      height: 80px;
+      background: var(--primary);
+      opacity: 0.75;
+      margin: 0 auto 10px;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .radius-box:hover {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+
+    .radius-value {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .radius-usage {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+
+    /* ===== SHADOWS ===== */
+    .shadow-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 24px;
+    }
+
+    .shadow-card-demo {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px 20px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .shadow-resting {
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+
+    .shadow-hover-demo {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    }
+
+    .shadow-nav-demo {
+      box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+    }
+
+    .shadow-modal-demo {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.16);
+    }
+
+    .shadow-label {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .shadow-value {
+      font-size: 11px;
+      font-family: 'Courier New', monospace;
+      color: var(--text-secondary);
+      word-break: break-all;
+    }
+
+    /* ===== BUTTONS ===== */
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-family: var(--font-family);
+      font-size: 15px;
+      font-weight: 600;
+      padding: 12px 24px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      text-decoration: none;
+    }
+
+    .btn:active {
+      transform: scale(0.97);
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #FFFFFF;
+    }
+
+    [data-theme="dark"] .btn-primary {
+      color: #0F172A;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--primary);
+      border: 1.5px solid var(--primary);
+    }
+
+    .btn-secondary:hover {
+      background: var(--primary-light);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--text-secondary);
+      border: 1.5px solid var(--border);
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--text-secondary);
+      color: var(--text-primary);
+    }
+
+    .btn-correct {
+      background: var(--correct-light);
+      color: var(--correct);
+      border: 1.5px solid var(--correct);
+    }
+
+    .btn-incorrect {
+      background: var(--incorrect-light);
+      color: var(--incorrect);
+      border: 1.5px solid var(--incorrect);
+    }
+
+    .btn-warning {
+      background: var(--warning-light);
+      color: var(--warning);
+      border: 1.5px solid var(--warning);
+    }
+
+    .btn-sm {
+      font-size: 13px;
+      padding: 8px 16px;
+    }
+
+    .btn-lg {
+      font-size: 17px;
+      padding: 14px 32px;
+    }
+
+    .btn-full {
+      width: 100%;
+    }
+
+    /* ===== INTERACTIVE STATES ===== */
+    .states-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+
+    .state-card {
+      border-radius: 10px;
+      padding: 16px;
+      text-align: center;
+      font-size: 15px;
+      font-weight: 500;
+      transition: all 0.15s ease;
+    }
+
+    .state-default {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      color: var(--text-primary);
+    }
+
+    .state-hover {
+      background: var(--surface);
+      border: 1.5px solid var(--primary);
+      color: var(--text-primary);
+      box-shadow: var(--shadow-card-hover);
+    }
+
+    .state-selected {
+      background: var(--primary-light);
+      border: 2px solid var(--primary);
+      color: var(--primary);
+    }
+
+    .state-correct {
+      background: var(--correct-light);
+      border: 2px solid var(--correct);
+      color: var(--correct);
+    }
+
+    .state-incorrect {
+      background: var(--incorrect-light);
+      border: 2px solid var(--incorrect);
+      color: var(--incorrect);
+    }
+
+    .state-disabled {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      color: var(--text-secondary);
+      opacity: 0.5;
+    }
+
+    .state-label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 6px;
+      color: inherit;
+      opacity: 0.7;
+    }
+
+    /* ===== QUIZ COMPONENT PREVIEWS ===== */
+    .preview-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: var(--shadow-card);
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+
+    .preview-label {
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--primary);
+      margin-bottom: 16px;
+    }
+
+    /* Progress Bar */
+    .progress-container {
+      margin-bottom: 16px;
+    }
+
+    .progress-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .progress-track {
+      width: 100%;
+      height: 6px;
+      background: var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--primary);
+      border-radius: 3px;
+      transition: width 0.5s ease;
+    }
+
+    /* Question */
+    .question-number {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+
+    .question-text {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    /* Options */
+    .option-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .option-item {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 18px;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      font-size: 16px;
+    }
+
+    .option-item:hover {
+      border-color: var(--primary);
+      background: var(--primary-light);
+    }
+
+    .option-item.selected {
+      border-color: var(--primary);
+      background: var(--primary-light);
+    }
+
+    .option-item.correct {
+      border-color: var(--correct);
+      background: var(--correct-light);
+    }
+
+    .option-item.incorrect {
+      border-color: var(--incorrect);
+      background: var(--incorrect-light);
+    }
+
+    .option-letter {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1.5px solid var(--border);
+      font-size: 14px;
+      font-weight: 600;
+      flex-shrink: 0;
+      transition: all 0.15s ease;
+    }
+
+    .option-item:hover .option-letter,
+    .option-item.selected .option-letter {
+      border-color: var(--primary);
+      background: var(--primary);
+      color: #FFFFFF;
+    }
+
+    [data-theme="dark"] .option-item:hover .option-letter,
+    [data-theme="dark"] .option-item.selected .option-letter {
+      color: #0F172A;
+    }
+
+    .option-item.correct .option-letter {
+      border-color: var(--correct);
+      background: var(--correct);
+      color: #FFFFFF;
+    }
+
+    .option-item.incorrect .option-letter {
+      border-color: var(--incorrect);
+      background: var(--incorrect);
+      color: #FFFFFF;
+    }
+
+    .option-icon {
+      margin-left: auto;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+
+    /* Explanation */
+    .explanation-box {
+      background: var(--primary-light);
+      border-left: 4px solid var(--primary);
+      border-radius: 0 8px 8px 0;
+      padding: 16px 20px;
+      margin-top: 16px;
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--text-primary);
+    }
+
+    .explanation-title {
+      font-weight: 600;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+
+    /* Score Ring */
+    .score-ring-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .score-ring {
+      position: relative;
+      width: 160px;
+      height: 160px;
+    }
+
+    .score-ring svg {
+      transform: rotate(-90deg);
+    }
+
+    .score-ring-bg {
+      fill: none;
+      stroke: var(--border);
+      stroke-width: 10;
+    }
+
+    .score-ring-fill {
+      fill: none;
+      stroke: var(--primary);
+      stroke-width: 10;
+      stroke-linecap: round;
+      stroke-dasharray: 440;
+      stroke-dashoffset: 106;
+      transition: stroke-dashoffset 1.5s ease;
+    }
+
+    .score-ring-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .score-percent {
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .score-fraction {
+      font-size: 14px;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    /* Stat Cards */
+    .stat-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .stat-card {
+      text-align: center;
+      padding: 16px 12px;
+      border-radius: 10px;
+      border: 1.5px solid;
+    }
+
+    .stat-card.correct-stat {
+      border-color: var(--correct);
+      background: var(--correct-light);
+    }
+
+    .stat-card.incorrect-stat {
+      border-color: var(--incorrect);
+      background: var(--incorrect-light);
+    }
+
+    .stat-card.skipped-stat {
+      border-color: var(--border);
+      background: var(--surface);
+    }
+
+    .stat-number {
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .stat-card.correct-stat .stat-number { color: var(--correct); }
+    .stat-card.incorrect-stat .stat-number { color: var(--incorrect); }
+    .stat-card.skipped-stat .stat-number { color: var(--text-secondary); }
+
+    .stat-label {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-top: 2px;
+    }
+
+    /* Streak */
+    .streak-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--warning-light);
+      border: 1.5px solid var(--warning);
+      color: var(--warning);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 20px;
+    }
+
+    /* Chips / Tags */
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+      border: 1.5px solid var(--border);
+      background: var(--surface);
+      color: var(--text-primary);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .chip:hover {
+      border-color: var(--primary);
+    }
+
+    .chip.active {
+      background: var(--primary-light);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    /* Segmented Toggle */
+    .segmented-toggle {
+      display: inline-flex;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .toggle-option {
+      padding: 10px 24px;
+      font-family: var(--font-family);
+      font-size: 14px;
+      font-weight: 500;
+      border: none;
+      background: var(--surface);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      border-right: 1px solid var(--border);
+    }
+
+    .toggle-option:last-child {
+      border-right: none;
+    }
+
+    .toggle-option:hover {
+      color: var(--text-primary);
+      background: var(--bg);
+    }
+
+    .toggle-option.active {
+      background: var(--primary);
+      color: #FFFFFF;
+    }
+
+    [data-theme="dark"] .toggle-option.active {
+      color: #0F172A;
+    }
+
+    /* ===== RESPONSIVE BREAKPOINTS DEMO ===== */
+    .breakpoint-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .breakpoint-table th,
+    .breakpoint-table td {
+      text-align: left;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      font-size: 14px;
+    }
+
+    .breakpoint-table th {
+      font-weight: 600;
+      color: var(--text-secondary);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .breakpoint-tag {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: 'Courier New', monospace;
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+
+    /* ===== MISC ===== */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+
+    .subsection-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: var(--text-primary);
+    }
+
+    .subsection-desc {
+      font-size: 14px;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 32px 0;
+    }
+
+    .code-inline {
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 2px 8px;
+      border-radius: 4px;
+      color: var(--primary);
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .info-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: var(--shadow-card);
+    }
+
+    .info-card-title {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .info-card-value {
+      font-size: 13px;
+      color: var(--text-secondary);
+      font-family: 'Courier New', monospace;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 640px) {
+      .container { padding: 24px 16px 60px; }
+      .section-title { font-size: 22px; }
+      .palette-grid { grid-template-columns: repeat(2, 1fr); }
+      .grid-2 { grid-template-columns: 1fr; }
+      .type-specimen { flex-direction: column; gap: 12px; }
+      .states-grid { grid-template-columns: repeat(2, 1fr); }
+      .shadow-grid { grid-template-columns: 1fr; }
+      .radius-grid { grid-template-columns: repeat(3, 1fr); }
+      .stat-row { grid-template-columns: 1fr; gap: 8px; }
+      .info-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar">
+    <a class="navbar-brand" href="#">
+      <svg viewBox="0 0 32 32" fill="none">
+        <rect width="32" height="32" rx="8" fill="currentColor"/>
+        <path d="M9 16.5L13.5 21L23 11" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      NSCT Prep
+    </a>
+    <button class="theme-toggle" onclick="toggleTheme()">
+      <span class="icon" id="themeIcon">&#9790;</span>
+      <span id="themeLabel">Dark Mode</span>
+    </button>
+  </nav>
+
+  <div class="container">
+
+    <!-- ==================== SECTION 1: COLOR PALETTE ==================== -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h1 class="section-title">Color Palette</h1>
+        <p class="section-subtitle">Professional teal-based palette with semantic colors for feedback. Toggle dark mode above to see both themes.</p>
+      </div>
+
+      <h3 class="palette-group-label">Core Colors</h3>
+      <div class="palette-grid">
+        <div class="color-card">
+          <div class="color-swatch" style="background:#0D9488"><span class="hex-overlay">#0D9488</span></div>
+          <div class="color-info"><div class="color-name">Primary</div><div class="color-role">Brand / CTA buttons</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#0F766E"><span class="hex-overlay">#0F766E</span></div>
+          <div class="color-info"><div class="color-name">Primary Hover</div><div class="color-role">Hover / Active states</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#F8FAFC"><span class="hex-overlay">#F8FAFC</span></div>
+          <div class="color-info"><div class="color-name">Background (Light)</div><div class="color-role">Page background</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#0F172A"><span class="hex-overlay">#0F172A</span></div>
+          <div class="color-info"><div class="color-name">Background (Dark)</div><div class="color-role">Page background</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#FFFFFF; border-bottom: 1px solid #E2E8F0"><span class="hex-overlay" style="background:rgba(0,0,0,0.15); color:#333">#FFFFFF</span></div>
+          <div class="color-info"><div class="color-name">Surface (Light)</div><div class="color-role">Cards / Panels</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#1E293B"><span class="hex-overlay">#1E293B</span></div>
+          <div class="color-info"><div class="color-name">Surface (Dark)</div><div class="color-role">Cards / Panels</div></div>
+        </div>
+      </div>
+
+      <h3 class="palette-group-label">Text Colors</h3>
+      <div class="palette-grid">
+        <div class="color-card">
+          <div class="color-swatch" style="background:#1E293B"><span class="hex-overlay">#1E293B</span></div>
+          <div class="color-info"><div class="color-name">Text Primary (Light)</div><div class="color-role">Headings / Body</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#F1F5F9"><span class="hex-overlay" style="background:rgba(0,0,0,0.35)">#F1F5F9</span></div>
+          <div class="color-info"><div class="color-name">Text Primary (Dark)</div><div class="color-role">Headings / Body</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#64748B"><span class="hex-overlay">#64748B</span></div>
+          <div class="color-info"><div class="color-name">Text Secondary (Light)</div><div class="color-role">Captions / Labels</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#94A3B8"><span class="hex-overlay">#94A3B8</span></div>
+          <div class="color-info"><div class="color-name">Text Secondary (Dark)</div><div class="color-role">Captions / Labels</div></div>
+        </div>
+      </div>
+
+      <h3 class="palette-group-label">Semantic / Feedback Colors</h3>
+      <div class="palette-grid">
+        <div class="color-card">
+          <div class="color-swatch" style="background:#10B981"><span class="hex-overlay">#10B981</span></div>
+          <div class="color-info"><div class="color-name">Correct (Light)</div><div class="color-role">Right answer feedback</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#34D399"><span class="hex-overlay">#34D399</span></div>
+          <div class="color-info"><div class="color-name">Correct (Dark)</div><div class="color-role">Right answer feedback</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#EF4444"><span class="hex-overlay">#EF4444</span></div>
+          <div class="color-info"><div class="color-name">Incorrect (Light)</div><div class="color-role">Wrong answer feedback</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#FB7185"><span class="hex-overlay">#FB7185</span></div>
+          <div class="color-info"><div class="color-name">Incorrect (Dark)</div><div class="color-role">Wrong answer feedback</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#F59E0B"><span class="hex-overlay">#F59E0B</span></div>
+          <div class="color-info"><div class="color-name">Warning (Light)</div><div class="color-role">Timer / Alerts</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#FBBF24"><span class="hex-overlay">#FBBF24</span></div>
+          <div class="color-info"><div class="color-name">Warning (Dark)</div><div class="color-role">Timer / Alerts</div></div>
+        </div>
+      </div>
+
+      <h3 class="palette-group-label">Borders & Dividers</h3>
+      <div class="palette-grid">
+        <div class="color-card">
+          <div class="color-swatch" style="background:#E2E8F0"><span class="hex-overlay" style="background:rgba(0,0,0,0.2);color:#333">#E2E8F0</span></div>
+          <div class="color-info"><div class="color-name">Border (Light)</div><div class="color-role">Card edges / Dividers</div></div>
+        </div>
+        <div class="color-card">
+          <div class="color-swatch" style="background:#334155"><span class="hex-overlay">#334155</span></div>
+          <div class="color-info"><div class="color-name">Border (Dark)</div><div class="color-role">Card edges / Dividers</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 2: TYPOGRAPHY ==================== -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h1 class="section-title">Typography</h1>
+        <p class="section-subtitle">Inter font family — optimized for screens, high readability during long study sessions. Line height 1.6–1.7 for comfort.</p>
+      </div>
+
+      <div class="type-specimen">
+        <div class="type-sample"><span class="type-h1">Heading 1 — Page Title</span></div>
+        <div class="type-meta">
+          <span class="type-meta-tag">Inter 700 Bold</span>
+          <span class="type-meta-tag">28–32px</span>
+          <span class="type-meta-tag">letter-spacing: -0.01em</span>
+        </div>
+      </div>
+
+      <div class="type-specimen">
+        <div class="type-sample"><span class="type-h2">Heading 2 — Section Title</span></div>
+        <div class="type-meta">
+          <span class="type-meta-tag">Inter 600 Semibold</span>
+          <span class="type-meta-tag">22–24px</span>
+          <span class="type-meta-tag">letter-spacing: -0.01em</span>
+        </div>
+      </div>
+
+      <div class="type-specimen">
+        <div class="type-sample"><span class="type-question">What is the time complexity of binary search in a sorted array?</span></div>
+        <div class="type-meta">
+          <span class="type-meta-tag">Inter 500 Medium</span>
+          <span class="type-meta-tag">18–20px</span>
+          <span class="type-meta-tag">Question Text</span>
+        </div>
+      </div>
+
+      <div class="type-specimen">
+        <div class="type-sample"><span class="type-option">O(log n) — Logarithmic time complexity</span></div>
+        <div class="type-meta">
+          <span class="type-meta-tag">Inter 400 Regular</span>
+          <span class="type-meta-tag">16–18px</span>
+          <span class="type-meta-tag">Option Text</span>
+        </div>
+      </div>
+
+      <div class="type-specimen">
+        <div class="type-sample"><span class="type-body">Binary search works by repeatedly dividing the search interval in half. It compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated.</span></div>
+        <div class="type-meta">
+          <span class="type-meta-tag">Inter 400 Regular</span>
+          <span class="type-meta-tag">15–16px</span>
+          <span class="type-meta-tag">line-height: 1.7</span>
+          <span class="type-meta-tag">Body / Explanation</span>
+        </div>
+      </div>
+
+      <div class="type-specimen">
+        <div class="type-sample">
+          <span class="type-label">DIFFICULTY: MEDIUM</span>
+          <span style="margin: 0 12px; color: var(--border)">|</span>
+          <span class="type-caption">Question 12 of 30 — Data Structures</span>
+        </div>
+        <div class="type-meta">
+          <span class="type-meta-tag">Labels: 500 / 13–14px</span>
+          <span class="type-meta-tag">Captions: 400 / 13px</span>
+        </div>
+      </div>
+
+      <div class="type-specimen">
+        <div class="type-sample"><span class="type-button">Next Question →</span></div>
+        <div class="type-meta">
+          <span class="type-meta-tag">Inter 600 Semibold</span>
+          <span class="type-meta-tag">15–16px</span>
+          <span class="type-meta-tag">Button Text</span>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-card-title">Font Family</div>
+          <div class="info-card-value">'Inter', system-ui, sans-serif</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-title">Line Height</div>
+          <div class="info-card-value">1.6 (general) — 1.7 (body)</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-title">Max Line Width</div>
+          <div class="info-card-value">65–70 characters</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-title">Weight Scale</div>
+          <div class="info-card-value">400 · 500 · 600 · 700</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 3: SPACING ==================== -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h1 class="section-title">Spacing System</h1>
+        <p class="section-subtitle">4px base unit scale. Consistent spacing creates visual rhythm and reduces cognitive load.</p>
+      </div>
+
+      <div class="spacing-row"><span class="spacing-label">4px</span><div class="spacing-bar" style="width:4px"></div><span class="spacing-px">Micro gaps</span></div>
+      <div class="spacing-row"><span class="spacing-label">8px</span><div class="spacing-bar" style="width:32px"></div><span class="spacing-px">Tight gaps</span></div>
+      <div class="spacing-row"><span class="spacing-label">12px</span><div class="spacing-bar" style="width:48px"></div><span class="spacing-px">Option gaps</span></div>
+      <div class="spacing-row"><span class="spacing-label">16px</span><div class="spacing-bar" style="width:64px"></div><span class="spacing-px">Card padding (mobile)</span></div>
+      <div class="spacing-row"><span class="spacing-label">20px</span><div class="spacing-bar" style="width:80px"></div><span class="spacing-px">Inner spacing</span></div>
+      <div class="spacing-row"><span class="spacing-label">24px</span><div class="spacing-bar" style="width:96px"></div><span class="spacing-px">Card padding (desktop)</span></div>
+      <div class="spacing-row"><span class="spacing-label">32px</span><div class="spacing-bar" style="width:128px"></div><span class="spacing-px">Section gaps</span></div>
+      <div class="spacing-row"><span class="spacing-label">40px</span><div class="spacing-bar" style="width:160px"></div><span class="spacing-px">Large gaps</span></div>
+      <div class="spacing-row"><span class="spacing-label">48px</span><div class="spacing-bar" style="width:192px"></div><span class="spacing-px">Section padding</span></div>
+      <div class="spacing-row"><span class="spacing-label">64px</span><div class="spacing-bar" style="width:256px"></div><span class="spacing-px">Major sections</span></div>
+    </section>
+
+    <!-- ==================== SECTION 4: BORDER RADIUS ==================== -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <h1 class="section-title">Border Radius</h1>
+        <p class="section-subtitle">Consistent rounding across all components.</p>
+      </div>
+
+      <div class="radius-grid">
+        <div class="radius-item">
+          <div class="radius-box" style="border-radius:8px"></div>
+          <div class="radius-value">8px</div>
+          <div class="radius-usage">Buttons, Inputs</div>
+        </div>
+        <div class="radius-item">
+          <div class="radius-box" style="border-radius:10px"></div>
+          <div class="radius-value">10px</div>
+          <div class="radius-usage">Option Cards</div>
+        </div>
+        <div class="radius-item">
+          <div class="radius-box" style="border-radius:12px"></div>
+          <div class="radius-value">12px</div>
+          <div class="radius-usage">Cards, Panels</div>
+        </div>
+        <div class="radius-item">
+          <div class="radius-box" style="border-radius:20px"></div>
+          <div class="radius-value">20px</div>
+          <div class="radius-usage">Chips, Tags, Pills</div>
+        </div>
+        <div class="radius-item">
+          <div class="radius-box" style="border-radius:50%"></div>
+          <div class="radius-value">50%</div>
+          <div class="radius-usage">Avatars, Icons</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 5: SHADOWS ==================== -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <h1 class="section-title">Elevation / Shadows</h1>
+        <p class="section-subtitle">Layered shadow system for depth. Dark mode uses reduced opacity + solid borders.</p>
+      </div>
+
+      <div class="shadow-grid">
+        <div class="shadow-card-demo shadow-resting">
+          <div class="shadow-label">Resting (Cards)</div>
+          <div class="shadow-value">0 1px 3px rgba(0,0,0,0.08)</div>
+        </div>
+        <div class="shadow-card-demo shadow-hover-demo">
+          <div class="shadow-label">Hover (Cards)</div>
+          <div class="shadow-value">0 4px 12px rgba(0,0,0,0.12)</div>
+        </div>
+        <div class="shadow-card-demo shadow-nav-demo">
+          <div class="shadow-label">Navigation</div>
+          <div class="shadow-value">0 1px 2px rgba(0,0,0,0.06)</div>
+        </div>
+        <div class="shadow-card-demo shadow-modal-demo">
+          <div class="shadow-label">Modal / Overlay</div>
+          <div class="shadow-value">0 8px 24px rgba(0,0,0,0.16)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 6: BUTTONS ==================== -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-number">06</span>
+        <h1 class="section-title">Buttons</h1>
+        <p class="section-subtitle">All interactive buttons use 8px radius, scale to 0.97 on press, 600 weight text.</p>
+      </div>
+
+      <h3 class="subsection-title">Primary Actions</h3>
+      <div class="button-row">
+        <button class="btn btn-primary btn-lg">Start Quiz →</button>
+        <button class="btn btn-primary">Next Question</button>
+        <button class="btn btn-primary btn-sm">Submit</button>
+      </div>
+
+      <h3 class="subsection-title">Secondary & Ghost</h3>
+      <div class="button-row">
+        <button class="btn btn-secondary">Review Answers</button>
+        <button class="btn btn-secondary btn-sm">Try Again</button>
+        <button class="btn btn-ghost">← Previous</button>
+        <button class="btn btn-ghost btn-sm">Skip</button>
+      </div>
+
+      <h3 class="subsection-title">Feedback States</h3>
+      <div class="button-row">
+        <button class="btn btn-correct">✓ Correct</button>
+        <button class="btn btn-incorrect">✗ Incorrect</button>
+        <button class="btn btn-warning">⏱ Time Low</button>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 7: INTERACTIVE STATES ==================== -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-number">07</span>
+        <h1 class="section-title">Interactive States</h1>
+        <p class="section-subtitle">Every interactive element must define all 6 states below.</p>
+      </div>
+
+      <div class="states-grid">
+        <div class="state-card state-default">
+          O(n)
+          <span class="state-label">Default</span>
+        </div>
+        <div class="state-card state-hover">
+          O(n)
+          <span class="state-label">Hover</span>
+        </div>
+        <div class="state-card state-selected">
+          O(log n)
+          <span class="state-label">Selected</span>
+        </div>
+        <div class="state-card state-correct">
+          O(log n) ✓
+          <span class="state-label">Correct</span>
+        </div>
+        <div class="state-card state-incorrect">
+          O(n²) ✗
+          <span class="state-label">Incorrect</span>
+        </div>
+        <div class="state-card state-disabled">
+          O(1)
+          <span class="state-label">Disabled</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 8: CHIPS & TOGGLES ==================== -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-number">08</span>
+        <h1 class="section-title">Chips, Tags & Toggles</h1>
+        <p class="section-subtitle">Used for topic selection, difficulty toggles, and filter tags.</p>
+      </div>
+
+      <h3 class="subsection-title">Topic Chips</h3>
+      <div class="chip-row" style="margin-bottom:24px">
+        <span class="chip active">Arrays</span>
+        <span class="chip">Linked Lists</span>
+        <span class="chip">Trees</span>
+        <span class="chip">Graphs</span>
+        <span class="chip">Sorting</span>
+        <span class="chip">Dynamic Programming</span>
+        <span class="chip">Stacks & Queues</span>
+      </div>
+
+      <h3 class="subsection-title">Difficulty Toggle</h3>
+      <div class="segmented-toggle" style="margin-bottom:24px">
+        <button class="toggle-option">Easy</button>
+        <button class="toggle-option active">Medium</button>
+        <button class="toggle-option">Hard</button>
+      </div>
+
+      <h3 class="subsection-title">Question Count</h3>
+      <div class="chip-row">
+        <span class="chip">10</span>
+        <span class="chip active">20</span>
+        <span class="chip">30</span>
+        <span class="chip">50</span>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 9: LIVE COMPONENT PREVIEWS ==================== -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-number">09</span>
+        <h1 class="section-title">Component Previews</h1>
+        <p class="section-subtitle">Live examples of core quiz components with all states applied.</p>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="preview-card">
+        <div class="preview-label">Progress Bar</div>
+        <div class="progress-container">
+          <div class="progress-header">
+            <span>Data Structures — Arrays</span>
+            <span>12 / 30</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" style="width:40%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Streak Badge -->
+      <div class="preview-card">
+        <div class="preview-label">Streak Indicator</div>
+        <div class="streak-badge">🔥 5 correct in a row!</div>
+      </div>
+
+      <!-- Question Card (Unanswered) -->
+      <div class="preview-card">
+        <div class="preview-label">Question Card — Unanswered</div>
+        <div class="question-number">Question 12</div>
+        <div class="question-text">What is the time complexity of binary search in a sorted array?</div>
+        <div class="option-list">
+          <div class="option-item" onclick="selectOption(this)">
+            <span class="option-letter">A</span>
+            <span>O(n)</span>
+          </div>
+          <div class="option-item" onclick="selectOption(this)">
+            <span class="option-letter">B</span>
+            <span>O(log n)</span>
+          </div>
+          <div class="option-item" onclick="selectOption(this)">
+            <span class="option-letter">C</span>
+            <span>O(n log n)</span>
+          </div>
+          <div class="option-item" onclick="selectOption(this)">
+            <span class="option-letter">D</span>
+            <span>O(1)</span>
+          </div>
+        </div>
+        <div style="margin-top:20px">
+          <button class="btn btn-primary btn-full">Confirm Answer</button>
+        </div>
+      </div>
+
+      <!-- Question Card (Answered — Correct) -->
+      <div class="preview-card">
+        <div class="preview-label">Question Card — Correct Answer</div>
+        <div class="question-number">Question 12</div>
+        <div class="question-text">What is the time complexity of binary search in a sorted array?</div>
+        <div class="option-list">
+          <div class="option-item">
+            <span class="option-letter">A</span>
+            <span>O(n)</span>
+          </div>
+          <div class="option-item correct">
+            <span class="option-letter">B</span>
+            <span>O(log n)</span>
+            <span class="option-icon">✓</span>
+          </div>
+          <div class="option-item">
+            <span class="option-letter">C</span>
+            <span>O(n log n)</span>
+          </div>
+          <div class="option-item">
+            <span class="option-letter">D</span>
+            <span>O(1)</span>
+          </div>
+        </div>
+        <div class="explanation-box">
+          <div class="explanation-title">Explanation</div>
+          Binary search works by repeatedly dividing the search interval in half. It compares the target value to the middle element of the array. Since the search space is halved at each step, the time complexity is O(log n).
+        </div>
+        <div style="margin-top:20px">
+          <button class="btn btn-primary btn-full">Next Question →</button>
+        </div>
+      </div>
+
+      <!-- Question Card (Answered — Incorrect) -->
+      <div class="preview-card">
+        <div class="preview-label">Question Card — Incorrect Answer</div>
+        <div class="question-number">Question 13</div>
+        <div class="question-text">Which data structure uses FIFO (First In, First Out) ordering?</div>
+        <div class="option-list">
+          <div class="option-item incorrect">
+            <span class="option-letter">A</span>
+            <span>Stack</span>
+            <span class="option-icon">✗</span>
+          </div>
+          <div class="option-item correct">
+            <span class="option-letter">B</span>
+            <span>Queue</span>
+            <span class="option-icon">✓</span>
+          </div>
+          <div class="option-item">
+            <span class="option-letter">C</span>
+            <span>Binary Tree</span>
+          </div>
+          <div class="option-item">
+            <span class="option-letter">D</span>
+            <span>Hash Map</span>
+          </div>
+        </div>
+        <div class="explanation-box">
+          <div class="explanation-title">Explanation</div>
+          A Queue follows FIFO ordering — the first element added is the first one removed. A Stack, on the other hand, follows LIFO (Last In, First Out) ordering.
+        </div>
+        <div style="margin-top:20px">
+          <button class="btn btn-primary btn-full">Next Question →</button>
+        </div>
+      </div>
+
+      <!-- Score Display -->
+      <div class="preview-card">
+        <div class="preview-label">Results — Score Display</div>
+        <div class="score-ring-wrapper">
+          <div class="score-ring">
+            <svg width="160" height="160" viewBox="0 0 160 160">
+              <circle class="score-ring-bg" cx="80" cy="80" r="70" />
+              <circle class="score-ring-fill" cx="80" cy="80" r="70" />
+            </svg>
+            <div class="score-ring-text">
+              <div class="score-percent">76%</div>
+              <div class="score-fraction">23 / 30</div>
+            </div>
+          </div>
+          <div style="font-size:16px;font-weight:500;color:var(--primary);margin-top:8px">Good effort! Review the tricky ones below.</div>
+        </div>
+        <div class="stat-row">
+          <div class="stat-card correct-stat">
+            <div class="stat-number">23</div>
+            <div class="stat-label">Correct</div>
+          </div>
+          <div class="stat-card incorrect-stat">
+            <div class="stat-number">5</div>
+            <div class="stat-label">Incorrect</div>
+          </div>
+          <div class="stat-card skipped-stat">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Skipped</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:12px;margin-top:24px">
+          <button class="btn btn-secondary" style="flex:1">Review Answers</button>
+          <button class="btn btn-primary" style="flex:1">Try Again →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 10: RESPONSIVE BREAKPOINTS ==================== -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-number">10</span>
+        <h1 class="section-title">Responsive Breakpoints</h1>
+        <p class="section-subtitle">Three-tier responsive system. Resize this page to see it in action.</p>
+      </div>
+
+      <div class="preview-card" style="overflow-x:auto">
+        <table class="breakpoint-table">
+          <thead>
+            <tr>
+              <th>Breakpoint</th>
+              <th>Width</th>
+              <th>Key Adjustments</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="breakpoint-tag">Mobile</span></td>
+              <td>&lt; 640px</td>
+              <td>Single column, full-width cards, bottom sticky nav, 16px padding, min 48px touch targets</td>
+            </tr>
+            <tr>
+              <td><span class="breakpoint-tag">Tablet</span></td>
+              <td>640–1024px</td>
+              <td>2-column subject grid, 24px padding, same mobile layout with more breathing room</td>
+            </tr>
+            <tr>
+              <td><span class="breakpoint-tag">Desktop</span></td>
+              <td>&gt; 1024px</td>
+              <td>Centered 800px max-width, hover states enabled, keyboard shortcuts (A/B/C/D, Enter, arrows)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="info-grid" style="margin-top:24px">
+        <div class="info-card">
+          <div class="info-card-title">Min Touch Target</div>
+          <div class="info-card-value">44 × 44px</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-title">Content Max Width</div>
+          <div class="info-card-value">800px (centered)</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-title">Navbar Height</div>
+          <div class="info-card-value">56–64px</div>
+        </div>
+        <div class="info-card">
+          <div class="info-card-title">Bottom Bar (Mobile)</div>
+          <div class="info-card-value">56px sticky</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 11: DESIGN TOKENS SUMMARY ==================== -->
+    <section class="section">
+      <div class="section-header">
+        <span class="section-number">11</span>
+        <h1 class="section-title">Design Tokens Summary</h1>
+        <p class="section-subtitle">Quick reference for all CSS custom properties used in the system.</p>
+      </div>
+
+      <div class="preview-card" style="overflow-x:auto">
+        <table class="breakpoint-table">
+          <thead>
+            <tr>
+              <th>Token</th>
+              <th>Light</th>
+              <th>Dark</th>
+              <th>Usage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><span class="code-inline">--primary</span></td><td>#0D9488</td><td>#2DD4BF</td><td>Brand, CTAs, links</td></tr>
+            <tr><td><span class="code-inline">--bg</span></td><td>#F8FAFC</td><td>#0F172A</td><td>Page background</td></tr>
+            <tr><td><span class="code-inline">--surface</span></td><td>#FFFFFF</td><td>#1E293B</td><td>Cards, panels</td></tr>
+            <tr><td><span class="code-inline">--text-primary</span></td><td>#1E293B</td><td>#F1F5F9</td><td>Headings, body</td></tr>
+            <tr><td><span class="code-inline">--text-secondary</span></td><td>#64748B</td><td>#94A3B8</td><td>Labels, captions</td></tr>
+            <tr><td><span class="code-inline">--correct</span></td><td>#10B981</td><td>#34D399</td><td>Right answers</td></tr>
+            <tr><td><span class="code-inline">--incorrect</span></td><td>#EF4444</td><td>#FB7185</td><td>Wrong answers</td></tr>
+            <tr><td><span class="code-inline">--warning</span></td><td>#F59E0B</td><td>#FBBF24</td><td>Timers, alerts</td></tr>
+            <tr><td><span class="code-inline">--border</span></td><td>#E2E8F0</td><td>#334155</td><td>Borders, dividers</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+  <script>
+    // Theme Toggle
+    function toggleTheme() {
+      const html = document.documentElement;
+      const icon = document.getElementById('themeIcon');
+      const label = document.getElementById('themeLabel');
+
+      if (html.getAttribute('data-theme') === 'light') {
+        html.setAttribute('data-theme', 'dark');
+        icon.innerHTML = '&#9788;';
+        label.textContent = 'Light Mode';
+      } else {
+        html.setAttribute('data-theme', 'light');
+        icon.innerHTML = '&#9790;';
+        label.textContent = 'Dark Mode';
+      }
+    }
+
+    // Option Selection Demo
+    function selectOption(el) {
+      const siblings = el.parentElement.querySelectorAll('.option-item');
+      siblings.forEach(s => s.classList.remove('selected'));
+      el.classList.add('selected');
+    }
+  </script>
+
+</body>
+</html>

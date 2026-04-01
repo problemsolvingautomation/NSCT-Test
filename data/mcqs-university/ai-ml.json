@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "uni-ai-ml-0001",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which statement best describes Artificial Intelligence?",
+    "options": [
+      "A system that performs tasks requiring human intelligence",
+      "A system used only for database management",
+      "A programming language for automation",
+      "A hardware architecture for computation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Artificial Intelligence refers to systems designed to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, perception, and language understanding.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0002",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Machine Learning is best defined as:",
+    "options": [
+      "Programming computers with fixed rules",
+      "Enabling systems to learn patterns from data",
+      "Designing microprocessors",
+      "Building computer networks"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Machine Learning is a subset of AI that enables systems to automatically learn and improve from experience by identifying patterns in data, without being explicitly programmed with fixed rules.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0003",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is an example of Artificial Intelligence application?",
+    "options": [
+      "Spam email filtering",
+      "Installing operating systems",
+      "Disk partitioning",
+      "File compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Spam email filtering uses AI techniques like Naive Bayes classification and natural language processing to automatically identify and separate unwanted emails from legitimate ones.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0004",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data Analytics primarily focuses on:",
+    "options": [
+      "Extracting useful insights from data",
+      "Building network infrastructure",
+      "Managing operating systems",
+      "Designing processors"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data Analytics focuses on extracting useful insights, patterns, and knowledge from raw data using statistical analysis, visualization, and computational methods to support decision-making.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0005",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of AI focuses on performing a specific task such as voice recognition?",
+    "options": [
+      "Narrow AI",
+      "Strong AI",
+      "Artificial Super Intelligence",
+      "Symbolic AI"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Narrow AI (also called Weak AI) is designed to perform a specific task such as voice recognition, image classification, or language translation, unlike General AI which would handle any intellectual task.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0006",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best describes a dataset?",
+    "options": [
+      "A collection of related data points",
+      "A network communication protocol",
+      "A database query language",
+      "A system software component"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A dataset is a structured collection of related data points organized in rows and columns, where each row represents an observation and each column represents a feature or attribute.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0007",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In machine learning, the data used to train a model is called:",
+    "options": [
+      "Training data",
+      "Validation code",
+      "System data",
+      "Process data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Training data is the dataset used to teach a machine learning model by allowing it to learn patterns and relationships. The model adjusts its parameters based on this data during training.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0008",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which term refers to the output predicted by a machine learning model?",
+    "options": [
+      "Target variable",
+      "Kernel function",
+      "Hyperparameter",
+      "Activation unit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The target variable (also called label or dependent variable) is the output that a machine learning model is trained to predict, representing the value we want the model to estimate.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0009",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following best represents the role of data scientists?",
+    "options": [
+      "Extract insights from data using statistical and computational methods",
+      "Manage hardware infrastructure",
+      "Install operating systems",
+      "Configure network devices"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data scientists extract insights from data using statistical and computational methods, combining skills in programming, mathematics, statistics, and domain knowledge to analyze complex datasets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0010",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which field combines statistics, programming, and domain knowledge to analyze data?",
+    "options": [
+      "Data Science",
+      "Software Engineering",
+      "Network Engineering",
+      "Computer Architecture"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data Science is an interdisciplinary field that combines statistics, programming, and domain knowledge to extract meaningful insights and knowledge from structured and unstructured data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0011",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept measures how strongly two variables are related?",
+    "options": [
+      "Correlation",
+      "Compilation",
+      "Hashing",
+      "Indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Correlation measures the strength and direction of the linear relationship between two variables, ranging from -1 (perfect negative) to +1 (perfect positive), with 0 indicating no linear relationship.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0012",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm is widely used to minimize error during model training?",
+    "options": [
+      "Gradient Descent",
+      "Binary Search",
+      "Breadth First Search",
+      "Depth First Search"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gradient Descent is an optimization algorithm that iteratively adjusts model parameters by moving in the direction of steepest descent of the loss function, minimizing prediction error.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0013",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which metric measures the average squared difference between predicted and actual values?",
+    "options": [
+      "Mean Squared Error",
+      "Precision",
+      "Recall",
+      "Accuracy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mean Squared Error (MSE) calculates the average of the squared differences between predicted and actual values. Squaring amplifies larger errors, making it sensitive to outliers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0014",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which statistical measure represents the middle value of a sorted dataset?",
+    "options": [
+      "Median",
+      "Mean",
+      "Variance",
+      "Standard deviation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The median is the middle value when data is sorted in order. Unlike the mean, it is robust to outliers and provides a better measure of central tendency for skewed distributions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0015",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept describes how spread out the values of a dataset are?",
+    "options": [
+      "Variance",
+      "Median",
+      "Mode",
+      "Frequency"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Variance measures how spread out data values are from the mean. A high variance indicates data points are far from the mean, while low variance indicates they cluster closely around it.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0016",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which measure represents the average of a dataset?",
+    "options": [
+      "Mean",
+      "Mode",
+      "Range",
+      "Frequency"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The mean (arithmetic average) is calculated by summing all values and dividing by the count. It is the most commonly used measure of central tendency in statistics.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0017",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which probability value indicates an impossible event?",
+    "options": [
+      "0",
+      "1",
+      "0.5",
+      "10"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A probability of 0 indicates an impossible event. Probability values range from 0 (impossible) to 1 (certain), with values between representing varying degrees of likelihood.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0018",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept is used to measure uncertainty in information theory?",
+    "options": [
+      "Entropy",
+      "Median",
+      "Frequency",
+      "Standard deviation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Entropy, from information theory, quantifies the uncertainty or randomness in a dataset. Higher entropy means more uncertainty, while lower entropy indicates more predictable data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0019",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function is commonly used as an activation function in neural networks?",
+    "options": [
+      "ReLU",
+      "Merge",
+      "Compile",
+      "Sort"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ReLU (Rectified Linear Unit) outputs the input directly if positive, otherwise zero. It is widely used because it helps mitigate the vanishing gradient problem and enables faster training.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0020",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which distribution is commonly used in statistics and machine learning?",
+    "options": [
+      "Normal distribution",
+      "Uniform routing",
+      "Binary routing",
+      "Packet distribution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The normal (Gaussian) distribution is a bell-shaped probability distribution fundamental in statistics and ML. Many natural phenomena and statistical methods assume normally distributed data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0021",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Python library is widely used for numerical computing?",
+    "options": [
+      "NumPy",
+      "Flask",
+      "Django",
+      "Tkinter"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NumPy is Python's foundational library for numerical computing, providing support for large multi-dimensional arrays, matrices, and mathematical functions to operate on them efficiently.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0022",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Python library is used for data manipulation and analysis?",
+    "options": [
+      "Pandas",
+      "Socket",
+      "Requests",
+      "PyGame"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pandas provides high-performance data structures (DataFrame and Series) and tools for data manipulation, cleaning, and analysis in Python, essential for data science workflows.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0023",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which library provides machine learning algorithms in Python?",
+    "options": [
+      "Scikit-learn",
+      "Kivy",
+      "Pyglet",
+      "PyTest"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Scikit-learn provides simple and efficient tools for data mining and machine learning in Python, including classification, regression, clustering, and dimensionality reduction algorithms.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0024",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function loads CSV data into a Pandas DataFrame?",
+    "options": [
+      "read_csv()",
+      "open_file()",
+      "load_data()",
+      "read_table()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The pandas read_csv() function reads a CSV file and loads its contents into a DataFrame, a two-dimensional tabular data structure for easy manipulation and analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0025",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Python library is commonly used for data visualization?",
+    "options": [
+      "Matplotlib",
+      "Threading",
+      "Pickle",
+      "Asyncio"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Matplotlib is Python's primary data visualization library, providing functions to create static, animated, and interactive plots including line graphs, bar charts, histograms, and scatter plots.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0026",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which data structure in Python stores key-value pairs?",
+    "options": [
+      "Dictionary",
+      "List",
+      "Tuple",
+      "Set"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Python dictionary stores data as key-value pairs with O(1) average time complexity for lookups, insertions, and deletions using hash tables internally.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0027",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Python library is widely used for deep learning?",
+    "options": [
+      "TensorFlow",
+      "BeautifulSoup",
+      "Tkinter",
+      "Paramiko"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TensorFlow is an open-source deep learning framework by Google that provides tools for building and training neural networks, supporting both CPU and GPU computation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0028",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function displays the first few rows of a Pandas DataFrame?",
+    "options": [
+      "head()",
+      "show()",
+      "preview()",
+      "top()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The head() function in Pandas displays the first five rows of a DataFrame by default. You can pass an integer argument to specify a different number of rows.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0029",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Python library is commonly used for advanced visualization?",
+    "options": [
+      "Seaborn",
+      "Socket",
+      "Logging",
+      "Argparse"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Seaborn is built on Matplotlib and provides a high-level interface for creating attractive statistical visualizations, including heatmaps, violin plots, and pair plots with minimal code.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0030",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which file format is commonly used to store tabular data for analysis?",
+    "options": [
+      "CSV",
+      "EXE",
+      "DLL",
+      "BIN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CSV (Comma-Separated Values) is a plain text format that uses commas to separate tabular data values. It is widely used because it is simple, human-readable, and broadly supported.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0031",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data preprocessing is mainly used to:",
+    "options": [
+      "Improve data quality before analysis",
+      "Install database systems",
+      "Compile programs",
+      "Configure servers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data preprocessing improves data quality by handling missing values, removing duplicates, normalizing features, and encoding categorical variables before model training.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0032",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique replaces missing data with average values?",
+    "options": [
+      "Mean imputation",
+      "Clustering",
+      "Tokenization",
+      "Regression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mean imputation replaces missing values with the average of available values for that feature. It is simple but can reduce variance and distort relationships between variables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0033",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique converts categorical variables into numerical values?",
+    "options": [
+      "Encoding",
+      "Sampling",
+      "Aggregation",
+      "Tokenization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Encoding converts categorical (non-numeric) variables into numerical representations that ML algorithms can process, such as label encoding or one-hot encoding.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0034",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which scaling technique transforms values between 0 and 1?",
+    "options": [
+      "Min-Max scaling",
+      "Standard deviation scaling",
+      "Random scaling",
+      "Binary scaling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Min-Max scaling transforms values to a range between 0 and 1 using (x - min) / (max - min), ensuring all features contribute equally to model training.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0035",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which process removes duplicate entries from a dataset?",
+    "options": [
+      "Deduplication",
+      "Augmentation",
+      "Encoding",
+      "Tokenization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deduplication removes duplicate entries from a dataset. Duplicates can bias model training and inflate performance metrics, making their removal an important preprocessing step.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0036",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which step handles noisy or inconsistent data?",
+    "options": [
+      "Data cleaning",
+      "Data encryption",
+      "Data compression",
+      "Data streaming"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data cleaning handles noisy, inconsistent, or erroneous data by correcting errors, filling missing values, removing duplicates, and standardizing formats.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0037",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which process reduces the size of datasets while maintaining essential information?",
+    "options": [
+      "Dimensionality reduction",
+      "Data duplication",
+      "Data encryption",
+      "Data compilation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dimensionality reduction reduces features while preserving essential information, combating the curse of dimensionality, reducing computation time, and improving model performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0038",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique scales data to have mean 0 and standard deviation 1?",
+    "options": [
+      "Standardization",
+      "Tokenization",
+      "Clustering",
+      "Partitioning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Standardization transforms data to have mean 0 and standard deviation 1 using (x - mean) / std. This is useful for algorithms sensitive to feature scale.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0039",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method randomly selects a subset of data from a larger dataset?",
+    "options": [
+      "Sampling",
+      "Sorting",
+      "Encoding",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sampling randomly selects a representative subset from a larger dataset, used when processing the entire dataset is computationally expensive or for creating train/test splits.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0040",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method converts text into tokens for NLP preprocessing?",
+    "options": [
+      "Tokenization",
+      "Encryption",
+      "Compression",
+      "Partitioning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tokenization splits text into individual tokens (words, subwords, or characters) as a fundamental NLP preprocessing step, enabling further analysis and model input preparation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0041",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which visualization helps understand distribution of a variable?",
+    "options": [
+      "Histogram",
+      "Tree diagram",
+      "Network graph",
+      "Flowchart"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A histogram displays frequency distribution of a numerical variable by dividing data into bins and showing the count per bin, revealing the shape of the distribution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0042",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which plot is used to identify relationships between two variables?",
+    "options": [
+      "Scatter plot",
+      "Pie chart",
+      "Radar chart",
+      "Area chart"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A scatter plot displays data points as dots on a two-dimensional graph to identify relationships, trends, clusters, and outliers between two variables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0043",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which visualization is best for detecting outliers?",
+    "options": [
+      "Box plot",
+      "Pie chart",
+      "Flowchart",
+      "Bar chart"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A box plot visualizes data distribution through quartiles and highlights outliers beyond the whiskers, making it ideal for detecting anomalous values in datasets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0044",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which statistical value represents the most frequent value in a dataset?",
+    "options": [
+      "Mode",
+      "Mean",
+      "Median",
+      "Variance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The mode is the most frequently occurring value in a dataset. Unlike mean and median, it can be used with both numerical and categorical data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0045",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which plot shows proportions of categories in a dataset?",
+    "options": [
+      "Pie chart",
+      "Histogram",
+      "Scatter plot",
+      "Box plot"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A pie chart displays category proportions as slices of a circle, where each slice represents its relative proportion of the whole, useful for showing composition.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0046",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which plot shows relationships between variables using color intensity?",
+    "options": [
+      "Heatmap",
+      "Pie chart",
+      "Histogram",
+      "Tree diagram"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A heatmap uses color intensity to represent value magnitudes in a matrix, commonly used to visualize correlation matrices and relationships between multiple variables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0047",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which EDA step helps identify skewness in data?",
+    "options": [
+      "Distribution analysis",
+      "Compilation",
+      "Encryption",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Distribution analysis examines how data values spread across the range, identifying skewness, kurtosis, and overall shape of the distribution for better understanding.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0048",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which measure indicates asymmetry in data distribution?",
+    "options": [
+      "Skewness",
+      "Median",
+      "Mode",
+      "Range"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Skewness measures asymmetry of a distribution. Positive skew means the tail extends right, negative skew extends left, and zero indicates symmetry.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0049",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which measure describes peakedness of distribution?",
+    "options": [
+      "Kurtosis",
+      "Correlation",
+      "Frequency",
+      "Precision"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kurtosis measures the peakedness or tailedness of a distribution. High kurtosis indicates heavy tails and sharp peak, while low kurtosis indicates light tails and flat peak.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0050",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main purpose of exploratory data analysis is to:",
+    "options": [
+      "Understand patterns and structure in data",
+      "Install operating systems",
+      "Configure databases",
+      "Manage hardware"
+    ],
+    "correctAnswer": 0,
+    "explanation": "EDA examines datasets to understand structure, patterns, distributions, and anomalies through visualizations and summary statistics before formal modeling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0051",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which supervised learning task predicts a continuous numerical value?",
+    "options": [
+      "Regression",
+      "Clustering",
+      "Association rule mining",
+      "Dimensionality reduction"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Regression is a supervised learning task that predicts continuous numerical values by modeling the relationship between input features and the target variable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0052",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm constructs a tree-like structure for classification decisions?",
+    "options": [
+      "Decision Tree",
+      "K-Means",
+      "Apriori",
+      "PCA"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Decision Tree constructs a tree structure where internal nodes test features, branches represent outcomes, and leaf nodes represent class labels or predicted values.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0053",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm classifies data by finding the optimal hyperplane that separates classes?",
+    "options": [
+      "Support Vector Machine",
+      "Linear Regression",
+      "K-Means",
+      "Apriori"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SVM finds the optimal hyperplane that maximally separates classes in feature space. It works for both linear and non-linear classification using kernel functions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0054",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Logistic Regression is primarily used for:",
+    "options": [
+      "Classification problems",
+      "Clustering tasks",
+      "Dimensionality reduction",
+      "Data visualization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Despite its name, Logistic Regression is primarily used for binary classification. It uses the sigmoid function to output probabilities between 0 and 1 for class membership.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0055",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm classifies data points based on the majority class of nearest neighbors?",
+    "options": [
+      "K-Nearest Neighbors",
+      "Random Forest",
+      "Gradient Boosting",
+      "Naive Bayes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "KNN classifies a data point based on the majority class among its k nearest neighbors in feature space. It is a simple instance-based algorithm requiring no training phase.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0056",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which supervised learning algorithm assumes independence among predictors?",
+    "options": [
+      "Naive Bayes",
+      "Decision Tree",
+      "Random Forest",
+      "K-Means"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Naive Bayes is a probabilistic classifier based on Bayes' theorem assuming feature independence. Despite this simplification, it performs well in text classification tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0057",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which regression method fits a linear relationship between input variables and output?",
+    "options": [
+      "Linear Regression",
+      "PCA",
+      "DBSCAN",
+      "Apriori"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Linear Regression models the input-output relationship as a linear equation (y = mx + b), minimizing the sum of squared residuals to find the best-fitting line.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0058",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which metric measures the proportion of correctly classified instances?",
+    "options": [
+      "Accuracy",
+      "Entropy",
+      "Variance",
+      "Gradient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Accuracy measures the proportion of correctly classified instances out of all instances. While intuitive, it can be misleading with imbalanced datasets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0059",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Precision measures:",
+    "options": [
+      "Correct positive predictions among predicted positives",
+      "Correct predictions among all samples",
+      "Correct negative predictions only",
+      "Total dataset size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Precision measures true positive predictions among all positive predictions (TP / (TP + FP)). High precision means few false positive errors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0060",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Recall measures:",
+    "options": [
+      "Correct positive predictions among actual positives",
+      "Correct predictions among all classes",
+      "Correct negative predictions only",
+      "Dataset variance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Recall (sensitivity) measures actual positives correctly identified (TP / (TP + FN)). High recall means the model captures most positive cases.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0061",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Ensemble learning refers to:",
+    "options": [
+      "Combining multiple models to improve prediction performance",
+      "Using a single powerful model",
+      "Increasing dataset size only",
+      "Removing noisy data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ensemble learning combines multiple models to produce more accurate and robust predictions than any individual model, leveraging diversity among learners.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0062",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which ensemble technique trains multiple models independently on different subsets of data?",
+    "options": [
+      "Bagging",
+      "Boosting",
+      "Stacking",
+      "Sampling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bagging trains multiple models independently on random subsets (with replacement), then combines predictions through averaging or voting to reduce variance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0063",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Random Forest is primarily based on:",
+    "options": [
+      "Bagging with decision trees",
+      "Boosting with neural networks",
+      "Clustering algorithms",
+      "Regression models only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Random Forest uses bagging with decision trees, building multiple trees on random data and feature subsets, then aggregating predictions to reduce overfitting.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0064",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which boosting method assigns higher weights to misclassified samples?",
+    "options": [
+      "AdaBoost",
+      "PCA",
+      "DBSCAN",
+      "Apriori"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AdaBoost sequentially trains weak classifiers, assigning higher weights to misclassified samples so subsequent models focus on harder examples.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0065",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Gradient Boosting builds models:",
+    "options": [
+      "Sequentially to reduce residual errors",
+      "Randomly without feedback",
+      "In parallel without dependencies",
+      "Only using unsupervised methods"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gradient Boosting builds models sequentially where each corrects residual errors of the previous ensemble, minimizing a loss function via gradient descent in function space.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0066",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which ensemble technique combines predictions of several models using a meta-model?",
+    "options": [
+      "Stacking",
+      "Bagging",
+      "Sampling",
+      "Scaling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stacking trains a meta-model to combine predictions from several base models, learning which base models perform best for different types of inputs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0067",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main advantage of ensemble methods is:",
+    "options": [
+      "Improved predictive accuracy",
+      "Reduced dataset size",
+      "Faster compilation time",
+      "Smaller storage requirements"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ensemble methods improve accuracy by combining diverse models that make different errors, so aggregate predictions are more reliable than individual model outputs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0068",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm is widely used in machine learning competitions?",
+    "options": [
+      "Gradient Boosting",
+      "K-Means",
+      "Naive Bayes",
+      "Linear Regression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gradient Boosting (and variants like XGBoost, LightGBM) is popular in ML competitions due to its high accuracy, flexibility, and ability to handle various data types.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0069",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "XGBoost is an implementation of:",
+    "options": [
+      "Gradient Boosting",
+      "Decision Trees",
+      "Logistic Regression",
+      "Clustering"
+    ],
+    "correctAnswer": 0,
+    "explanation": "XGBoost (eXtreme Gradient Boosting) is an optimized gradient boosting implementation with regularization, parallel processing, and tree pruning for improved performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0070",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Ensemble methods help reduce:",
+    "options": [
+      "Overfitting and variance",
+      "Network latency",
+      "Disk fragmentation",
+      "CPU temperature"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ensemble methods reduce overfitting by averaging variance of individual models. Bagging reduces variance, boosting reduces bias, both improving generalization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0071",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which learning type uses unlabeled data?",
+    "options": [
+      "Unsupervised Learning",
+      "Supervised Learning",
+      "Reinforcement Learning",
+      "Transfer Learning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Unsupervised learning discovers hidden patterns in unlabeled data without predefined output labels. Common tasks include clustering and dimensionality reduction.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0072",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm groups similar data points into clusters?",
+    "options": [
+      "K-Means",
+      "Linear Regression",
+      "Decision Tree",
+      "Random Forest"
+    ],
+    "correctAnswer": 0,
+    "explanation": "K-Means partitions data into k clusters by iteratively assigning points to the nearest centroid and updating centroids based on cluster means until convergence.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0073",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "K-Means clustering works by:",
+    "options": [
+      "Minimizing distance between points and cluster centroids",
+      "Maximizing classification accuracy",
+      "Building decision trees",
+      "Training neural networks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "K-Means minimizes within-cluster sum of squared distances between data points and centroids through an iterative assignment-update process.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0074",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm detects clusters based on density of data points?",
+    "options": [
+      "DBSCAN",
+      "Logistic Regression",
+      "KNN",
+      "Linear Regression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DBSCAN identifies clusters as dense regions separated by low-density areas, detecting arbitrarily shaped clusters and automatically identifying outliers as noise.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0075",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique reduces dimensionality while preserving variance?",
+    "options": [
+      "Principal Component Analysis",
+      "Logistic Regression",
+      "Random Forest",
+      "Decision Tree"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PCA transforms features into orthogonal principal components capturing maximum variance, ordered by importance, enabling effective dimensionality reduction.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0076",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm is commonly used for association rule mining?",
+    "options": [
+      "Apriori",
+      "KNN",
+      "Linear Regression",
+      "SVM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Apriori discovers frequent itemsets and generates association rules from transactional data, widely used in market basket analysis for finding co-purchased items.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0077",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept measures how similar data points are in clustering?",
+    "options": [
+      "Distance metric",
+      "Loss function",
+      "Activation function",
+      "Learning rate"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Distance metrics (Euclidean, Manhattan, cosine) quantify similarity between data points in clustering. The choice of metric affects cluster formation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0078",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Hierarchical clustering builds clusters:",
+    "options": [
+      "In a tree-like hierarchy",
+      "Using neural networks",
+      "Using regression models",
+      "Randomly"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hierarchical clustering builds a dendrogram by either merging points (agglomerative) or splitting clusters (divisive) to form a tree-like hierarchy.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0079",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique reduces number of features in a dataset?",
+    "options": [
+      "Dimensionality reduction",
+      "Tokenization",
+      "Encryption",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dimensionality reduction removes redundant features while retaining essential information, combating the curse of dimensionality and improving model efficiency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0080",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which distance metric is commonly used in clustering algorithms?",
+    "options": [
+      "Euclidean distance",
+      "Binary distance",
+      "Routing distance",
+      "Packet distance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Euclidean distance measures straight-line distance between two points in multi-dimensional space. It is the default distance metric in K-Means and KNN.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0081",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which dataset is used to train a machine learning model?",
+    "options": [
+      "Training dataset",
+      "Test dataset",
+      "Validation dataset",
+      "Feature dataset"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The training dataset exposes the model to input-output pairs so it can learn patterns and adjust parameters to minimize prediction errors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0082",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which dataset is used to evaluate final model performance?",
+    "options": [
+      "Test dataset",
+      "Training dataset",
+      "Raw dataset",
+      "Feature dataset"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The test dataset evaluates final model performance on unseen data, providing an unbiased estimate of generalization ability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0083",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cross-validation helps:",
+    "options": [
+      "Evaluate model performance on multiple subsets",
+      "Reduce dataset size",
+      "Remove features",
+      "Increase CPU speed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cross-validation splits data into multiple subsets, training and testing on different combinations, then averaging results for reliable performance estimation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0084",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In k-fold cross validation, the dataset is divided into:",
+    "options": [
+      "k subsets",
+      "two equal subsets",
+      "random clusters",
+      "hierarchical trees"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In k-fold cross-validation, data is divided into k equal folds. The model trains k times, each time using k-1 folds for training and 1 for validation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0085",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which curve shows trade-off between true positive rate and false positive rate?",
+    "options": [
+      "ROC curve",
+      "Learning curve",
+      "Loss curve",
+      "Precision curve"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The ROC curve plots true positive rate vs false positive rate at various thresholds, visualizing the trade-off between sensitivity and specificity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0086",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which metric combines precision and recall into a single score?",
+    "options": [
+      "F1 Score",
+      "Accuracy",
+      "Entropy",
+      "Variance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "F1 Score is the harmonic mean of precision and recall: 2 * (precision * recall) / (precision + recall). It balances both metrics in a single score.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0087",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which matrix summarizes classification results?",
+    "options": [
+      "Confusion Matrix",
+      "Distance Matrix",
+      "Feature Matrix",
+      "Kernel Matrix"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A Confusion Matrix shows counts of true positives, true negatives, false positives, and false negatives, summarizing classification performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0088",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Overfitting occurs when:",
+    "options": [
+      "Model memorizes training data but fails on new data",
+      "Model performs poorly on training data",
+      "Model has fewer parameters",
+      "Dataset is too small"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Overfitting occurs when a model memorizes training data including noise, achieving high training accuracy but poor generalization to new data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0089",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Underfitting occurs when:",
+    "options": [
+      "Model is too simple to capture patterns in data",
+      "Model perfectly fits training data",
+      "Dataset has many features",
+      "Data is normalized"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Underfitting occurs when a model is too simple to capture data patterns, performing poorly on both training and test data due to high bias.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0090",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique helps prevent overfitting?",
+    "options": [
+      "Regularization",
+      "Encryption",
+      "Compilation",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Regularization adds a penalty to the loss function constraining model complexity, preventing overfitting. Common types are L1 (Lasso) and L2 (Ridge).",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0091",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Feature engineering refers to:",
+    "options": [
+      "Creating meaningful input variables from raw data",
+      "Installing machine learning software",
+      "Managing network traffic",
+      "Compressing datasets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Feature engineering creates meaningful input variables from raw data using domain knowledge, improving model performance through better representations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0092",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Feature scaling is important because:",
+    "options": [
+      "Some algorithms are sensitive to magnitude of features",
+      "It increases CPU speed",
+      "It reduces dataset size",
+      "It encrypts data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Feature scaling matters because distance-based and gradient-based algorithms are sensitive to feature magnitudes. Without scaling, larger features dominate.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0093",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique converts categorical variables into binary vectors?",
+    "options": [
+      "One-hot encoding",
+      "Sampling",
+      "Clustering",
+      "Partitioning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "One-hot encoding creates separate binary columns for each category, preventing ordinal assumptions that label encoding might introduce for nominal variables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0094",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method removes irrelevant features from datasets?",
+    "options": [
+      "Feature selection",
+      "Tokenization",
+      "Compression",
+      "Encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Feature selection retains relevant features while removing irrelevant or redundant ones, reducing complexity and improving training speed and generalization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0095",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method evaluates feature importance using decision trees?",
+    "options": [
+      "Tree-based feature importance",
+      "PCA",
+      "K-Means",
+      "DBSCAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tree-based feature importance measures each feature's contribution by calculating total reduction in impurity (Gini or entropy) across all splits.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0096",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which transformation reduces skewness in numerical features?",
+    "options": [
+      "Log transformation",
+      "Encoding",
+      "Sampling",
+      "Partitioning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Log transformation reduces right skewness by compressing large values. It is commonly applied to exponentially distributed features like income or population.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0097",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Feature extraction differs from feature selection because it:",
+    "options": [
+      "Creates new features from existing ones",
+      "Removes datasets entirely",
+      "Deletes observations",
+      "Encrypts variables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Feature extraction creates new features from existing ones through transformations like PCA. Unlike selection, it combines information rather than choosing subsets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0098",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm is commonly used for dimensionality reduction?",
+    "options": [
+      "PCA",
+      "Naive Bayes",
+      "Random Forest",
+      "Decision Tree"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PCA is the most common dimensionality reduction algorithm, transforming correlated features into uncorrelated principal components ordered by variance explained.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0099",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which feature selection method evaluates correlation between features and target variable?",
+    "options": [
+      "Filter method",
+      "Sampling method",
+      "Compression method",
+      "Encryption method"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Filter methods evaluate feature relevance using statistical measures like correlation or chi-squared, independent of any specific model, making them computationally efficient.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0100",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Feature engineering improves models mainly by:",
+    "options": [
+      "Increasing predictive power of features",
+      "Reducing memory usage only",
+      "Changing hardware architecture",
+      "Removing algorithms"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Feature engineering increases predictive power of input features, enabling models to capture more meaningful patterns and achieve better performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0101",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A neural network consists of:",
+    "options": [
+      "Layers of interconnected artificial neurons",
+      "Only a single processing unit",
+      "A group of database tables",
+      "A set of network routers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A neural network has layers of interconnected artificial neurons: an input layer, hidden layers, and an output layer, mimicking biological neural structures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0102",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which layer receives the initial input data in a neural network?",
+    "options": [
+      "Input layer",
+      "Hidden layer",
+      "Output layer",
+      "Pooling layer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The input layer receives raw data features and passes them to hidden layers. Each input neuron corresponds to one feature in the dataset.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0103",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm is used to update weights in neural networks during training?",
+    "options": [
+      "Backpropagation",
+      "Binary Search",
+      "Depth First Search",
+      "Linear Search"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Backpropagation computes loss gradients with respect to each weight by propagating error backward, then uses these gradients to update weights via gradient descent.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0104",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which activation function outputs values between 0 and 1?",
+    "options": [
+      "Sigmoid",
+      "ReLU",
+      "Linear",
+      "Softplus"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The sigmoid function outputs values between 0 and 1 via 1/(1+e^(-x)), commonly used in binary classification output layers for probability estimation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0105",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which activation function helps reduce the vanishing gradient problem?",
+    "options": [
+      "ReLU",
+      "Sigmoid",
+      "Tanh",
+      "Linear"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ReLU reduces the vanishing gradient problem because its gradient is 0 or 1, unlike sigmoid/tanh whose gradients approach zero for extreme inputs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0106",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main purpose of activation functions in neural networks is to:",
+    "options": [
+      "Introduce non-linearity into the model",
+      "Store data permanently",
+      "Increase storage capacity",
+      "Compress datasets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Activation functions introduce non-linearity, enabling neural networks to learn complex patterns. Without them, the network reduces to a linear transformation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0107",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function converts outputs of a neural network into probabilities?",
+    "options": [
+      "Softmax",
+      "ReLU",
+      "Tanh",
+      "Linear"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Softmax converts raw scores into probabilities summing to 1 across all classes, used in multi-class classification output layers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0108",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The process of adjusting model weights based on error is called:",
+    "options": [
+      "Training",
+      "Sampling",
+      "Clustering",
+      "Encoding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Training iteratively adjusts model weights to minimize loss between predicted and actual outputs using optimization algorithms like gradient descent.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0109",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which parameter controls how much the model weights change during training?",
+    "options": [
+      "Learning rate",
+      "Batch size",
+      "Epoch number",
+      "Dataset size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Learning rate controls weight update step size. Too high causes oscillation and divergence; too low causes slow convergence.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0110",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique helps prevent overfitting in neural networks?",
+    "options": [
+      "Dropout",
+      "Tokenization",
+      "Encryption",
+      "Clustering"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dropout randomly deactivates neurons during training, forcing the network to learn redundant representations and preventing co-adaptation to reduce overfitting.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0111",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which neural network architecture is designed for sequential data?",
+    "options": [
+      "Recurrent Neural Network",
+      "Decision Tree",
+      "Random Forest",
+      "K-Means"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RNNs are designed for sequential data, maintaining hidden states that capture information from previous time steps in sequences like text and time series.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0112",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which neural network architecture is widely used for image processing tasks?",
+    "options": [
+      "Convolutional Neural Network",
+      "Recurrent Neural Network",
+      "Logistic Regression",
+      "KNN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CNNs use convolutional layers with learnable filters to detect spatial features in images, making them highly effective for image processing tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0113",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In convolutional neural networks, convolutional layers are mainly used to:",
+    "options": [
+      "Extract spatial features from images",
+      "Store training data",
+      "Reduce dataset size",
+      "Increase CPU speed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Convolutional layers apply filters sliding over input images to extract spatial features like edges, textures, and patterns at different abstraction levels.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0114",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operation reduces spatial dimensions in CNNs?",
+    "options": [
+      "Pooling",
+      "Encoding",
+      "Tokenization",
+      "Sampling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pooling reduces spatial dimensions of feature maps, decreasing computation and providing translation invariance while retaining important features.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0115",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which neural network component stores learned parameters for feature detection in CNNs?",
+    "options": [
+      "Filters",
+      "Tokens",
+      "Clusters",
+      "Trees"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Filters (kernels) in CNNs are small weight matrices that learn to detect specific features. They convolve across input to create feature maps.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0116",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Long Short-Term Memory (LSTM) networks are designed to:",
+    "options": [
+      "Capture long-term dependencies in sequence data",
+      "Classify images only",
+      "Compress datasets",
+      "Remove noise from data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "LSTMs use input, forget, and output gates to selectively remember or forget information, capturing long-term dependencies in sequential data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0117",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which architecture introduced the attention mechanism widely used in NLP models?",
+    "options": [
+      "Transformer",
+      "CNN",
+      "Decision Tree",
+      "Logistic Regression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Transformer, from 'Attention Is All You Need' (2017), uses self-attention for parallel sequence processing, powering BERT and GPT models.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0118",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Attention mechanisms allow models to:",
+    "options": [
+      "Focus on relevant parts of the input sequence",
+      "Reduce dataset size",
+      "Compress network weights",
+      "Remove training data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Attention mechanisms dynamically focus on relevant input parts when producing output, improving performance on tasks with long-range dependencies.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0119",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique is commonly used to initialize neural network weights?",
+    "options": [
+      "Xavier initialization",
+      "Random search",
+      "Linear scaling",
+      "Binary encoding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Xavier initialization sets weights based on input/output neuron counts, maintaining consistent gradient magnitudes for stable training.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0120",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Batch normalization helps by:",
+    "options": [
+      "Stabilizing and accelerating training",
+      "Compressing datasets",
+      "Reducing dataset size",
+      "Encrypting data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Batch normalization normalizes layer inputs to zero mean and unit variance, stabilizing and accelerating training by reducing internal covariate shift.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0121",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Natural Language Processing primarily deals with:",
+    "options": [
+      "Processing and understanding human language",
+      "Image recognition",
+      "Network security",
+      "Hardware design"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NLP enables computers to understand, interpret, and generate human language for applications like translation, chatbots, and sentiment analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0122",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Tokenization refers to:",
+    "options": [
+      "Splitting text into words or tokens",
+      "Encrypting text",
+      "Compressing text files",
+      "Translating text"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tokenization splits raw text into tokens (words, subwords, characters) as the foundational NLP preprocessing step for language model input.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0123",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which representation technique converts words into dense vectors?",
+    "options": [
+      "Word embeddings",
+      "Clustering",
+      "Encryption",
+      "Indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Word embeddings map words to dense vectors where semantically similar words are nearby in vector space, capturing meaning and relationships.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0124",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm is widely used for generating word embeddings?",
+    "options": [
+      "Word2Vec",
+      "K-Means",
+      "Apriori",
+      "Random Forest"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Word2Vec generates word embeddings by training on co-occurrence patterns using Skip-gram or Continuous Bag of Words (CBOW) architectures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0125",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which task determines whether text expresses positive or negative sentiment?",
+    "options": [
+      "Sentiment analysis",
+      "Topic modeling",
+      "Named entity recognition",
+      "Tokenization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sentiment analysis classifies text as positive, negative, or neutral, widely used for customer reviews, social media, and brand perception analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0126",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Stop words are:",
+    "options": [
+      "Common words removed during preprocessing",
+      "Rare words used for training",
+      "Words representing entities",
+      "Words used for classification"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stop words are common words like 'the', 'is', 'at' removed during NLP preprocessing because they carry little meaningful information for analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0127",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which NLP task identifies names of people, places, or organizations in text?",
+    "options": [
+      "Named Entity Recognition",
+      "Sentiment analysis",
+      "Tokenization",
+      "Clustering"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NER identifies and classifies named entities in text into categories like person names, organizations, locations, dates, and monetary values.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0128",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which model architecture powers modern NLP systems like BERT and GPT?",
+    "options": [
+      "Transformer",
+      "CNN",
+      "Decision Tree",
+      "KNN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Transformer powers modern NLP including BERT (bidirectional) and GPT (autoregressive), using self-attention for more effective text processing than RNNs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0129",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Stemming in NLP refers to:",
+    "options": [
+      "Reducing words to their root form",
+      "Translating words",
+      "Encoding words",
+      "Sorting sentences"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stemming reduces words to root form by removing suffixes (e.g., 'running' to 'run'). It is simpler but less accurate than lemmatization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0130",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which NLP technique discovers hidden themes in documents?",
+    "options": [
+      "Topic modeling",
+      "Regression",
+      "Clustering",
+      "Encoding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Topic modeling discovers hidden themes in documents. LDA (Latent Dirichlet Allocation) identifies topics as distributions over words.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0131",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Computer vision focuses on:",
+    "options": [
+      "Enabling machines to interpret visual data",
+      "Managing databases",
+      "Designing processors",
+      "Encrypting network traffic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Computer vision enables machines to interpret visual data from images and videos for tasks like detection, classification, segmentation, and recognition.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0132",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which task identifies objects present in an image?",
+    "options": [
+      "Object detection",
+      "Sentiment analysis",
+      "Tokenization",
+      "Regression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Object detection identifies and locates objects in images by predicting both class labels and bounding box coordinates for each detected object.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0133",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which dataset is widely used for image classification research?",
+    "options": [
+      "ImageNet",
+      "WikiText",
+      "LibriSpeech",
+      "CIFAR-Text"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ImageNet is a large-scale visual database with millions of labeled images that has been instrumental in advancing deep learning and computer vision research.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0134",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Image classification involves:",
+    "options": [
+      "Assigning labels to images",
+      "Detecting network packets",
+      "Sorting numerical values",
+      "Compressing images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Image classification assigns a single label to an entire image. CNNs excel by automatically learning hierarchical features from raw pixel data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0135",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique increases dataset diversity using transformations like rotation or flipping?",
+    "options": [
+      "Data augmentation",
+      "Tokenization",
+      "Encryption",
+      "Sampling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data augmentation applies transformations (rotation, flipping, scaling, cropping) to training images, increasing dataset diversity and improving generalization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0136",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of neural network is most effective for image analysis?",
+    "options": [
+      "Convolutional Neural Network",
+      "Recurrent Neural Network",
+      "Logistic Regression",
+      "Naive Bayes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CNNs are most effective for image analysis because convolutional layers automatically learn spatial feature hierarchies from pixel data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0137",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operation detects edges or patterns in images in CNNs?",
+    "options": [
+      "Convolution",
+      "Encoding",
+      "Tokenization",
+      "Sampling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Convolution applies learned filters to detect patterns like edges, textures, and shapes. Deeper layers detect increasingly complex and abstract features.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0138",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Semantic segmentation assigns:",
+    "options": [
+      "A class label to each pixel in an image",
+      "A label to the entire image only",
+      "Multiple labels to datasets",
+      "Clusters to images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Semantic segmentation assigns a class label to every pixel, creating dense pixel-wise classification that precisely delineates objects and regions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0139",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Object detection differs from classification because it:",
+    "options": [
+      "Identifies object location and class",
+      "Only assigns labels",
+      "Only detects edges",
+      "Only compresses images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Object detection provides both class labels and bounding box locations, unlike classification which only assigns a single label to the whole image.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0140",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Facial recognition systems are applications of:",
+    "options": [
+      "Computer vision",
+      "Data compression",
+      "Network security",
+      "Compiler design"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Facial recognition uses computer vision for face detection, feature extraction, and matching to identify or verify individuals from images or video.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0141",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Big Data refers to datasets that are:",
+    "options": [
+      "Extremely large and complex to process using traditional tools",
+      "Small and easy to process",
+      "Only stored in relational databases",
+      "Limited to numerical values"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Big Data refers to datasets too large and complex for traditional tools, characterized by the 5 V's: Volume, Velocity, Variety, Veracity, and Value.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0142",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which framework is widely used for distributed data processing?",
+    "options": [
+      "Apache Spark",
+      "NumPy",
+      "Matplotlib",
+      "Pandas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Apache Spark processes large datasets in parallel across clusters with in-memory processing, making it significantly faster than Hadoop MapReduce.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0143",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Hadoop primarily provides:",
+    "options": [
+      "Distributed storage and processing of large datasets",
+      "Local file compression",
+      "Database indexing",
+      "Image processing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hadoop provides distributed storage (HDFS) and processing (MapReduce) across commodity hardware clusters for scalable, fault-tolerant big data processing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0144",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which component of Hadoop stores large datasets across distributed systems?",
+    "options": [
+      "HDFS",
+      "SQL Server",
+      "FTP",
+      "TCP/IP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HDFS splits files into blocks distributed across nodes with replication for fault tolerance, enabling storage and processing of very large datasets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0145",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "MapReduce works by:",
+    "options": [
+      "Dividing tasks into map and reduce operations",
+      "Sorting datasets only",
+      "Compressing files",
+      "Encrypting data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MapReduce divides work into map tasks (filtering/transforming) and reduce tasks (aggregating) for parallel processing of large datasets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0146",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which characteristic of big data refers to the speed at which data is generated?",
+    "options": [
+      "Velocity",
+      "Volume",
+      "Variety",
+      "Veracity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Velocity refers to the speed of data generation and processing, exemplified by real-time social media streams, IoT sensors, and financial transactions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0147",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which characteristic refers to the different types of data formats?",
+    "options": [
+      "Variety",
+      "Velocity",
+      "Volume",
+      "Value"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Variety refers to different data types and formats: structured (databases), semi-structured (JSON, XML), and unstructured (text, images, videos).",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0148",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tool is commonly used for distributed big data storage?",
+    "options": [
+      "Hadoop Distributed File System",
+      "SQLite",
+      "PostgreSQL",
+      "MySQL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HDFS is designed for distributed big data storage with high throughput, fault tolerance through replication, and capacity to handle petabytes of data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0149",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Spark is preferred over Hadoop MapReduce mainly because:",
+    "options": [
+      "It processes data in memory for faster computation",
+      "It uses less storage",
+      "It only processes images",
+      "It requires no programming"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Spark processes data in memory rather than disk, making it much faster than MapReduce for iterative algorithms common in machine learning workloads.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0150",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept refers to extracting useful insights from large datasets?",
+    "options": [
+      "Big Data Analytics",
+      "Data compression",
+      "Packet routing",
+      "File partitioning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Big Data Analytics applies advanced techniques to large datasets to uncover hidden patterns, correlations, and insights for data-driven decision-making.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0151",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Model deployment refers to:",
+    "options": [
+      "Integrating a trained model into a production environment",
+      "Training a model from scratch",
+      "Collecting new datasets",
+      "Removing model parameters"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Model deployment integrates a trained model into production where it receives real-world inputs and provides predictions to users or applications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0152",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technology is commonly used to package machine learning applications into containers?",
+    "options": [
+      "Docker",
+      "NumPy",
+      "Pandas",
+      "OpenCV"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Docker packages ML applications into lightweight containers running consistently across environments, simplifying deployment and ensuring reproducibility.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0153",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "MLOps focuses on:",
+    "options": [
+      "Automating and managing machine learning lifecycle",
+      "Designing hardware circuits",
+      "Installing operating systems",
+      "Managing networks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MLOps combines ML, DevOps, and data engineering to automate the entire ML lifecycle: training, deployment, monitoring, and retraining.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0154",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which tool is widely used for experiment tracking in machine learning?",
+    "options": [
+      "MLflow",
+      "MySQL",
+      "Apache HTTP",
+      "FileZilla"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MLflow manages ML experiment tracking, model versioning, packaging, and deployment, helping log parameters, metrics, and artifacts across experiments.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0155",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Continuous integration in machine learning pipelines ensures:",
+    "options": [
+      "Automated testing and integration of code changes",
+      "Larger dataset storage",
+      "Increased network bandwidth",
+      "Faster disk operations"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CI in ML pipelines automatically tests and integrates code changes, ensuring modifications don't break existing model code or data pipelines.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0156",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept ensures that deployed models maintain performance over time?",
+    "options": [
+      "Model monitoring",
+      "Data compression",
+      "Tokenization",
+      "Encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Model monitoring tracks deployed performance, detecting degradation from data drift, concept drift, or system issues for timely corrective action.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0157",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which API framework is commonly used to deploy machine learning models in Python?",
+    "options": [
+      "FastAPI",
+      "Tkinter",
+      "Matplotlib",
+      "SciPy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FastAPI is a modern Python web framework for serving ML models as APIs with automatic documentation, validation, and high performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0158",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Version control systems help by:",
+    "options": [
+      "Tracking changes in code and models",
+      "Increasing CPU speed",
+      "Reducing dataset size",
+      "Encrypting datasets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Version control (Git, DVC) tracks changes in code, models, and data over time, enabling collaboration, reproducibility, and rollback capabilities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0159",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which platform is commonly used for managing ML workflows?",
+    "options": [
+      "Kubeflow",
+      "MySQL",
+      "SQLite",
+      "Redis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kubeflow is built on Kubernetes for deploying, managing, and scaling ML workflows with tools for training, serving, and monitoring models.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0160",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Container orchestration systems like Kubernetes help in:",
+    "options": [
+      "Managing large-scale model deployments",
+      "Compiling programs",
+      "Designing algorithms",
+      "Encrypting networks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kubernetes automates deployment, scaling, and management of containerized ML applications across clusters for high availability and efficient resource use.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0161",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Algorithmic bias occurs when:",
+    "options": [
+      "AI systems produce unfair outcomes due to biased data or design",
+      "Models run faster",
+      "Networks fail",
+      "Data is encrypted"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Algorithmic bias produces unfair outcomes due to biased training data, flawed assumptions, or design choices disproportionately affecting certain groups.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0162",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data privacy refers to:",
+    "options": [
+      "Protecting personal information from unauthorized access",
+      "Compressing datasets",
+      "Increasing storage capacity",
+      "Speeding up algorithms"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data privacy protects personal information from unauthorized access. In ML, this means ensuring training data and outputs respect individual privacy rights.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0163",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which principle ensures fairness and accountability in AI systems?",
+    "options": [
+      "Ethical AI",
+      "Data compression",
+      "Network routing",
+      "Compiler optimization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ethical AI encompasses fairness, accountability, transparency, and non-discrimination principles, ensuring AI benefits society while minimizing potential harms.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0164",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of attack manipulates input data to mislead AI models?",
+    "options": [
+      "Adversarial attack",
+      "SQL injection",
+      "Packet flooding",
+      "Memory leak"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Adversarial attacks add imperceptible perturbations to inputs causing AI models to make incorrect predictions, exposing deep learning vulnerabilities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0165",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which regulation protects personal data of individuals in many countries?",
+    "options": [
+      "GDPR",
+      "HTTP",
+      "TCP",
+      "SMTP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GDPR is an EU regulation protecting personal data, requiring consent, data security, and respect for individuals' privacy rights from organizations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0166",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Transparency in AI refers to:",
+    "options": [
+      "Making model decisions understandable to humans",
+      "Increasing data size",
+      "Removing training data",
+      "Compressing models"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Transparency in AI means making decisions understandable to humans, allowing stakeholders to understand how and why an AI reached its conclusion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0167",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Explainable AI focuses on:",
+    "options": [
+      "Interpreting how machine learning models make decisions",
+      "Encrypting neural networks",
+      "Compressing datasets",
+      "Increasing network bandwidth"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Explainable AI develops methods to make ML decisions interpretable, helping users understand reasoning behind predictions and build trust in AI systems.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0168",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data anonymization helps by:",
+    "options": [
+      "Removing identifiable personal information",
+      "Increasing dataset size",
+      "Encrypting networks",
+      "Improving GPU speed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data anonymization removes personally identifiable information from datasets, enabling analysis while protecting privacy through generalization, suppression, or pseudonymization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0169",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept ensures AI systems respect human rights and fairness?",
+    "options": [
+      "Responsible AI",
+      "Binary computing",
+      "Packet routing",
+      "Compiler design"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Responsible AI ensures development and deployment respects human rights, promotes fairness, maintains transparency, and avoids causing harm to individuals or society.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0170",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Privacy-preserving machine learning focuses on:",
+    "options": [
+      "Protecting sensitive data during model training",
+      "Increasing model size",
+      "Compressing networks",
+      "Removing algorithms"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Privacy-preserving ML uses federated learning, differential privacy, and homomorphic encryption to train models while protecting sensitive data from exposure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0171",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If a model performs well on training data but poorly on unseen data, the problem is:",
+    "options": [
+      "Overfitting",
+      "Underfitting",
+      "Regularization",
+      "Feature scaling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a model performs well on training but poorly on unseen data, it has overfit by memorizing patterns including noise rather than learning generalizable features.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0172",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If a model is too simple to capture patterns in data, the problem is:",
+    "options": [
+      "Underfitting",
+      "Overfitting",
+      "Cross-validation",
+      "Dimensionality reduction"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A model too simple to capture patterns underfits, with insufficient capacity to represent the data structure, resulting in high bias on both training and test sets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0173",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Increasing training data size generally helps reduce:",
+    "options": [
+      "Overfitting",
+      "Dataset variance",
+      "CPU speed",
+      "Disk fragmentation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "More training data reduces overfitting by better representing the true distribution, making it harder for the model to memorize specific examples.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0174",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Regularization techniques such as L1 and L2 are used to:",
+    "options": [
+      "Prevent overfitting",
+      "Increase dataset size",
+      "Reduce GPU usage",
+      "Encrypt models"
+    ],
+    "correctAnswer": 0,
+    "explanation": "L1 adds absolute weight penalty promoting sparsity; L2 adds squared weight penalty shrinking weights. Both constrain complexity to prevent overfitting.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0175",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Feature scaling is especially important for algorithms based on:",
+    "options": [
+      "Distance calculations",
+      "Decision trees",
+      "Rule-based systems",
+      "Database queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Feature scaling is essential for distance-based algorithms (KNN, SVM) because features with larger ranges disproportionately influence distance calculations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0176",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which evaluation metric is most useful when class distribution is highly imbalanced?",
+    "options": [
+      "F1 Score",
+      "Accuracy",
+      "Variance",
+      "Mean"
+    ],
+    "correctAnswer": 0,
+    "explanation": "F1 Score is best for imbalanced datasets where accuracy misleads by favoring the majority class. F1 balances precision and recall for minority class evaluation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0177",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Hyperparameters differ from model parameters because they:",
+    "options": [
+      "Are set before training begins",
+      "Are learned during training",
+      "Are always constant",
+      "Are dataset features"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hyperparameters are set before training (learning rate, layers, regularization), unlike model parameters (weights, biases) which are learned during training.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0178",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Increasing model complexity usually:",
+    "options": [
+      "Increases risk of overfitting",
+      "Reduces training time",
+      "Eliminates noise",
+      "Removes features"
+    ],
+    "correctAnswer": 0,
+    "explanation": "More model complexity increases capacity to fit data but also increases overfitting risk by capturing noise in the training set.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0179",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Dimensionality reduction helps by:",
+    "options": [
+      "Reducing number of input features while preserving information",
+      "Increasing dataset size",
+      "Encrypting data",
+      "Compiling algorithms"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dimensionality reduction preserves important information while reducing features, combating overfitting, improving efficiency, and enabling better visualization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0180",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Ensemble learning improves prediction performance mainly because:",
+    "options": [
+      "Multiple models reduce individual model errors",
+      "Datasets become smaller",
+      "Algorithms run slower",
+      "Networks become faster"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ensemble learning works because individual models make different errors that cancel out when combined, yielding more accurate aggregate predictions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0181",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A model trained on a dataset performs poorly because many features are highly correlated. Which technique can help address this issue?",
+    "options": [
+      "Principal Component Analysis",
+      "Tokenization",
+      "Data duplication",
+      "Random sampling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PCA transforms correlated features into uncorrelated components, addressing multicollinearity and reducing the feature space while preserving important variance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0182",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique divides data into training and testing subsets to evaluate a model's performance?",
+    "options": [
+      "Train-test split",
+      "Tokenization",
+      "Data encryption",
+      "Data compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Train-test split divides data (commonly 80/20) to evaluate generalization on data not seen during training, preventing overly optimistic estimates.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0183",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method helps estimate the generalization ability of a model using multiple data splits?",
+    "options": [
+      "Cross-validation",
+      "Clustering",
+      "Sampling",
+      "Encoding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cross-validation repeatedly splits data for training and validation, averaging performance across splits for more reliable and robust generalization estimates.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0184",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If precision is high but recall is low, the model likely:",
+    "options": [
+      "Misses many actual positive cases",
+      "Predicts too many positive cases",
+      "Performs perfectly",
+      "Has no classification ability"
+    ],
+    "correctAnswer": 0,
+    "explanation": "High precision but low recall means the model is accurate when predicting positive but misses many actual positives (high false negatives).",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0185",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique reduces the effect of large feature values dominating distance calculations?",
+    "options": [
+      "Feature scaling",
+      "Data duplication",
+      "Encryption",
+      "Data partitioning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Feature scaling normalizes ranges so no single large-range feature dominates distance calculations in KNN, SVM, and gradient-based methods.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0186",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "When the number of features exceeds the number of observations, the dataset may suffer from:",
+    "options": [
+      "Curse of dimensionality",
+      "Network congestion",
+      "Data redundancy",
+      "Hardware failure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The curse of dimensionality causes data sparsity as features increase, making pattern detection harder and requiring exponentially more data for reliable learning.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0187",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept measures the uncertainty or impurity in decision tree learning?",
+    "options": [
+      "Entropy",
+      "Variance",
+      "Accuracy",
+      "Gradient"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Entropy measures node impurity in decision trees. It determines the best split feature by calculating the reduction in entropy (information gain) at each node.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0188",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Information gain in decision trees is used to:",
+    "options": [
+      "Select the best feature for splitting",
+      "Increase dataset size",
+      "Reduce storage usage",
+      "Encrypt data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Information gain measures entropy reduction from splitting on a feature. The feature with highest information gain is chosen as the splitting criterion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0189",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Increasing the depth of a decision tree generally leads to:",
+    "options": [
+      "Higher risk of overfitting",
+      "Lower accuracy",
+      "Smaller datasets",
+      "Faster training"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deeper trees create more specific rules that capture training noise, leading to overfitting and poor generalization on unseen data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0190",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method combines predictions from multiple models by averaging their outputs?",
+    "options": [
+      "Bagging",
+      "Encoding",
+      "Clustering",
+      "Sampling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bagging averages predictions from models trained on bootstrap samples, reducing variance through averaging (regression) or majority voting (classification).",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0191",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which metric is most appropriate when false negatives are very costly?",
+    "options": [
+      "Recall",
+      "Accuracy",
+      "Precision",
+      "Variance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Recall is preferred when false negatives are costly (medical diagnosis, fraud) because it maximizes detection of all actual positive cases.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0192",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In binary classification, the true positive rate is also called:",
+    "options": [
+      "Recall",
+      "Precision",
+      "Specificity",
+      "Accuracy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "True positive rate (recall/sensitivity) is the proportion of actual positives correctly identified: TP / (TP + FN).",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0193",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The ROC curve plots:",
+    "options": [
+      "True positive rate vs false positive rate",
+      "Precision vs recall",
+      "Loss vs accuracy",
+      "Error vs variance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The ROC curve plots TPR (y-axis) vs FPR (x-axis) at various thresholds, showing the sensitivity-specificity trade-off.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0194",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which metric summarizes classifier performance across all classification thresholds?",
+    "options": [
+      "AUC",
+      "Accuracy",
+      "Entropy",
+      "Variance"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AUC summarizes classifier performance across all thresholds in a single value. AUC = 1.0 is perfect; AUC = 0.5 is random guessing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0195",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "When a model performs equally poorly on training and test data, the issue is usually:",
+    "options": [
+      "Underfitting",
+      "Overfitting",
+      "Data leakage",
+      "Sampling bias"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Poor performance on both training and test data indicates underfitting: the model is too simple, with high bias needing more complexity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0196",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique introduces a penalty term to model complexity?",
+    "options": [
+      "Regularization",
+      "Clustering",
+      "Tokenization",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Regularization penalizes model complexity in the loss function, discouraging large weights and preventing overfitting to training noise.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0197",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "L1 regularization is also known as:",
+    "options": [
+      "Lasso regression",
+      "Ridge regression",
+      "Logistic regression",
+      "Polynomial regression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "L1 (Lasso) regularization adds absolute weight values to the loss, driving some weights to exactly zero for automatic feature selection.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0198",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "L2 regularization is commonly called:",
+    "options": [
+      "Ridge regression",
+      "Lasso regression",
+      "Linear regression",
+      "Polynomial regression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "L2 (Ridge) regularization adds squared weights to the loss, shrinking all weights proportionally toward zero without eliminating features entirely.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0199",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Early stopping during neural network training helps to:",
+    "options": [
+      "Prevent overfitting",
+      "Increase dataset size",
+      "Reduce GPU usage",
+      "Encrypt model parameters"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Early stopping halts training when validation performance plateaus, preventing the model from continuing to memorize training noise.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0200",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Batch size in neural network training refers to:",
+    "options": [
+      "Number of samples processed before updating weights",
+      "Total dataset size",
+      "Number of features",
+      "Number of classes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Batch size determines how many samples are processed before a weight update. Smaller batches give noisier but more frequent updates.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0201",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Transfer learning involves:",
+    "options": [
+      "Reusing knowledge from a pretrained model for a new task",
+      "Training models from scratch",
+      "Deleting datasets",
+      "Compressing neural networks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Transfer learning reuses a pretrained model's knowledge for a new task, reducing training time and data needs by leveraging learned features.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0202",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique improves model robustness by adding variations to training data?",
+    "options": [
+      "Data augmentation",
+      "Encoding",
+      "Compression",
+      "Clustering"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data augmentation creates training variations through transformations, improving robustness and reducing overfitting on limited training data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0203",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Reinforcement learning involves:",
+    "options": [
+      "Learning through rewards and penalties",
+      "Training on labeled data only",
+      "Grouping data into clusters",
+      "Compressing features"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Reinforcement learning trains agents through environment interaction, receiving rewards/penalties to learn actions that maximize cumulative long-term reward.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0204",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In reinforcement learning, the agent interacts with:",
+    "options": [
+      "Environment",
+      "Dataset",
+      "Database",
+      "Compiler"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The agent observes states, takes actions, and receives rewards from the environment, which defines the task and provides learning feedback.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0205",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The value function in reinforcement learning estimates:",
+    "options": [
+      "Expected future reward",
+      "Dataset size",
+      "Model accuracy",
+      "Network latency"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The value function estimates expected cumulative future reward from a state, guiding decisions by predicting long-term consequences of actions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0206",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which reinforcement learning algorithm updates policies directly?",
+    "options": [
+      "Policy gradient methods",
+      "Decision trees",
+      "Logistic regression",
+      "K-Means"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Policy gradient methods directly optimize the state-to-action mapping by computing gradients of expected reward with respect to policy parameters.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0207",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Exploration in reinforcement learning refers to:",
+    "options": [
+      "Trying new actions to discover better rewards",
+      "Repeating the same action always",
+      "Removing features",
+      "Compressing datasets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Exploration tries new actions to discover better strategies, essential for avoiding local optima and finding globally optimal policies in RL.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0208",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Exploitation in reinforcement learning means:",
+    "options": [
+      "Choosing the best-known action",
+      "Random action selection",
+      "Increasing dataset size",
+      "Compressing models"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Exploitation chooses the best-known action for immediate reward. Balancing exploration and exploitation is a fundamental RL challenge.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0209",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Deep reinforcement learning combines:",
+    "options": [
+      "Reinforcement learning with deep neural networks",
+      "Clustering with regression",
+      "Encryption with compression",
+      "Sorting with indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deep RL combines reinforcement learning with deep neural networks to handle high-dimensional state/action spaces in complex environments.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0210",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "AlphaGo is an example of:",
+    "options": [
+      "Deep reinforcement learning system",
+      "Supervised regression model",
+      "Database system",
+      "Networking protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AlphaGo by DeepMind combined deep neural networks with Monte Carlo tree search to achieve superhuman Go play, a landmark deep RL achievement.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0211",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Generative models aim to:",
+    "options": [
+      "Generate new data samples similar to training data",
+      "Compress datasets",
+      "Encrypt files",
+      "Sort data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Generative models learn training data distributions to produce new realistic samples, used for image synthesis, text generation, and augmentation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0212",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which model architecture generates realistic images using two competing networks?",
+    "options": [
+      "Generative Adversarial Network",
+      "Decision Tree",
+      "Naive Bayes",
+      "Logistic Regression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GANs pit a generator (creating fake data) against a discriminator (detecting fakes) in an adversarial game, producing increasingly realistic outputs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0213",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "GANs consist of:",
+    "options": [
+      "Generator and discriminator networks",
+      "Encoder and decoder",
+      "Mapper and reducer",
+      "Predictor and classifier"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A GAN's generator creates synthetic data while its discriminator evaluates authenticity. They train adversarially, each improving the other.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0214",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which model architecture learns compressed representations of data?",
+    "options": [
+      "Autoencoder",
+      "Decision Tree",
+      "Linear Regression",
+      "KNN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Autoencoders learn compressed representations via an encoder-decoder architecture, useful for dimensionality reduction, denoising, and anomaly detection.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0215",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Variational Autoencoders are used for:",
+    "options": [
+      "Generative modeling",
+      "Clustering",
+      "Sorting",
+      "Encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VAEs add probabilistic modeling to autoencoders, learning a continuous latent space for generating new data samples with controlled properties.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0216",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept describes models that adapt to new tasks using minimal data?",
+    "options": [
+      "Few-shot learning",
+      "Batch learning",
+      "Online learning",
+      "Incremental learning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Few-shot learning adapts to new tasks with minimal examples by leveraging prior knowledge, useful when labeled data is scarce or expensive.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0217",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which learning paradigm updates models continuously with incoming data?",
+    "options": [
+      "Online learning",
+      "Batch learning",
+      "Transfer learning",
+      "Reinforcement learning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Online learning incrementally updates models with new data rather than retraining from scratch, suitable for streaming data and evolving distributions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0218",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Federated learning allows models to be trained:",
+    "options": [
+      "Across multiple devices without sharing raw data",
+      "Only on central servers",
+      "Without training data",
+      "Only on GPUs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Federated learning trains across devices without sharing raw data, only communicating model updates to preserve privacy during collaborative training.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0219",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Edge AI refers to:",
+    "options": [
+      "Running AI models on local devices instead of cloud servers",
+      "Cloud-based AI systems only",
+      "Database systems",
+      "Networking systems"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Edge AI runs models on local devices instead of cloud servers, reducing latency, improving privacy, and enabling offline real-time inference.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0220",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Explainable AI techniques aim to:",
+    "options": [
+      "Interpret model predictions",
+      "Increase GPU memory",
+      "Compress neural networks",
+      "Encrypt datasets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "XAI techniques (SHAP, LIME, attention maps) identify which inputs most influenced a prediction, making model decisions interpretable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0221",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Hyperparameter tuning aims to:",
+    "options": [
+      "Find optimal configuration of model parameters",
+      "Increase dataset size",
+      "Encrypt model weights",
+      "Compress datasets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hyperparameter tuning finds optimal settings (learning rate, layers, batch size) that maximize model performance on validation data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0222",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Grid search finds optimal hyperparameters by:",
+    "options": [
+      "Testing all combinations in a defined search space",
+      "Randomly selecting values once",
+      "Removing parameters",
+      "Compressing models"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Grid search tests all hyperparameter combinations in a defined space. Thorough but computationally expensive for large parameter spaces.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0223",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Random search improves efficiency by:",
+    "options": [
+      "Sampling hyperparameters randomly",
+      "Testing every possible value",
+      "Removing datasets",
+      "Encrypting features"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Random search samples hyperparameters randomly, often more efficient than grid search by exploring the space more broadly with fewer evaluations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0224",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Bayesian optimization selects hyperparameters based on:",
+    "options": [
+      "Probabilistic modeling of performance",
+      "Random selection",
+      "Feature removal",
+      "Dataset duplication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bayesian optimization uses probabilistic performance models to intelligently select promising hyperparameter combinations with fewer evaluations needed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0225",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Model interpretability becomes critical in domains such as:",
+    "options": [
+      "Healthcare and finance",
+      "Image compression",
+      "File storage",
+      "Hardware design"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In healthcare and finance, model interpretability is critical because decisions directly impact lives and finances, requiring justifiable AI outputs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0226",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Feature scaling is particularly important for algorithms that rely on:",
+    "options": [
+      "Distance calculations",
+      "Rule-based systems",
+      "Decision trees only",
+      "Database queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Distance-based algorithms (KNN, SVM, K-Means) require feature scaling because unscaled large-range features dominate distance calculations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0227",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique converts categorical variables into multiple binary columns?",
+    "options": [
+      "One-hot encoding",
+      "Tokenization",
+      "Sampling",
+      "Partitioning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "One-hot encoding creates binary columns per category (1 for presence, 0 otherwise), avoiding implied ordinal relationships between categories.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0228",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method selects the most important subset of features for model training?",
+    "options": [
+      "Feature selection",
+      "Data augmentation",
+      "Data replication",
+      "Data compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Feature selection identifies the most important features, removing irrelevant ones to improve performance, reduce overfitting, and speed training.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0229",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Wrapper methods for feature selection evaluate features by:",
+    "options": [
+      "Training models with different feature subsets",
+      "Removing random features",
+      "Compressing datasets",
+      "Encrypting data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Wrapper methods train models with different feature subsets to evaluate combinations. More accurate than filters but computationally more expensive.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0230",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Embedded feature selection methods perform selection:",
+    "options": [
+      "During model training",
+      "After model deployment",
+      "Before data preprocessing",
+      "After dataset deletion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Embedded methods select features during training itself, like L1 regularization (Lasso) and tree-based importance in Random Forest.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0231",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "When class distribution is highly imbalanced, which metric is usually more informative than accuracy?",
+    "options": [
+      "F1 Score",
+      "Mean",
+      "Variance",
+      "Standard deviation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "F1 is more informative than accuracy for imbalanced data because accuracy inflates when predicting majority class, while F1 weighs precision and recall.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0232",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Precision-recall curves are particularly useful when:",
+    "options": [
+      "The dataset is imbalanced",
+      "The dataset is small",
+      "The dataset is perfectly balanced",
+      "The dataset has no labels"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Precision-recall curves focus on minority class performance in imbalanced datasets, providing more informative evaluation than ROC curves.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0233",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data leakage occurs when:",
+    "options": [
+      "Information from test data influences training",
+      "Datasets are encrypted",
+      "Features are normalized",
+      "Data is duplicated"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data leakage lets test information influence training, producing overly optimistic estimates that fail to generalize to real-world deployment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0234",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method helps estimate model performance when dataset size is small?",
+    "options": [
+      "Cross-validation",
+      "Random deletion",
+      "Encryption",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cross-validation efficiently uses all data by rotating train/validation splits, especially valuable with small datasets for reliable performance estimation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0235",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Stratified sampling ensures that:",
+    "options": [
+      "Class distribution remains consistent across subsets",
+      "Dataset size increases",
+      "Features are removed",
+      "Models are compressed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stratified sampling maintains class distribution in each subset, ensuring representative splits and preventing bias in classification task evaluation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0236",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which optimizer adapts learning rates for each parameter individually?",
+    "options": [
+      "Adam optimizer",
+      "Gradient descent",
+      "Linear regression",
+      "K-Means"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Adam adapts learning rates per parameter using running averages of gradients and squared gradients, combining AdaGrad and RMSProp benefits.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0237",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Stochastic Gradient Descent updates weights:",
+    "options": [
+      "Using one sample or small batches at a time",
+      "Using the entire dataset always",
+      "Without calculating gradients",
+      "Only after deployment"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SGD updates weights using one sample or small batch, introducing noise that helps escape local minima during optimization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0238",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Vanishing gradient problem mainly affects:",
+    "options": [
+      "Deep neural networks",
+      "Linear regression models",
+      "Decision trees",
+      "K-Means clustering"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vanishing gradients affect deep networks where gradients shrink exponentially through many layers, preventing effective learning in early layers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0239",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Gradient clipping is used to:",
+    "options": [
+      "Prevent exploding gradients during training",
+      "Remove features",
+      "Encrypt data",
+      "Compress models"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Gradient clipping caps gradient magnitude during backpropagation, preventing exploding gradients that destabilize training in deep networks and RNNs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0240",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique randomly disables neurons during training to reduce overfitting?",
+    "options": [
+      "Dropout",
+      "Pooling",
+      "Convolution",
+      "Tokenization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dropout randomly disables neurons per training iteration, preventing co-adaptation and forcing more robust, distributed feature representations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0241",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Word embeddings represent words as:",
+    "options": [
+      "Dense numerical vectors",
+      "Binary values only",
+      "Text labels",
+      "Random strings"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Word embeddings are dense vectors where semantically similar words cluster together, capturing meaning and relationships in continuous vector space.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0242",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "BERT is primarily used for:",
+    "options": [
+      "Language understanding tasks",
+      "Image segmentation",
+      "Network routing",
+      "Database indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "BERT learns bidirectional contextual word representations for language understanding tasks like question answering, sentiment analysis, and text classification.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0243",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Machine translation involves:",
+    "options": [
+      "Converting text from one language to another",
+      "Compressing text",
+      "Encrypting documents",
+      "Sorting sentences"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Machine translation converts text between languages using neural encoder-decoder models with attention, enabling automated cross-language communication.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0244",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which evaluation metric is commonly used for machine translation quality?",
+    "options": [
+      "BLEU score",
+      "Accuracy",
+      "Variance",
+      "Precision"
+    ],
+    "correctAnswer": 0,
+    "explanation": "BLEU evaluates translation quality by comparing machine output with human references using n-gram precision, a standard MT evaluation metric.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0245",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Attention mechanisms improve NLP models by:",
+    "options": [
+      "Focusing on relevant parts of input sequences",
+      "Increasing dataset size",
+      "Removing features",
+      "Compressing models"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Attention dynamically weights input sequence parts by relevance, letting models focus on important context rather than treating all positions equally.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0246",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Image segmentation differs from classification because it:",
+    "options": [
+      "Assigns labels to individual pixels",
+      "Assigns one label to the whole image",
+      "Compresses images",
+      "Removes objects"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Segmentation labels individual pixels for precise boundaries; classification assigns one label to the whole image without spatial detail.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0247",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Bounding boxes in object detection represent:",
+    "options": [
+      "Locations of detected objects",
+      "Dataset size",
+      "Network latency",
+      "Image compression rate"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bounding boxes specify detected object locations via rectangular coordinates (typically top-left corner, width, height) in object detection tasks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0248",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Transfer learning in computer vision often uses:",
+    "options": [
+      "Pretrained CNN models",
+      "Random feature generators",
+      "Decision trees only",
+      "K-Means clustering"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Transfer learning in CV fine-tunes pretrained CNNs (ResNet, VGG, EfficientNet) from ImageNet for specific tasks with smaller datasets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0249",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "YOLO is widely used for:",
+    "options": [
+      "Real-time object detection",
+      "Sentiment analysis",
+      "Regression tasks",
+      "Text classification"
+    ],
+    "correctAnswer": 0,
+    "explanation": "YOLO processes entire images in one forward pass for real-time detection, significantly faster than region-based methods while maintaining accuracy.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0250",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Optical character recognition (OCR) involves:",
+    "options": [
+      "Extracting text from images",
+      "Compressing image files",
+      "Encrypting images",
+      "Detecting edges only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OCR converts visual text in images to machine-readable format using computer vision and pattern recognition for document digitization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0251",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Distributed computing improves big data processing by:",
+    "options": [
+      "Dividing tasks across multiple machines",
+      "Compressing datasets",
+      "Encrypting files",
+      "Reducing dataset size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Distributed computing parallelizes tasks across multiple machines, enabling processing of datasets too large for one machine and reducing computation time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0252",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technology stores structured and unstructured big data efficiently?",
+    "options": [
+      "NoSQL databases",
+      "Excel spreadsheets",
+      "Text editors",
+      "Compilers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NoSQL databases (MongoDB, Cassandra, HBase) handle structured and unstructured big data with flexible schemas and horizontal scalability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0253",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Apache Kafka is mainly used for:",
+    "options": [
+      "Real-time data streaming",
+      "Image classification",
+      "Regression modeling",
+      "Clustering datasets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kafka is a distributed streaming platform for real-time data pipelines with high-throughput, fault-tolerant stream processing capabilities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0254",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data lakes store:",
+    "options": [
+      "Raw structured and unstructured data",
+      "Only relational tables",
+      "Only compressed data",
+      "Only images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data lakes store raw data in original format (structured, semi-structured, unstructured), providing a centralized repository for analytics and ML.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0255",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Stream processing analyzes data:",
+    "options": [
+      "In real-time as it is generated",
+      "After storage only",
+      "Only weekly",
+      "Only offline"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stream processing handles data in real-time as generated, enabling immediate insights for fraud detection, monitoring, and live recommendations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0256",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Model versioning helps by:",
+    "options": [
+      "Tracking different versions of trained models",
+      "Reducing dataset size",
+      "Encrypting algorithms",
+      "Compressing features"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Model versioning tracks model iterations with parameters, data, and metrics for reproducibility, comparison, and rollback to previous versions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0257",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Continuous deployment ensures:",
+    "options": [
+      "Automated release of models to production",
+      "Manual model updates only",
+      "Dataset encryption",
+      "Feature compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Continuous deployment automates validated model releases to production for quick, reliable delivery without manual intervention.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0258",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A/B testing in machine learning deployment is used to:",
+    "options": [
+      "Compare performance of two models in production",
+      "Encrypt models",
+      "Remove datasets",
+      "Compress models"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A/B testing serves different model versions to user groups simultaneously, comparing real-world performance to select the better model.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0259",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Monitoring deployed models helps detect:",
+    "options": [
+      "Model performance degradation",
+      "Network failures only",
+      "Disk errors",
+      "File compression errors"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Monitoring detects deployed model degradation from drift or system issues, enabling timely retraining or rollback to maintain quality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0260",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data drift occurs when:",
+    "options": [
+      "Data distribution changes over time",
+      "Dataset size increases",
+      "Data is encrypted",
+      "Models are compressed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data drift is when input distribution changes over time from training data, degrading model performance as original assumptions break down.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0261",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Bias in AI systems often originates from:",
+    "options": [
+      "Biased training data",
+      "GPU hardware",
+      "Network routers",
+      "File storage systems"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AI bias stems from biased training data with historical biases, underrepresentation, or labeling errors that propagate into model predictions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0262",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Fairness in AI aims to:",
+    "options": [
+      "Ensure models treat different groups equitably",
+      "Increase dataset size",
+      "Compress data",
+      "Encrypt features"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AI fairness ensures equitable treatment across demographic groups, avoiding discrimination based on protected attributes like race, gender, or age.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0263",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Differential privacy protects data by:",
+    "options": [
+      "Adding noise to sensitive information",
+      "Compressing datasets",
+      "Removing labels",
+      "Increasing feature size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Differential privacy adds calibrated noise providing mathematical guarantees that individual records cannot be identified while preserving aggregate utility.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0264",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which attack attempts to extract training data from a model?",
+    "options": [
+      "Model inversion attack",
+      "Packet attack",
+      "Sorting attack",
+      "Compression attack"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Model inversion attacks reconstruct training data or sensitive attributes from model outputs, posing privacy risks for models trained on sensitive data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0265",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Federated learning enhances privacy because:",
+    "options": [
+      "Raw data remains on local devices",
+      "Data is publicly shared",
+      "Data is removed completely",
+      "Models are deleted"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In federated learning, raw data stays on local devices with only gradients shared, protecting sensitive information during collaborative model training.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0266",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Increasing the number of training epochs too much may cause:",
+    "options": [
+      "Overfitting",
+      "Underfitting",
+      "Data loss",
+      "Encryption failure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Excessive training epochs cause overfitting as the model memorizes noise. Early stopping monitors validation loss to halt at the optimal point.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0267",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Batch normalization helps neural networks by:",
+    "options": [
+      "Stabilizing training and improving convergence",
+      "Increasing dataset size",
+      "Compressing weights",
+      "Removing gradients"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Batch normalization normalizes layer inputs, stabilizing learning, enabling higher learning rates, and improving convergence speed and performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0268",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method visualizes high-dimensional data in two or three dimensions?",
+    "options": [
+      "t-SNE",
+      "Decision Tree",
+      "Linear regression",
+      "Naive Bayes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "t-SNE visualizes high-dimensional data in 2D/3D by preserving local neighborhood relationships, useful for exploring cluster structure in data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0269",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "PCA reduces dimensionality by:",
+    "options": [
+      "Transforming features into orthogonal components",
+      "Removing all features",
+      "Compressing images",
+      "Encrypting data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PCA creates orthogonal components ordered by variance explained. Keeping top components reduces dimensions while preserving maximum information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0270",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Ensemble models improve robustness because they:",
+    "options": [
+      "Combine predictions from multiple models",
+      "Remove training data",
+      "Compress datasets",
+      "Encrypt algorithms"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ensemble models leverage diversity: different models make different errors that cancel when combined, producing more robust predictions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0271",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Recommendation systems are widely used in:",
+    "options": [
+      "E-commerce platforms",
+      "Operating systems",
+      "Network routers",
+      "Compilers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Recommendation systems analyze user behavior to suggest relevant products using collaborative filtering, content-based filtering, or hybrid approaches.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0272",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Autonomous vehicles rely heavily on:",
+    "options": [
+      "Computer vision and deep learning",
+      "Database queries",
+      "File compression",
+      "Sorting algorithms"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Autonomous vehicles use computer vision for perception and deep learning for decision-making, combining sensor fusion with real-time inference.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0273",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Chatbots primarily use:",
+    "options": [
+      "Natural language processing",
+      "Image segmentation",
+      "Data compression",
+      "Database indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chatbots use NLP to understand messages, determine intent, extract entities, and generate responses for automated conversational interactions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0274",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Fraud detection systems commonly apply:",
+    "options": [
+      "Machine learning classification models",
+      "File compression",
+      "Sorting algorithms",
+      "Text editors"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fraud detection applies ML classification to identify suspicious transactions by learning patterns distinguishing fraudulent from legitimate activity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0275",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Predictive analytics aims to:",
+    "options": [
+      "Forecast future trends using historical data",
+      "Compress data files",
+      "Encrypt networks",
+      "Remove datasets"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Predictive analytics forecasts future trends using historical data with statistical and ML techniques for proactive decision-making.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0276",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which learning paradigm uses rewards to guide learning?",
+    "options": [
+      "Reinforcement learning",
+      "Supervised learning",
+      "Unsupervised learning",
+      "Transfer learning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RL uses rewards and penalties to guide agent learning, teaching optimal actions that maximize cumulative long-term reward through experience.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0277",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique reduces model complexity by removing unnecessary parameters?",
+    "options": [
+      "Pruning",
+      "Encoding",
+      "Tokenization",
+      "Compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pruning removes unnecessary neural network parameters, reducing size and computation without significant accuracy loss for efficient deployment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0278",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Edge computing processes data:",
+    "options": [
+      "Near the data source",
+      "Only in cloud servers",
+      "Only in data centers",
+      "Only in databases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Edge computing processes data near the source rather than distant cloud servers, reducing latency and bandwidth usage for faster responses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0279",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Model interpretability is critical in fields such as:",
+    "options": [
+      "Healthcare diagnostics",
+      "Image compression",
+      "File storage",
+      "Hardware design"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Healthcare diagnostics require model interpretability because clinicians need to understand AI recommendations for informed treatment decisions affecting lives.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0280",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept ensures AI systems remain accountable and transparent?",
+    "options": [
+      "Responsible AI",
+      "Binary computing",
+      "Packet routing",
+      "Compiler design"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Responsible AI maintains accountability, transparency, fairness, and beneficence through governance frameworks and technical practices.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0281",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which process automatically selects best hyperparameters during training?",
+    "options": [
+      "Hyperparameter tuning",
+      "Tokenization",
+      "Encoding",
+      "Sampling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hyperparameter tuning searches for optimal settings using grid search, random search, or Bayesian optimization to maximize model performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0282",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm groups similar documents based on topic similarity?",
+    "options": [
+      "Clustering",
+      "Regression",
+      "Classification",
+      "Encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Clustering groups similar documents by measuring feature vector distances, enabling automatic organization of large collections without predefined categories.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0283",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique reduces noise in datasets by smoothing values?",
+    "options": [
+      "Data smoothing",
+      "Data duplication",
+      "Data encryption",
+      "Data deletion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data smoothing averages nearby points or applies functions to reduce noise, revealing underlying trends for better analysis and modeling.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0284",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of learning uses labeled examples during training?",
+    "options": [
+      "Supervised learning",
+      "Reinforcement learning",
+      "Unsupervised learning",
+      "Transfer learning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Supervised learning uses labeled input-output pairs to learn a mapping function for predicting correct outputs based on learned patterns.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0285",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which model is commonly used for time-series forecasting?",
+    "options": [
+      "Recurrent Neural Network",
+      "Decision Tree",
+      "K-Means",
+      "Naive Bayes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RNNs and variants (LSTM, GRU) capture temporal dependencies and sequential patterns in time-series data for effective forecasting.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0286",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which metric evaluates prediction error in regression models?",
+    "options": [
+      "Mean Absolute Error",
+      "Precision",
+      "Recall",
+      "F1 Score"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MAE averages absolute differences between predicted and actual values, providing interpretable error magnitude that is less sensitive to outliers than MSE.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0287",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique reduces training time by using parallel computations on GPUs?",
+    "options": [
+      "Hardware acceleration",
+      "Tokenization",
+      "Sampling",
+      "Encoding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GPU hardware acceleration parallelizes matrix operations in neural networks, dramatically reducing training time compared to CPU-only computation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0288",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept measures information content in a variable?",
+    "options": [
+      "Entropy",
+      "Accuracy",
+      "Precision",
+      "Recall"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Entropy quantifies information content or uncertainty. Higher entropy means more unpredictability; lower entropy means more concentrated, predictable values.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0289",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which architecture processes sequential text efficiently?",
+    "options": [
+      "Transformer",
+      "Decision Tree",
+      "Logistic Regression",
+      "KNN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Transformers use self-attention to compute all position relationships in parallel, processing sequential text far more efficiently than sequential RNNs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0290",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique helps models generalize better by adding small noise to training data?",
+    "options": [
+      "Data augmentation",
+      "Data deletion",
+      "Data encryption",
+      "Data partitioning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Augmentation adds training variations (noise, transforms) helping models generalize by learning invariance to modifications, reducing overfitting.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0291",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which algorithm builds multiple decision trees and aggregates their outputs?",
+    "options": [
+      "Random Forest",
+      "K-Means",
+      "Apriori",
+      "PCA"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Random Forest aggregates multiple trees trained on random data/feature subsets via majority voting (classification) or averaging (regression).",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0292",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which evaluation method repeatedly trains models on different dataset splits?",
+    "options": [
+      "Cross-validation",
+      "Sampling",
+      "Tokenization",
+      "Encoding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cross-validation trains on different splits using each as both training and validation, providing comprehensive performance evaluation across all data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0293",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which method reduces high-dimensional data while preserving variance?",
+    "options": [
+      "PCA",
+      "Decision Tree",
+      "KNN",
+      "Naive Bayes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PCA projects data onto variance-maximizing principal components, retaining top k components for effective dimensionality reduction while preserving information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0294",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concept ensures secure handling of sensitive user data?",
+    "options": [
+      "Data privacy",
+      "Data compression",
+      "Data sorting",
+      "Data partitioning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data privacy ensures sensitive information is handled per regulations and ethical standards, protecting individuals' personal data throughout the ML pipeline.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0295",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique helps detect anomalies in data?",
+    "options": [
+      "Anomaly detection",
+      "Regression",
+      "Tokenization",
+      "Encoding"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Anomaly detection identifies unusual data points deviating from normal patterns, applied in fraud, intrusion detection, quality control, and health monitoring.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0296",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which AI field focuses on analyzing images and videos?",
+    "options": [
+      "Computer vision",
+      "NLP",
+      "Reinforcement learning",
+      "Data mining"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Computer vision analyzes visual information from images and videos, enabling machines to interpret the visual world for detection, classification, and recognition.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0297",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which AI field focuses on understanding human language?",
+    "options": [
+      "Natural language processing",
+      "Computer vision",
+      "Reinforcement learning",
+      "Data compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NLP enables computers to understand and generate human language for chatbots, translation, summarization, and sentiment analysis applications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0298",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which platform allows scalable training of ML models using distributed clusters?",
+    "options": [
+      "Apache Spark",
+      "NumPy",
+      "Tkinter",
+      "OpenCV"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Spark's MLlib provides distributed ML algorithm implementations for scalable model training across clusters with parallel data processing.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0299",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which principle ensures AI systems do not harm individuals or society?",
+    "options": [
+      "Ethical AI",
+      "Binary logic",
+      "File compression",
+      "Packet routing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ethical AI promotes beneficence, non-maleficence, autonomy, and justice in AI applications, ensuring systems don't harm individuals or society.",
+    "source": "university"
+  },
+  {
+    "id": "uni-ai-ml-0300",
+    "subjectId": "uni-ai-ml",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The primary goal of artificial intelligence is to:",
+    "options": [
+      "Develop systems capable of performing intelligent tasks",
+      "Replace all software systems",
+      "Compress all datasets",
+      "Encrypt computer networks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AI aims to develop systems performing intelligent tasks: reasoning, learning, perception, language understanding, and decision-making like humans.",
+    "source": "university"
+  }
+]

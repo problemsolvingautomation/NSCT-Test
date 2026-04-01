@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "uni-db-0001",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A database is best defined as:",
+    "options": [
+      "A collection of programs",
+      "A collection of related data stored in an organized manner",
+      "A spreadsheet system",
+      "A programming language"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A database is a collection of related data stored in an organized manner, allowing efficient retrieval, management, and updating of information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0002",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A Database Management System (DBMS) is:",
+    "options": [
+      "A collection of SQL statements",
+      "Software used to manage databases",
+      "A hardware device",
+      "A compiler"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A DBMS is software that provides an interface for users and applications to interact with databases, handling storage, retrieval, and management of data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0003",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which of the following is an advantage of DBMS?",
+    "options": [
+      "Data redundancy",
+      "Data inconsistency",
+      "Data independence",
+      "Data duplication"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Data independence is a key advantage of DBMS, allowing changes to the data storage structure without affecting the application programs that use the data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0004",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The person responsible for managing database security and access is:",
+    "options": [
+      "Programmer",
+      "Database Administrator",
+      "End user",
+      "System analyst"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Database Administrator (DBA) is responsible for managing database security, access control, backup, recovery, and overall database maintenance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0005",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data stored in a database is called:",
+    "options": [
+      "Metadata",
+      "Raw data",
+      "Structured data",
+      "Information"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Data stored in a database is structured data, meaning it is organized in a predefined format such as tables with rows and columns.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0006",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The three-schema architecture was proposed to achieve:",
+    "options": [
+      "Data independence",
+      "Data redundancy",
+      "Data duplication",
+      "Data fragmentation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The three-schema architecture (external, conceptual, internal) was proposed by ANSI/SPARC to achieve data independence by separating user views from physical storage.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0007",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The external level of database architecture describes:",
+    "options": [
+      "Physical storage",
+      "User view of data",
+      "Hardware details",
+      "File allocation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The external level (view level) of the three-schema architecture describes individual user views of the database, showing only the relevant portion of data for each user.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0008",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The internal schema describes:",
+    "options": [
+      "Physical storage structure",
+      "User interfaces",
+      "Application logic",
+      "Data queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The internal schema describes how data is physically stored on disk, including file organization, indexing techniques, and access paths.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0009",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Logical data independence refers to:",
+    "options": [
+      "Changing physical storage without affecting schema",
+      "Changing conceptual schema without affecting applications",
+      "Changing hardware",
+      "Changing operating system"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Logical data independence means the conceptual schema can be changed (e.g., adding a new entity) without affecting external schemas or application programs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0010",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Physical data independence refers to:",
+    "options": [
+      "Changing storage structure without affecting conceptual schema",
+      "Changing tables",
+      "Changing queries",
+      "Changing users"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Physical data independence means the physical storage structure can be changed (e.g., switching from one file organization to another) without affecting the conceptual schema.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0011",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A data model describes:",
+    "options": [
+      "Database hardware",
+      "Structure and relationships of data",
+      "Network configuration",
+      "Programming syntax"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A data model is a conceptual framework that describes the structure of data, relationships between data elements, and constraints on the data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0012",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which is the most widely used data model?",
+    "options": [
+      "Hierarchical",
+      "Network",
+      "Relational",
+      "Object"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The relational model, proposed by E.F. Codd, is the most widely used data model, organizing data into tables (relations) with rows and columns.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0013",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In the ER model, a rectangle represents:",
+    "options": [
+      "Attribute",
+      "Entity",
+      "Relationship",
+      "Key"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the ER (Entity-Relationship) model, a rectangle represents an entity, which is a real-world object or concept with an independent existence.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0014",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In ER diagrams, an oval represents:",
+    "options": [
+      "Attribute",
+      "Entity",
+      "Relationship",
+      "Key"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In ER diagrams, an oval (ellipse) represents an attribute, which is a property or characteristic of an entity or relationship.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0015",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A diamond symbol in ER diagrams represents:",
+    "options": [
+      "Attribute",
+      "Entity",
+      "Relationship",
+      "Primary key"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In ER diagrams, a diamond symbol represents a relationship between entities, showing how entities are associated with each other.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0016",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A table in a relational database is called:",
+    "options": [
+      "Tuple",
+      "Relation",
+      "Attribute",
+      "Schema"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In relational databases, a table is formally called a relation, consisting of rows (tuples) and columns (attributes).",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0017",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A row in a table is known as:",
+    "options": [
+      "Attribute",
+      "Domain",
+      "Tuple",
+      "Field"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A row in a relational table is called a tuple, representing a single record or instance of the entity described by the table.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0018",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A column in a table is called:",
+    "options": [
+      "Attribute",
+      "Relation",
+      "Tuple",
+      "Record"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A column in a relational table is called an attribute, representing a specific property or field of the entity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0019",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A primary key must be:",
+    "options": [
+      "Unique and not null",
+      "Null",
+      "Repeating",
+      "Optional"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A primary key must be unique (no two rows can have the same value) and not null (every row must have a value), ensuring each tuple is uniquely identifiable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0020",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A foreign key is used to:",
+    "options": [
+      "Delete tables",
+      "Link two tables",
+      "Store indexes",
+      "Store views"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A foreign key is an attribute in one table that references the primary key of another table, establishing a link between the two tables for maintaining referential integrity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0021",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which relational algebra operator selects rows?",
+    "options": [
+      "Projection",
+      "Selection",
+      "Join",
+      "Union"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The selection operator (sigma) in relational algebra selects rows (tuples) from a relation that satisfy a given condition or predicate.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0022",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Projection operator is used to:",
+    "options": [
+      "Select rows",
+      "Select columns",
+      "Combine tables",
+      "Delete records"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The projection operator (pi) selects specific columns (attributes) from a relation, eliminating duplicate tuples in the result.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0023",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Union operation requires:",
+    "options": [
+      "Same attributes and domains",
+      "Different attributes",
+      "Same number of records",
+      "Same key values"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The union operation requires union compatibility, meaning both relations must have the same number of attributes with compatible domains.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0024",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cartesian product results in:",
+    "options": [
+      "Combination of every row of two tables",
+      "Only matching rows",
+      "Only unique rows",
+      "Only first table rows"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Cartesian product combines every row from one table with every row from another table, resulting in a relation with all possible combinations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0025",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The join operation is used to:",
+    "options": [
+      "Remove duplicates",
+      "Combine related tuples from different relations",
+      "Delete rows",
+      "Create indexes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The join operation combines related tuples from two different relations based on a common attribute or condition, forming a single combined relation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0026",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SQL stands for:",
+    "options": [
+      "Structured Query Language",
+      "Standard Question Language",
+      "Sequential Query Language",
+      "System Query Language"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SQL stands for Structured Query Language, which is the standard language for managing and manipulating relational databases.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0027",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL command retrieves data?",
+    "options": [
+      "INSERT",
+      "SELECT",
+      "DELETE",
+      "UPDATE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The SELECT command in SQL is used to retrieve data from one or more tables, allowing specification of columns, conditions, and ordering.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0028",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL clause filters rows?",
+    "options": [
+      "WHERE",
+      "ORDER BY",
+      "GROUP BY",
+      "HAVING"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The WHERE clause in SQL filters rows based on specified conditions, returning only those rows that satisfy the given predicates.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0029",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL command adds a new record?",
+    "options": [
+      "UPDATE",
+      "INSERT",
+      "SELECT",
+      "CREATE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The INSERT command in SQL adds new records (rows) into a table, specifying the values for each column.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0030",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which clause sorts query results?",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "HAVING",
+      "WHERE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ORDER BY clause sorts query results in ascending (ASC) or descending (DESC) order based on one or more columns.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0031",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL statement modifies existing records?",
+    "options": [
+      "UPDATE",
+      "INSERT",
+      "DELETE",
+      "SELECT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The UPDATE statement in SQL modifies existing records in a table, allowing changes to specific column values based on conditions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0032",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A subquery is:",
+    "options": [
+      "Query inside another query",
+      "Multiple tables",
+      "Stored procedure",
+      "Index"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A subquery (nested query) is a query embedded inside another query, used to provide intermediate results for the outer query.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0033",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Aggregate functions operate on:",
+    "options": [
+      "Multiple rows",
+      "Single rows",
+      "Indexes",
+      "Tables only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Aggregate functions (COUNT, SUM, AVG, MAX, MIN) operate on multiple rows to produce a single summary value.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0034",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function returns number of rows?",
+    "options": [
+      "COUNT()",
+      "SUM()",
+      "AVG()",
+      "MAX()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The COUNT() function returns the number of rows that match a specified condition, commonly used for counting records in a table.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0035",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which clause filters groups?",
+    "options": [
+      "WHERE",
+      "HAVING",
+      "ORDER BY",
+      "SELECT"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The HAVING clause filters groups created by GROUP BY, allowing conditions on aggregate function results, unlike WHERE which filters individual rows.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0036",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Normalization is used to:",
+    "options": [
+      "Increase redundancy",
+      "Reduce redundancy",
+      "Delete tables",
+      "Create queries"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Normalization reduces data redundancy by organizing data into related tables, ensuring each piece of data is stored only once.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0037",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "First Normal Form (1NF) requires:",
+    "options": [
+      "Atomic attributes",
+      "Multiple values",
+      "Duplicate records",
+      "Composite keys only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "First Normal Form (1NF) requires that all attributes contain only atomic (indivisible) values, with no repeating groups or multivalued attributes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0038",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Second Normal Form requires:",
+    "options": [
+      "1NF + no partial dependency",
+      "1NF only",
+      "Transitive dependency",
+      "Duplicate attributes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Second Normal Form (2NF) requires the relation to be in 1NF and have no partial dependencies, meaning non-key attributes must depend on the entire primary key.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0039",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Third Normal Form removes:",
+    "options": [
+      "Partial dependency",
+      "Transitive dependency",
+      "Atomic attributes",
+      "Keys"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Third Normal Form (3NF) removes transitive dependencies, where a non-key attribute depends on another non-key attribute rather than directly on the primary key.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0040",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Functional dependency means:",
+    "options": [
+      "One attribute determines another",
+      "Attributes are unrelated",
+      "Tables are deleted",
+      "Data is redundant"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A functional dependency X -> Y means the value of attribute X uniquely determines the value of attribute Y in a relation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0041",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A transaction is:",
+    "options": [
+      "A single SQL statement",
+      "A logical unit of database work",
+      "Hardware operation",
+      "Query optimization"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A transaction is a logical unit of database work consisting of one or more operations that must be executed as a complete unit to maintain data integrity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0042",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "ACID properties ensure:",
+    "options": [
+      "Data reliability",
+      "Faster queries",
+      "Smaller tables",
+      "Data duplication"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ACID properties (Atomicity, Consistency, Isolation, Durability) ensure reliable transaction processing and data integrity in databases.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0043",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Atomicity means:",
+    "options": [
+      "Transaction executed fully or not at all",
+      "Data stored permanently",
+      "Data shared among users",
+      "Queries optimized"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Atomicity ensures that a transaction is treated as a single indivisible unit - either all operations are completed successfully, or none are applied.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0044",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Consistency ensures:",
+    "options": [
+      "Database remains valid before and after transaction",
+      "Queries are fast",
+      "Tables are indexed",
+      "Data duplicated"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Consistency ensures that a transaction brings the database from one valid state to another, maintaining all defined rules and constraints.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0045",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Isolation ensures:",
+    "options": [
+      "Transactions executed independently",
+      "Data duplication",
+      "Data deletion",
+      "Query merging"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Isolation ensures that concurrent transactions execute independently without interfering with each other, as if they were executed sequentially.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0046",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Concurrency control ensures:",
+    "options": [
+      "Data consistency during simultaneous transactions",
+      "Faster hardware",
+      "More storage",
+      "Data deletion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Concurrency control mechanisms ensure data consistency when multiple transactions access and modify the same data simultaneously.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0047",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Deadlock occurs when:",
+    "options": [
+      "Transactions wait indefinitely for resources",
+      "Queries are slow",
+      "Tables are deleted",
+      "Index fails"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A deadlock occurs when two or more transactions are each waiting for resources held by the other, creating a circular dependency that prevents any from proceeding.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0048",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Two-phase locking protocol ensures:",
+    "options": [
+      "Serializability",
+      "Redundancy",
+      "Indexing",
+      "Data mining"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The two-phase locking (2PL) protocol ensures serializability by requiring transactions to acquire all locks before releasing any, preventing conflicting concurrent access.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0049",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Database recovery is used after:",
+    "options": [
+      "System failure",
+      "Query execution",
+      "Table creation",
+      "Data insertion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Database recovery mechanisms are used after system failures (crashes, power outages, disk failures) to restore the database to a consistent state.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0050",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The log file stores:",
+    "options": [
+      "Transaction history for recovery",
+      "User passwords",
+      "Table names",
+      "Index values"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The log file (transaction log) stores a history of all transaction operations, including before and after values, used for recovery after failures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0051",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which problem occurs when two transactions read and write the same data simultaneously?",
+    "options": [
+      "Deadlock",
+      "Lost update",
+      "Data mining",
+      "Index collision"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The lost update problem occurs when two transactions read and write the same data simultaneously, causing one transaction's update to overwrite the other's.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0052",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Dirty read occurs when:",
+    "options": [
+      "A transaction reads uncommitted data",
+      "Data is deleted",
+      "Index is updated",
+      "Query fails"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A dirty read occurs when a transaction reads data that has been modified by another transaction that has not yet committed, risking reading invalid data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0053",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A schedule that produces the same result as serial execution is called:",
+    "options": [
+      "Parallel schedule",
+      "Serializable schedule",
+      "Random schedule",
+      "Non-deterministic schedule"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A serializable schedule produces the same result as some serial (sequential) execution of the same transactions, guaranteeing correctness.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0054",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Locking is used in DBMS to:",
+    "options": [
+      "Control access to data",
+      "Delete tables",
+      "Store indexes",
+      "Reduce storage"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Locking in DBMS controls concurrent access to data by preventing multiple transactions from modifying the same data simultaneously.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0055",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Shared lock allows:",
+    "options": [
+      "Multiple reads",
+      "Multiple writes",
+      "Delete operations",
+      "Table creation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A shared lock (read lock) allows multiple transactions to read the same data concurrently but prevents any from modifying it.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0056",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which command permanently saves changes?",
+    "options": [
+      "ROLLBACK",
+      "COMMIT",
+      "DELETE",
+      "DROP"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The COMMIT command permanently saves all changes made during the current transaction, making them visible to other transactions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0057",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "ROLLBACK is used to:",
+    "options": [
+      "Save changes",
+      "Undo changes",
+      "Create tables",
+      "Update indexes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ROLLBACK undoes all changes made during the current transaction, restoring the database to its state before the transaction began.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0058",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Checkpointing helps in:",
+    "options": [
+      "Faster recovery",
+      "Query optimization",
+      "Index creation",
+      "Data mining"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Checkpointing periodically saves the database state to disk, reducing the amount of work needed during recovery by limiting how far back the log must be processed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0059",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which failure occurs due to power outage?",
+    "options": [
+      "Transaction failure",
+      "System crash",
+      "Media failure",
+      "Logical failure"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A power outage causes a system crash, which is a type of system failure where volatile memory contents are lost but disk storage remains intact.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0060",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Media failure refers to:",
+    "options": [
+      "Hard disk crash",
+      "Query error",
+      "Syntax error",
+      "Lock conflict"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Media failure refers to physical damage to storage devices like hard disk crashes, requiring backup-based recovery since stored data may be permanently lost.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0061",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "An index improves:",
+    "options": [
+      "Query speed",
+      "Storage capacity",
+      "Data redundancy",
+      "Data deletion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An index improves query speed by providing a fast lookup structure that allows the database to locate rows without scanning the entire table.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0062",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which indexing structure is widely used in databases?",
+    "options": [
+      "Binary tree",
+      "B+ tree",
+      "Graph",
+      "Stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The B+ tree is the most widely used indexing structure in databases because it maintains sorted data, supports efficient range queries, and has balanced height.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0063",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Primary index is built on:",
+    "options": [
+      "Primary key",
+      "Foreign key",
+      "Any attribute",
+      "Non-key attribute"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A primary index is built on the primary key attribute of a table, which uniquely identifies each record and determines the physical order of records.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0064",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Dense index means:",
+    "options": [
+      "Every search key has an index entry",
+      "Only some keys have entries",
+      "Only primary keys indexed",
+      "Only foreign keys indexed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A dense index has an index entry for every search key value (every record), providing direct access to any record but requiring more storage.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0065",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Sparse index means:",
+    "options": [
+      "Index entry for every record",
+      "Index entry for some records",
+      "Index entry for all attributes",
+      "No index entries"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A sparse index has index entries for only some records (typically one per data block), requiring less storage but potentially slower lookups.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0066",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Query processing converts:",
+    "options": [
+      "SQL into execution plan",
+      "Data into tables",
+      "Tables into indexes",
+      "Records into queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Query processing converts an SQL query into an efficient execution plan through parsing, optimization, and code generation steps.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0067",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Query optimizer selects:",
+    "options": [
+      "Best execution plan",
+      "Largest table",
+      "Smallest database",
+      "Most queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The query optimizer evaluates different execution strategies and selects the best execution plan with the lowest estimated cost.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0068",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cost-based optimization uses:",
+    "options": [
+      "Estimated cost of operations",
+      "Table size only",
+      "User preference",
+      "Network speed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cost-based optimization evaluates the estimated cost (primarily disk I/O) of different execution plans to choose the most efficient one.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0069",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Heuristic optimization uses:",
+    "options": [
+      "Rules of thumb",
+      "Random selection",
+      "User queries",
+      "Machine learning"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Heuristic optimization applies rules of thumb (such as performing selections early) to transform queries into more efficient forms without detailed cost estimation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0070",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Join ordering significantly affects:",
+    "options": [
+      "Query performance",
+      "Data redundancy",
+      "Security",
+      "Storage size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The order in which tables are joined significantly affects query performance because it determines the size of intermediate results.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0071",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Database security protects:",
+    "options": [
+      "Data from unauthorized access",
+      "Hardware",
+      "Operating system",
+      "Queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Database security protects data from unauthorized access, modification, or destruction through mechanisms like authentication, authorization, and encryption.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0072",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Authentication verifies:",
+    "options": [
+      "User identity",
+      "Query speed",
+      "Table design",
+      "Index type"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Authentication verifies the identity of a user attempting to access the database, typically through credentials like username and password.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0073",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Authorization determines:",
+    "options": [
+      "What actions a user can perform",
+      "Query syntax",
+      "Data storage",
+      "Table size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Authorization determines what actions (read, write, delete, etc.) an authenticated user is permitted to perform on specific database objects.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0074",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SQL command used to give privileges:",
+    "options": [
+      "GRANT",
+      "REVOKE",
+      "DELETE",
+      "UPDATE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The GRANT command in SQL gives specific privileges (SELECT, INSERT, UPDATE, DELETE) on database objects to users or roles.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0075",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SQL command used to remove privileges:",
+    "options": [
+      "REVOKE",
+      "GRANT",
+      "INSERT",
+      "SELECT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The REVOKE command in SQL removes previously granted privileges from users or roles, restricting their access to database objects.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0076",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Distributed database stores data across:",
+    "options": [
+      "Multiple locations",
+      "Single computer",
+      "One table",
+      "One disk"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A distributed database stores data across multiple geographic locations or network nodes, appearing as a single unified database to users.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0077",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data fragmentation means:",
+    "options": [
+      "Dividing database into pieces",
+      "Deleting tables",
+      "Merging tables",
+      "Compressing data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data fragmentation divides a database into smaller pieces (fragments) that can be stored at different sites in a distributed system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0078",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Replication means:",
+    "options": [
+      "Copying data across sites",
+      "Deleting duplicates",
+      "Query processing",
+      "Indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Replication copies data across multiple sites in a distributed database to improve availability, reliability, and local access performance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0079",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Transparency in distributed DBMS means:",
+    "options": [
+      "Users unaware of distribution",
+      "Visible network",
+      "Visible queries",
+      "Visible schema"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Transparency in distributed DBMS means users interact with the system as if it were a single centralized database, unaware of data distribution details.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0080",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocol ensures distributed transaction consistency?",
+    "options": [
+      "Two-phase commit",
+      "Three-level schema",
+      "Two-phase locking",
+      "Data mining protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The two-phase commit protocol ensures distributed transaction consistency by coordinating all participating sites to either commit or abort together.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0081",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "NoSQL databases are designed for:",
+    "options": [
+      "Large-scale distributed data",
+      "Small local files",
+      "Spreadsheet data",
+      "Text editing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NoSQL databases are designed for large-scale distributed data, offering flexible schemas and horizontal scalability for handling big data workloads.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0082",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which is a document-based NoSQL database?",
+    "options": [
+      "MongoDB",
+      "MySQL",
+      "Oracle",
+      "PostgreSQL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MongoDB is a popular document-based NoSQL database that stores data in flexible JSON-like documents (BSON format).",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0083",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Key-value databases store:",
+    "options": [
+      "Pairs of keys and values",
+      "Tables",
+      "Columns",
+      "Rows"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Key-value databases store data as pairs of keys and associated values, providing fast lookups by key, similar to a hash table.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0084",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which NoSQL type stores graph relationships?",
+    "options": [
+      "Graph databases",
+      "Column databases",
+      "Relational databases",
+      "File databases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Graph databases store and traverse graph relationships (nodes and edges), making them ideal for social networks, recommendations, and connected data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0085",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cassandra is an example of:",
+    "options": [
+      "Column-oriented database",
+      "Relational database",
+      "Hierarchical database",
+      "Network database"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Apache Cassandra is a column-oriented (wide-column) NoSQL database designed for high availability and massive scalability across distributed nodes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0086",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A data warehouse is used for:",
+    "options": [
+      "Analytical processing",
+      "Transaction processing",
+      "Data deletion",
+      "Query optimization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A data warehouse is designed for analytical processing (OLAP), storing historical data from multiple sources for business intelligence and reporting.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0087",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "OLAP stands for:",
+    "options": [
+      "Online Analytical Processing",
+      "Online Application Processing",
+      "Object Level Access Protocol",
+      "Open Logical Access Protocol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OLAP (Online Analytical Processing) enables complex analytical queries on large datasets, supporting operations like drill-down, roll-up, and pivoting.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0088",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "OLTP systems handle:",
+    "options": [
+      "Day-to-day transactions",
+      "Data mining",
+      "Data warehousing",
+      "Reporting only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OLTP (Online Transaction Processing) systems handle day-to-day operational transactions like orders, payments, and data entry with fast response times.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0089",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data mining is used to:",
+    "options": [
+      "Discover patterns in data",
+      "Delete data",
+      "Create indexes",
+      "Encrypt data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data mining discovers hidden patterns, correlations, and insights from large datasets using statistical and machine learning techniques.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0090",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which technique groups similar data?",
+    "options": [
+      "Clustering",
+      "Sorting",
+      "Joining",
+      "Indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Clustering is a data mining technique that groups similar data points together based on their characteristics without predefined labels.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0091",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If relation R has 5 tuples and S has 4 tuples, the Cartesian product will have:",
+    "options": [
+      "9 tuples",
+      "20 tuples",
+      "5 tuples",
+      "4 tuples"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Cartesian product of R (5 tuples) and S (4 tuples) produces 5 x 4 = 20 tuples, combining every row of R with every row of S.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0092",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which normal form eliminates transitive dependency?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Third Normal Form (3NF) eliminates transitive dependencies, where a non-key attribute depends on another non-key attribute through the primary key.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0093",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "BCNF is stronger than:",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "BCNF (Boyce-Codd Normal Form) is stronger than 1NF, 2NF, and 3NF, as it requires every determinant to be a candidate key.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0094",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL clause is executed first logically?",
+    "options": [
+      "SELECT",
+      "FROM",
+      "WHERE",
+      "ORDER BY"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In SQL's logical execution order, FROM is processed first to identify the source tables before applying WHERE, GROUP BY, HAVING, SELECT, and ORDER BY.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0095",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which anomaly occurs when inserting data requires unrelated information?",
+    "options": [
+      "Insertion anomaly",
+      "Update anomaly",
+      "Deletion anomaly",
+      "Join anomaly"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An insertion anomaly occurs when inserting a new record requires providing values for unrelated attributes due to poor table design.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0096",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which anomaly causes unintended data loss?",
+    "options": [
+      "Deletion anomaly",
+      "Insertion anomaly",
+      "Update anomaly",
+      "Lock anomaly"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A deletion anomaly causes unintended data loss when deleting a record also removes other useful information stored in the same row.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0097",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A candidate key is:",
+    "options": [
+      "Minimal super key",
+      "Any key",
+      "Foreign key",
+      "Secondary key"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A candidate key is a minimal super key - it uniquely identifies tuples and no proper subset of it can also uniquely identify tuples.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0098",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A super key is:",
+    "options": [
+      "Attribute set uniquely identifying tuples",
+      "Foreign key",
+      "Composite key only",
+      "Index key"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A super key is any set of attributes that can uniquely identify every tuple in a relation, including candidate keys and their supersets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0099",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In B+ trees, data pointers are stored in:",
+    "options": [
+      "Leaf nodes",
+      "Root nodes",
+      "Internal nodes",
+      "All nodes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In B+ trees, data pointers are stored only in leaf nodes, while internal nodes contain only search keys and child pointers for navigation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0100",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Hash indexing is efficient for:",
+    "options": [
+      "Equality search",
+      "Range queries",
+      "Join queries",
+      "Sorting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hash indexing is most efficient for equality searches (exact match lookups) because the hash function directly maps the key to the storage location.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0101",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL command removes a table?",
+    "options": [
+      "DELETE",
+      "DROP",
+      "REMOVE",
+      "CLEAR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The DROP command removes a table entirely from the database, including its structure, data, indexes, and all associated objects.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0102",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL command removes rows but keeps table structure?",
+    "options": [
+      "DROP",
+      "DELETE",
+      "REMOVE",
+      "ERASE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The DELETE command removes rows from a table based on conditions but preserves the table structure, allowing future data insertion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0103",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "View in SQL is:",
+    "options": [
+      "Virtual table",
+      "Physical table",
+      "Index",
+      "File"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A view in SQL is a virtual table derived from a query that does not store data physically but provides a customized perspective of the data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0104",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Stored procedures are used for:",
+    "options": [
+      "Reusable SQL logic",
+      "Indexing",
+      "Storage",
+      "Encryption"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Stored procedures contain reusable SQL logic that is precompiled and stored on the server, improving performance and code maintainability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0105",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Trigger executes:",
+    "options": [
+      "Automatically on events",
+      "Manually only",
+      "During indexing",
+      "During backup"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A trigger is a special stored procedure that executes automatically in response to specific events (INSERT, UPDATE, DELETE) on a table.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0106",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which join returns matching rows only?",
+    "options": [
+      "Inner join",
+      "Left join",
+      "Right join",
+      "Full join"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An inner join returns only the rows that have matching values in both tables being joined, excluding non-matching rows.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0107",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "LEFT JOIN returns:",
+    "options": [
+      "All rows from left table",
+      "All rows from right table",
+      "Only matching rows",
+      "No rows"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A LEFT JOIN returns all rows from the left table and matching rows from the right table, with NULL values for unmatched right-side columns.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0108",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "RIGHT JOIN returns:",
+    "options": [
+      "All rows from right table",
+      "All rows from left table",
+      "Only matching rows",
+      "No rows"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A RIGHT JOIN returns all rows from the right table and matching rows from the left table, with NULL values for unmatched left-side columns.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0109",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "FULL JOIN returns:",
+    "options": [
+      "All rows from both tables",
+      "Only matching rows",
+      "Only left table rows",
+      "Only right table rows"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A FULL JOIN returns all rows from both tables, with NULL values where there is no match in either table.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0110",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Self join joins:",
+    "options": [
+      "Table with itself",
+      "Two databases",
+      "Two schemas",
+      "Two indexes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A self join joins a table with itself, useful for comparing rows within the same table such as finding employees and their managers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0111",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which constraint prevents duplicate values?",
+    "options": [
+      "UNIQUE",
+      "NOT NULL",
+      "CHECK",
+      "DEFAULT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The UNIQUE constraint prevents duplicate values in a column, ensuring each value appears at most once (though NULL values may be allowed).",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0112",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "NOT NULL ensures:",
+    "options": [
+      "Attribute cannot be empty",
+      "Attribute unique",
+      "Attribute indexed",
+      "Attribute encrypted"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The NOT NULL constraint ensures that an attribute cannot be left empty (null), requiring a value for every row in that column.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0113",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "CHECK constraint enforces:",
+    "options": [
+      "Specific condition",
+      "Indexing",
+      "Security",
+      "Query speed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The CHECK constraint enforces a specific condition that values in a column must satisfy, such as age > 0 or salary BETWEEN 1000 AND 100000.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0114",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DEFAULT constraint provides:",
+    "options": [
+      "Automatic value",
+      "Key value",
+      "Index value",
+      "Foreign value"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The DEFAULT constraint provides an automatic default value for a column when no value is explicitly specified during insertion.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0115",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data dictionary stores:",
+    "options": [
+      "Metadata",
+      "Data records",
+      "Queries",
+      "Indexes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A data dictionary (system catalog) stores metadata about the database including table definitions, column types, constraints, and user permissions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0116",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Metadata means:",
+    "options": [
+      "Data about data",
+      "Raw data",
+      "Duplicate data",
+      "Temporary data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Metadata is data about data - it describes the structure, format, relationships, and other characteristics of the actual data stored in the database.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0117",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which language defines database structure?",
+    "options": [
+      "DDL",
+      "DML",
+      "DCL",
+      "TCL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DDL (Data Definition Language) includes commands like CREATE, ALTER, and DROP that define and modify the database structure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0118",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which language manipulates data?",
+    "options": [
+      "DML",
+      "DDL",
+      "DCL",
+      "TCL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DML (Data Manipulation Language) includes commands like SELECT, INSERT, UPDATE, and DELETE that manipulate data within database tables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0119",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which language controls permissions?",
+    "options": [
+      "DCL",
+      "DDL",
+      "DML",
+      "TCL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DCL (Data Control Language) includes GRANT and REVOKE commands that control user permissions and access privileges on database objects.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0120",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which command saves transaction changes?",
+    "options": [
+      "COMMIT",
+      "ROLLBACK",
+      "DELETE",
+      "UPDATE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The COMMIT command permanently saves all changes made during the current transaction, making them durable and visible to other transactions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0121",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL clause groups rows with similar values?",
+    "options": [
+      "ORDER BY",
+      "GROUP BY",
+      "WHERE",
+      "SELECT"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The GROUP BY clause groups rows with similar values in specified columns, typically used with aggregate functions to produce summary results.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0122",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which clause filters groups created by GROUP BY?",
+    "options": [
+      "WHERE",
+      "HAVING",
+      "ORDER BY",
+      "DISTINCT"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The HAVING clause filters groups created by GROUP BY based on aggregate conditions, unlike WHERE which filters individual rows before grouping.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0123",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which keyword removes duplicate rows in SQL results?",
+    "options": [
+      "UNIQUE",
+      "DISTINCT",
+      "GROUP",
+      "FILTER"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The DISTINCT keyword removes duplicate rows from SQL query results, returning only unique combinations of the selected columns.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0124",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which command creates a new table?",
+    "options": [
+      "CREATE TABLE",
+      "NEW TABLE",
+      "ADD TABLE",
+      "MAKE TABLE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The CREATE TABLE command defines a new table in the database, specifying column names, data types, and constraints.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0125",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which command changes table structure?",
+    "options": [
+      "MODIFY TABLE",
+      "ALTER TABLE",
+      "CHANGE TABLE",
+      "UPDATE TABLE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ALTER TABLE command modifies an existing table's structure, allowing addition, modification, or removal of columns and constraints.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0126",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A composite key consists of:",
+    "options": [
+      "Single attribute",
+      "Multiple attributes",
+      "Only primary key",
+      "Only foreign key"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A composite key consists of two or more attributes that together uniquely identify a tuple, when no single attribute can serve as a key.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0127",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which key references a primary key in another table?",
+    "options": [
+      "Candidate key",
+      "Foreign key",
+      "Composite key",
+      "Super key"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A foreign key references the primary key of another table, establishing a referential relationship between the two tables.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0128",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Referential integrity ensures:",
+    "options": [
+      "Foreign key values must match primary key values",
+      "Tables are sorted",
+      "Queries are fast",
+      "Data is encrypted"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Referential integrity ensures that foreign key values in a child table must correspond to existing primary key values in the parent table.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0129",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A candidate key that is chosen to identify tuples is:",
+    "options": [
+      "Alternate key",
+      "Primary key",
+      "Foreign key",
+      "Composite key"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A primary key is the candidate key chosen by the database designer to uniquely identify each tuple in a relation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0130",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Candidate keys not selected as primary key are called:",
+    "options": [
+      "Foreign keys",
+      "Alternate keys",
+      "Secondary keys",
+      "Index keys"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Candidate keys not selected as the primary key are called alternate keys, serving as potential unique identifiers for the relation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0131",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Intersection operation returns:",
+    "options": [
+      "Common tuples from relations",
+      "All tuples",
+      "Different tuples",
+      "Cartesian tuples"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The intersection operation returns only the tuples that are common to both relations, requiring union-compatible relations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0132",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Difference operation returns:",
+    "options": [
+      "Tuples present in first relation but not second",
+      "All tuples",
+      "Common tuples",
+      "Combined tuples"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The difference operation returns tuples present in the first relation but not in the second, also requiring union-compatible relations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0133",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Natural join combines relations based on:",
+    "options": [
+      "Same attribute names",
+      "Different attributes",
+      "Random attributes",
+      "All attributes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A natural join automatically combines relations based on columns with the same name and compatible domains, eliminating duplicate columns.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0134",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Division operation is useful for:",
+    "options": [
+      "Queries involving \"for all\" conditions",
+      "Sorting data",
+      "Indexing",
+      "Updating records"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The division operation is useful for queries involving \"for all\" conditions, such as finding students enrolled in all courses.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0135",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Rename operator in relational algebra is:",
+    "options": [
+      "? (rho)",
+      "s (sigma)",
+      "p (pi)",
+      "? (union)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The rename operator (rho) in relational algebra assigns new names to relations or attributes, useful for self-joins and disambiguation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0136",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Partial dependency occurs when:",
+    "options": [
+      "Non-key depends on part of composite key",
+      "Non-key depends on full key",
+      "Key depends on non-key",
+      "Attribute independent"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Partial dependency occurs when a non-key attribute depends on only part of a composite primary key, violating Second Normal Form.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0137",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Transitive dependency occurs when:",
+    "options": [
+      "A?B and B?C",
+      "A?C directly",
+      "A?A",
+      "C?A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Transitive dependency occurs when A determines B and B determines C, making C transitively dependent on A through B.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0138",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Boyce-Codd Normal Form requires:",
+    "options": [
+      "Every determinant is a candidate key",
+      "No partial dependency",
+      "No transitive dependency",
+      "Atomic attributes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Boyce-Codd Normal Form (BCNF) requires that for every functional dependency X -> Y, X must be a candidate key (or superkey) of the relation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0139",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Denormalization is used to:",
+    "options": [
+      "Improve performance",
+      "Reduce tables",
+      "Increase redundancy intentionally",
+      "Both A and C"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Denormalization intentionally introduces redundancy to improve query performance by reducing the number of joins needed, trading storage for speed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0140",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Functional dependency notation is:",
+    "options": [
+      "A ? B",
+      "A = B",
+      "A <> B",
+      "A || B"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Functional dependency is notated as A -> B (A determines B), meaning for each value of A there is exactly one associated value of B.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0141",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Durability means:",
+    "options": [
+      "Changes survive system failure",
+      "Transactions execute once",
+      "Data remains hidden",
+      "Tables locked"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Durability guarantees that once a transaction is committed, its changes survive any subsequent system failures including power outages and crashes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0142",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which property prevents interference between transactions?",
+    "options": [
+      "Atomicity",
+      "Isolation",
+      "Consistency",
+      "Durability"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Isolation prevents interference between concurrent transactions, ensuring each transaction executes as if it were the only one running.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0143",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Write-Ahead Logging requires:",
+    "options": [
+      "Log written before database update",
+      "Database written first",
+      "Both simultaneously",
+      "No log required"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Write-Ahead Logging (WAL) requires that log records are written to stable storage before the corresponding database modifications, ensuring recoverability.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0144",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cascading rollback occurs when:",
+    "options": [
+      "One rollback triggers others",
+      "Transactions commit together",
+      "Data deleted",
+      "Locks removed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cascading rollback occurs when one transaction's rollback forces other dependent transactions to also roll back because they read uncommitted data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0145",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A schedule without cascading rollback is called:",
+    "options": [
+      "Recoverable schedule",
+      "Cascadeless schedule",
+      "Serial schedule",
+      "Parallel schedule"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A cascadeless schedule prevents cascading rollbacks by ensuring transactions only read data that has been committed, avoiding dependency on uncommitted changes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0146",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Two-phase locking has:",
+    "options": [
+      "Growing and shrinking phases",
+      "Reading and writing phases",
+      "Lock and unlock phases",
+      "Parallel phases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Two-phase locking has a growing phase (where locks are acquired but not released) and a shrinking phase (where locks are released but not acquired).",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0147",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Lock conversion allows:",
+    "options": [
+      "Changing shared lock to exclusive lock",
+      "Deleting lock",
+      "Removing data",
+      "Creating indexes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lock conversion (upgrade/downgrade) allows changing a shared lock to an exclusive lock or vice versa, providing flexibility in concurrency control.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0148",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Starvation occurs when:",
+    "options": [
+      "Transaction waits indefinitely",
+      "Data lost",
+      "Table locked permanently",
+      "Disk failure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Starvation occurs when a transaction waits indefinitely because other transactions continuously get priority for the required resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0149",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Timestamp ordering uses:",
+    "options": [
+      "Transaction timestamps",
+      "Lock tables",
+      "Random scheduling",
+      "Priority scheduling"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Timestamp ordering uses unique transaction timestamps to determine the serialization order, resolving conflicts based on when transactions started.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0150",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Optimistic concurrency control assumes:",
+    "options": [
+      "Conflicts are rare",
+      "Conflicts frequent",
+      "No transactions",
+      "Locks always required"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Optimistic concurrency control assumes conflicts between transactions are rare, allowing transactions to proceed without locks and validating at commit time.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0151",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Secondary index is created on:",
+    "options": [
+      "Non-key attribute",
+      "Primary key",
+      "Foreign key only",
+      "Composite key only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A secondary index is created on a non-key attribute to speed up queries that search on columns other than the primary key.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0152",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "B+ tree height affects:",
+    "options": [
+      "Search time",
+      "Storage",
+      "Data redundancy",
+      "Security"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The height of a B+ tree directly affects search time because each level requires one disk access, so shorter trees mean faster searches.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0153",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Hash table collision occurs when:",
+    "options": [
+      "Two keys map to same location",
+      "No key found",
+      "Key deleted",
+      "Index removed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hash table collision occurs when two different keys are mapped to the same bucket location by the hash function, requiring collision resolution.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0154",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Clustered index determines:",
+    "options": [
+      "Physical order of data",
+      "Logical order",
+      "Query speed only",
+      "Security"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A clustered index determines the physical order of data rows on disk, matching the index order to the storage order for efficient sequential access.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0155",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Non-clustered index stores:",
+    "options": [
+      "Pointers to data rows",
+      "Actual data rows",
+      "Table structure",
+      "Queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A non-clustered index stores pointers to data rows rather than the data itself, maintaining a separate structure from the physical data order.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0156",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Query plan is:",
+    "options": [
+      "Execution strategy",
+      "SQL query",
+      "Database schema",
+      "Table structure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A query plan (execution plan) is the strategy chosen by the query optimizer to execute a query, specifying the algorithms and access methods to use.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0157",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Selection pushdown means:",
+    "options": [
+      "Apply selection early",
+      "Apply selection last",
+      "Remove selection",
+      "Duplicate selection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Selection pushdown is an optimization technique that applies selection (filtering) conditions as early as possible to reduce the size of intermediate results.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0158",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Join algorithms include:",
+    "options": [
+      "Nested loop join",
+      "Merge join",
+      "Hash join",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Common join algorithms include nested loop join, merge join (sort-merge), and hash join, each suited for different data characteristics.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0159",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which join algorithm works well for sorted relations?",
+    "options": [
+      "Merge join",
+      "Nested join",
+      "Hash join",
+      "Cross join"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Merge join (sort-merge join) works well for sorted relations because it scans both sorted inputs simultaneously, merging matching tuples efficiently.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0160",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which join algorithm uses hashing?",
+    "options": [
+      "Hash join",
+      "Merge join",
+      "Loop join",
+      "Self join"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hash join uses a hash function to partition both relations into buckets, then matches tuples within corresponding buckets for efficient joining.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0161",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Encryption protects:",
+    "options": [
+      "Data confidentiality",
+      "Query speed",
+      "Indexing",
+      "Table creation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Encryption protects data confidentiality by converting readable data into an unreadable format that can only be decoded with the proper key.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0162",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Role-based access control assigns permissions to:",
+    "options": [
+      "Roles",
+      "Users directly",
+      "Queries",
+      "Tables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Role-based access control (RBAC) assigns permissions to roles rather than individual users, simplifying permission management in organizations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0163",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SQL injection is:",
+    "options": [
+      "Security attack through queries",
+      "Query optimization",
+      "Index error",
+      "Data mining"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SQL injection is a security attack where malicious SQL code is inserted through user input fields to manipulate database queries and access unauthorized data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0164",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Audit logs track:",
+    "options": [
+      "Database activities",
+      "Queries only",
+      "Tables only",
+      "Index changes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Audit logs track all database activities including who accessed what data and when, providing accountability and helping detect security breaches.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0165",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data masking is used to:",
+    "options": [
+      "Hide sensitive data",
+      "Encrypt tables",
+      "Delete records",
+      "Speed queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data masking hides sensitive data (like credit card numbers or SSNs) by replacing it with realistic but fake values for non-production environments.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0166",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Horizontal fragmentation divides table by:",
+    "options": [
+      "Rows",
+      "Columns",
+      "Keys",
+      "Indexes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Horizontal fragmentation divides a table by rows, storing subsets of tuples at different sites based on selection conditions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0167",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Vertical fragmentation divides table by:",
+    "options": [
+      "Columns",
+      "Rows",
+      "Indexes",
+      "Keys"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vertical fragmentation divides a table by columns, storing different attribute groups at different sites while maintaining a common key for reconstruction.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0168",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Replication improves:",
+    "options": [
+      "Availability",
+      "Redundancy control",
+      "Security",
+      "Query syntax"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Replication improves data availability by maintaining copies at multiple sites, so if one site fails, data remains accessible from other sites.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0169",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Distributed query processing occurs when:",
+    "options": [
+      "Query executed across multiple sites",
+      "Single site processing",
+      "Data deleted",
+      "Query optimized"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Distributed query processing occurs when a query must be executed across multiple sites, requiring coordination of partial results from each location.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0170",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data localization converts:",
+    "options": [
+      "Global query into local queries",
+      "SQL into algebra",
+      "Tables into indexes",
+      "Data into queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data localization converts a global query into efficient local queries that can be executed at individual sites where the relevant data fragments are stored.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0171",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "CAP theorem includes:",
+    "options": [
+      "Consistency",
+      "Availability",
+      "Partition tolerance",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The CAP theorem states that a distributed system can guarantee at most two of three properties: Consistency, Availability, and Partition tolerance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0172",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Document databases store data in:",
+    "options": [
+      "JSON-like documents",
+      "Tables",
+      "Graphs",
+      "Arrays"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Document databases like MongoDB store data in JSON-like documents, allowing flexible and nested data structures without requiring a fixed schema.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0173",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Graph databases are ideal for:",
+    "options": [
+      "Relationship-heavy data",
+      "Numeric data",
+      "Logs",
+      "Images"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Graph databases excel with relationship-heavy data such as social networks, where traversing connections between entities is the primary operation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0174",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which database is graph-based?",
+    "options": [
+      "Neo4j",
+      "MySQL",
+      "Oracle",
+      "SQL Server"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Neo4j is a popular graph database that stores data as nodes and relationships, optimized for querying connected data patterns.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0175",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Big data databases prioritize:",
+    "options": [
+      "Scalability",
+      "Small storage",
+      "Limited queries",
+      "Simple tables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Big data databases prioritize scalability to handle the volume, velocity, and variety of massive datasets that traditional databases cannot efficiently manage.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0176",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "ETL stands for:",
+    "options": [
+      "Extract Transform Load",
+      "Execute Transfer Load",
+      "Extract Transfer Logic",
+      "Execute Transform Logic"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ETL (Extract, Transform, Load) is the process of extracting data from source systems, transforming it into a suitable format, and loading it into a data warehouse.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0177",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Fact table stores:",
+    "options": [
+      "Quantitative data",
+      "Dimension names",
+      "Metadata",
+      "Index values"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A fact table in a data warehouse stores quantitative data (measures) such as sales amounts, quantities, and counts that can be aggregated for analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0178",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Dimension tables store:",
+    "options": [
+      "Descriptive attributes",
+      "Numeric measures",
+      "Logs",
+      "Keys only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dimension tables store descriptive attributes that provide context for fact table measures, such as product names, dates, and customer details.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0179",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Star schema consists of:",
+    "options": [
+      "One fact table and multiple dimensions",
+      "Multiple fact tables",
+      "Only dimension tables",
+      "Only fact tables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A star schema has one central fact table surrounded by multiple denormalized dimension tables, forming a star-like structure optimized for queries.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0180",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Snowflake schema is:",
+    "options": [
+      "Normalized dimension tables",
+      "Single dimension table",
+      "Only fact tables",
+      "Random tables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A snowflake schema extends the star schema by normalizing dimension tables into sub-dimension tables, reducing redundancy at the cost of more joins.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0181",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If relation has attributes A,B,C and functional dependency A?B, then A is:",
+    "options": [
+      "Determinant",
+      "Dependent",
+      "Foreign key",
+      "Index key"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In a functional dependency A -> B, attribute A is the determinant because its value determines (uniquely identifies) the value of B.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0182",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If R(A,B,C) and A?B and B?C then A?C due to:",
+    "options": [
+      "Transitivity",
+      "Reflexivity",
+      "Augmentation",
+      "Projection"
+    ],
+    "correctAnswer": 0,
+    "explanation": "If A -> B and B -> C, then A -> C by the transitivity rule of Armstrong's axioms, which is fundamental to functional dependency inference.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0183",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which property states if Y?X then X?Y?",
+    "options": [
+      "Reflexivity",
+      "Transitivity",
+      "Augmentation",
+      "Decomposition"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Reflexivity states that if Y is a subset of X, then X -> Y. This is a fundamental axiom meaning any set of attributes determines its own subsets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0184",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which rule states if X?Y then XZ?YZ?",
+    "options": [
+      "Augmentation",
+      "Transitivity",
+      "Reflexivity",
+      "Union"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The augmentation rule states that if X -> Y, then XZ -> YZ for any attribute set Z, meaning adding the same attributes to both sides preserves the dependency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0185",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Decomposition rule means:",
+    "options": [
+      "X?YZ implies X?Y and X?Z",
+      "X?Y implies Y?X",
+      "X?Z implies Y?Z",
+      "X?X"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The decomposition rule states that if X -> YZ, then X -> Y and X -> Z, meaning a combined dependency can be broken into individual dependencies.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0186",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Database schema describes:",
+    "options": [
+      "Structure of database",
+      "Data values",
+      "Queries",
+      "Indexes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A database schema describes the overall structure of the database, including tables, columns, data types, relationships, and constraints.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0187",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Instance refers to:",
+    "options": [
+      "Data stored at specific time",
+      "Table structure",
+      "Query structure",
+      "Schema definition"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An instance (or state) of a database refers to the actual data stored in the database at a specific point in time, which changes with operations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0188",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Logical schema defines:",
+    "options": [
+      "Tables and relationships",
+      "Physical storage",
+      "Hardware",
+      "Operating system"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The logical schema defines the logical structure of the database including tables, relationships, and integrity constraints, independent of physical storage.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0189",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Physical schema defines:",
+    "options": [
+      "Storage structure",
+      "Queries",
+      "Tables only",
+      "Keys only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The physical schema defines how data is physically stored on disk, including file organization, indexing methods, and storage allocation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0190",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data abstraction levels include:",
+    "options": [
+      "Physical",
+      "Logical",
+      "View",
+      "All of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Data abstraction has three levels: physical (how data is stored), logical (what data is stored and relationships), and view (user-specific perspectives).",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0191",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A view hides:",
+    "options": [
+      "Complexity of database",
+      "Data",
+      "Queries",
+      "Indexes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A view hides the complexity of the underlying database by presenting a simplified or customized perspective of the data to users.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0192",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL command deletes all rows but keeps structure?",
+    "options": [
+      "TRUNCATE",
+      "DELETE",
+      "DROP",
+      "REMOVE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TRUNCATE removes all rows from a table while keeping its structure intact, and is a DDL command that cannot be rolled back in most DBMS.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0193",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "TRUNCATE is faster than DELETE because:",
+    "options": [
+      "It does not log individual rows",
+      "It deletes indexes",
+      "It deletes tables",
+      "It removes schema"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TRUNCATE is faster than DELETE because it deallocates data pages without logging individual row deletions, making it more efficient for removing all data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0194",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which command removes database entirely?",
+    "options": [
+      "DROP DATABASE",
+      "DELETE DATABASE",
+      "REMOVE DATABASE",
+      "CLEAR DATABASE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DROP DATABASE removes the entire database including all tables, data, indexes, views, and stored procedures permanently.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0195",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Materialized view stores:",
+    "options": [
+      "Actual query results",
+      "Virtual results",
+      "Temporary queries",
+      "Index values"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A materialized view stores the actual query results physically on disk, unlike a regular view, improving query performance at the cost of storage and maintenance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0196",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL function finds maximum value?",
+    "options": [
+      "MAX()",
+      "SUM()",
+      "AVG()",
+      "COUNT()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The MAX() function returns the maximum (largest) value from a specified column, useful for finding peaks in data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0197",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which function calculates average?",
+    "options": [
+      "AVG()",
+      "SUM()",
+      "COUNT()",
+      "MAX()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The AVG() function calculates the arithmetic average of values in a specified column, commonly used for statistical summaries.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0198",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL operator tests membership?",
+    "options": [
+      "IN",
+      "BETWEEN",
+      "LIKE",
+      "EXISTS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The IN operator tests whether a value belongs to a specified set of values or results from a subquery, simplifying multiple OR conditions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0199",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "LIKE operator is used for:",
+    "options": [
+      "Pattern matching",
+      "Equality test",
+      "Range test",
+      "Join operation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The LIKE operator performs pattern matching on string values using wildcards: % matches any sequence of characters, and _ matches a single character.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0200",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "BETWEEN operator checks:",
+    "options": [
+      "Range of values",
+      "Pattern match",
+      "Equality",
+      "Join condition"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The BETWEEN operator checks if a value falls within a specified inclusive range, equivalent to using >= and <= conditions combined.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0201",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL clause is used to rename a column in the output?",
+    "options": [
+      "AS",
+      "RENAME",
+      "CHANGE",
+      "MODIFY"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The AS keyword creates an alias to rename a column or table in the query output, improving readability without changing the actual database structure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0202",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL operator checks whether a subquery returns any row?",
+    "options": [
+      "EXISTS",
+      "IN",
+      "LIKE",
+      "ANY"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The EXISTS operator checks whether a subquery returns any rows, returning TRUE if at least one row exists and FALSE otherwise.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0203",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which operator compares a value to any value returned by a subquery?",
+    "options": [
+      "ALL",
+      "ANY",
+      "EXISTS",
+      "IN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ANY operator compares a value to any single value returned by a subquery, returning TRUE if the comparison is true for at least one result.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0204",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL keyword ensures only unique values are inserted?",
+    "options": [
+      "UNIQUE",
+      "DISTINCT",
+      "PRIMARY",
+      "CHECK"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The UNIQUE constraint ensures that only unique values are stored in a column, preventing duplicate entries and maintaining data integrity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0205",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A correlated subquery:",
+    "options": [
+      "Executes once",
+      "Executes for each row of outer query",
+      "Executes only after join",
+      "Executes before outer query"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A correlated subquery references columns from the outer query and executes once for each row processed by the outer query, making it row-dependent.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0206",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Parsing in query processing checks:",
+    "options": [
+      "Syntax and structure",
+      "Data values",
+      "Indexing",
+      "Storage"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Parsing in query processing checks SQL syntax and structure for correctness, validates table and column names, and converts the query into an internal representation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0207",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Query rewriting transforms:",
+    "options": [
+      "SQL into optimized form",
+      "SQL into table",
+      "Data into schema",
+      "Index into table"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Query rewriting transforms an SQL query into a semantically equivalent but more efficient form by applying algebraic optimization rules.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0208",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Execution engine performs:",
+    "options": [
+      "Actual query execution",
+      "Query design",
+      "Table design",
+      "Data entry"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The execution engine carries out the actual query execution by performing the operations specified in the optimized query plan and returning results.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0209",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Selectivity of a condition refers to:",
+    "options": [
+      "Fraction of rows satisfying condition",
+      "Number of tables",
+      "Number of queries",
+      "Number of joins"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Selectivity refers to the fraction of rows in a table that satisfy a given condition, helping the optimizer estimate result sizes and choose efficient plans.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0210",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cost estimation depends mainly on:",
+    "options": [
+      "Disk I/O",
+      "Table names",
+      "SQL syntax",
+      "User input"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cost estimation in query optimization depends mainly on disk I/O operations since disk access is significantly slower than CPU and memory operations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0211",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Heap file organization stores records in:",
+    "options": [
+      "Random order",
+      "Sorted order",
+      "Indexed order",
+      "Clustered order"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Heap file organization stores records in no particular order (random), with new records appended at the end, making insertion fast but searching slow.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0212",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Sequential file organization stores records:",
+    "options": [
+      "Sorted by key",
+      "Randomly",
+      "By hash",
+      "By index pointer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sequential (sorted) file organization stores records sorted by a key value, enabling efficient range queries and binary search.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0213",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Overflow blocks occur in:",
+    "options": [
+      "Hash indexing",
+      "Sequential indexing",
+      "B+ trees",
+      "Clustered indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Overflow blocks (overflow buckets) occur in hash indexing when multiple records hash to the same bucket and the primary bucket is full.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0214",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Multilevel indexing reduces:",
+    "options": [
+      "Search time",
+      "Storage",
+      "Security",
+      "Redundancy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multilevel indexing creates an index on top of another index, reducing search time by narrowing the search space at each level.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0215",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "In B+ trees, internal nodes store:",
+    "options": [
+      "Search keys",
+      "Data records",
+      "Entire tables",
+      "Metadata"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In B+ trees, internal nodes store only search keys and child pointers for guiding the search, while actual data records or pointers are in leaf nodes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0216",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which mechanism prevents unauthorized data modification?",
+    "options": [
+      "Access control",
+      "Backup",
+      "Indexing",
+      "Data mining"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Access control mechanisms like authentication and authorization prevent unauthorized users from modifying, deleting, or viewing sensitive data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0217",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data encryption converts:",
+    "options": [
+      "Plain text into cipher text",
+      "Data into tables",
+      "Tables into indexes",
+      "Queries into data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data encryption converts plain text (readable data) into cipher text (unreadable format) using an algorithm and key, protecting data confidentiality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0218",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which security mechanism tracks user actions?",
+    "options": [
+      "Auditing",
+      "Indexing",
+      "Hashing",
+      "Normalization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Auditing is a security mechanism that tracks and records user actions on the database, enabling detection of unauthorized or suspicious activities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0219",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Least privilege principle means:",
+    "options": [
+      "Users get minimum permissions required",
+      "Users get full access",
+      "Users get read-only access",
+      "Users get admin access"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The principle of least privilege grants users only the minimum permissions necessary to perform their tasks, reducing the risk of accidental or malicious damage.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0220",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which attack manipulates SQL queries via user input?",
+    "options": [
+      "SQL injection",
+      "Phishing",
+      "Malware",
+      "Spoofing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SQL injection manipulates database queries by inserting malicious SQL code through user input fields, potentially exposing or modifying sensitive data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0221",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which type of fragmentation replicates full tables?",
+    "options": [
+      "Replication",
+      "Horizontal fragmentation",
+      "Vertical fragmentation",
+      "Hybrid fragmentation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Replication copies entire tables across sites, ensuring all locations have complete copies of the data for availability and fault tolerance.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0222",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Distributed DBMS improves:",
+    "options": [
+      "Availability and reliability",
+      "Query complexity",
+      "Data redundancy",
+      "Hardware cost"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Distributed DBMS improves availability and reliability by distributing data across multiple sites, so failure of one site does not make data inaccessible.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0223",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Distributed transactions require:",
+    "options": [
+      "Coordination among sites",
+      "Local queries only",
+      "Single server",
+      "Single table"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Distributed transactions require coordination among participating sites to ensure all sites agree on whether to commit or abort the transaction.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0224",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Two-phase commit protocol ensures:",
+    "options": [
+      "Atomic distributed transactions",
+      "Faster queries",
+      "Data mining",
+      "Indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The two-phase commit protocol ensures atomic distributed transactions by having a prepare phase (all vote) and a commit phase (all agree or all abort).",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0225",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Coordinator in distributed commit:",
+    "options": [
+      "Manages commit decision",
+      "Executes query",
+      "Stores data",
+      "Creates index"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The coordinator in a distributed commit protocol manages the commit decision by collecting votes from all participants and issuing the final commit or abort.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0226",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Column-family databases store data by:",
+    "options": [
+      "Columns",
+      "Rows",
+      "Documents",
+      "Graphs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Column-family databases (wide-column stores) organize data by columns rather than rows, optimizing read performance for analytical queries on specific attributes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0227",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which NoSQL database uses key-value storage?",
+    "options": [
+      "Redis",
+      "MySQL",
+      "Oracle",
+      "PostgreSQL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Redis is a popular key-value NoSQL database that stores data in memory for extremely fast read and write operations, often used for caching.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0228",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "BASE properties in NoSQL mean:",
+    "options": [
+      "Basically Available Soft-state Eventually consistent",
+      "Binary Access Storage Engine",
+      "Basic Application System Engine",
+      "Base Access Storage Element"
+    ],
+    "correctAnswer": 0,
+    "explanation": "BASE (Basically Available, Soft-state, Eventually consistent) describes the properties of NoSQL systems, contrasting with ACID in relational databases.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0229",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Eventual consistency means:",
+    "options": [
+      "Data will become consistent over time",
+      "Data always consistent instantly",
+      "Data never consistent",
+      "Data deleted automatically"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Eventual consistency means that given enough time without new updates, all replicas in a distributed system will converge to the same consistent state.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0230",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "NoSQL databases are commonly used in:",
+    "options": [
+      "Big data applications",
+      "Small spreadsheets",
+      "Local text files",
+      "Single-user programs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NoSQL databases are commonly used in big data applications because they offer horizontal scalability, flexible schemas, and high throughput for distributed workloads.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0231",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data warehouse integrates data from:",
+    "options": [
+      "Multiple sources",
+      "Single table",
+      "Single application",
+      "Single database"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A data warehouse integrates data from multiple heterogeneous sources, transforming and consolidating it into a unified format for analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0232",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data warehouse data is typically:",
+    "options": [
+      "Historical",
+      "Temporary",
+      "Random",
+      "Unstructured only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data warehouse data is typically historical, accumulating data over time to enable trend analysis, comparisons, and long-term business intelligence.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0233",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "OLAP cube represents:",
+    "options": [
+      "Multidimensional data",
+      "Single dimension",
+      "Binary data",
+      "Text data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An OLAP cube represents multidimensional data, allowing users to analyze information across multiple dimensions like time, geography, and product categories.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0234",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Drill-down operation:",
+    "options": [
+      "Shows more detailed data",
+      "Shows summarized data",
+      "Deletes data",
+      "Filters rows"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The drill-down operation navigates from summarized data to more detailed data, such as going from yearly sales to quarterly to monthly figures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0235",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Roll-up operation:",
+    "options": [
+      "Aggregates data",
+      "Deletes rows",
+      "Splits data",
+      "Updates data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The roll-up operation aggregates data by climbing up a concept hierarchy, such as summarizing daily data into monthly or yearly totals.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0236",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Classification predicts:",
+    "options": [
+      "Category labels",
+      "Numeric values",
+      "Tables",
+      "Queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Classification in data mining predicts categorical labels for data instances based on a training set, assigning each instance to a predefined class.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0237",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Regression predicts:",
+    "options": [
+      "Numeric values",
+      "Categories",
+      "Tables",
+      "Keys"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Regression predicts continuous numeric values based on input features, such as predicting house prices or sales figures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0238",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Association rule mining finds:",
+    "options": [
+      "Relationships between items",
+      "Data deletion rules",
+      "Query optimization",
+      "Index rules"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Association rule mining discovers relationships between items in large datasets, such as finding products frequently purchased together (market basket analysis).",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0239",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Support in association rules measures:",
+    "options": [
+      "Frequency of itemset",
+      "Query cost",
+      "Index size",
+      "Data redundancy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Support measures the frequency of an itemset in the dataset, indicating how often items appear together as a proportion of all transactions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0240",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Confidence in association rules measures:",
+    "options": [
+      "Rule reliability",
+      "Query time",
+      "Data size",
+      "Storage cost"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Confidence measures the reliability of an association rule, indicating how often the consequent appears when the antecedent is present.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0241",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If relation R has 6 tuples and S has 3 tuples, their Cartesian product has:",
+    "options": [
+      "9 tuples",
+      "18 tuples",
+      "6 tuples",
+      "3 tuples"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Cartesian product of R (6 tuples) and S (3 tuples) produces 6 x 3 = 18 tuples, combining every row of R with every row of S.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0242",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A relation is in BCNF if:",
+    "options": [
+      "Every determinant is a candidate key",
+      "Only primary keys exist",
+      "Only foreign keys exist",
+      "Only composite keys exist"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A relation is in BCNF if for every non-trivial functional dependency X -> Y, X is a candidate key (or superkey) of the relation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0243",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If a table has no partial dependency but has transitive dependency, it is in:",
+    "options": [
+      "2NF",
+      "1NF",
+      "3NF",
+      "BCNF"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A table with no partial dependency but with transitive dependency satisfies 2NF (which only eliminates partial dependencies) but not 3NF.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0244",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A relation in 3NF may still violate:",
+    "options": [
+      "BCNF",
+      "2NF",
+      "1NF",
+      "None"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A relation in 3NF may still violate BCNF because 3NF allows non-candidate-key determinants when the dependent is part of a candidate key.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0245",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If X?Y and Y?Z then X?Z by:",
+    "options": [
+      "Transitivity",
+      "Reflexivity",
+      "Augmentation",
+      "Union"
+    ],
+    "correctAnswer": 0,
+    "explanation": "If X -> Y and Y -> Z, then X -> Z by the transitivity rule of Armstrong's axioms, a fundamental inference rule for functional dependencies.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0246",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL clause eliminates duplicates in GROUP results?",
+    "options": [
+      "DISTINCT",
+      "UNIQUE",
+      "GROUP BY",
+      "HAVING"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DISTINCT eliminates duplicate rows from query results, ensuring each combination of selected column values appears only once.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0247",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL command updates multiple rows?",
+    "options": [
+      "UPDATE",
+      "MODIFY",
+      "CHANGE",
+      "INSERT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The UPDATE command can modify multiple rows at once when used with a WHERE clause that matches multiple records, or all rows if no WHERE is specified.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0248",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which join returns rows with no matching rows in another table?",
+    "options": [
+      "Outer join",
+      "Inner join",
+      "Cross join",
+      "Natural join"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An outer join returns rows with no matching rows in the other table, filling unmatched columns with NULL values, unlike inner join which excludes them.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0249",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL keyword limits result rows?",
+    "options": [
+      "LIMIT",
+      "RANGE",
+      "TOP",
+      "STOP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The LIMIT keyword restricts the number of rows returned by a query, useful for pagination or retrieving only a subset of results.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0250",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which SQL operator matches wildcard patterns?",
+    "options": [
+      "LIKE",
+      "MATCH",
+      "EQUAL",
+      "IN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The LIKE operator matches wildcard patterns in string comparisons, using % for any sequence of characters and _ for a single character.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0251",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Redundancy means:",
+    "options": [
+      "Duplicate data",
+      "Unique data",
+      "Secure data",
+      "Encrypted data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Redundancy means the same data is stored multiple times in different locations, leading to wasted storage and potential inconsistency.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0252",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data inconsistency occurs when:",
+    "options": [
+      "Same data differs in multiple places",
+      "Data duplicated",
+      "Data indexed",
+      "Data encrypted"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data inconsistency occurs when the same data has different values in different locations, typically caused by redundancy without proper synchronization.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0253",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data independence allows:",
+    "options": [
+      "Changing schema without affecting programs",
+      "Deleting tables",
+      "Adding indexes",
+      "Changing hardware"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data independence allows changes to the database schema or storage structure without requiring modifications to application programs that access the data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0254",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "DBMS replaces:",
+    "options": [
+      "File-based systems",
+      "Operating systems",
+      "Compilers",
+      "Browsers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DBMS replaced traditional file-based systems by providing centralized data management, reducing redundancy, and ensuring data consistency and integrity.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0255",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data abstraction hides:",
+    "options": [
+      "Complex storage details",
+      "Queries",
+      "Tables",
+      "Keys"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data abstraction hides the complex details of physical data storage from users, presenting a simplified view through multiple abstraction levels.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0256",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If a table has 4 attributes, the maximum number of candidate keys depends on:",
+    "options": [
+      "Functional dependencies",
+      "Number of rows",
+      "Indexes",
+      "Queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The maximum number of candidate keys in a relation depends on the functional dependencies defined, which determine which attribute combinations can uniquely identify tuples.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0257",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "If a transaction fails before commit:",
+    "options": [
+      "It is rolled back",
+      "It is saved",
+      "It is locked",
+      "It is indexed"
+    ],
+    "correctAnswer": 0,
+    "explanation": "If a transaction fails before committing, the DBMS automatically rolls it back, undoing all its changes to restore the database to its previous consistent state.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0258",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which schedule guarantees serializability?",
+    "options": [
+      "Conflict-serializable schedule",
+      "Random schedule",
+      "Parallel schedule",
+      "Dynamic schedule"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A conflict-serializable schedule guarantees serializability by ensuring its conflict graph (precedence graph) is acyclic.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0259",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which concurrency problem causes inconsistent updates?",
+    "options": [
+      "Lost update",
+      "Dirty read",
+      "Phantom read",
+      "Deadlock"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The lost update problem occurs when concurrent transactions read and modify the same data, causing one update to silently overwrite the other.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0260",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Phantom read occurs when:",
+    "options": [
+      "New rows appear in repeated query",
+      "Data deleted",
+      "Data duplicated",
+      "Index corrupted"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A phantom read occurs when new rows appear in repeated queries within the same transaction because another transaction inserted rows that match the query condition.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0261",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Deadlock detection requires:",
+    "options": [
+      "Wait-for graph",
+      "Query plan",
+      "Data mining",
+      "Index tree"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deadlock detection uses a wait-for graph where nodes represent transactions and edges represent waiting relationships; a cycle indicates a deadlock.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0262",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Deadlock prevention uses:",
+    "options": [
+      "Timestamp ordering",
+      "Data mining",
+      "Query parsing",
+      "Data indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Deadlock prevention uses techniques like timestamp ordering (wait-die, wound-wait) to ensure transactions never form circular wait conditions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0263",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which recovery technique replays log entries?",
+    "options": [
+      "Redo",
+      "Undo",
+      "Delete",
+      "Drop"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The redo recovery technique replays committed transaction log entries to reapply changes that were lost due to a system failure after commit.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0264",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Undo operation reverses:",
+    "options": [
+      "Uncommitted transactions",
+      "Committed transactions",
+      "Queries",
+      "Indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The undo operation reverses the effects of uncommitted (active) transactions during recovery, restoring data to its state before those transactions began.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0265",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Checkpoints reduce:",
+    "options": [
+      "Recovery time",
+      "Storage",
+      "Query speed",
+      "Table size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Checkpoints reduce recovery time by marking a point where all committed changes are guaranteed to be written to disk, limiting log scanning during recovery.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0266",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Bitmap index works best for:",
+    "options": [
+      "Low-cardinality attributes",
+      "High-cardinality attributes",
+      "Large tables",
+      "Numeric keys"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bitmap indexes work best for low-cardinality attributes (few distinct values like gender or status), using bit arrays to efficiently represent and combine conditions.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0267",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Hashing is inefficient for:",
+    "options": [
+      "Range queries",
+      "Equality search",
+      "Key lookup",
+      "Index search"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hashing is inefficient for range queries because hash functions scatter consecutive key values to non-adjacent locations, preventing sequential scanning.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0268",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Clustered index allows:",
+    "options": [
+      "Faster range queries",
+      "Slower queries",
+      "Data duplication",
+      "Query deletion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Clustered indexes allow faster range queries because physically adjacent records have adjacent key values, enabling efficient sequential disk reads.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0269",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Query optimizer mainly aims to:",
+    "options": [
+      "Minimize execution cost",
+      "Increase queries",
+      "Increase tables",
+      "Increase joins"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The query optimizer's primary goal is to minimize the execution cost of a query by selecting the most efficient execution plan from multiple alternatives.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0270",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Query cost is mostly influenced by:",
+    "options": [
+      "Disk access",
+      "CPU clock",
+      "Monitor size",
+      "Network cable"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Query cost is mostly influenced by disk access (I/O operations) because reading from and writing to disk is orders of magnitude slower than memory operations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0271",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data warehouse supports:",
+    "options": [
+      "Decision support systems",
+      "Transaction processing",
+      "Data entry",
+      "Query deletion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data warehouses support decision support systems (DSS) by providing integrated, historical data optimized for complex analytical queries and business intelligence.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0272",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data mart is:",
+    "options": [
+      "Subset of data warehouse",
+      "Entire warehouse",
+      "Database server",
+      "Query optimizer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A data mart is a subset of a data warehouse focused on a specific department or business area, providing targeted data for particular analytical needs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0273",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data cube enables:",
+    "options": [
+      "Multidimensional analysis",
+      "Table deletion",
+      "Query optimization",
+      "Indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A data cube enables multidimensional analysis by organizing data along multiple dimensions, supporting operations like slicing, dicing, and aggregation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0274",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Slice operation selects:",
+    "options": [
+      "Single dimension value",
+      "Entire cube",
+      "Multiple cubes",
+      "Table structure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The slice operation selects a single value along one dimension of a data cube, producing a sub-cube with one fewer dimension.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0275",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Dice operation selects:",
+    "options": [
+      "Sub-cube",
+      "Entire cube",
+      "Table",
+      "Index"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The dice operation selects a sub-cube by specifying values for two or more dimensions, filtering the data cube along multiple criteria.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0276",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data mining helps in:",
+    "options": [
+      "Knowledge discovery",
+      "Query optimization",
+      "Table creation",
+      "Indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data mining is a knowledge discovery process that extracts useful patterns, trends, and insights from large datasets using statistical and computational techniques.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0277",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Clustering groups:",
+    "options": [
+      "Similar data points",
+      "Different tables",
+      "Queries",
+      "Keys"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Clustering groups similar data points into clusters based on similarity measures, with points in the same cluster being more similar to each other than to those in other clusters.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0278",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Outlier detection identifies:",
+    "options": [
+      "Abnormal data patterns",
+      "Tables",
+      "Indexes",
+      "Queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Outlier detection identifies data points that deviate significantly from normal patterns, which may indicate errors, fraud, or unusual but important phenomena.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0279",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Decision trees are used for:",
+    "options": [
+      "Classification",
+      "Indexing",
+      "Query planning",
+      "Recovery"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Decision trees are used for classification by recursively partitioning data based on attribute values, creating a tree structure that predicts class labels.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0280",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Neural networks are used in:",
+    "options": [
+      "Predictive data mining",
+      "Indexing",
+      "Transactions",
+      "Normalization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Neural networks are used in predictive data mining to model complex non-linear relationships between inputs and outputs for tasks like classification and regression.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0281",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "OLTP systems focus on:",
+    "options": [
+      "Fast transaction processing",
+      "Data mining",
+      "Historical analysis",
+      "Reporting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OLTP systems focus on fast transaction processing, handling many short operations like inserts, updates, and deletes with quick response times.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0282",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "OLAP systems focus on:",
+    "options": [
+      "Data analysis",
+      "Transactions",
+      "Data entry",
+      "Index creation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OLAP systems focus on data analysis, supporting complex queries that aggregate and summarize large volumes of historical data for decision-making.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0283",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Metadata describes:",
+    "options": [
+      "Structure of data",
+      "Actual data",
+      "Queries",
+      "Transactions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Metadata describes the structure of data including table schemas, column definitions, data types, and relationships, stored in the system catalog.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0284",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data lineage tracks:",
+    "options": [
+      "Data origin and movement",
+      "Queries",
+      "Indexes",
+      "Transactions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data lineage tracks the origin and movement of data through various systems and transformations, ensuring traceability and data quality.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0285",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Schema evolution allows:",
+    "options": [
+      "Schema modification over time",
+      "Data deletion",
+      "Query deletion",
+      "Index deletion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Schema evolution allows the database schema to be modified over time (adding columns, changing types) to accommodate changing business requirements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0286",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "View-based security restricts:",
+    "options": [
+      "Data visibility",
+      "Query speed",
+      "Storage",
+      "Indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "View-based security restricts data visibility by creating views that expose only authorized portions of the data to specific users or roles.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0287",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data replication improves:",
+    "options": [
+      "Fault tolerance",
+      "Query syntax",
+      "Indexing",
+      "Table design"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data replication improves fault tolerance by maintaining copies of data at multiple locations, ensuring availability even if some replicas become unavailable.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0288",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Horizontal scaling means:",
+    "options": [
+      "Adding more machines",
+      "Increasing CPU",
+      "Increasing RAM",
+      "Increasing disk size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Horizontal scaling (scale-out) adds more machines to a system to distribute the workload, common in distributed and NoSQL database architectures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0289",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Vertical scaling means:",
+    "options": [
+      "Increasing machine capacity",
+      "Adding machines",
+      "Deleting machines",
+      "Replicating machines"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vertical scaling (scale-up) increases the capacity of a single machine by adding more CPU, RAM, or storage to handle larger workloads.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0290",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "CAP theorem states distributed systems cannot guarantee simultaneously:",
+    "options": [
+      "Consistency, Availability, Partition tolerance",
+      "Speed, size, cost",
+      "Tables, keys, indexes",
+      "Queries, joins, views"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The CAP theorem states that a distributed system cannot simultaneously guarantee all three of Consistency, Availability, and Partition tolerance - at most two.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0291",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Strong consistency means:",
+    "options": [
+      "All nodes see same data instantly",
+      "Data eventually consistent",
+      "Data randomly consistent",
+      "Data partially consistent"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Strong consistency means all nodes in a distributed system see the same data at the same time, with every read returning the most recent write.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0292",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Partition tolerance means:",
+    "options": [
+      "System continues despite network failures",
+      "System stops completely",
+      "Data deleted",
+      "Queries blocked"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Partition tolerance means the system continues to operate correctly even when network partitions prevent some nodes from communicating with each other.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0293",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Big data systems prioritize:",
+    "options": [
+      "Scalability",
+      "Small storage",
+      "Single user",
+      "Simple queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Big data systems prioritize scalability to handle massive volumes of data, high-velocity data streams, and diverse data types across distributed infrastructure.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0294",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Hadoop ecosystem supports:",
+    "options": [
+      "Distributed data processing",
+      "Relational queries",
+      "Small databases",
+      "Local storage"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Hadoop ecosystem provides tools and frameworks for distributed data processing across clusters of computers, handling big data storage and computation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0295",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "MapReduce processes:",
+    "options": [
+      "Large datasets in parallel",
+      "Small tables",
+      "SQL queries",
+      "Index structures"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MapReduce processes large datasets in parallel by splitting work into map (transform) and reduce (aggregate) phases across distributed nodes.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0296",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Data lake stores:",
+    "options": [
+      "Raw structured and unstructured data",
+      "Only tables",
+      "Only indexes",
+      "Only queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A data lake stores raw data in its native format, including both structured and unstructured data, without requiring upfront schema definition.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0297",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Schema-on-read is typical of:",
+    "options": [
+      "Data lakes",
+      "Data warehouses",
+      "Relational DBMS",
+      "OLTP systems"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Schema-on-read is typical of data lakes, where schema is applied when data is read rather than when it is stored, providing maximum flexibility.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0298",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Schema-on-write is typical of:",
+    "options": [
+      "Data warehouses",
+      "Data lakes",
+      "NoSQL systems",
+      "Graph databases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Schema-on-write is typical of data warehouses and relational databases, where data must conform to a predefined schema before it can be stored.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0299",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Query federation allows:",
+    "options": [
+      "Querying multiple databases simultaneously",
+      "Query deletion",
+      "Data mining",
+      "Indexing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Query federation allows querying multiple heterogeneous databases simultaneously through a unified interface, without physically moving the data.",
+    "source": "university"
+  },
+  {
+    "id": "uni-db-0300",
+    "subjectId": "uni-db",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The main goal of DBMS is to:",
+    "options": [
+      "Efficiently store, retrieve, and manage data",
+      "Replace operating systems",
+      "Replace programming languages",
+      "Eliminate queries"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The main goal of a DBMS is to efficiently store, retrieve, and manage data while ensuring data integrity, security, and concurrent access support.",
+    "source": "university"
+  }
+]

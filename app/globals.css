@@ -1,0 +1,271 @@
+@import "tailwindcss";
+
+/* ===== DESIGN TOKENS via Tailwind v4 @theme ===== */
+@theme inline {
+  --color-primary: var(--clr-primary);
+  --color-primary-hover: var(--clr-primary-hover);
+  --color-primary-light: var(--clr-primary-light);
+  --color-on-primary: var(--clr-on-primary);
+  --color-page: var(--clr-page);
+  --color-surface: var(--clr-surface);
+  --color-ink: var(--clr-ink);
+  --color-muted: var(--clr-muted);
+  --color-correct: var(--clr-correct);
+  --color-correct-light: var(--clr-correct-light);
+  --color-incorrect: var(--clr-incorrect);
+  --color-incorrect-light: var(--clr-incorrect-light);
+  --color-warning: var(--clr-warning);
+  --color-warning-light: var(--clr-warning-light);
+  --color-edge: var(--clr-edge);
+}
+
+/* =================================================================
+   BASE THEME — default colors (teal primary)
+   Palette overrides are applied via inline styles from JavaScript,
+   which always win over these CSS values.
+   ================================================================= */
+
+:root {
+  --clr-primary: #0D9488;
+  --clr-primary-hover: #0F766E;
+  --clr-primary-light: #CCFBF1;
+  --clr-on-primary: #FFFFFF;
+  --clr-page: #F8FAFC;
+  --clr-surface: #FFFFFF;
+  --clr-ink: #1E293B;
+  --clr-muted: #64748B;
+  --clr-edge: #E2E8F0;
+  --clr-correct: #10B981;
+  --clr-correct-light: #D1FAE5;
+  --clr-incorrect: #EF4444;
+  --clr-incorrect-light: #FEE2E2;
+  --clr-warning: #F59E0B;
+  --clr-warning-light: #FEF3C7;
+}
+
+[data-theme="dark"] {
+  --clr-primary: #2DD4BF;
+  --clr-primary-hover: #5EEAD4;
+  --clr-primary-light: #134E4A;
+  --clr-on-primary: #042F2E;
+  --clr-page: #0F172A;
+  --clr-surface: #1E293B;
+  --clr-ink: #F1F5F9;
+  --clr-muted: #94A3B8;
+  --clr-edge: #334155;
+  --clr-correct: #34D399;
+  --clr-correct-light: #064E3B;
+  --clr-incorrect: #FB7185;
+  --clr-incorrect-light: #4C0519;
+  --clr-warning: #FBBF24;
+  --clr-warning-light: #451A03;
+}
+
+/* =================================================================
+   BASE STYLES
+   ================================================================= */
+
+body {
+  background-color: var(--clr-page);
+  color: var(--clr-ink);
+  font-family: var(--font-inter, system-ui, -apple-system, sans-serif);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Visible thin scrollbar for scrollable lists (mobile + desktop) */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--clr-edge);
+  border-radius: 3px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: var(--clr-muted);
+}
+
+.theme-transition {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--clr-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Score ring animation */
+@keyframes score-fill {
+  from { stroke-dashoffset: 439.82; }
+}
+.score-ring-animated {
+  animation: score-fill 1.2s ease-out forwards;
+}
+
+/* Slide-in animation for questions */
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.animate-slide-in {
+  animation: slide-in 0.25s ease-out;
+}
+
+/* Cursor blink for typing animation */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Gentle pulse for action buttons */
+@keyframes gentle-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 var(--clr-primary); }
+  50% { box-shadow: 0 0 0 6px color-mix(in srgb, var(--clr-primary) 20%, transparent); }
+}
+.animate-action-pulse {
+  animation: gentle-pulse 2s ease-in-out 1;
+}
+
+/* Skeleton loading shimmer */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, var(--clr-edge) 25%, var(--clr-surface) 50%, var(--clr-edge) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
+/* Toast animations (rate limit notification) */
+@keyframes toast-in {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+@keyframes toast-out {
+  from { transform: translateY(0); opacity: 1; }
+  to { transform: translateY(100%); opacity: 0; }
+}
+
+/* =================================================================
+   ARTICLE TYPOGRAPHY — rendered markdown content
+   ================================================================= */
+
+.article-content h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--clr-ink);
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  letter-spacing: -0.025em;
+}
+
+.article-content h2 {
+  font-size: 1.375rem;
+  font-weight: 600;
+  color: var(--clr-ink);
+  line-height: 1.35;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.article-content h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--clr-ink);
+  line-height: 1.4;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-content p {
+  font-size: 0.9375rem;
+  color: var(--clr-muted);
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.article-content a {
+  color: var(--clr-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s ease;
+}
+.article-content a:hover {
+  color: var(--clr-primary-hover);
+}
+
+.article-content strong {
+  color: var(--clr-ink);
+  font-weight: 600;
+}
+
+.article-content ul,
+.article-content ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.article-content ul {
+  list-style-type: disc;
+}
+
+.article-content ol {
+  list-style-type: decimal;
+}
+
+.article-content li {
+  font-size: 0.9375rem;
+  color: var(--clr-muted);
+  line-height: 1.7;
+  margin-bottom: 0.375rem;
+}
+
+.article-content li strong {
+  color: var(--clr-ink);
+}
+
+.article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+}
+
+.article-content th {
+  text-align: left;
+  padding: 0.625rem 0.75rem;
+  font-weight: 600;
+  color: var(--clr-ink);
+  background-color: var(--clr-primary-light);
+  border: 1px solid var(--clr-edge);
+}
+
+.article-content td {
+  padding: 0.5rem 0.75rem;
+  color: var(--clr-muted);
+  border: 1px solid var(--clr-edge);
+}
+
+.article-content hr {
+  border: none;
+  border-top: 1px solid var(--clr-edge);
+  margin: 1.5rem 0;
+}
+
+.article-content blockquote {
+  border-left: 3px solid var(--clr-primary);
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: var(--clr-muted);
+  font-style: italic;
+}
+
+.article-content input[type="checkbox"] {
+  accent-color: var(--clr-primary);
+  margin-right: 0.5rem;
+}

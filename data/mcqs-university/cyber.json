@@ -1,0 +1,882 @@
+[
+  {
+    "id": "uni-cyber-0001",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "What is the primary goal of cybersecurity?",
+    "options": [
+      "Increase internet speed",
+      "Protect systems, networks, and data from attacks",
+      "Reduce hardware cost",
+      "Improve programming skills"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The primary goal of cybersecurity is to protect systems, networks, and data from unauthorized access, attacks, and damage. It encompasses technologies, processes, and practices designed to safeguard digital assets.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0002",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which term refers to weakness in a system?",
+    "options": [
+      "Threat",
+      "Vulnerability",
+      "Policy",
+      "Patch"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A vulnerability is a weakness or flaw in a system that can be exploited by a threat actor. Threats are potential dangers, while patches are fixes applied to address vulnerabilities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0003",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "The CIA triad stands for:",
+    "options": [
+      "Control Integrity Access",
+      "Confidentiality Integrity Availability",
+      "Cyber Internet Architecture",
+      "Central Internet Access"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The CIA triad stands for Confidentiality, Integrity, and Availability, which are the three core principles of information security. Confidentiality ensures data is accessible only to authorized parties, integrity ensures data is accurate and unaltered, and availability ensures systems are accessible when needed.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0004",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Encryption converts:",
+    "options": [
+      "Ciphertext to plaintext",
+      "Plaintext to ciphertext",
+      "Key to password",
+      "Hash to key"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Encryption is the process of converting readable plaintext into unreadable ciphertext using an algorithm and a key. The reverse process, converting ciphertext back to plaintext, is called decryption.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0005",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "AES is an example of:",
+    "options": [
+      "Symmetric encryption",
+      "Asymmetric encryption",
+      "Hash function",
+      "Digital certificate"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AES (Advanced Encryption Standard) is a symmetric encryption algorithm, meaning the same key is used for both encryption and decryption. It is widely used for securing data and supports key sizes of 128, 192, and 256 bits.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0006",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "RSA is based on:",
+    "options": [
+      "Prime factorization",
+      "Sorting algorithms",
+      "Matrix multiplication",
+      "Hash tables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RSA is an asymmetric encryption algorithm whose security relies on the mathematical difficulty of factoring the product of two large prime numbers. This computational hardness makes it practically infeasible to derive the private key from the public key.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0007",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which device connects multiple networks?",
+    "options": [
+      "Router",
+      "Switch",
+      "Hub",
+      "Repeater"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A router connects multiple networks and forwards data packets between them by determining the best path using routing tables. Switches operate within a single network, while hubs and repeaters work at the physical layer.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0008",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which protocol secures web communication?",
+    "options": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "Telnet"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HTTPS (HyperText Transfer Protocol Secure) secures web communication by encrypting data using TLS/SSL. Unlike HTTP, FTP, and Telnet, HTTPS ensures confidentiality and integrity of data transmitted between the browser and web server.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0009",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Which Linux command changes file permissions?",
+    "options": [
+      "chmod",
+      "ls",
+      "pwd",
+      "cat"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The chmod (change mode) command in Linux is used to change file and directory permissions. It can set read, write, and execute permissions for the owner, group, and others using numeric or symbolic notation.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0010",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SQL Injection targets:",
+    "options": [
+      "Database queries",
+      "Operating systems",
+      "Network cables",
+      "Hardware"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SQL Injection is a web security vulnerability that targets database queries by inserting malicious SQL code into application input fields. This can allow attackers to read, modify, or delete database contents.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0011",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cross-Site Scripting (XSS) injects:",
+    "options": [
+      "Malicious scripts into webpages",
+      "SQL queries",
+      "Network packets",
+      "BIOS code"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cross-Site Scripting (XSS) is a vulnerability where attackers inject malicious scripts (typically JavaScript) into webpages viewed by other users. This can be used to steal session cookies, redirect users, or deface websites.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0012",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "A virus spreads by:",
+    "options": [
+      "Attaching to files",
+      "Routing packets",
+      "Updating BIOS",
+      "Firewall rules"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A computer virus spreads by attaching itself to legitimate files or programs. When the infected file is executed, the virus replicates and infects other files, unlike worms which can spread independently without user action.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0013",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Ransomware does what?",
+    "options": [
+      "Encrypts files and demands payment",
+      "Deletes routers",
+      "Improves performance",
+      "Compresses disks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ransomware is a type of malware that encrypts the victim's files and demands a ransom payment (usually in cryptocurrency) in exchange for the decryption key. It is one of the most financially damaging types of cyberattacks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0014",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Authentication verifies:",
+    "options": [
+      "User identity",
+      "Network traffic",
+      "CPU usage",
+      "Disk size"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Authentication is the process of verifying a user's identity, typically through credentials such as passwords, biometrics, or tokens. It answers the question 'Who are you?' before granting access to a system.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0015",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Authorization determines:",
+    "options": [
+      "Access rights",
+      "Password length",
+      "Network speed",
+      "File compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Authorization determines what resources and actions an authenticated user is permitted to access. It answers the question 'What are you allowed to do?' and is enforced through access control mechanisms like ACLs and RBAC.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0016",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Secure Software Development Life Cycle (SSDLC) integrates:",
+    "options": [
+      "Security into every development phase",
+      "Only testing",
+      "Only coding",
+      "Only deployment"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Secure Software Development Life Cycle (SSDLC) integrates security practices into every phase of software development, from requirements gathering through design, coding, testing, and deployment. This proactive approach helps identify and mitigate vulnerabilities early.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0017",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Static code analysis is performed:",
+    "options": [
+      "Without executing code",
+      "During runtime",
+      "After deployment",
+      "On network devices"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Static code analysis examines source code without executing the program. It identifies potential vulnerabilities, coding errors, and security flaws by analyzing the code structure, making it useful for early detection of issues during development.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0018",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Dynamic analysis tests:",
+    "options": [
+      "Running applications",
+      "Hardware",
+      "Network cables",
+      "Disk drives"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dynamic analysis tests applications while they are running by executing the code and observing its behavior. This approach can detect runtime errors, memory leaks, and security vulnerabilities that static analysis might miss.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0019",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Buffer overflow occurs when:",
+    "options": [
+      "Program writes beyond memory bounds",
+      "Disk becomes full",
+      "CPU overheats",
+      "Network disconnects"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A buffer overflow occurs when a program writes data beyond the allocated memory buffer boundaries. This can overwrite adjacent memory, potentially allowing attackers to execute arbitrary code or crash the program.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0020",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Secure coding aims to:",
+    "options": [
+      "Reduce vulnerabilities",
+      "Increase graphics",
+      "Reduce CPU speed",
+      "Remove logs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Secure coding aims to reduce vulnerabilities in software by following best practices such as input validation, proper error handling, and least privilege principles. This minimizes the attack surface available to malicious actors.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0021",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "WPA3 is used for:",
+    "options": [
+      "Wireless network security",
+      "Database encryption",
+      "Email security",
+      "Disk compression"
+    ],
+    "correctAnswer": 0,
+    "explanation": "WPA3 (Wi-Fi Protected Access 3) is the latest wireless security protocol used to protect Wi-Fi networks. It provides stronger encryption, protection against brute-force attacks, and improved security for open networks compared to WPA2.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0022",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "An Evil Twin attack involves:",
+    "options": [
+      "Fake wireless access point",
+      "Malicious email",
+      "DNS poisoning",
+      "Password cracking"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An Evil Twin attack involves setting up a fake wireless access point that mimics a legitimate one. Unsuspecting users connect to it, allowing the attacker to intercept their network traffic and steal sensitive information.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0023",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Bluetooth attacks exploit:",
+    "options": [
+      "Wireless device communication",
+      "Hard disks",
+      "USB cables",
+      "Routers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bluetooth attacks exploit vulnerabilities in short-range wireless device communication. Common attacks include Bluejacking (sending unsolicited messages), Bluesnarfing (stealing data), and Bluebugging (taking control of a device).",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0024",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Mobile malware targets:",
+    "options": [
+      "Smartphones and tablets",
+      "Routers",
+      "Printers",
+      "Switches"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mobile malware specifically targets smartphones and tablets, exploiting vulnerabilities in mobile operating systems and apps. It can steal personal data, track location, send premium SMS messages, or gain unauthorized access to device resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0025",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IMEI identifies:",
+    "options": [
+      "Mobile device",
+      "Network cable",
+      "Router",
+      "Server"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IMEI (International Mobile Equipment Identity) is a unique 15-digit number that identifies a specific mobile device. It is used by network carriers to identify valid devices and can be used to block stolen phones from accessing networks.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0026",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IaaS stands for:",
+    "options": [
+      "Infrastructure as a Service",
+      "Internet as Security",
+      "Internal Access System",
+      "Integrated Application Software"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IaaS (Infrastructure as a Service) is a cloud computing model where providers offer virtualized computing resources such as servers, storage, and networking over the internet. Examples include AWS EC2 and Microsoft Azure VMs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0027",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Hypervisor manages:",
+    "options": [
+      "Virtual machines",
+      "Routers",
+      "Printers",
+      "Databases"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hypervisor (also called a virtual machine monitor) is software that creates, runs, and manages virtual machines. It allows multiple operating systems to share a single hardware host by allocating resources to each VM.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0028",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cloud misconfiguration may cause:",
+    "options": [
+      "Data leakage",
+      "Faster CPU",
+      "More RAM",
+      "Better graphics"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cloud misconfiguration, such as leaving storage buckets publicly accessible or using overly permissive IAM policies, can lead to data leakage. It is one of the most common causes of cloud security breaches.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0029",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Multi-tenancy means:",
+    "options": [
+      "Multiple customers share resources",
+      "Multiple CPUs in system",
+      "Multiple disks",
+      "Multiple routers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Multi-tenancy is a cloud architecture where a single instance of software or infrastructure serves multiple customers (tenants). Each tenant's data is isolated and invisible to others, though they share the same underlying resources.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0030",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Virtualization allows:",
+    "options": [
+      "Running multiple OS on one machine",
+      "Deleting OS",
+      "Removing memory",
+      "Replacing CPU"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Virtualization allows running multiple operating systems simultaneously on a single physical machine by abstracting hardware resources. This improves resource utilization, reduces costs, and provides isolation between virtual environments.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0031",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Digital forensics investigates:",
+    "options": [
+      "Digital evidence",
+      "Network cables",
+      "CPUs",
+      "Software bugs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Digital forensics is the process of collecting, preserving, analyzing, and presenting digital evidence from computers, networks, and storage devices. It is used to investigate cybercrimes and support legal proceedings.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0032",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Chain of custody ensures:",
+    "options": [
+      "Evidence integrity",
+      "Faster internet",
+      "Hardware upgrade",
+      "File deletion"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Chain of custody is a documented process that tracks who handled digital evidence, when, and what was done with it. This ensures evidence integrity and admissibility in legal proceedings by proving it was not tampered with.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0033",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Disk imaging creates:",
+    "options": [
+      "Exact copy of storage",
+      "Compressed archive",
+      "Encrypted email",
+      "Network packet"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Disk imaging creates a bit-for-bit exact copy of an entire storage device, including deleted files and unallocated space. This forensic technique preserves the original evidence while allowing investigators to analyze the copy.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0034",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Write blockers prevent:",
+    "options": [
+      "Evidence modification",
+      "Encryption",
+      "Compression",
+      "Packet loss"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Write blockers are hardware or software tools used in digital forensics to prevent any modification to the original evidence during examination. They allow read access to the storage device while blocking all write operations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0035",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Forensic analysis helps:",
+    "options": [
+      "Investigate cybercrime",
+      "Increase RAM",
+      "Improve speed",
+      "Install OS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Forensic analysis helps investigate cybercrime by examining digital evidence to determine what happened, how it happened, and who was responsible. It supports incident response, legal proceedings, and organizational security improvements.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0036",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "First phase of incident response:",
+    "options": [
+      "Preparation",
+      "Eradication",
+      "Recovery",
+      "Containment"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Preparation is the first phase of the incident response lifecycle (per NIST SP 800-61). It involves establishing policies, forming the response team, acquiring tools, and conducting training before any incident occurs.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0037",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Containment phase aims to:",
+    "options": [
+      "Limit damage",
+      "Delete backups",
+      "Upgrade CPU",
+      "Remove firewall"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The containment phase of incident response aims to limit the damage caused by a security incident and prevent it from spreading further. This may involve isolating affected systems, blocking malicious traffic, or disabling compromised accounts.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0038",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Eradication removes:",
+    "options": [
+      "Root cause of attack",
+      "Security logs",
+      "Network cables",
+      "Hard disks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The eradication phase of incident response focuses on removing the root cause of the attack from the environment. This includes eliminating malware, closing exploited vulnerabilities, and removing unauthorized access points.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0039",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Recovery phase restores:",
+    "options": [
+      "Normal operations",
+      "Router firmware",
+      "Network topology",
+      "Firewall rules"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The recovery phase of incident response restores affected systems and services to normal operations. This includes rebuilding systems, restoring data from backups, and verifying that systems are functioning correctly and securely.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0040",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Lessons learned phase helps:",
+    "options": [
+      "Improve future response",
+      "Delete evidence",
+      "Hide logs",
+      "Ignore attacks"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The lessons learned (post-incident) phase reviews the incident and the response to identify what went well and what can be improved. This feedback helps strengthen security measures and improve future incident response procedures.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0041",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "SIEM stands for:",
+    "options": [
+      "Security Information and Event Management",
+      "System Internet Encryption Model",
+      "Security Interface Event Monitor",
+      "Secure Internet Email Manager"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SIEM (Security Information and Event Management) combines security information management and security event management to provide real-time analysis of security alerts generated by network hardware and applications.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0042",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Log monitoring helps:",
+    "options": [
+      "Detect suspicious activity",
+      "Increase speed",
+      "Upgrade memory",
+      "Delete malware automatically"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Log monitoring involves continuously reviewing system, application, and security logs to detect suspicious or anomalous activity. It is a fundamental security practice for identifying potential breaches, policy violations, and system issues.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0043",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Security audits verify:",
+    "options": [
+      "Compliance with policies",
+      "CPU speed",
+      "Disk size",
+      "Screen resolution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Security audits are systematic evaluations that verify whether an organization's security practices comply with established policies, standards, and regulations. They help identify gaps and ensure that security controls are effectively implemented.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0044",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Continuous monitoring means:",
+    "options": [
+      "Real-time security observation",
+      "Monthly backups",
+      "Weekly updates",
+      "Annual audit"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Continuous monitoring involves ongoing, real-time observation of an organization's security posture, including network traffic, system events, and user activities. It enables rapid detection of threats and timely response to security incidents.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0045",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Alerting systems notify:",
+    "options": [
+      "Security incidents",
+      "CPU overheating",
+      "Disk defragmentation",
+      "Printer errors"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In the context of cybersecurity, alerting systems are configured to notify security teams about potential security incidents, suspicious activities, and policy violations. They are a critical component of security monitoring and incident response.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0046",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Cyber law deals with:",
+    "options": [
+      "Legal issues in cyberspace",
+      "Hardware design",
+      "Programming syntax",
+      "Network cables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cyber law (also known as internet law or digital law) deals with legal issues related to the use of computers, the internet, and cyberspace. It covers areas such as cybercrime, data protection, intellectual property, and electronic commerce.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0047",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Unauthorized system access is:",
+    "options": [
+      "Cybercrime",
+      "Maintenance",
+      "Backup",
+      "Programming"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Unauthorized access to computer systems is classified as a cybercrime under laws such as the Computer Fraud and Abuse Act (CFAA) and Pakistan's Prevention of Electronic Crimes Act (PECA). It is illegal regardless of the intent.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0048",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Ethical hackers work:",
+    "options": [
+      "With permission",
+      "Secretly",
+      "Without knowledge",
+      "Randomly"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ethical hackers (also called white-hat hackers or penetration testers) work with explicit permission from the system owner. They use the same techniques as malicious hackers but do so legally to identify and report vulnerabilities.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0049",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Privacy laws protect:",
+    "options": [
+      "User data",
+      "CPU speed",
+      "Disk capacity",
+      "Network cables"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Privacy laws (such as GDPR, CCPA, and Pakistan's data protection regulations) protect user data by regulating how personal information is collected, stored, processed, and shared by organizations.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0050",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Intellectual property laws protect:",
+    "options": [
+      "Digital creations",
+      "Network cables",
+      "Disk sectors",
+      "RAM modules"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Intellectual property laws protect digital creations such as software, digital content, designs, and inventions. These include copyright, patent, trademark, and trade secret protections applied to the digital domain.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0051",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Zero Trust security assumes:",
+    "options": [
+      "No implicit trust",
+      "All users trusted",
+      "Only admins trusted",
+      "Only LAN trusted"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Zero Trust is a security model based on the principle of 'never trust, always verify.' It assumes no implicit trust for any user, device, or network, requiring continuous verification regardless of location or network segment.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0052",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "IoT security protects:",
+    "options": [
+      "Connected devices",
+      "Printers only",
+      "Servers only",
+      "Routers only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "IoT (Internet of Things) security protects all connected devices including smart home devices, industrial sensors, wearables, and other internet-enabled objects. These devices often have limited security features, making them attractive targets for attackers.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0053",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "AI in cybersecurity helps:",
+    "options": [
+      "Threat detection",
+      "Cable manufacturing",
+      "Disk formatting",
+      "Hardware design"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Artificial Intelligence in cybersecurity enhances threat detection by analyzing patterns in large volumes of data to identify anomalies and potential attacks. AI-powered systems can detect zero-day threats and respond faster than manual analysis.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0054",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Quantum computing may impact:",
+    "options": [
+      "Cryptography",
+      "Disk storage",
+      "Network cables",
+      "Printer drivers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quantum computing may significantly impact cryptography because quantum algorithms like Shor's algorithm could break widely used encryption methods such as RSA and ECC. This has driven the development of post-quantum cryptography standards.",
+    "source": "university"
+  },
+  {
+    "id": "uni-cyber-0055",
+    "subjectId": "uni-cyber",
+    "topicId": "general",
+    "difficulty": "unrated",
+    "text": "Blockchain improves:",
+    "options": [
+      "Data integrity",
+      "CPU speed",
+      "Network bandwidth",
+      "Display resolution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Blockchain improves data integrity by using cryptographic hashing and a distributed, immutable ledger. Once data is recorded in a block and added to the chain, it becomes extremely difficult to alter without detection.",
+    "source": "university"
+  }
+]
