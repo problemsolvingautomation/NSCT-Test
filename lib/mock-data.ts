@@ -34,7 +34,7 @@ export const subjects: Subject[] = [
     abbr: "PS",
     color: "#0D9488",
     weightage: 20,
-    mcqCount: 960,
+    mcqCount: 2400,
     topics: [
       { id: "intro-ps", name: "Introduction to Problem Solving" },
       { id: "problem-analysis", name: "Problem Understanding & Analysis" },
@@ -60,7 +60,7 @@ export const subjects: Subject[] = [
     abbr: "AI",
     color: "#7C3AED",
     weightage: 10,
-    mcqCount: 1020,
+    mcqCount: 2550,
     topics: [
       { id: "intro-ai", name: "Introduction to AI, ML & Data Analytics" },
       { id: "math-foundations", name: "Mathematical Foundations" },
@@ -87,7 +87,7 @@ export const subjects: Subject[] = [
     abbr: "CN",
     color: "#2563EB",
     weightage: 10,
-    mcqCount: 600,
+    mcqCount: 1500,
     topics: [
       { id: "data-comm", name: "Data Communication" },
       { id: "computer-networks", name: "Computer Networks" },
@@ -107,7 +107,7 @@ export const subjects: Subject[] = [
     abbr: "DSA",
     color: "#059669",
     weightage: 10,
-    mcqCount: 720,
+    mcqCount: 1800,
     topics: [
       { id: "foundations", name: "Foundations of DS & Algorithms" },
       { id: "linear-ds", name: "Linear Data Structures" },
@@ -129,7 +129,7 @@ export const subjects: Subject[] = [
     abbr: "OS",
     color: "#DC2626",
     weightage: 5,
-    mcqCount: 720,
+    mcqCount: 1800,
     topics: [
       { id: "intro-os", name: "Introduction to OS" },
       { id: "os-structures", name: "OS Structures" },
@@ -151,7 +151,7 @@ export const subjects: Subject[] = [
     abbr: "WEB",
     color: "#EC4899",
     weightage: 10,
-    mcqCount: 1020,
+    mcqCount: 2550,
     topics: [
       { id: "intro-web", name: "Introduction to Web Development" },
       { id: "web-arch", name: "Web Architecture & Protocols" },
@@ -178,7 +178,7 @@ export const subjects: Subject[] = [
     abbr: "SE",
     color: "#0891B2",
     weightage: 10,
-    mcqCount: 960,
+    mcqCount: 2400,
     topics: [
       { id: "intro-se", name: "Introduction to Software Engineering" },
       { id: "process-models", name: "Software Process Models" },
@@ -204,7 +204,7 @@ export const subjects: Subject[] = [
     abbr: "PRG",
     color: "#4F46E5",
     weightage: 10,
-    mcqCount: 960,
+    mcqCount: 2400,
     topics: [
       { id: "prog-fundamentals", name: "Programming Fundamentals" },
       { id: "data-types", name: "Data Types & Variables" },
@@ -230,7 +230,7 @@ export const subjects: Subject[] = [
     abbr: "DB",
     color: "#D97706",
     weightage: 10,
-    mcqCount: 1020,
+    mcqCount: 2550,
     topics: [
       { id: "intro-db", name: "Introduction to Database Systems" },
       { id: "db-architecture", name: "Database Architecture" },
@@ -257,7 +257,7 @@ export const subjects: Subject[] = [
     abbr: "SEC",
     color: "#EA580C",
     weightage: 5,
-    mcqCount: 960,
+    mcqCount: 2400,
     topics: [
       { id: "intro-cyber", name: "Introduction to Cyber Security" },
       { id: "security-fundamentals", name: "Security Fundamentals" },
@@ -290,6 +290,6 @@ export function getTopicsForSubject(subjectId: string): Topic[] {
   return getSubjectById(subjectId)?.topics ?? [];
 }
 
-export const TOTAL_MCQ_COUNT = 17880;
+export const TOTAL_MCQ_COUNT = 22350;
 export const UNI_MCQ_COUNT = 2518;
 export const COMBINED_MCQ_COUNT = TOTAL_MCQ_COUNT + UNI_MCQ_COUNT;
