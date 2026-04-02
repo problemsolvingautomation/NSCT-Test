@@ -14,43 +14,43 @@ import { join } from "path";
 const subjectDefs: Record<string, { topics: string[]; expectedPerDifficulty: number }> = {
   "problem-solving": {
     topics: ["intro-ps","problem-analysis","logical-reasoning","algo-flow","data-repr","pattern-recog","math-reasoning","algo-thinking","critical-thinking","debugging-analysis","complexity-aware","ps-programming","data-driven-ps","creative-thinking","real-world-ps","comm-docs"],
-    expectedPerDifficulty: 40,
+    expectedPerDifficulty: 60,
   },
   "ai-ml": {
     topics: ["intro-ai","math-foundations","python-ai","data-preprocessing","eda","supervised","ensemble","unsupervised","model-eval","feature-eng","deep-learning","advanced-dl","nlp","computer-vision","big-data","mlops","ai-ethics"],
-    expectedPerDifficulty: 40,
+    expectedPerDifficulty: 60,
   },
   "cn-cloud": {
     topics: ["data-comm","computer-networks","data-link-layer","network-layer","transport-layer","application-layer","wireless-networks","cloud-computing","network-security","next-gen-networks"],
-    expectedPerDifficulty: 40,
+    expectedPerDifficulty: 60,
   },
   "dsa": {
     topics: ["foundations","linear-ds","non-linear-ds","searching","sorting","hashing","tree-algo","graph-algo","algo-design","advanced-ds","string-algo","complexity-opt"],
-    expectedPerDifficulty: 40,
+    expectedPerDifficulty: 60,
   },
   "os": {
     topics: ["intro-os","os-structures","process-mgmt","cpu-scheduling","thread-mgmt","concurrency-sync","deadlocks","memory-mgmt","file-systems","secondary-storage","io-systems","protection-security"],
-    expectedPerDifficulty: 40,
+    expectedPerDifficulty: 60,
   },
   "webdev": {
     topics: ["intro-web","web-arch","html","css","advanced-css","js-fundamentals","advanced-js","frontend-frameworks","backend-fundamentals","server-side","web-databases","web-security","web-perf","web-testing","deployment","web-apis","modern-web"],
-    expectedPerDifficulty: 40,
+    expectedPerDifficulty: 60,
   },
   "se": {
     topics: ["intro-se","process-models","agile","requirements","project-mgmt","software-design","software-arch","ui-design","implementation","testing","maintenance","qa","metrics","config-mgmt","risk-mgmt","security-eng"],
-    expectedPerDifficulty: 40,
+    expectedPerDifficulty: 60,
   },
   "programming": {
     topics: ["prog-fundamentals","data-types","operators","control-structures","functions","io-handling","strings","arrays-collections","oop","memory-mgmt","exception-handling","modules-packages","advanced-prog","concurrency-intro","debugging-testing","dev-practices"],
-    expectedPerDifficulty: 40,
+    expectedPerDifficulty: 60,
   },
   "db": {
     topics: ["intro-db","db-architecture","data-models","relational-concepts","relational-algebra","sql","advanced-sql","normalization","transactions","concurrency-ctrl","recovery","indexing","query-opt","db-security","distributed-db","nosql","data-warehousing"],
-    expectedPerDifficulty: 40,
+    expectedPerDifficulty: 60,
   },
   "cyber": {
     topics: ["intro-cyber","security-fundamentals","cryptography","network-sec","os-security","web-sec","malware-attacks","auth-access","secure-dev","wireless-mobile-sec","cloud-sec","digital-forensics","incident-response","security-monitoring","cyber-laws","emerging-trends"],
-    expectedPerDifficulty: 40,
+    expectedPerDifficulty: 60,
   },
 };
 

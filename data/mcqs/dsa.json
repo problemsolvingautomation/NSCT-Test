@@ -26998,5 +26998,5405 @@
     ],
     "correctAnswer": 3,
     "explanation": "The cell probe model counts only the number of memory cell accesses (reads/writes), ignoring computation, and is used to prove lower bounds on data structure query and update times."
+  },
+  {
+    "id": "dsa-1801",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "easy",
+    "text": "What is a data structure's primary purpose in software development?",
+    "options": [
+      "To increase the speed of compilation",
+      "To organize and manage data efficiently",
+      "To reduce source code line count",
+      "To enforce strict typing in variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Data structures organize and manage data to enable efficient access, modification, and storage in software applications."
+  },
+  {
+    "id": "dsa-1802",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "easy",
+    "text": "Which of the following best describes a recursive algorithm?",
+    "options": [
+      "An algorithm that uses loops for repetition",
+      "An algorithm that calls itself with a smaller subproblem",
+      "An algorithm that runs in constant time always",
+      "An algorithm that avoids function call overhead"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A recursive algorithm solves a problem by calling itself on smaller instances until a base case is reached."
+  },
+  {
+    "id": "dsa-1803",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "easy",
+    "text": "What does O(1) time complexity indicate?",
+    "options": [
+      "The algorithm runs once and terminates",
+      "The algorithm takes constant time regardless of input size",
+      "The algorithm processes one element at a time",
+      "The algorithm requires a single loop iteration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "O(1) means the running time does not change as the input size grows; it remains constant."
+  },
+  {
+    "id": "dsa-1804",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "easy",
+    "text": "What is the base case in a recursive function?",
+    "options": [
+      "The first recursive call made by the function",
+      "The condition that stops further recursive calls",
+      "The maximum depth of the recursion stack",
+      "The initial input passed to the function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The base case is the terminating condition that stops recursion and returns a result directly without further calls."
+  },
+  {
+    "id": "dsa-1805",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "easy",
+    "text": "What distinguishes primitive from non-primitive data types?",
+    "options": [
+      "Primitive types are faster to allocate in memory",
+      "Primitive types are predefined whereas non-primitive types are derived",
+      "Non-primitive types cannot store numeric values",
+      "Primitive types require more memory than non-primitive types"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Primitive data types (int, float, char) are built into the language, while non-primitive types (arrays, lists, trees) are derived or user-defined."
+  },
+  {
+    "id": "dsa-1806",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "easy",
+    "text": "Which notation specifically describes the upper bound of growth rate?",
+    "options": [
+      "Omega notation",
+      "Theta notation",
+      "Big-O notation",
+      "Little-o notation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Big-O notation provides an upper bound on the growth rate of an algorithm, representing the worst-case scenario."
+  },
+  {
+    "id": "dsa-1807",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "easy",
+    "text": "What does it mean for an algorithm to be deterministic?",
+    "options": [
+      "It produces random outputs each time",
+      "It produces the same output for the same input every time",
+      "It requires user input during execution",
+      "It only works with integer data types"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A deterministic algorithm always produces the same result for a given input and follows a fixed sequence of steps."
+  },
+  {
+    "id": "dsa-1808",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "easy",
+    "text": "Which of the following is classified as a static data structure?",
+    "options": [
+      "Linked list",
+      "Array",
+      "Binary search tree",
+      "Hash map"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An array is a static data structure because its size is fixed at the time of creation and cannot change dynamically."
+  },
+  {
+    "id": "dsa-1809",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "easy",
+    "text": "What is the purpose of a flowchart in algorithm design?",
+    "options": [
+      "To compile source code into machine language",
+      "To visually represent the steps of an algorithm",
+      "To measure the runtime of an algorithm",
+      "To allocate memory for data structures"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A flowchart uses standard symbols to provide a visual representation of the logical steps in an algorithm."
+  },
+  {
+    "id": "dsa-1810",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "easy",
+    "text": "What is the time complexity of a simple for loop iterating n times?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A single for loop that iterates n times performs n operations, giving a linear time complexity of O(n)."
+  },
+  {
+    "id": "dsa-1811",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "medium",
+    "text": "What is the result of applying the Master Theorem to T(n) = 4T(n/2) + n?",
+    "options": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(n^2 log n)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Using the Master Theorem with a=4, b=2, c=1: log_b(a)=2 > c=1, so T(n) = O(n^2) by case 1."
+  },
+  {
+    "id": "dsa-1812",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "medium",
+    "text": "What is tail recursion?",
+    "options": [
+      "A recursion where the base case is checked last",
+      "A recursion where the recursive call is the last operation",
+      "A recursion that processes elements from the tail end",
+      "A recursion with multiple base cases at the end"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tail recursion occurs when the recursive call is the final operation in the function, allowing compilers to optimize it into iteration."
+  },
+  {
+    "id": "dsa-1813",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "medium",
+    "text": "What is the space complexity of a recursive function with depth d and constant local storage?",
+    "options": [
+      "O(1)",
+      "O(d)",
+      "O(d^2)",
+      "O(2^d)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Each recursive call uses constant space on the call stack, so d levels of recursion consume O(d) space."
+  },
+  {
+    "id": "dsa-1814",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "medium",
+    "text": "Which recurrence represents binary search's divide and conquer strategy?",
+    "options": [
+      "T(n) = 2T(n/2) + n",
+      "T(n) = T(n/2) + 1",
+      "T(n) = T(n-1) + n",
+      "T(n) = 2T(n-1) + 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Binary search halves the problem and does constant work per step, giving T(n) = T(n/2) + O(1)."
+  },
+  {
+    "id": "dsa-1815",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "medium",
+    "text": "What does amortized analysis measure?",
+    "options": [
+      "The best-case cost of a single operation",
+      "The average cost per operation over a sequence of operations",
+      "The worst-case cost of a single isolated operation",
+      "The space used across all operations combined"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Amortized analysis determines the average time per operation over a worst-case sequence."
+  },
+  {
+    "id": "dsa-1816",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "medium",
+    "text": "What is Theta notation used for in complexity analysis?",
+    "options": [
+      "Describing only the upper bound of growth rate",
+      "Describing only the lower bound of growth rate",
+      "Describing the tight bound of growth rate",
+      "Describing the average case of growth rate"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Theta notation provides an asymptotically tight bound, meaning the function grows at the same rate from above and below."
+  },
+  {
+    "id": "dsa-1817",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "medium",
+    "text": "If f(n) = 3n^2 + 5n + 2, what is its Big-O complexity?",
+    "options": [
+      "O(n)",
+      "O(n^2)",
+      "O(n^3)",
+      "O(3n^2)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Big-O ignores constants and lower-order terms, so 3n^2 + 5n + 2 simplifies to O(n^2)."
+  },
+  {
+    "id": "dsa-1818",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "medium",
+    "text": "What is the substitution method for solving recurrences?",
+    "options": [
+      "Replacing variables with constants to simplify code",
+      "Guessing the solution form and proving it by induction",
+      "Substituting one algorithm for another of lower complexity",
+      "Converting iterative solutions into recursive ones"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The substitution method involves guessing the solution form and using mathematical induction to verify it."
+  },
+  {
+    "id": "dsa-1819",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "medium",
+    "text": "What is the significance of the recursion tree method?",
+    "options": [
+      "It converts recursive algorithms to iterative ones",
+      "It visualizes the cost at each level to sum total work",
+      "It determines the optimal branching factor for trees",
+      "It measures the maximum depth of the call stack"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A recursion tree represents cost at each recursion level, making it easier to sum total work."
+  },
+  {
+    "id": "dsa-1820",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "medium",
+    "text": "What happens when a recursive function lacks a proper base case?",
+    "options": [
+      "It returns zero by default",
+      "It results in infinite recursion or stack overflow",
+      "It automatically converts to an iterative loop",
+      "It terminates after a fixed number of calls"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without a proper base case, recursive calls never terminate, leading to stack overflow."
+  },
+  {
+    "id": "dsa-1821",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "hard",
+    "text": "What is the Akra-Bazzi theorem used for?",
+    "options": [
+      "Proving NP-hardness of optimization problems",
+      "Solving divide-and-conquer recurrences more general than the Master Theorem",
+      "Analyzing the amortized cost of dynamic arrays",
+      "Computing the space complexity of recursive algorithms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Akra-Bazzi theorem generalizes the Master Theorem to handle recurrences with unequal subproblem sizes."
+  },
+  {
+    "id": "dsa-1822",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "hard",
+    "text": "In amortized analysis, what is the potential method?",
+    "options": [
+      "A technique assigning potential energy to data structure states for future costs",
+      "A method calculating the maximum possible runtime of any operation",
+      "A technique estimating best-case performance using probabilistic models",
+      "A method measuring the potential memory usage of each operation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The potential method defines a potential function where amortized cost equals actual cost plus change in potential."
+  },
+  {
+    "id": "dsa-1823",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "hard",
+    "text": "What differentiates little-o from Big-O notation?",
+    "options": [
+      "Little-o provides a tight bound while Big-O provides a loose bound",
+      "Little-o means strictly less than the growth rate while Big-O allows equality",
+      "Little-o is used for space and Big-O for time complexity",
+      "Little-o applies to best case and Big-O to worst case"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Little-o means f(n)/g(n) approaches 0, while Big-O allows f to grow at the same rate as g."
+  },
+  {
+    "id": "dsa-1824",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "hard",
+    "text": "What is the time complexity of naive recursive Fibonacci?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(2^n)",
+      "O(n^2)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Naive recursive Fibonacci makes two calls per invocation with overlapping subproblems, giving O(2^n)."
+  },
+  {
+    "id": "dsa-1825",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "hard",
+    "text": "What is the adversary argument in lower bound proofs?",
+    "options": [
+      "It shows an algorithm is optimal by testing all inputs",
+      "It proves a lower bound by constructing worst-case input adaptively",
+      "It demonstrates average-case complexity by random sampling",
+      "It verifies correctness through formal methods"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The adversary argument proves lower bounds by forcing any algorithm to examine enough information."
+  },
+  {
+    "id": "dsa-1826",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "hard",
+    "text": "What does the decision tree model prove about comparison-based sorting?",
+    "options": [
+      "Any comparison sort can run in O(n) on average",
+      "Comparison-based sorting requires at least O(n log n) comparisons",
+      "Radix sort is always faster than comparison sorts",
+      "Comparison sorts always require O(n^2) in worst case"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A decision tree for n elements needs at least n! leaves, so height >= log(n!) = Theta(n log n)."
+  },
+  {
+    "id": "dsa-1827",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "hard",
+    "text": "What is the Cook-Levin theorem?",
+    "options": [
+      "Every P problem can be solved in logarithmic space",
+      "The Boolean satisfiability problem (SAT) is NP-complete",
+      "Every NP problem has a polynomial-time approximation",
+      "P equals NP if and only if SAT is in P"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Cook-Levin theorem proves SAT is NP-complete: every NP problem reduces to SAT in polynomial time."
+  },
+  {
+    "id": "dsa-1828",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "hard",
+    "text": "What differentiates worst-case from expected-case complexity?",
+    "options": [
+      "Worst-case uses Big-O and expected-case uses Theta",
+      "Worst-case considers all inputs while expected-case averages over a distribution",
+      "Worst-case applies to deterministic and expected-case to recursive algorithms",
+      "Worst-case measures space and expected-case measures time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Worst-case gives maximum cost over all inputs; expected-case averages under a probability distribution."
+  },
+  {
+    "id": "dsa-1829",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "hard",
+    "text": "What is output-sensitive complexity?",
+    "options": [
+      "Complexity depending on the format of output data",
+      "Complexity measured in terms of both input and output size",
+      "Complexity of algorithms producing no output",
+      "Complexity counting only write operations to output"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Output-sensitive algorithms depend on output size too, like convex hull in O(n log h)."
+  },
+  {
+    "id": "dsa-1830",
+    "subjectId": "dsa",
+    "topicId": "foundations",
+    "difficulty": "hard",
+    "text": "What is the accounting method in amortized analysis?",
+    "options": [
+      "Assigning different charges so overcharges pay for future undercharges",
+      "Tracking the exact monetary cost of each operation",
+      "Calculating average cost by dividing total time by operation count",
+      "Measuring memory allocation and deallocation costs separately"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The accounting method overcharges some operations; excess credit pays for future expensive operations."
+  },
+  {
+    "id": "dsa-1831",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "easy",
+    "text": "What is a singly linked list?",
+    "options": [
+      "A list where each node points to both previous and next",
+      "A list where each node contains a pointer to the next node only",
+      "A list stored in contiguous memory locations",
+      "A list that can only store integer values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A singly linked list consists of nodes each having a data field and a pointer to the next node."
+  },
+  {
+    "id": "dsa-1832",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "easy",
+    "text": "What is the time complexity of inserting at the beginning of a linked list?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(1)",
+      "O(n^2)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Inserting at the head only requires updating one pointer, taking constant O(1) time."
+  },
+  {
+    "id": "dsa-1833",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "easy",
+    "text": "Which data structure follows the Last-In-First-Out principle?",
+    "options": [
+      "Queue",
+      "Array",
+      "Stack",
+      "Linked list"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A stack follows LIFO ordering where the most recently added element is removed first."
+  },
+  {
+    "id": "dsa-1834",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "easy",
+    "text": "What operation removes an element from the front of a queue?",
+    "options": [
+      "Push",
+      "Pop",
+      "Enqueue",
+      "Dequeue"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Dequeue removes the front element, following the First-In-First-Out principle."
+  },
+  {
+    "id": "dsa-1835",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "easy",
+    "text": "What is the main disadvantage of arrays compared to linked lists?",
+    "options": [
+      "Arrays cannot store primitive data types",
+      "Arrays have a fixed size that cannot be changed easily",
+      "Arrays do not allow random access of elements",
+      "Arrays use more memory per element than linked lists"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Arrays have a fixed size determined at creation, making resizing costly unlike dynamically growing linked lists."
+  },
+  {
+    "id": "dsa-1836",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "easy",
+    "text": "What does the peek operation do in a stack?",
+    "options": [
+      "Removes the top element from the stack",
+      "Adds a new element to the top of the stack",
+      "Returns the top element without removing it",
+      "Checks if the stack is empty or not"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Peek returns the element at the top of the stack without modifying the stack contents."
+  },
+  {
+    "id": "dsa-1837",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "easy",
+    "text": "What is a doubly linked list?",
+    "options": [
+      "A linked list with two data fields per node",
+      "A linked list where each node has pointers to both next and previous",
+      "A linked list that stores elements in sorted order",
+      "A linked list with two head pointers for fast access"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A doubly linked list has nodes with two pointers: one to the next node and one to the previous node."
+  },
+  {
+    "id": "dsa-1838",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "easy",
+    "text": "Which operation adds an element to a queue?",
+    "options": [
+      "Push",
+      "Dequeue",
+      "Enqueue",
+      "Insert"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Enqueue adds an element to the rear, maintaining First-In-First-Out order."
+  },
+  {
+    "id": "dsa-1839",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "easy",
+    "text": "What is stack overflow?",
+    "options": [
+      "When a stack becomes empty during a pop operation",
+      "When the stack exceeds its maximum capacity",
+      "When two stacks are merged into one",
+      "When the stack pointer becomes corrupted"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Stack overflow occurs when pushing onto a stack that has reached its maximum capacity."
+  },
+  {
+    "id": "dsa-1840",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "easy",
+    "text": "What is the time complexity of accessing the kth element in a singly linked list?",
+    "options": [
+      "O(1)",
+      "O(log k)",
+      "O(k)",
+      "O(n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Accessing the kth element requires traversing k nodes from the head, taking O(k) time."
+  },
+  {
+    "id": "dsa-1841",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "medium",
+    "text": "How can two stacks be used to implement a queue?",
+    "options": [
+      "Push to stack1 and pop from stack2 after transferring when stack2 is empty",
+      "Use stack1 for even elements and stack2 for odd elements",
+      "Alternate pushing between stacks in round-robin fashion",
+      "Push to both stacks simultaneously and pop from either"
+    ],
+    "correctAnswer": 0,
+    "explanation": "By transferring to stack2 only when empty, dequeue operations achieve O(1) amortized time."
+  },
+  {
+    "id": "dsa-1842",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "medium",
+    "text": "What is the advantage of a circular linked list over a singly linked list?",
+    "options": [
+      "It uses less memory per node",
+      "It allows traversal from any node back to itself",
+      "It supports constant-time random access",
+      "It automatically maintains sorted order"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a circular linked list, the last node points back to the first, allowing continuous traversal."
+  },
+  {
+    "id": "dsa-1843",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "medium",
+    "text": "What is the time complexity of deleting a node from mid-doubly linked list given a pointer?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(1)",
+      "O(n log n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "With a direct pointer, deletion takes O(1) since both previous and next pointers are accessible."
+  },
+  {
+    "id": "dsa-1844",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "medium",
+    "text": "What is a priority queue?",
+    "options": [
+      "A queue where elements are served in insertion order",
+      "A queue where elements are served based on priority values",
+      "A queue limiting the number of elements it can hold",
+      "A queue supporting only integer priority values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A priority queue serves elements based on priority rather than insertion order."
+  },
+  {
+    "id": "dsa-1845",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "medium",
+    "text": "How does a dynamic array handle resizing when full?",
+    "options": [
+      "It creates a new array of double size and copies elements",
+      "It deletes the oldest elements to make room",
+      "It links overflow elements using a separate linked list",
+      "It compresses existing elements to fit more data"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dynamic arrays typically double capacity when full, giving O(1) amortized insertion time."
+  },
+  {
+    "id": "dsa-1846",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "medium",
+    "text": "What is the purpose of a sentinel node in a linked list?",
+    "options": [
+      "To store metadata about total list size",
+      "To act as a dummy node simplifying boundary conditions",
+      "To cache the most recently accessed element",
+      "To prevent unauthorized access to list contents"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A sentinel simplifies insertion and deletion at boundaries by eliminating special cases."
+  },
+  {
+    "id": "dsa-1847",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "medium",
+    "text": "What is the time complexity of reversing a singly linked list iteratively?",
+    "options": [
+      "O(n^2)",
+      "O(n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Iteratively reversing requires one pass through all n nodes, adjusting pointers for O(n) time."
+  },
+  {
+    "id": "dsa-1848",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "medium",
+    "text": "What data structure is commonly used to check balanced parentheses?",
+    "options": [
+      "Queue",
+      "Array",
+      "Stack",
+      "Linked list"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A stack matches brackets: push opening brackets and pop when a matching closing bracket appears."
+  },
+  {
+    "id": "dsa-1849",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "medium",
+    "text": "What is a deque (double-ended queue)?",
+    "options": [
+      "A queue storing elements in sorted order",
+      "A queue allowing insertion and deletion at both ends",
+      "A queue with two priority levels",
+      "A queue using two arrays for storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A deque supports insertion and deletion at both front and rear ends."
+  },
+  {
+    "id": "dsa-1850",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "medium",
+    "text": "What advantage does a linked list stack have over an array stack?",
+    "options": [
+      "Linked lists provide faster push and pop operations",
+      "Linked lists do not have a fixed capacity limit",
+      "Linked lists use less memory per element",
+      "Linked lists allow random access to stack elements"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A linked list stack grows dynamically without a predetermined size limit."
+  },
+  {
+    "id": "dsa-1851",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "hard",
+    "text": "What is the XOR linked list technique?",
+    "options": [
+      "Nodes connected using XOR of adjacent addresses",
+      "Data stored in XOR-encrypted format",
+      "XOR operations used for sorting elements",
+      "Even and odd nodes linked separately"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An XOR linked list stores the XOR of previous and next addresses, achieving doubly-linked traversal with single-pointer memory."
+  },
+  {
+    "id": "dsa-1852",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "hard",
+    "text": "What is the amortized time of appending to a dynamic array that doubles?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(1)",
+      "O(sqrt(n))"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Although individual resizes cost O(n), the total cost of n insertions is O(n), giving O(1) amortized."
+  },
+  {
+    "id": "dsa-1853",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "hard",
+    "text": "How can you detect a cycle in a linked list using constant space?",
+    "options": [
+      "Store visited addresses in a hash set",
+      "Use two pointers moving at different speeds",
+      "Reverse the list and check for duplicates",
+      "Count nodes and compare with expected size"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Floyd's algorithm uses slow (1 step) and fast (2 steps) pointers; they meet inside the cycle if one exists."
+  },
+  {
+    "id": "dsa-1854",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "hard",
+    "text": "What is the time complexity of finding a cycle's start using Floyd's algorithm?",
+    "options": [
+      "O(n^2)",
+      "O(n log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "After detection, reset one pointer to head and move both at same speed to find the cycle start in O(n)."
+  },
+  {
+    "id": "dsa-1855",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "hard",
+    "text": "What is a skip list's expected search time complexity?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(1)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A skip list uses multiple levels with probabilistic balancing, achieving expected O(log n) search."
+  },
+  {
+    "id": "dsa-1856",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "hard",
+    "text": "What is the cache performance difference between arrays and linked lists?",
+    "options": [
+      "Linked lists have better cache performance due to pointer locality",
+      "Arrays have better cache performance due to contiguous memory layout",
+      "Both have identical cache performance in modern processors",
+      "Cache performance depends only on stored data size"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Arrays benefit from spatial locality and CPU cache prefetching due to contiguous storage."
+  },
+  {
+    "id": "dsa-1857",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "hard",
+    "text": "How does an unrolled linked list improve performance?",
+    "options": [
+      "By storing multiple elements per node to reduce pointer overhead",
+      "By removing all pointers and using index-based access",
+      "By compressing node data using run-length encoding",
+      "By splitting into sorted sublists for fast merging"
+    ],
+    "correctAnswer": 0,
+    "explanation": "An unrolled linked list stores arrays in each node, reducing pointer overhead and improving cache utilization."
+  },
+  {
+    "id": "dsa-1858",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "hard",
+    "text": "What problem does the lock-free queue solve?",
+    "options": [
+      "Preventing memory leaks in garbage-collected environments",
+      "Allowing multiple threads to enqueue and dequeue without mutex locks",
+      "Ensuring elements are processed in priority order",
+      "Compressing queue data for network transmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lock-free queues use atomic operations (CAS) for concurrent access without blocking."
+  },
+  {
+    "id": "dsa-1859",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "hard",
+    "text": "What is the worst-case space overhead of a skip list?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A skip list uses O(n) expected extra space, with geometrically fewer nodes at each level."
+  },
+  {
+    "id": "dsa-1860",
+    "subjectId": "dsa",
+    "topicId": "linear-ds",
+    "difficulty": "hard",
+    "text": "What is the significance of the gap buffer data structure?",
+    "options": [
+      "It provides O(1) insertions at a movable cursor position in text editors",
+      "It ensures even distribution across hash table buckets",
+      "It bridges gap between stack and queue operations",
+      "It buffers network data gaps during packet loss"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A gap buffer maintains a gap at the cursor position, allowing O(1) local insertions and deletions."
+  },
+  {
+    "id": "dsa-1861",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "easy",
+    "text": "What is a binary tree?",
+    "options": [
+      "A tree where each node has exactly two children",
+      "A tree where each node has at most two children",
+      "A tree storing only binary data values",
+      "A tree with exactly two levels of depth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A binary tree allows each node to have at most two children, called left and right."
+  },
+  {
+    "id": "dsa-1862",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "easy",
+    "text": "What is the root of a tree?",
+    "options": [
+      "The node with the most children",
+      "The topmost node that has no parent",
+      "The deepest node in the leftmost branch",
+      "The node with the smallest data value"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The root is the topmost node with no parent, serving as the starting point for traversals."
+  },
+  {
+    "id": "dsa-1863",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "easy",
+    "text": "What are leaf nodes in a tree?",
+    "options": [
+      "Nodes with exactly one child each",
+      "Nodes that have no children at all",
+      "Nodes at the second level of the tree",
+      "Nodes storing the largest values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Leaf (terminal) nodes have no children, located at the ends of branches."
+  },
+  {
+    "id": "dsa-1864",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "easy",
+    "text": "What is a complete binary tree?",
+    "options": [
+      "A tree where every node has exactly two children",
+      "A tree where all levels are full except possibly the last filling left to right",
+      "A tree where all leaves are at the same level",
+      "A tree containing the maximum possible nodes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A complete binary tree fills all levels except possibly the last, which fills left to right."
+  },
+  {
+    "id": "dsa-1865",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "easy",
+    "text": "What is the maximum number of nodes in a binary tree of height h?",
+    "options": [
+      "2h",
+      "h^2",
+      "2^(h+1) - 1",
+      "2h + 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A binary tree of height h can have at most 2^(h+1) - 1 nodes when fully filled."
+  },
+  {
+    "id": "dsa-1866",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "easy",
+    "text": "What is a graph in data structures?",
+    "options": [
+      "A visual chart showing statistics",
+      "A collection of vertices connected by edges",
+      "A type of balanced binary search tree",
+      "A linear sequence of connected nodes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A graph is a non-linear structure of vertices (nodes) and edges connecting pairs of vertices."
+  },
+  {
+    "id": "dsa-1867",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "easy",
+    "text": "What is the degree of a node in a tree?",
+    "options": [
+      "The level where the node is located",
+      "The number of children that node has",
+      "The total number of edges in the tree",
+      "The depth of the longest path from it"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The degree of a node is the number of children (subtrees) attached to it."
+  },
+  {
+    "id": "dsa-1868",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "easy",
+    "text": "What is a min-heap?",
+    "options": [
+      "A heap where parent is smaller than its children",
+      "A heap where parent is larger than its children",
+      "A heap with the minimum possible nodes",
+      "A heap storing only the smallest half of elements"
+    ],
+    "correctAnswer": 0,
+    "explanation": "In a min-heap, every parent is less than or equal to its children, with minimum at the root."
+  },
+  {
+    "id": "dsa-1869",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "easy",
+    "text": "What is an undirected graph?",
+    "options": [
+      "A graph with only one-way edges",
+      "A graph where edges have no directional association",
+      "A graph containing no cycles at all",
+      "A graph with edges carrying weight values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In an undirected graph, edges have no direction; connections go both ways."
+  },
+  {
+    "id": "dsa-1870",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "easy",
+    "text": "What is the height of a single-node tree?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "2"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A single-node tree has height 0: no edges on the path from root to deepest leaf."
+  },
+  {
+    "id": "dsa-1871",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "medium",
+    "text": "What differentiates a full binary tree from a complete binary tree?",
+    "options": [
+      "Full trees have more nodes than complete trees",
+      "Full tree nodes have 0 or 2 children; complete fills levels left to right",
+      "Complete trees are always full trees",
+      "Full trees allow one-child nodes but complete does not"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Full: every node has 0 or 2 children. Complete: all levels full except last, filled left to right."
+  },
+  {
+    "id": "dsa-1872",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "medium",
+    "text": "How is a binary heap typically stored in memory?",
+    "options": [
+      "As a linked list with parent pointers",
+      "As a hash table with priority keys",
+      "As an array where children of index i are at 2i+1 and 2i+2",
+      "As a doubly linked list sorted by priority"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Binary heaps use arrays: children at 2i+1 and 2i+2, parent at (i-1)/2."
+  },
+  {
+    "id": "dsa-1873",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "medium",
+    "text": "What is the time complexity of inserting into a binary heap?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(1)",
+      "O(log n)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Insertion places the element at the end and bubbles up, taking at most O(log n) time."
+  },
+  {
+    "id": "dsa-1874",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "medium",
+    "text": "What is an adjacency matrix representation?",
+    "options": [
+      "A linked list of neighbors per vertex",
+      "A 2D array where entry (i,j) indicates an edge between i and j",
+      "A sorted list of all edges",
+      "A hash table mapping vertices to degrees"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An adjacency matrix uses M[i][j] = 1 (or weight) for edge from i to j, else 0."
+  },
+  {
+    "id": "dsa-1875",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "medium",
+    "text": "What is the space complexity of an adjacency list for V vertices and E edges?",
+    "options": [
+      "O(V^2)",
+      "O(V + E)",
+      "O(E^2)",
+      "O(V * E)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Adjacency lists use O(V) for vertex array and O(E) for edge entries, totaling O(V + E)."
+  },
+  {
+    "id": "dsa-1876",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "medium",
+    "text": "What BST property makes searching efficient?",
+    "options": [
+      "All nodes are at the same depth level",
+      "Left child values are less than parent, right child values are greater",
+      "Each node stores a hash of its subtree",
+      "The tree is always perfectly balanced after insertion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The BST property enables binary search-style traversal with left smaller and right larger."
+  },
+  {
+    "id": "dsa-1877",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "medium",
+    "text": "What happens during heapify-down in a max-heap?",
+    "options": [
+      "The root is removed and replaced by the last element",
+      "A node is swapped with its largest child until heap property holds",
+      "All elements are re-sorted in descending order",
+      "A new element is inserted at the correct position directly"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Heapify-down swaps a node with its largest child until the max-heap property is restored."
+  },
+  {
+    "id": "dsa-1878",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "medium",
+    "text": "What is a weighted graph?",
+    "options": [
+      "A graph with assigned importance scores per vertex",
+      "A graph where each edge has an associated numerical value",
+      "A graph with more edges than vertices",
+      "A graph where vertex degrees are all equal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a weighted graph, edges carry numerical weights representing distances, costs, or capacities."
+  },
+  {
+    "id": "dsa-1879",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "medium",
+    "text": "What is the time complexity of building a heap from an unsorted array?",
+    "options": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bottom-up heapify takes O(n) since most nodes are near the bottom and need little sifting."
+  },
+  {
+    "id": "dsa-1880",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "medium",
+    "text": "What is the in-order successor in a BST?",
+    "options": [
+      "The parent of the current node",
+      "The smallest node in the right subtree",
+      "The largest node in the left subtree",
+      "The node inserted immediately after"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The in-order successor is the smallest value greater than the current node, found as the leftmost of the right subtree."
+  },
+  {
+    "id": "dsa-1881",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "hard",
+    "text": "What is a Fibonacci heap's advantage over a binary heap?",
+    "options": [
+      "It uses less memory per node",
+      "It supports decrease-key in O(1) amortized time",
+      "It guarantees worst-case O(1) for all operations",
+      "It maintains perfectly balanced structure always"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fibonacci heaps support decrease-key in O(1) amortized, crucial for Dijkstra's and Prim's algorithms."
+  },
+  {
+    "id": "dsa-1882",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "hard",
+    "text": "What is the time complexity of delete-min in a Fibonacci heap?",
+    "options": [
+      "O(1) amortized",
+      "O(log n) amortized",
+      "O(n) amortized",
+      "O(n log n) amortized"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Delete-min runs in O(log n) amortized due to consolidation of trees of equal degree."
+  },
+  {
+    "id": "dsa-1883",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "hard",
+    "text": "What is a threaded binary tree?",
+    "options": [
+      "A tree using multiple processor threads for parallel access",
+      "A tree where null pointers become in-order predecessor/successor links",
+      "A tree where each node stores a thread ID",
+      "A tree linking sibling nodes for level-order traversal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Threaded binary trees replace null pointers with in-order predecessor/successor links for stackless traversal."
+  },
+  {
+    "id": "dsa-1884",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "hard",
+    "text": "What is the worst-case insertion time in an unbalanced BST?",
+    "options": [
+      "O(log n)",
+      "O(1)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An unbalanced BST can degenerate into a linked list with sorted insertions, making insertion O(n)."
+  },
+  {
+    "id": "dsa-1885",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "hard",
+    "text": "What is a binomial heap?",
+    "options": [
+      "A heap based on binomial coefficients for values",
+      "A collection of binomial trees satisfying the heap property",
+      "A heap using binary representation for storage",
+      "A two-level heap with inner and outer queues"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A binomial heap is a collection of binomial trees, each satisfying heap property with no two of same order."
+  },
+  {
+    "id": "dsa-1886",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "hard",
+    "text": "What is the Euler tour technique for trees?",
+    "options": [
+      "It converts tree problems into range query problems on arrays",
+      "It finds the shortest Euler path in a weighted tree",
+      "It detects cycles in undirected graphs",
+      "It balances trees using rotation operations"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Euler tour linearizes a tree into an array for range queries with segment trees or RMQ."
+  },
+  {
+    "id": "dsa-1887",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "hard",
+    "text": "What is a van Emde Boas tree used for?",
+    "options": [
+      "Storing strings with common prefixes",
+      "Supporting priority queue operations in O(log log u) time",
+      "Balancing BSTs after insertions and deletions",
+      "Indexing multidimensional spatial data"
+    ],
+    "correctAnswer": 1,
+    "explanation": "vEB trees support insert, delete, predecessor, and successor in O(log log u) where u is universe size."
+  },
+  {
+    "id": "dsa-1888",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "hard",
+    "text": "Why are adjacency lists better than matrices for sparse graphs?",
+    "options": [
+      "Matrices are always more efficient for sparse graphs",
+      "Lists use O(V+E) space versus O(V^2) for matrices",
+      "Both use identical space for sparse graphs",
+      "Matrices support faster edge insertion for sparse graphs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "For sparse graphs (E << V^2), adjacency lists use significantly less space."
+  },
+  {
+    "id": "dsa-1889",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "hard",
+    "text": "What is a pairing heap?",
+    "options": [
+      "A heap storing elements in pairs for sorting",
+      "A self-adjusting heap with simple structure and efficient amortized operations",
+      "A heap pairing nodes by binary representation",
+      "A combination of min-heap and max-heap"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pairing heaps achieve O(1) amortized insert and O(log n) amortized delete-min with simple implementation."
+  },
+  {
+    "id": "dsa-1890",
+    "subjectId": "dsa",
+    "topicId": "non-linear-ds",
+    "difficulty": "hard",
+    "text": "What is the amortized time of union in a Fibonacci heap?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(sqrt(n))"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Fibonacci heap union concatenates two root lists in O(1), very efficient for frequent merges."
+  },
+  {
+    "id": "dsa-1891",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "easy",
+    "text": "What is linear search?",
+    "options": [
+      "A search dividing data in half each time",
+      "A search checking each element sequentially from start to end",
+      "A search using a hash table for lookups",
+      "A search requiring sorted data to function"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Linear search examines each element one by one until the target is found or the end is reached."
+  },
+  {
+    "id": "dsa-1892",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "easy",
+    "text": "What is the prerequisite for binary search?",
+    "options": [
+      "The array must contain unique elements only",
+      "The array must be sorted in order",
+      "The array must have an even number of elements",
+      "The array must be stored in a linked list"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Binary search requires sorted data to eliminate half the remaining elements each step."
+  },
+  {
+    "id": "dsa-1893",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "easy",
+    "text": "What is the worst-case time complexity of linear search?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In the worst case, linear search checks every element, taking O(n) time."
+  },
+  {
+    "id": "dsa-1894",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "easy",
+    "text": "What is the time complexity of binary search?",
+    "options": [
+      "O(n)",
+      "O(n^2)",
+      "O(1)",
+      "O(log n)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Binary search halves the search space each step, resulting in O(log n)."
+  },
+  {
+    "id": "dsa-1895",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "easy",
+    "text": "In binary search, what happens when the target is less than the middle?",
+    "options": [
+      "Search continues in the right half",
+      "Search continues in the left half",
+      "Search restarts from the beginning",
+      "The middle element is returned"
+    ],
+    "correctAnswer": 1,
+    "explanation": "If target < middle, binary search eliminates the right half and continues left."
+  },
+  {
+    "id": "dsa-1896",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "easy",
+    "text": "What does binary search return when the element is not found?",
+    "options": [
+      "The index of the nearest element",
+      "An indication the element does not exist",
+      "The index of the last element checked",
+      "The middle index of the search range"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When the range is exhausted, binary search returns a sentinel value indicating absence."
+  },
+  {
+    "id": "dsa-1897",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "easy",
+    "text": "Which search is best for small unsorted datasets?",
+    "options": [
+      "Binary search",
+      "Interpolation search",
+      "Linear search",
+      "Exponential search"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Linear search is simplest and most practical for small unsorted datasets."
+  },
+  {
+    "id": "dsa-1898",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "easy",
+    "text": "What is the best-case time complexity of linear search?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(1)",
+      "O(n^2)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Best case: target is the first element, requiring one comparison for O(1)."
+  },
+  {
+    "id": "dsa-1899",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "easy",
+    "text": "How many comparisons does binary search make at most for 1024 elements?",
+    "options": [
+      "10",
+      "1024",
+      "512",
+      "100"
+    ],
+    "correctAnswer": 0,
+    "explanation": "log2(1024) = 10 comparisons maximum."
+  },
+  {
+    "id": "dsa-1900",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "easy",
+    "text": "What is a sentinel in linear search?",
+    "options": [
+      "A special value placed at the end to avoid boundary checks",
+      "A variable counting comparisons made",
+      "A flag indicating search success",
+      "A pointer to the middle element"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A sentinel eliminates the end-of-array check by placing the target at the end."
+  },
+  {
+    "id": "dsa-1901",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "medium",
+    "text": "What is exponential search?",
+    "options": [
+      "Checking exponentially increasing indices then binary searching the range",
+      "Doubling the search key value at each step",
+      "A search only for exponentially growing datasets",
+      "Using exponentiation for hash value computation"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Exponential search checks indices 1,2,4,8,... then binary searches within the found range."
+  },
+  {
+    "id": "dsa-1902",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "medium",
+    "text": "What is the average time of interpolation search on uniform data?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(log log n)",
+      "O(sqrt(n))"
+    ],
+    "correctAnswer": 2,
+    "explanation": "For uniformly distributed sorted data, interpolation search achieves O(log log n) on average."
+  },
+  {
+    "id": "dsa-1903",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "medium",
+    "text": "How does ternary search differ from binary search?",
+    "options": [
+      "Ternary works on unsorted arrays",
+      "Ternary divides the range into three parts instead of two",
+      "Ternary uses three pointers from different directions",
+      "Ternary is always faster than binary search"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ternary search splits into three parts but makes more comparisons than binary search."
+  },
+  {
+    "id": "dsa-1904",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "medium",
+    "text": "What is jump search and its optimal jump size?",
+    "options": [
+      "Random positions with jump log(n)",
+      "Jumping ahead by blocks of sqrt(n) then linear search",
+      "Forward/backward jumps of n/2",
+      "Jumping between sorted sublists of size n/3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Jump search moves in sqrt(n) blocks then does linear search within, giving O(sqrt(n))."
+  },
+  {
+    "id": "dsa-1905",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "medium",
+    "text": "What is the search time in a balanced BST?",
+    "options": [
+      "O(n)",
+      "O(1)",
+      "O(log n)",
+      "O(n log n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A balanced BST has O(log n) height, so search follows a root-to-leaf path."
+  },
+  {
+    "id": "dsa-1906",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "medium",
+    "text": "What is the worst-case time of interpolation search?",
+    "options": [
+      "O(log log n)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "With highly skewed data, interpolation search degrades to O(n)."
+  },
+  {
+    "id": "dsa-1907",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "medium",
+    "text": "How does binary search find the first occurrence of a duplicate?",
+    "options": [
+      "Returns any occurrence requiring post-processing",
+      "Continues searching left even after finding a match",
+      "Automatically returns the first occurrence",
+      "Removes duplicates before searching"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Modified binary search narrows the left boundary after finding the target to locate the leftmost match."
+  },
+  {
+    "id": "dsa-1908",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "medium",
+    "text": "What is Fibonacci search's advantage over binary search?",
+    "options": [
+      "Lower time complexity overall",
+      "Uses addition and subtraction instead of division",
+      "Works on unsorted data efficiently",
+      "Requires less memory for the search range"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fibonacci search avoids division, using only addition/subtraction which can be faster on some hardware."
+  },
+  {
+    "id": "dsa-1909",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "medium",
+    "text": "What determines a search algorithm's space complexity?",
+    "options": [
+      "The input array size",
+      "Additional memory used beyond the input data",
+      "The number of comparisons made",
+      "The size of the element searched for"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Space complexity measures extra memory beyond input, such as stacks or auxiliary structures."
+  },
+  {
+    "id": "dsa-1910",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "medium",
+    "text": "Why is binary search preferred for large sorted arrays?",
+    "options": [
+      "Binary search uses less memory",
+      "It eliminates half the data each step giving O(log n) versus O(n)",
+      "It handles unsorted data efficiently",
+      "It requires fewer lines of code"
+    ],
+    "correctAnswer": 1,
+    "explanation": "O(log n) is dramatically faster than O(n) for large datasets."
+  },
+  {
+    "id": "dsa-1911",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "hard",
+    "text": "What is fractional cascading?",
+    "options": [
+      "Distributing queries across threads fractionally",
+      "Speeding up binary search across multiple sorted lists by sharing information",
+      "Cascading hash functions for collision-free searching",
+      "Fractionally splitting ranges for parallel processing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fractional cascading preprocesses multiple sorted lists so a search in one speeds up searches in others."
+  },
+  {
+    "id": "dsa-1912",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "hard",
+    "text": "What is the lower bound for comparison-based searching in a sorted array?",
+    "options": [
+      "O(1)",
+      "O(log log n)",
+      "O(log n)",
+      "O(sqrt(n))"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Any comparison-based search requires at least log2(n) comparisons in the worst case."
+  },
+  {
+    "id": "dsa-1913",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "hard",
+    "text": "What is the worst-case search time in a skip list?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(n log n)",
+      "O(sqrt(n))"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Although expected O(log n), worst case is O(n) with degenerate random level assignments."
+  },
+  {
+    "id": "dsa-1914",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "hard",
+    "text": "How does van Emde Boas tree achieve O(log log u) search?",
+    "options": [
+      "Using a balanced BST with augmented nodes",
+      "Recursively dividing universe into sqrt(u) clusters",
+      "Hashing into buckets of logarithmic size",
+      "Maintaining a sorted doubly linked list"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A vEB tree divides universe u into sqrt(u) clusters, reducing problem size from u to sqrt(u) at each level."
+  },
+  {
+    "id": "dsa-1915",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "hard",
+    "text": "What is a search tree with implicit keys?",
+    "options": [
+      "Keys computed from node positions rather than stored",
+      "Keys encrypted for secure searching",
+      "All keys hashed before insertion",
+      "Keys derived from parent-child relationships only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Implicit key trees determine keys from positions (e.g., subtree sizes) rather than storing them."
+  },
+  {
+    "id": "dsa-1916",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "hard",
+    "text": "What is the search complexity in an optimal BST?",
+    "options": [
+      "O(1) for all queries",
+      "O(log n) worst case but minimizes expected cost",
+      "O(n) with guaranteed uniform distribution",
+      "O(n log n) across all queries"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An optimal BST minimizes expected search cost given known frequencies, still O(log n) worst case."
+  },
+  {
+    "id": "dsa-1917",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "hard",
+    "text": "What role does the summary structure play in vEB trees?",
+    "options": [
+      "Replaces cluster structures entirely",
+      "Stores min and max of each cluster",
+      "Links all elements in sorted order",
+      "Tracks which clusters are non-empty for fast navigation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The summary is a smaller vEB tree tracking which clusters contain elements, enabling O(log log u) queries."
+  },
+  {
+    "id": "dsa-1918",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "hard",
+    "text": "What is finger search?",
+    "options": [
+      "Starting from a given reference point rather than the root",
+      "Using fingerprint hashing for fast matching",
+      "Optimized for touch-screen input",
+      "Probing at finger-like branching points"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Finger search starts from a given element and finds nearby targets in O(log d) where d is the distance."
+  },
+  {
+    "id": "dsa-1919",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "hard",
+    "text": "What is the rank-select problem?",
+    "options": [
+      "Determining a search algorithm's rank among alternatives",
+      "Supporting count of elements up to a value and finding the kth smallest",
+      "Selecting the best strategy based on data distribution",
+      "Ranking hash functions by collision resistance"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rank returns count of elements <= x; select returns the kth smallest, crucial for compressed structures."
+  },
+  {
+    "id": "dsa-1920",
+    "subjectId": "dsa",
+    "topicId": "searching",
+    "difficulty": "hard",
+    "text": "How does a bloom filter assist in search operations?",
+    "options": [
+      "Provides exact results with zero false positives",
+      "Quickly determines if an element is definitely not in a set",
+      "Compresses search space into a smaller sorted array",
+      "Accelerates binary search by predicting the midpoint"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bloom filters test membership with no false negatives but possible false positives, useful as a pre-filter."
+  },
+  {
+    "id": "dsa-1921",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "easy",
+    "text": "What is the basic idea behind bubble sort?",
+    "options": [
+      "Dividing the array into halves and merging",
+      "Repeatedly swapping adjacent elements if in wrong order",
+      "Selecting the minimum and placing it at the start",
+      "Inserting each element into its correct position"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bubble sort compares and swaps adjacent elements, bubbling larger elements to correct positions."
+  },
+  {
+    "id": "dsa-1922",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "easy",
+    "text": "What is the time complexity of selection sort in all cases?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Selection sort always scans unsorted portion for the minimum, giving O(n^2) regardless of input."
+  },
+  {
+    "id": "dsa-1923",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "easy",
+    "text": "Which sorting algorithm is considered stable?",
+    "options": [
+      "Selection sort",
+      "Heap sort",
+      "Insertion sort",
+      "Quick sort"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Insertion sort is stable: it only moves elements past those strictly greater, preserving equal-key order."
+  },
+  {
+    "id": "dsa-1924",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "easy",
+    "text": "What does it mean for a sort to be in-place?",
+    "options": [
+      "It sorts without comparing elements",
+      "It uses only constant extra memory",
+      "It sorts in descending order only",
+      "It sorts in a single pass"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An in-place sort uses O(1) additional memory beyond the input array."
+  },
+  {
+    "id": "dsa-1925",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "easy",
+    "text": "What is the best-case time complexity of insertion sort?",
+    "options": [
+      "O(n^2)",
+      "O(n log n)",
+      "O(n)",
+      "O(1)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Already sorted input needs one comparison per element, giving O(n) best case."
+  },
+  {
+    "id": "dsa-1926",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "easy",
+    "text": "How does selection sort work?",
+    "options": [
+      "Divides array into sorted/unsorted halves repeatedly",
+      "Finds the minimum from unsorted part and places it at the beginning",
+      "Compares adjacent elements and swaps if needed",
+      "Inserts each new element into a sorted subarray"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Selection sort finds the minimum in the unsorted portion and swaps it to the correct position."
+  },
+  {
+    "id": "dsa-1927",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "easy",
+    "text": "What is the space complexity of bubble sort?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(1)",
+      "O(n^2)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bubble sort is in-place, using only a constant amount of extra space."
+  },
+  {
+    "id": "dsa-1928",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "easy",
+    "text": "Which sorting algorithm builds the sorted array one element at a time?",
+    "options": [
+      "Merge sort",
+      "Quick sort",
+      "Insertion sort",
+      "Heap sort"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Insertion sort inserts each new element into its correct position in the already-sorted portion."
+  },
+  {
+    "id": "dsa-1929",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "easy",
+    "text": "What is the worst-case time complexity of bubble sort?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(2^n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Reverse-ordered input causes maximum swaps, resulting in O(n^2)."
+  },
+  {
+    "id": "dsa-1930",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "easy",
+    "text": "What does a stable sort guarantee?",
+    "options": [
+      "It always runs in O(n log n)",
+      "It preserves relative order of elements with equal keys",
+      "It sorts in both ascending and descending order",
+      "It never performs unnecessary comparisons"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A stable sort maintains original relative order of records with equal keys."
+  },
+  {
+    "id": "dsa-1931",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "medium",
+    "text": "What is the worst-case time complexity of quicksort?",
+    "options": [
+      "O(n log n)",
+      "O(n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Quicksort degrades to O(n^2) when pivots consistently produce highly unbalanced partitions."
+  },
+  {
+    "id": "dsa-1932",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "medium",
+    "text": "Why is merge sort preferred for linked lists?",
+    "options": [
+      "Better time complexity for linked lists",
+      "Does not need random access, uses sequential operations",
+      "Quicksort cannot be implemented for linked lists",
+      "Merge sort uses less memory for linked lists"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Merge sort works well with linked lists since it only needs sequential access for merging."
+  },
+  {
+    "id": "dsa-1933",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "medium",
+    "text": "What partitioning scheme does quicksort use?",
+    "options": [
+      "Divides into three equal parts always",
+      "Places elements smaller than pivot before it and larger after",
+      "Splits even/odd indexed elements separately",
+      "Groups elements by digit values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Quicksort partitions so elements less than pivot go left, greater go right."
+  },
+  {
+    "id": "dsa-1934",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "medium",
+    "text": "What advantage does counting sort have?",
+    "options": [
+      "Works on any data type including strings",
+      "Runs in O(n+k) time when range k is small",
+      "Uses less memory than any comparison sort",
+      "Is always stable without extra effort"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Counting sort achieves O(n+k) by counting occurrences, faster than O(n log n) when k is small."
+  },
+  {
+    "id": "dsa-1935",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "medium",
+    "text": "How does radix sort achieve linear time?",
+    "options": [
+      "Using a hash table for one-pass sorting",
+      "Sorting digit by digit from least to most significant using a stable sort",
+      "Recursively dividing until single elements remain",
+      "Selecting pivots guaranteeing balanced partitions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Radix sort processes digits using a stable sort like counting sort, taking O(d(n+k)) time."
+  },
+  {
+    "id": "dsa-1936",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "medium",
+    "text": "What is the time complexity of heap sort?",
+    "options": [
+      "O(n)",
+      "O(n^2)",
+      "O(n log n)",
+      "O(log n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Heap sort builds a heap in O(n) and extracts max n times at O(log n) each, giving O(n log n)."
+  },
+  {
+    "id": "dsa-1937",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "medium",
+    "text": "What is the key difference between merge sort and quicksort?",
+    "options": [
+      "Merge sort is iterative, quicksort is recursive",
+      "Merge sort works during merging, quicksort during partitioning",
+      "Merge sort only works on integers",
+      "Merge sort uses hashing, quicksort uses comparison"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Merge sort splits trivially and merges; quicksort partitions and combines trivially."
+  },
+  {
+    "id": "dsa-1938",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "medium",
+    "text": "What is median-of-three pivot selection for?",
+    "options": [
+      "Guaranteeing O(n log n) worst case",
+      "Reducing worst-case likelihood by choosing a better pivot",
+      "Eliminating the partition function",
+      "Ensuring the pivot is the exact median"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Median-of-three picks the median of first, middle, last elements to avoid unbalanced partitions."
+  },
+  {
+    "id": "dsa-1939",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "medium",
+    "text": "Why is insertion sort efficient for nearly sorted arrays?",
+    "options": [
+      "It skips elements already in position",
+      "Each element moves only a few positions, giving near O(n)",
+      "It detects sorted subarrays and skips them",
+      "It uses binary search for insertion positions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In nearly sorted arrays, each element is close to its final position, so inner loop runs few times."
+  },
+  {
+    "id": "dsa-1940",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "medium",
+    "text": "What is shell sort?",
+    "options": [
+      "A sort using shell scripts for external sorting",
+      "A generalized insertion sort comparing elements separated by a gap sequence",
+      "A sort based on the shell data structure",
+      "A sort wrapping around the array circularly"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Shell sort improves insertion sort by comparing far-apart elements using a decreasing gap sequence."
+  },
+  {
+    "id": "dsa-1941",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "hard",
+    "text": "What is the Sedgewick gap sequence's significance in shell sort?",
+    "options": [
+      "Guarantees O(n log n) worst case",
+      "Provides gaps achieving O(n^(4/3)) worst-case time",
+      "Generates random gaps for probabilistic guarantees",
+      "Produces power-of-two gaps for cache efficiency"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sedgewick's gap sequence achieves O(n^(4/3)) worst case, among the best known."
+  },
+  {
+    "id": "dsa-1942",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "hard",
+    "text": "What is introsort?",
+    "options": [
+      "A sort using interpolation to place elements",
+      "A hybrid starting with quicksort then switching to heapsort when depth exceeds a limit",
+      "A sort designed for integers only",
+      "A sort introspecting data distribution to choose between counting and radix sort"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Introsort switches to heapsort when recursion depth exceeds 2*log(n), guaranteeing O(n log n) worst case."
+  },
+  {
+    "id": "dsa-1943",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "hard",
+    "text": "What is Timsort's worst-case time complexity?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(n log^2 n)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Timsort achieves O(n log n) worst case by merging natural runs with galloping mode."
+  },
+  {
+    "id": "dsa-1944",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "hard",
+    "text": "What is a sorting network?",
+    "options": [
+      "A distributed system for sorting across machines",
+      "A fixed sequence of comparators sorting any input of given size",
+      "A neural network for sorted orderings",
+      "A network topology for parallel data transmission"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A sorting network is a fixed compare-and-swap sequence that correctly sorts any input of size n."
+  },
+  {
+    "id": "dsa-1945",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "hard",
+    "text": "What is the AKS sorting network's depth?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(log n)",
+      "O(log^2 n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "AKS achieves optimal O(log n) depth, though with a very large constant factor."
+  },
+  {
+    "id": "dsa-1946",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "hard",
+    "text": "How do sort lower bounds relate to information theory?",
+    "options": [
+      "Each comparison gains one bit; log2(n!) bits needed to determine the permutation",
+      "Information theory proves sorts cannot be parallelized",
+      "Input entropy determines the upper bound of sorting time",
+      "Stable sorts always require more comparisons"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Each comparison yields one bit; distinguishing n! permutations requires log2(n!) = Theta(n log n) bits."
+  },
+  {
+    "id": "dsa-1947",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "hard",
+    "text": "What is dual-pivot quicksort used in Java?",
+    "options": [
+      "A quicksort using two pivots to partition into three parts",
+      "A quicksort running two sorts and merging results",
+      "A quicksort with two recursive calls using same pivot",
+      "A quicksort sorting even/odd elements separately"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dual-pivot creates three partitions (< p1, between, > p2), achieving fewer swaps on average."
+  },
+  {
+    "id": "dsa-1948",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "hard",
+    "text": "What is adaptive sorting?",
+    "options": [
+      "Sorts adapting to hardware architectures",
+      "Sorts whose performance improves when input has existing order",
+      "Sorts changing comparison function during execution",
+      "Sorts adapting memory usage to available RAM"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Adaptive sorts exploit existing order (inversions, runs), like Timsort achieving O(n) on nearly sorted data."
+  },
+  {
+    "id": "dsa-1949",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "hard",
+    "text": "What is the optimal number of comparisons to sort 5 elements?",
+    "options": [
+      "5",
+      "7",
+      "8",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Exactly 7 comparisons are necessary and sufficient, matching ceil(log2(5!)) = 7."
+  },
+  {
+    "id": "dsa-1950",
+    "subjectId": "dsa",
+    "topicId": "sorting",
+    "difficulty": "hard",
+    "text": "What is patience sorting's connection to LIS?",
+    "options": [
+      "Sorts data in arrival order",
+      "Uses card game piles where pile count equals LIS length",
+      "Waits for all data before sorting",
+      "Repeatedly finds and removes the minimum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Patience sorting places elements into piles following card game rules; pile count equals the longest increasing subsequence length."
+  },
+  {
+    "id": "dsa-1951",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "easy",
+    "text": "What is a hash function?",
+    "options": [
+      "A function encrypting data for secure storage",
+      "A function mapping data to a fixed-size value or index",
+      "A function sorting elements by hash codes",
+      "A function compressing data for storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A hash function maps input data to a fixed-size output, typically an index in a hash table."
+  },
+  {
+    "id": "dsa-1952",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "easy",
+    "text": "What is a collision in hashing?",
+    "options": [
+      "When a hash table runs out of space",
+      "When two different keys produce the same hash value",
+      "When the hash function produces a negative index",
+      "When a key is inserted into a full bucket"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A collision occurs when two distinct keys map to the same hash table index."
+  },
+  {
+    "id": "dsa-1953",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "easy",
+    "text": "What is the average time of a hash table lookup?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(1)",
+      "O(n^2)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "With a good hash function and low load factor, lookups take O(1) average time."
+  },
+  {
+    "id": "dsa-1954",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "easy",
+    "text": "What is chaining in collision resolution?",
+    "options": [
+      "Linking multiple hash tables together",
+      "Storing colliding elements in a linked list at the same index",
+      "Creating a chain of hash functions",
+      "Moving colliding elements to the next index"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chaining maintains a linked list at each slot for all elements mapping to that slot."
+  },
+  {
+    "id": "dsa-1955",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "easy",
+    "text": "What is a hash table?",
+    "options": [
+      "A table storing elements sorted by key values",
+      "A data structure using hash functions for fast key-value access",
+      "A table of hash functions for encryption",
+      "A lookup table for data type conversions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A hash table stores key-value pairs with a hash function for fast insertion, deletion, and lookup."
+  },
+  {
+    "id": "dsa-1956",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "easy",
+    "text": "What is the load factor of a hash table?",
+    "options": [
+      "The maximum elements the table can store",
+      "The ratio of stored elements to total table size",
+      "The time to insert one element",
+      "The percentage of collisions occurred"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Load factor is n/m (stored elements / table size), indicating table fullness."
+  },
+  {
+    "id": "dsa-1957",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "easy",
+    "text": "What is a desirable hash function property?",
+    "options": [
+      "Always returning the same value for any input",
+      "Distributing keys uniformly across the table",
+      "Producing output larger than input size",
+      "Only working with numeric keys"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Good hash functions distribute keys uniformly to minimize collisions."
+  },
+  {
+    "id": "dsa-1958",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "easy",
+    "text": "What happens when searching for an absent key with chaining?",
+    "options": [
+      "The hash table throws an error",
+      "The chain at the hashed index is searched finding nothing",
+      "The last inserted element is returned",
+      "The key is automatically inserted"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The hash function computes the index, the chain is searched, and absence is reported if not found."
+  },
+  {
+    "id": "dsa-1959",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "easy",
+    "text": "What is the division method of hashing?",
+    "options": [
+      "Dividing the key by itself for a value of one",
+      "Computing hash as key modulo table size",
+      "Dividing the table into equal partitions",
+      "Using long division to convert to binary"
+    ],
+    "correctAnswer": 1,
+    "explanation": "h(k) = k mod m, where m is table size, typically chosen as a prime number."
+  },
+  {
+    "id": "dsa-1960",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "easy",
+    "text": "What is the worst-case time of a hash table lookup?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Worst case: all keys hash to one slot, requiring O(n) chain traversal."
+  },
+  {
+    "id": "dsa-1961",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "medium",
+    "text": "What is double hashing?",
+    "options": [
+      "Applying the same hash function twice",
+      "Using two different hash functions for the probe sequence",
+      "Maintaining two separate hash tables",
+      "Hashing the output of one hash function with another"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Double hashing uses a second hash function for probe step size, reducing clustering."
+  },
+  {
+    "id": "dsa-1962",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "medium",
+    "text": "How do linear probing and quadratic probing differ?",
+    "options": [
+      "Linear checks adjacent slots; quadratic checks at quadratic intervals",
+      "Linear is faster but quadratic uses less memory",
+      "Linear works for integer keys only",
+      "Linear uses chaining while quadratic uses open addressing"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Linear probing: h+1,h+2,...; quadratic: h+1,h+4,h+9,... to reduce primary clustering."
+  },
+  {
+    "id": "dsa-1963",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "medium",
+    "text": "What is primary clustering in open addressing?",
+    "options": [
+      "Grouping similar keys for faster access",
+      "Long runs of occupied slots forming with linear probing",
+      "Organizing the table into key-range clusters",
+      "Initial element placement before rehashing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Primary clustering: linear probing creates long occupied runs, increasing average probe length."
+  },
+  {
+    "id": "dsa-1964",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "medium",
+    "text": "What triggers rehashing?",
+    "options": [
+      "First collision occurrence",
+      "Load factor exceeding a threshold",
+      "Hash function producing a negative value",
+      "Duplicate key insertion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rehashing triggers when load factor exceeds a threshold (commonly 0.7), creating a larger table."
+  },
+  {
+    "id": "dsa-1965",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "medium",
+    "text": "What is the multiplication method of hashing?",
+    "options": [
+      "Multiplying key by table size directly",
+      "Multiplying key by a constant, taking fractional part, scaling by table size",
+      "Using repeated multiplication for distribution",
+      "Multiplying hash values of substrings"
+    ],
+    "correctAnswer": 1,
+    "explanation": "h(k) = floor(m * (kA mod 1)) where A is a constant like the golden ratio."
+  },
+  {
+    "id": "dsa-1966",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "medium",
+    "text": "Why choose a prime number as hash table size?",
+    "options": [
+      "Primes make hash functions run faster",
+      "Prime sizes distribute keys more uniformly reducing clustering",
+      "Primes prevent the table from becoming full",
+      "Prime sizes guarantee no collisions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Prime table size reduces modulo patterns, distributing keys more uniformly."
+  },
+  {
+    "id": "dsa-1967",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "medium",
+    "text": "What is Robin Hood hashing?",
+    "options": [
+      "Stealing slots from rich buckets for poor ones",
+      "Displacing elements closer to home to reduce probe length variance",
+      "Hashing with a Robin Hood cipher",
+      "Distributing elements equally across positions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Robin Hood hashing reduces variance by displacing elements with shorter probe distances."
+  },
+  {
+    "id": "dsa-1968",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "medium",
+    "text": "What is the expected probe count for successful search with linear probing at load alpha?",
+    "options": [
+      "1/(1-alpha)",
+      "(1/2)(1 + 1/(1-alpha))",
+      "alpha * n",
+      "log(1/alpha)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Under uniform hashing, approximately (1/2)(1 + 1/(1-alpha)) probes for a successful search."
+  },
+  {
+    "id": "dsa-1969",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "medium",
+    "text": "What is universal hashing?",
+    "options": [
+      "A single hash function for all data types",
+      "Randomly selecting from a hash function family for good average performance",
+      "A hash function standardized across languages",
+      "Hashing with every function and taking the minimum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Universal hashing randomly selects from a designed family, ensuring expected collisions <= 1/m for any pair."
+  },
+  {
+    "id": "dsa-1970",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "medium",
+    "text": "What is the advantage of cuckoo hashing?",
+    "options": [
+      "It guarantees worst-case O(1) lookup time",
+      "It never requires rehashing",
+      "It uses a single hash function",
+      "It handles deletions fastest"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cuckoo hashing uses two hash functions, guaranteeing O(1) lookup since keys are in at most two locations."
+  },
+  {
+    "id": "dsa-1971",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "hard",
+    "text": "What is the expected insertion time for cuckoo hashing?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(1) amortized",
+      "O(sqrt(n))"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cuckoo hashing achieves O(1) amortized expected insertion despite possible displacement chains."
+  },
+  {
+    "id": "dsa-1972",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "hard",
+    "text": "What is consistent hashing?",
+    "options": [
+      "A scheme always producing the same hash for same input",
+      "A distributed technique minimizing key redistribution when nodes change",
+      "Making hash functions deterministic across platforms",
+      "Ensuring hash values are consistently increasing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Consistent hashing maps keys and nodes onto a ring, redistributing only ~K/n keys on node changes."
+  },
+  {
+    "id": "dsa-1973",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "hard",
+    "text": "What is a perfect hash function?",
+    "options": [
+      "A hash function with no computational overhead",
+      "A function mapping n keys to n distinct values with no collisions",
+      "A function producing uniformly random output",
+      "A function working for all possible key sets"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A perfect hash maps a specific set of n keys to n distinct slots with zero collisions."
+  },
+  {
+    "id": "dsa-1974",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "hard",
+    "text": "What is the FKS hashing scheme?",
+    "options": [
+      "Two-level hashing achieving O(1) worst-case lookups with O(n) space",
+      "A scheme using Fibonacci numbers for probes",
+      "A scheme combining linear probing with chaining",
+      "A randomized scheme for approximate nearest neighbor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FKS uses two-level universal hashing for O(1) worst-case lookup with O(n) total space."
+  },
+  {
+    "id": "dsa-1975",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "hard",
+    "text": "How does dynamic resizing relate to amortized hash table analysis?",
+    "options": [
+      "Each resize takes O(1) with no amortization needed",
+      "Doubling ensures O(1) amortized insert despite O(n) resize cost",
+      "Amortized analysis proves resizing is always O(log n)",
+      "Resizing eliminates the need for hash functions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Doubling spreads the O(n) copy cost across n insertions, yielding O(1) amortized insertion."
+  },
+  {
+    "id": "dsa-1976",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "hard",
+    "text": "What is tabulation hashing?",
+    "options": [
+      "Storing precomputed hash tables for each byte of the key",
+      "Tabulating collision statistics for adaptive rehashing",
+      "Using truth tables to compute hash values",
+      "A scheme for tabular database structures"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tabulation hashing XORs precomputed random values for each byte, providing 3-wise independence."
+  },
+  {
+    "id": "dsa-1977",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "hard",
+    "text": "What is the birthday paradox's relevance to hashing?",
+    "options": [
+      "Hash tables always need more than n slots for n elements",
+      "Collisions are likely even with far fewer elements than slots",
+      "It determines optimal constants for hash functions",
+      "Hash functions cannot be uniformly distributed"
+    ],
+    "correctAnswer": 1,
+    "explanation": "With m slots, a collision becomes probable after ~sqrt(m) insertions, informing table size choices."
+  },
+  {
+    "id": "dsa-1978",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "hard",
+    "text": "What is locality-sensitive hashing (LSH)?",
+    "options": [
+      "A technique optimized for CPU cache locality",
+      "A family where similar items hash to the same bucket with high probability",
+      "A function preserving memory address locality",
+      "A scheme for local area network routing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "LSH hashes similar items together, used for approximate nearest neighbor in high dimensions."
+  },
+  {
+    "id": "dsa-1979",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "hard",
+    "text": "What differentiates 2-choice from cuckoo hashing?",
+    "options": [
+      "2-choice inserts into less loaded of two locations; cuckoo displaces existing elements",
+      "Cuckoo uses two choices while 2-choice uses one",
+      "2-choice guarantees O(1) lookup while cuckoo does not",
+      "They are the same algorithm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "2-choice places in the less loaded bucket without displacement; cuckoo may evict existing elements."
+  },
+  {
+    "id": "dsa-1980",
+    "subjectId": "dsa",
+    "topicId": "hashing",
+    "difficulty": "hard",
+    "text": "What is hopscotch hashing?",
+    "options": [
+      "Elements hop between two separate tables",
+      "Displacement bounded to a small neighborhood around the home slot",
+      "Hop count used as secondary hash function",
+      "Alternating between open addressing and chaining"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hopscotch ensures elements stay near their home slot, combining cache-friendliness with good worst-case performance."
+  },
+  {
+    "id": "dsa-1981",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "easy",
+    "text": "What is in-order traversal of a binary tree?",
+    "options": [
+      "Visit root, left subtree, right subtree",
+      "Visit left subtree, root, right subtree",
+      "Visit left subtree, right subtree, root",
+      "Visit nodes level by level"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In-order visits left, root, right, producing sorted output for BSTs."
+  },
+  {
+    "id": "dsa-1982",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "easy",
+    "text": "What is pre-order traversal of a binary tree?",
+    "options": [
+      "Visit root, left subtree, right subtree",
+      "Visit left subtree, root, right subtree",
+      "Visit left subtree, right subtree, root",
+      "Visit all leaf nodes before internals"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pre-order visits root first, then left subtree, then right subtree."
+  },
+  {
+    "id": "dsa-1983",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "easy",
+    "text": "What is post-order traversal of a binary tree?",
+    "options": [
+      "Visit root, left subtree, right subtree",
+      "Visit left subtree, root, right subtree",
+      "Visit left subtree, right subtree, root",
+      "Visit nodes at even levels first"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Post-order visits left, right, then root."
+  },
+  {
+    "id": "dsa-1984",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "easy",
+    "text": "What is level-order traversal also known as?",
+    "options": [
+      "Depth-first traversal",
+      "Breadth-first traversal",
+      "Reverse in-order traversal",
+      "Diagonal traversal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Level-order visits nodes level by level, a breadth-first approach using a queue."
+  },
+  {
+    "id": "dsa-1985",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "easy",
+    "text": "How do you find the height of a binary tree?",
+    "options": [
+      "Count the number of nodes",
+      "Recursively compute max of left and right heights plus one",
+      "Count the leaf nodes",
+      "Compute sum of all node values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Height = 1 + max(left height, right height), base case returning -1 for null."
+  },
+  {
+    "id": "dsa-1986",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "easy",
+    "text": "What data structure is used for level-order traversal?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Heap",
+      "Hash table"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A queue processes nodes in FIFO order for level-by-level traversal."
+  },
+  {
+    "id": "dsa-1987",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "easy",
+    "text": "How do you count total nodes in a binary tree?",
+    "options": [
+      "Height multiplied by branching factor",
+      "Recursively count left and right subtrees and add one for root",
+      "Count only leaves and multiply by two",
+      "Traverse leftmost path and double the count"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Total = 1 (root) + count(left) + count(right)."
+  },
+  {
+    "id": "dsa-1988",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "easy",
+    "text": "What is the time complexity of traversing all n nodes?",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(n^2)",
+      "O(n log n)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Any complete traversal visits each node exactly once for O(n)."
+  },
+  {
+    "id": "dsa-1989",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "easy",
+    "text": "What does in-order traversal of a BST produce?",
+    "options": [
+      "Elements in reverse sorted order",
+      "Elements in sorted ascending order",
+      "Elements grouped by level",
+      "Elements in insertion order"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In-order of a BST produces ascending order: left (smaller), root, right (larger)."
+  },
+  {
+    "id": "dsa-1990",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "easy",
+    "text": "What is the space complexity of recursive tree traversal?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(h) where h is the height",
+      "O(n^2)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Recursive traversal uses call stack proportional to height h."
+  },
+  {
+    "id": "dsa-1991",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "medium",
+    "text": "What is Morris in-order traversal?",
+    "options": [
+      "Uses parent pointers for navigation",
+      "Uses threading for O(1) space without a stack",
+      "Optimized for perfectly balanced trees only",
+      "Processes nodes in reverse order"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Morris traversal creates temporary threaded links for stackless O(1) space traversal."
+  },
+  {
+    "id": "dsa-1992",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "medium",
+    "text": "How does AVL rotation maintain balance?",
+    "options": [
+      "By swapping parent and child values",
+      "By restructuring subtree links to restore height-balance",
+      "By removing and reinserting the unbalanced node",
+      "By redistributing all elements evenly"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AVL rotations restructure links to restore the property that heights differ by at most 1."
+  },
+  {
+    "id": "dsa-1993",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "medium",
+    "text": "What differentiates left from right rotation?",
+    "options": [
+      "Left moves root down-left, right down-right",
+      "Left promotes right child to root, right promotes left child",
+      "Left only for left-heavy trees and vice versa",
+      "Left reduces height, right increases it"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Left rotation makes right child the new root; right rotation makes left child the root."
+  },
+  {
+    "id": "dsa-1994",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "medium",
+    "text": "What is the lowest common ancestor (LCA)?",
+    "options": [
+      "Node with smallest value that is ancestor of both",
+      "Deepest node that is ancestor of both given nodes",
+      "The root which is always ancestor of all",
+      "Parent node directly shared by both"
+    ],
+    "correctAnswer": 1,
+    "explanation": "LCA is the deepest node that has both given nodes as descendants."
+  },
+  {
+    "id": "dsa-1995",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "medium",
+    "text": "How do you validate a binary search tree?",
+    "options": [
+      "Verify every node has at most two children",
+      "Perform in-order traversal checking values are strictly increasing",
+      "Check that root is the median value",
+      "Verify leaves have no children"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A valid BST produces strictly increasing values on in-order traversal."
+  },
+  {
+    "id": "dsa-1996",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "medium",
+    "text": "What is the time complexity of Red-Black tree insertion?",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(1)",
+      "O(log n)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Red-Black insertion: O(log n) to find position plus O(log n) for rotations and recolorings."
+  },
+  {
+    "id": "dsa-1997",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "medium",
+    "text": "What is the diameter of a binary tree?",
+    "options": [
+      "Number of nodes on the longest path",
+      "Number of edges on the longest path between any two nodes",
+      "Maximum depth of the leftmost branch",
+      "Difference between max and min node values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Diameter is the longest path (in edges) between any two nodes, which may not pass through the root."
+  },
+  {
+    "id": "dsa-1998",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "medium",
+    "text": "How does a B-tree differ from a BST?",
+    "options": [
+      "B-trees store data only in leaves",
+      "B-trees have nodes with multiple keys and children for disk efficiency",
+      "B-trees are always unbalanced",
+      "B-trees use hashing instead of comparison"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B-tree nodes store multiple keys and children, minimizing disk I/O by reducing height."
+  },
+  {
+    "id": "dsa-1999",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "medium",
+    "text": "What is a segment tree used for?",
+    "options": [
+      "Segmenting a tree into equal subtrees",
+      "Answering range queries and supporting updates efficiently",
+      "Storing line segments for geometry",
+      "Dividing arrays for parallel processing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Segment trees support range queries (sum, min, max) and updates in O(log n)."
+  },
+  {
+    "id": "dsa-2000",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "medium",
+    "text": "What is lazy propagation in a segment tree?",
+    "options": [
+      "Delaying node creation until query access",
+      "Deferring updates to children until they are needed",
+      "Slowly building the tree level by level",
+      "Caching query results"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lazy propagation defers range updates, pushing down only when nodes are accessed."
+  },
+  {
+    "id": "dsa-2001",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "hard",
+    "text": "What is a splay tree's amortized time per operation?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(sqrt(n))"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Splay trees achieve O(log n) amortized via splaying, moving accessed nodes to the root."
+  },
+  {
+    "id": "dsa-2002",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "hard",
+    "text": "What is heavy-light decomposition used for?",
+    "options": [
+      "Decomposing into heavy/light nodes for memory optimization",
+      "Decomposing tree paths into chains for O(log^2 n) path queries",
+      "Splitting heavy trees for parallel processing",
+      "Classifying edges by weight for MST"
+    ],
+    "correctAnswer": 1,
+    "explanation": "HLD decomposes into heavy-edge chains, allowing path queries via O(log n) chains with segment trees."
+  },
+  {
+    "id": "dsa-2003",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "hard",
+    "text": "What is a link-cut tree?",
+    "options": [
+      "Supports link and cut in O(log n) amortized time",
+      "Links nodes to nearest cut vertex",
+      "A tree for network flow with link constraints",
+      "A B-tree variant for disk block operations"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Link-cut trees maintain dynamic forests supporting link, cut, and path queries in O(log n) amortized."
+  },
+  {
+    "id": "dsa-2004",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "hard",
+    "text": "What is a Cartesian tree's relationship to an array?",
+    "options": [
+      "Stores Cartesian coordinate pairs for 2D queries",
+      "A heap-ordered tree whose in-order traversal yields the original array",
+      "Built from Cartesian products of sorted arrays",
+      "Stores distances between elements in Cartesian space"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Cartesian tree satisfies min-heap property and its in-order traversal gives the original sequence."
+  },
+  {
+    "id": "dsa-2005",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "hard",
+    "text": "What is the time to construct a Cartesian tree from an array?",
+    "options": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(n log^2 n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A stack-based algorithm processes elements left to right in O(n)."
+  },
+  {
+    "id": "dsa-2006",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "hard",
+    "text": "What is an Euler tour tree?",
+    "options": [
+      "Represents Euler tour of a graph for bridge detection",
+      "A balanced BST of the Euler tour for dynamic forest operations",
+      "Visits every edge once for path counting",
+      "Derived from Euler's formula for planar graphs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ETT stores a tree's Euler tour in a balanced BST for O(log n) dynamic operations."
+  },
+  {
+    "id": "dsa-2007",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "hard",
+    "text": "What is a persistent segment tree?",
+    "options": [
+      "Saves all previous versions after each update",
+      "Stored permanently on disk for crash recovery",
+      "Maintains same structure across rebuilds",
+      "Has persistent connections to other structures"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A persistent segment tree creates new versions by copying only the O(log n) affected path."
+  },
+  {
+    "id": "dsa-2008",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "hard",
+    "text": "What is centroid decomposition?",
+    "options": [
+      "Repeatedly finding and removing the centroid node",
+      "Finding the center minimizing max distance to all",
+      "Splitting by edge removal into equal components",
+      "Decomposing by centrality metric"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Centroid decomposition recursively removes centroids (no subtree > n/2), useful for path queries."
+  },
+  {
+    "id": "dsa-2009",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "hard",
+    "text": "What is the query time for LCA with sparse table?",
+    "options": [
+      "O(log n) query, O(n) preprocessing",
+      "O(1) query, O(n log n) preprocessing",
+      "O(sqrt(n)) query, O(n) preprocessing",
+      "O(log^2 n) query, O(n log n) preprocessing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Euler tour + RMQ sparse table gives O(1) queries after O(n log n) preprocessing."
+  },
+  {
+    "id": "dsa-2010",
+    "subjectId": "dsa",
+    "topicId": "tree-algo",
+    "difficulty": "hard",
+    "text": "What is a treap and how does it stay balanced?",
+    "options": [
+      "Tree-heap hybrid using random priorities for expected O(log n) height",
+      "A tree adapting structure based on access patterns",
+      "A tree-queue combination for BFS",
+      "A trie with heap properties for string sorting"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A treap assigns random priorities, maintaining BST on keys and heap on priorities for expected O(log n) height."
+  },
+  {
+    "id": "dsa-2011",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "easy",
+    "text": "What is BFS (Breadth-First Search)?",
+    "options": [
+      "Explores the deepest path first",
+      "Explores all neighbors at current depth before going deeper",
+      "Uses a stack for exploration",
+      "Finds minimum spanning trees"
+    ],
+    "correctAnswer": 1,
+    "explanation": "BFS explores all vertices at current depth before moving deeper, using a queue."
+  },
+  {
+    "id": "dsa-2012",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "easy",
+    "text": "What is DFS (Depth-First Search)?",
+    "options": [
+      "Explores as deep as possible before backtracking",
+      "Visits all neighbors before proceeding",
+      "Finds shortest paths in weighted graphs",
+      "Detects strongly connected components only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DFS explores as far as possible along each branch before backtracking."
+  },
+  {
+    "id": "dsa-2013",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "easy",
+    "text": "What data structure does BFS use?",
+    "options": [
+      "Stack",
+      "Queue",
+      "Heap",
+      "Hash table"
+    ],
+    "correctAnswer": 1,
+    "explanation": "BFS uses a queue for level-by-level exploration order."
+  },
+  {
+    "id": "dsa-2014",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "easy",
+    "text": "What data structure does DFS typically use?",
+    "options": [
+      "Queue",
+      "Heap",
+      "Stack or recursion",
+      "Priority queue"
+    ],
+    "correctAnswer": 2,
+    "explanation": "DFS uses a stack (explicit or via recursion call stack) for path tracking."
+  },
+  {
+    "id": "dsa-2015",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "easy",
+    "text": "What is a connected graph?",
+    "options": [
+      "Every vertex has the same degree",
+      "There is a path between every pair of vertices",
+      "It contains at least one cycle",
+      "All edges have the same weight"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A connected graph has a path between every pair of vertices."
+  },
+  {
+    "id": "dsa-2016",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "easy",
+    "text": "What is the time complexity of BFS with V vertices and E edges?",
+    "options": [
+      "O(V)",
+      "O(E)",
+      "O(V + E)",
+      "O(V * E)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "BFS visits each vertex once and examines each edge once: O(V + E)."
+  },
+  {
+    "id": "dsa-2017",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "easy",
+    "text": "What is a cycle in a graph?",
+    "options": [
+      "An edge connecting a vertex to itself",
+      "A path starting and ending at the same vertex",
+      "A path visiting every vertex once",
+      "A set of edges forming a tree"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A cycle starts from a vertex and returns to it without repeating edges."
+  },
+  {
+    "id": "dsa-2018",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "easy",
+    "text": "What is a spanning tree?",
+    "options": [
+      "A tree spanning multiple disconnected graphs",
+      "A subgraph including all vertices and being a tree",
+      "A tree with maximum possible edges",
+      "A binary tree from graph vertex values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A spanning tree includes all vertices, is connected, and has no cycles (V-1 edges)."
+  },
+  {
+    "id": "dsa-2019",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "easy",
+    "text": "What is a directed graph (digraph)?",
+    "options": [
+      "All edges point in both directions",
+      "Each edge has a direction from one vertex to another",
+      "Edges arranged in a specific pattern",
+      "Only traversable using BFS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "In a digraph, each edge goes from a source to a destination vertex."
+  },
+  {
+    "id": "dsa-2020",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "easy",
+    "text": "What is the degree of a vertex in an undirected graph?",
+    "options": [
+      "Number of paths through it",
+      "Number of edges incident to it",
+      "Shortest distance to the root",
+      "Weight of the heaviest connected edge"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Degree is the number of edges connected to a vertex, counting self-loops twice."
+  },
+  {
+    "id": "dsa-2021",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "medium",
+    "text": "What is the time complexity of Dijkstra's with a binary heap?",
+    "options": [
+      "O(V^2)",
+      "O(V + E)",
+      "O((V + E) log V)",
+      "O(V * E)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "V extract-min and E decrease-key operations, each O(log V), giving O((V + E) log V)."
+  },
+  {
+    "id": "dsa-2022",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "medium",
+    "text": "What is topological sorting used for?",
+    "options": [
+      "Sorting edges by weight",
+      "Ordering DAG vertices so every edge goes from earlier to later",
+      "Finding shortest paths",
+      "Sorting vertices by degree"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Topological sort orders DAG vertices such that for every edge (u,v), u precedes v."
+  },
+  {
+    "id": "dsa-2023",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "medium",
+    "text": "What is Kruskal's algorithm for?",
+    "options": [
+      "Single-source shortest paths",
+      "Finding MST by sorting and adding edges greedily",
+      "Detecting cycles in directed graphs",
+      "Computing maximum flow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kruskal's sorts edges by weight and adds them without creating cycles, using Union-Find."
+  },
+  {
+    "id": "dsa-2024",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "medium",
+    "text": "What is Bellman-Ford's advantage over Dijkstra's?",
+    "options": [
+      "Runs faster on dense graphs",
+      "Handles negative edge weights",
+      "Uses less memory",
+      "Works only on undirected graphs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bellman-Ford handles negative weights and detects negative cycles."
+  },
+  {
+    "id": "dsa-2025",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "medium",
+    "text": "What is Floyd-Warshall for?",
+    "options": [
+      "Single-source shortest paths",
+      "All-pairs shortest paths in weighted graphs",
+      "Finding minimum spanning trees",
+      "Finding strongly connected components"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Floyd-Warshall computes all-pairs shortest paths in O(V^3) with dynamic programming."
+  },
+  {
+    "id": "dsa-2026",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "medium",
+    "text": "How does Prim's build an MST?",
+    "options": [
+      "Sorting all edges and adding without cycles",
+      "Growing from a start vertex adding cheapest edge to a new vertex",
+      "Removing most expensive edges until a tree remains",
+      "DFS selecting edges in traversal order"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Prim's grows the MST one vertex at a time, adding the minimum-weight edge to a non-tree vertex."
+  },
+  {
+    "id": "dsa-2027",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "medium",
+    "text": "What is a bipartite graph?",
+    "options": [
+      "Divisible into two sets with edges only between different sets",
+      "A graph with exactly two components",
+      "Every vertex has exactly two neighbors",
+      "Edges each connect exactly two vertices"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A bipartite graph partitions into two sets where every edge connects vertices from different sets."
+  },
+  {
+    "id": "dsa-2028",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "medium",
+    "text": "How to detect a cycle in a directed graph with DFS?",
+    "options": [
+      "Check if any vertex is visited more than twice",
+      "Find a back edge to a vertex in the current recursion stack",
+      "Count edges versus vertices",
+      "BFS and check if queue empties"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A cycle exists if DFS finds a back edge to an ancestor in the current recursion stack."
+  },
+  {
+    "id": "dsa-2029",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "medium",
+    "text": "What is the time complexity of Bellman-Ford?",
+    "options": [
+      "O(V + E)",
+      "O(V * E)",
+      "O(V^2)",
+      "O(E log V)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bellman-Ford relaxes all E edges V-1 times: O(V * E), plus one pass for negative cycle detection."
+  },
+  {
+    "id": "dsa-2030",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "medium",
+    "text": "What is a strongly connected component?",
+    "options": [
+      "A component where every vertex has equal in/out-degree",
+      "A maximal subgraph where every vertex is reachable from every other",
+      "A component with maximum edges",
+      "A subgraph with all edges in the same direction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An SCC is a maximal set of vertices with directed paths between every pair."
+  },
+  {
+    "id": "dsa-2031",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "hard",
+    "text": "What is the time complexity of Tarjan's SCC algorithm?",
+    "options": [
+      "O(V^2)",
+      "O(V * E)",
+      "O(V + E)",
+      "O(V^2 log V)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tarjan's finds all SCCs in one DFS pass: O(V + E)."
+  },
+  {
+    "id": "dsa-2032",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "hard",
+    "text": "What is the Ford-Fulkerson method?",
+    "options": [
+      "Finding min cut by removing edges greedily",
+      "Repeatedly finding augmenting paths and increasing flow",
+      "Using DP to compute flow values",
+      "Converting flow to shortest path problem"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ford-Fulkerson finds augmenting paths in the residual graph and pushes flow until none remain."
+  },
+  {
+    "id": "dsa-2033",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "hard",
+    "text": "What is the max-flow min-cut theorem?",
+    "options": [
+      "Max flow = minimum edges in any path",
+      "Max flow = minimum capacity of any cut separating source from sink",
+      "Min flow = max cut capacity",
+      "Max flow bounded by edge count"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Maximum flow equals the minimum total capacity of edges in any s-t cut."
+  },
+  {
+    "id": "dsa-2034",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "hard",
+    "text": "What is Hopcroft-Karp's time complexity?",
+    "options": [
+      "O(V * E)",
+      "O(E * sqrt(V))",
+      "O(V^2)",
+      "O(V + E)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hopcroft-Karp finds maximum bipartite matching in O(E * sqrt(V))."
+  },
+  {
+    "id": "dsa-2035",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "hard",
+    "text": "What is the A* search algorithm?",
+    "options": [
+      "Expands all nodes at each depth level",
+      "Best-first search using f(n)=g(n)+h(n) with admissible heuristic",
+      "Approximation guaranteeing 2-approximation",
+      "Randomized search finding paths with high probability"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A* combines actual cost g(n) and heuristic h(n); with admissible heuristic, finds optimal paths."
+  },
+  {
+    "id": "dsa-2036",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "hard",
+    "text": "What is push-relabel for maximum flow?",
+    "options": [
+      "Pushes flow and relabels vertices to maintain a valid preflow",
+      "Relabels edges to convert directed to undirected",
+      "Pushes vertices closer to source during relaxation",
+      "Relabels flow values to detect negative cycles"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Push-relabel maintains a preflow with push and relabel operations, achieving O(V^2*E) or O(V^3)."
+  },
+  {
+    "id": "dsa-2037",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "hard",
+    "text": "What is the planar separator theorem?",
+    "options": [
+      "Every planar graph separable by removing O(sqrt(n)) vertices",
+      "Every planar graph has a separator dividing edges equally",
+      "Planar graphs separate into bipartite components in linear time",
+      "The separator is always a single vertex"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Any n-vertex planar graph can be partitioned into roughly equal parts by removing O(sqrt(n)) vertices."
+  },
+  {
+    "id": "dsa-2038",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "hard",
+    "text": "What is Johnson's all-pairs shortest path algorithm?",
+    "options": [
+      "Faster Floyd-Warshall using matrix multiplication",
+      "Reweights edges to remove negatives then runs Dijkstra from each vertex",
+      "Uses Johnson's rule for scheduling",
+      "Parallel graph partitioning for concurrent computation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Johnson's uses Bellman-Ford for potentials, reweights, then runs Dijkstra from each vertex: O(V^2 log V + VE)."
+  },
+  {
+    "id": "dsa-2039",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "hard",
+    "text": "What is a minimum vertex cut?",
+    "options": [
+      "Minimum vertices whose removal disconnects the graph",
+      "Minimum weight of all vertices combined",
+      "Vertex with minimum degree",
+      "Minimum edges incident to any vertex"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Minimum vertex cut is the smallest set of vertices whose removal disconnects the graph."
+  },
+  {
+    "id": "dsa-2040",
+    "subjectId": "dsa",
+    "topicId": "graph-algo",
+    "difficulty": "hard",
+    "text": "What is Edmonds-Karp?",
+    "options": [
+      "Minimum cost maximum matching algorithm",
+      "BFS-based Ford-Fulkerson achieving O(V * E^2)",
+      "DFS-based Euler circuit algorithm",
+      "Maximum independent set algorithm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Edmonds-Karp uses BFS for shortest augmenting paths, guaranteeing O(V * E^2)."
+  },
+  {
+    "id": "dsa-2041",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "easy",
+    "text": "What is the greedy algorithm approach?",
+    "options": [
+      "Trying all solutions exhaustively",
+      "Making the locally optimal choice at each step",
+      "Dividing into overlapping subproblems",
+      "Backtracking when choices fail"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Greedy makes the best local choice at each step hoping for a global optimum."
+  },
+  {
+    "id": "dsa-2042",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "easy",
+    "text": "What is divide and conquer?",
+    "options": [
+      "Breaking into smaller independent subproblems, solving, and combining",
+      "Dividing data in half and discarding one half",
+      "Brute force on small inputs",
+      "Splitting work between processors"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Divide and conquer breaks problems into subproblems, solves recursively, and combines solutions."
+  },
+  {
+    "id": "dsa-2043",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "easy",
+    "text": "What is dynamic programming?",
+    "options": [
+      "Programming that changes algorithms at runtime",
+      "Solving by breaking into overlapping subproblems and storing solutions",
+      "Writing code adapting to different input types",
+      "A paradigm using dynamic memory allocation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "DP breaks problems into overlapping subproblems, solving each once and caching results."
+  },
+  {
+    "id": "dsa-2044",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "easy",
+    "text": "What is backtracking?",
+    "options": [
+      "Tracing back through code to find bugs",
+      "Building solutions incrementally, abandoning those failing constraints",
+      "Reversing algorithm execution steps",
+      "Going back to the beginning when a match fails"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Backtracking builds candidates incrementally and abandons those that cannot lead to valid solutions."
+  },
+  {
+    "id": "dsa-2045",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "easy",
+    "text": "What is a brute force algorithm?",
+    "options": [
+      "Uses random choices to find solutions",
+      "Systematically tries all possible solutions",
+      "Uses physical force computations",
+      "Designed to break encryption only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Brute force exhaustively checks all candidates, guaranteeing correctness at high cost."
+  },
+  {
+    "id": "dsa-2046",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "easy",
+    "text": "What is memoization?",
+    "options": [
+      "Writing down algorithm steps as documentation",
+      "Caching results of expensive function calls to reuse later",
+      "Memorizing input data for faster access",
+      "Converting recursive solutions to iterative ones"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Memoization stores computed results so repeated calls return the cached result."
+  },
+  {
+    "id": "dsa-2047",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "easy",
+    "text": "Which paradigm does binary search use?",
+    "options": [
+      "Dynamic programming",
+      "Greedy approach",
+      "Divide and conquer",
+      "Backtracking"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Binary search divides the sorted array, chooses one half, and discards the other."
+  },
+  {
+    "id": "dsa-2048",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "easy",
+    "text": "What is an example of a greedy algorithm?",
+    "options": [
+      "Fibonacci via recursion",
+      "N-Queens via backtracking",
+      "Coin change using largest denomination first",
+      "Matrix chain via DP"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Greedy coin change selects the largest denomination not exceeding the remainder."
+  },
+  {
+    "id": "dsa-2049",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "easy",
+    "text": "What is the key requirement for DP applicability?",
+    "options": [
+      "Independent subproblems only",
+      "Overlapping subproblems and optimal substructure",
+      "Solvable in polynomial time",
+      "Exactly two recursive calls"
+    ],
+    "correctAnswer": 1,
+    "explanation": "DP requires overlapping subproblems (same subproblems recur) and optimal substructure."
+  },
+  {
+    "id": "dsa-2050",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "easy",
+    "text": "What differentiates top-down from bottom-up DP?",
+    "options": [
+      "Top-down starts from largest, bottom-up from smallest subproblem",
+      "Top-down uses recursion with memoization, bottom-up uses iterative tabulation",
+      "Top-down is faster, bottom-up uses less memory",
+      "Top-down for trees, bottom-up for arrays only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Top-down: recursion + memoization. Bottom-up: iterative table filling from smallest subproblems."
+  },
+  {
+    "id": "dsa-2051",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "medium",
+    "text": "What is the time complexity of LCS using DP?",
+    "options": [
+      "O(m + n)",
+      "O(m * n)",
+      "O(m * n^2)",
+      "O(2^(m+n))"
+    ],
+    "correctAnswer": 1,
+    "explanation": "LCS fills an m x n table, giving O(m * n)."
+  },
+  {
+    "id": "dsa-2052",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "medium",
+    "text": "What is the greedy choice property?",
+    "options": [
+      "Globally optimal via any random choice",
+      "Globally optimal via locally optimal choices",
+      "Every choice must be validated against all futures",
+      "Greedy guarantees polynomial time for all problems"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The greedy choice property: global optimum is achievable by always choosing the local optimum."
+  },
+  {
+    "id": "dsa-2053",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "medium",
+    "text": "How does rod cutting demonstrate DP?",
+    "options": [
+      "Cutting randomly and measuring profit",
+      "Computing max revenue per length reusing subsolutions",
+      "Always cutting into equal pieces",
+      "Sorting cuts by profitability and selecting greedily"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rod cutting tries all first cuts and looks up optimal revenue for the remainder."
+  },
+  {
+    "id": "dsa-2054",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "medium",
+    "text": "What distinguishes divide and conquer from DP?",
+    "options": [
+      "D&C cannot handle recursion",
+      "D&C has independent subproblems, DP has overlapping ones",
+      "DP always uses more memory",
+      "D&C is iterative, DP is recursive"
+    ],
+    "correctAnswer": 1,
+    "explanation": "D&C: independent subproblems. DP: overlapping subproblems with cached solutions."
+  },
+  {
+    "id": "dsa-2055",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "medium",
+    "text": "How is the activity selection problem solved?",
+    "options": [
+      "DP with a 2D table",
+      "Greedy selecting activities with earliest finish times",
+      "Backtracking with constraints",
+      "Brute force enumeration"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Greedy: always select the activity with earliest compatible finish time."
+  },
+  {
+    "id": "dsa-2056",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "medium",
+    "text": "What is the edit distance problem?",
+    "options": [
+      "Shortest path between two graph nodes",
+      "Minimum operations to transform one string into another",
+      "Distance between two coordinate points",
+      "Time complexity difference between algorithms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Edit distance finds minimum insertions, deletions, and substitutions to transform strings, O(m*n) with DP."
+  },
+  {
+    "id": "dsa-2057",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "medium",
+    "text": "What is branch and bound?",
+    "options": [
+      "Branching calls and bounding depth for stack safety",
+      "Exploring solution space while pruning branches that cannot improve best known solution",
+      "Dividing into branches solved in bounded time",
+      "Decision trees with bounded height"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Branch and bound prunes subtrees that cannot contain optimal solutions."
+  },
+  {
+    "id": "dsa-2058",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "medium",
+    "text": "What is matrix chain multiplication?",
+    "options": [
+      "Multiplying matrices with parallel hardware",
+      "Finding optimal parenthesization to minimize scalar multiplications",
+      "Chaining operations in sequence",
+      "D&C multiplication only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Matrix chain multiplication uses DP to find parenthesization minimizing total scalar multiplications."
+  },
+  {
+    "id": "dsa-2059",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "medium",
+    "text": "How does Huffman coding work?",
+    "options": [
+      "Equal-length codes for all symbols",
+      "Greedily combining two lowest-frequency nodes into a tree",
+      "DP for optimal prefix-free codes",
+      "Sorting by frequency and assigning sequential codes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Huffman greedily merges lowest-frequency nodes using a priority queue for optimal prefix-free codes."
+  },
+  {
+    "id": "dsa-2060",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "medium",
+    "text": "What is the subset sum problem?",
+    "options": [
+      "Finding sum of all elements",
+      "Determining if a subset sums to a target value",
+      "Computing minimum sum among subsets",
+      "Finding two subsets with equal sums"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Subset sum asks if any subset sums exactly to a target, solvable in O(n*target) with DP."
+  },
+  {
+    "id": "dsa-2061",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "hard",
+    "text": "What is the time complexity of optimal BST construction with DP?",
+    "options": [
+      "O(n^2)",
+      "O(n^3)",
+      "O(n log n)",
+      "O(2^n)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Three nested loops (subproblem size, start, root choice) give O(n^3)."
+  },
+  {
+    "id": "dsa-2062",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "hard",
+    "text": "What is Knuth's optimization for optimal BST?",
+    "options": [
+      "Reduces from O(n^3) to O(n^2) by constraining root choices",
+      "Eliminates need for DP entirely",
+      "Converts to MST computation",
+      "Randomization for expected O(n log n)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Knuth's uses monotonicity of optimal roots to reduce search space to O(n^2)."
+  },
+  {
+    "id": "dsa-2063",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "hard",
+    "text": "What is meet-in-the-middle?",
+    "options": [
+      "D&C processing only the middle portion",
+      "Splitting input in half, solving each, combining to reduce exponential time",
+      "Finding median as meeting point for sorted arrays",
+      "Two processors meeting at computation middle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Meet-in-the-middle enumerates half-solutions and combines, reducing O(2^n) to O(2^(n/2))."
+  },
+  {
+    "id": "dsa-2064",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "hard",
+    "text": "What differentiates 0/1 from unbounded knapsack?",
+    "options": [
+      "0/1 has weight limits, unbounded does not",
+      "In 0/1 each item used at most once, unbounded allows unlimited copies",
+      "Unbounded always has greedy solution",
+      "0/1 is NP-hard, unbounded is polynomial"
+    ],
+    "correctAnswer": 1,
+    "explanation": "0/1: each item at most once. Unbounded: unlimited copies of each item."
+  },
+  {
+    "id": "dsa-2065",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "hard",
+    "text": "What is TSP time complexity with bitmask DP?",
+    "options": [
+      "O(n!)",
+      "O(n^2 * 2^n)",
+      "O(2^n)",
+      "O(n^3)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Held-Karp: O(2^n) states with O(n) transitions each = O(n^2 * 2^n)."
+  },
+  {
+    "id": "dsa-2066",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "hard",
+    "text": "What is the primal-dual method?",
+    "options": [
+      "Simultaneously optimizing primal and dual LP objectives",
+      "Using two algorithms and selecting the faster",
+      "Alternating between greedy and DP",
+      "Designing for both directed and undirected graphs"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Primal-dual designs approximation algorithms by maintaining feasible dual solutions."
+  },
+  {
+    "id": "dsa-2067",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "hard",
+    "text": "What is FPTAS?",
+    "options": [
+      "Exact solutions in fully polynomial time",
+      "A scheme running in time polynomial in both input size and 1/epsilon",
+      "Polynomial algorithm for all NP-complete problems",
+      "Fully parallelizing polynomial algorithms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "FPTAS produces (1+epsilon)-approximate solutions in time polynomial in n and 1/epsilon."
+  },
+  {
+    "id": "dsa-2068",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "hard",
+    "text": "What is the D&C optimization for DP?",
+    "options": [
+      "Binary search within each DP transition",
+      "Exploiting monotone split points to reduce transitions from O(n^2) to O(n log n)",
+      "Dividing DP table into quadrants for parallel computation",
+      "Replacing DP with D&C when subproblems do not overlap"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When split points are monotone, D&C optimization processes transitions in O(n log n) total."
+  },
+  {
+    "id": "dsa-2069",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "hard",
+    "text": "What distinguishes online from offline algorithms?",
+    "options": [
+      "Online runs on internet, offline locally",
+      "Online processes input as it arrives, offline has all input upfront",
+      "Online uses O(1) memory, offline O(n)",
+      "Online is randomized, offline deterministic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Online: decide as input arrives without future knowledge. Offline: have all input beforehand."
+  },
+  {
+    "id": "dsa-2070",
+    "subjectId": "dsa",
+    "topicId": "algo-design",
+    "difficulty": "hard",
+    "text": "What is the competitive ratio of an online algorithm?",
+    "options": [
+      "Ratio of running time to optimal offline",
+      "Worst-case ratio of solution quality to optimal offline solution",
+      "Ratio of memory: online vs offline",
+      "Ratio of correct to total decisions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Competitive ratio measures worst-case cost ratio between online and optimal offline solutions."
+  },
+  {
+    "id": "dsa-2071",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "easy",
+    "text": "What is a trie data structure?",
+    "options": [
+      "A balanced BST variant",
+      "A tree storing strings where each node represents a character",
+      "A graph structure for routing",
+      "A hash table variant for collision-free storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A trie stores strings character by character; paths from root represent prefixes."
+  },
+  {
+    "id": "dsa-2072",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "easy",
+    "text": "What is Union-Find used for?",
+    "options": [
+      "Finding union of two sorted arrays",
+      "Tracking disjoint sets with union and find operations",
+      "Searching in a unified database",
+      "Finding common elements between sets"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Union-Find maintains a partition into disjoint sets with union and find operations."
+  },
+  {
+    "id": "dsa-2073",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "easy",
+    "text": "What is find's time with path compression in Union-Find?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(1)",
+      "Nearly O(1) amortized"
+    ],
+    "correctAnswer": 3,
+    "explanation": "With path compression and union by rank, amortized time is O(alpha(n)), practically constant."
+  },
+  {
+    "id": "dsa-2074",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "easy",
+    "text": "What is a Bloom filter?",
+    "options": [
+      "A filter removing duplicates",
+      "A space-efficient probabilistic structure for membership testing",
+      "A sorting filter by value ranges",
+      "A data filter for image processing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bloom filters use hash functions and a bit array: possible false positives, no false negatives."
+  },
+  {
+    "id": "dsa-2075",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "easy",
+    "text": "What is a trie's advantage over a hash table for strings?",
+    "options": [
+      "Tries use less memory",
+      "Tries support efficient prefix-based searching and autocomplete",
+      "Tries have faster insertion for all inputs",
+      "Tries guarantee O(1) lookup"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tries excel at prefix operations like autocomplete, which hash tables cannot efficiently support."
+  },
+  {
+    "id": "dsa-2076",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "easy",
+    "text": "What is union by rank in Union-Find?",
+    "options": [
+      "Ranking elements by value before union",
+      "Attaching shorter tree under root of taller tree",
+      "Performing unions in element rank order",
+      "Sorting sets by size before merging"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Union by rank keeps trees balanced by attaching smaller-rank tree under larger-rank root."
+  },
+  {
+    "id": "dsa-2077",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "easy",
+    "text": "What does a Bloom filter return for membership?",
+    "options": [
+      "The exact element if it exists",
+      "Definitely not in set, or possibly in set",
+      "Insertion count of the element",
+      "A probability score between 0 and 1"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bloom filter: definitely not (no false negatives) or possibly in (may have false positives)."
+  },
+  {
+    "id": "dsa-2078",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "easy",
+    "text": "What is a trie's space complexity for n strings of average length L?",
+    "options": [
+      "O(n)",
+      "O(n * L)",
+      "O(L)",
+      "O(n^2)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Worst case O(n * L) when strings share few common prefixes."
+  },
+  {
+    "id": "dsa-2079",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "easy",
+    "text": "What is a segment tree primarily for?",
+    "options": [
+      "Segmenting files for network transfer",
+      "Answering range queries on arrays efficiently",
+      "Storing geometric line segments",
+      "Dividing trees into equal segments"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Segment trees answer range queries (sum, min, max) and support updates in O(log n)."
+  },
+  {
+    "id": "dsa-2080",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "easy",
+    "text": "What is a Fenwick tree (BIT)?",
+    "options": [
+      "A tree with binary nodes indexed by depth",
+      "A structure for efficient prefix sum queries and point updates",
+      "A BST with indexed leaves only",
+      "A tree storing data in binary format"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fenwick trees support prefix sum queries and point updates in O(log n)."
+  },
+  {
+    "id": "dsa-2081",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "medium",
+    "text": "How does a compressed trie save space?",
+    "options": [
+      "Compressing characters with Huffman coding",
+      "Merging single-child chains into one edge with a substring label",
+      "Storing only first and last characters",
+      "Using hash tables at each node"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Compressed tries collapse single-child chains into single edges, reducing node count significantly."
+  },
+  {
+    "id": "dsa-2082",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "medium",
+    "text": "What is a 2D segment tree?",
+    "options": [
+      "A segment tree in 2D array layout",
+      "Each node contains a segment tree for the second dimension",
+      "A pair of independent segment trees",
+      "A tree supporting exactly two query types"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Outer tree on rows, inner trees on columns, supporting 2D range queries in O(log^2 n)."
+  },
+  {
+    "id": "dsa-2083",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "medium",
+    "text": "How do Fenwick trees and segment trees differ?",
+    "options": [
+      "Fenwick supports range queries, segment trees only point queries",
+      "Fenwick is simpler with less memory but segment trees handle more query types",
+      "Segment trees are always slower",
+      "Fenwick works only on sorted arrays"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fenwick: simpler, less memory for prefix sums. Segment trees: more versatile with lazy propagation."
+  },
+  {
+    "id": "dsa-2084",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "medium",
+    "text": "What is an interval tree for?",
+    "options": [
+      "Storing intervals and finding overlaps efficiently",
+      "Calendar scheduling only",
+      "Decision trees with interval splits",
+      "Tracking intervals between sorted elements"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Interval trees store intervals and find overlaps in O(log n + k) time."
+  },
+  {
+    "id": "dsa-2085",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "medium",
+    "text": "What is weighted Union-Find?",
+    "options": [
+      "Edge weights from elements to roots for path-weighted queries",
+      "Higher priority for heavier elements",
+      "Weighting find for shorter paths",
+      "Balancing by total element weight"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Weighted Union-Find maintains edge weights for relative weight queries between same-set elements."
+  },
+  {
+    "id": "dsa-2086",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "medium",
+    "text": "What is a K-D tree for?",
+    "options": [
+      "K-dimensional data for spatial queries like nearest neighbor",
+      "Data in K sorted orders simultaneously",
+      "Trees with exactly K children per node",
+      "Decomposing into K subproblems"
+    ],
+    "correctAnswer": 0,
+    "explanation": "K-D trees partition K-dimensional space by alternating split dimensions for spatial queries."
+  },
+  {
+    "id": "dsa-2087",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "medium",
+    "text": "What is the time to build a segment tree from n elements?",
+    "options": [
+      "O(n log n)",
+      "O(n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bottom-up construction processes each O(n) node once: O(n) total."
+  },
+  {
+    "id": "dsa-2088",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "medium",
+    "text": "What is the count-min sketch?",
+    "options": [
+      "Counts the minimum element in a stream",
+      "Probabilistic structure using multiple hashes to estimate frequencies",
+      "Sketch-based structure for graph drawing",
+      "Maintains exact frequencies with minimal memory"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Count-min sketch estimates element frequencies with multiple hash functions, with one-sided overestimation error."
+  },
+  {
+    "id": "dsa-2089",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "medium",
+    "text": "What is a persistent data structure?",
+    "options": [
+      "Persists data to disk for durability",
+      "Preserves all previous versions after modifications",
+      "Permanently locks elements after insertion",
+      "Designed for long-running processes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Persistent structures retain all previous versions, allowing access to any historical state."
+  },
+  {
+    "id": "dsa-2090",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "medium",
+    "text": "What is a sparse table for?",
+    "options": [
+      "Storing sparse matrices in compressed format",
+      "Static range minimum queries in O(1) after O(n log n) preprocessing",
+      "Hash tables with sparse occupancy",
+      "Indexing sparse data for nearest neighbor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sparse tables preprocess in O(n log n) for O(1) range minimum queries on static arrays."
+  },
+  {
+    "id": "dsa-2091",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "hard",
+    "text": "What is a wavelet tree?",
+    "options": [
+      "Based on wavelet transform for signal processing",
+      "Answers range frequency, quantile, and rank queries on sequences",
+      "Stores data in wave patterns for cache efficiency",
+      "Balanced tree for multimedia storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Wavelet trees recursively partition alphabets for range rank, select, and quantile queries in O(log sigma)."
+  },
+  {
+    "id": "dsa-2092",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "hard",
+    "text": "What is a link-cut tree's amortized time per operation?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(sqrt(n))",
+      "O(log^2 n)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Link-cut trees: access, link, cut, path aggregation in O(log n) amortized using splay trees."
+  },
+  {
+    "id": "dsa-2093",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "hard",
+    "text": "What is the inverse Ackermann function's significance in Union-Find?",
+    "options": [
+      "Proves operations take exactly constant time",
+      "Provides nearly-constant amortized bound alpha(n) growing incredibly slowly",
+      "Shows Union-Find is NP-hard",
+      "Determines optimal hash function count"
+    ],
+    "correctAnswer": 1,
+    "explanation": "alpha(n) <= 4 for all practical n, making Union-Find effectively O(1) per operation."
+  },
+  {
+    "id": "dsa-2094",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "hard",
+    "text": "What is a succinct data structure?",
+    "options": [
+      "A structure with brief textual description",
+      "Uses space near information-theoretic minimum while supporting fast queries",
+      "Optimized for short string storage",
+      "Trades query time for space savings"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Succinct structures use space within lower-order terms of the minimum while supporting efficient operations."
+  },
+  {
+    "id": "dsa-2095",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "hard",
+    "text": "How does fractional cascading work?",
+    "options": [
+      "Cascading fractional data across levels",
+      "Augmenting sorted catalogs so search in one guides searches in others",
+      "Splitting data between memory and disk",
+      "Cascading hash functions for collision resolution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fractional cascading adds fractions with cross-pointers, reducing k searches from O(k log n) to O(k + log n)."
+  },
+  {
+    "id": "dsa-2096",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "hard",
+    "text": "What is a range tree?",
+    "options": [
+      "Stores elements within a specified range only",
+      "Multi-level tree for orthogonal range searching in d dimensions",
+      "B-tree variant for range disk access",
+      "Each node stores its subtree value range"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Range trees support d-dimensional orthogonal range queries in O(log^d n + k)."
+  },
+  {
+    "id": "dsa-2097",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "hard",
+    "text": "What is a top tree?",
+    "options": [
+      "Keeps most-accessed elements at top",
+      "Maintains dynamic trees with path and subtree operations",
+      "Only top level stored in memory",
+      "Priority queue extracting top element"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Top trees support dynamic tree operations (path/subtree queries, link, cut) in O(log n)."
+  },
+  {
+    "id": "dsa-2098",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "hard",
+    "text": "What is K-D tree nearest neighbor search complexity?",
+    "options": [
+      "O(log n) expected, O(n) worst case",
+      "O(1) amortized for all cases",
+      "O(n log n) in all cases",
+      "O(K * n) where K is dimensions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Expected O(log n) but degrades to O(n) worst case with adversarial distributions."
+  },
+  {
+    "id": "dsa-2099",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "hard",
+    "text": "What is the Euler tour tree (ETT) used for?",
+    "options": [
+      "Representing traversals for visualization",
+      "Maintaining dynamic forests with subtree aggregates in O(log n)",
+      "Encoding Euler's formula for planar graphs",
+      "Storing Euler paths for circuit detection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ETT stores Euler tour in a balanced BST for link, cut, and subtree aggregates in O(log n)."
+  },
+  {
+    "id": "dsa-2100",
+    "subjectId": "dsa",
+    "topicId": "advanced-ds",
+    "difficulty": "hard",
+    "text": "What is a fusion tree?",
+    "options": [
+      "Merges multiple structures into one",
+      "Achieves O(log_w n) search using word-level parallelism",
+      "Fuses B-trees into one balanced structure",
+      "Hybrid of tries and BSTs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fusion trees use w-bit word operations for O(log_w n) search, beating comparison-based O(log n)."
+  },
+  {
+    "id": "dsa-2101",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "easy",
+    "text": "What is string matching?",
+    "options": [
+      "Comparing strings for alphabetical ordering",
+      "Finding occurrences of a pattern within a text string",
+      "Matching strings by hash values only",
+      "Converting one string format to another"
+    ],
+    "correctAnswer": 1,
+    "explanation": "String matching finds all positions where a pattern occurs in a text."
+  },
+  {
+    "id": "dsa-2102",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "easy",
+    "text": "What is the time complexity of naive string matching?",
+    "options": [
+      "O(n)",
+      "O(m + n)",
+      "O(n * m)",
+      "O(m * log n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Naive algorithm checks pattern at every position, comparing up to m characters: O(n * m)."
+  },
+  {
+    "id": "dsa-2103",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "easy",
+    "text": "What is a palindrome?",
+    "options": [
+      "A string with all identical characters",
+      "A string reading the same forwards and backwards",
+      "A string with exactly two distinct characters",
+      "A string whose length is prime"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A palindrome reads the same forward and backward, like \"racecar\"."
+  },
+  {
+    "id": "dsa-2104",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "easy",
+    "text": "What is the simplest way to check for anagrams?",
+    "options": [
+      "Compare hash values directly",
+      "Sort both strings and compare",
+      "Check same first and last characters",
+      "Reverse one and compare with the other"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sort both strings and compare: if identical, they are anagrams. O(n log n)."
+  },
+  {
+    "id": "dsa-2105",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "easy",
+    "text": "What is a substring?",
+    "options": [
+      "Any rearrangement of characters",
+      "A contiguous sequence of characters within a string",
+      "A string from removing every other character",
+      "A string longer than the original"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A substring is a contiguous character sequence within a string."
+  },
+  {
+    "id": "dsa-2106",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "easy",
+    "text": "What is a prefix of a string?",
+    "options": [
+      "The first character only",
+      "A substring starting at the beginning",
+      "Any character before the last",
+      "The longest repeated sequence at start"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A prefix starts from the first character, including empty string and the full string."
+  },
+  {
+    "id": "dsa-2107",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "easy",
+    "text": "What is a suffix of a string?",
+    "options": [
+      "The last character only",
+      "A substring ending at the last character",
+      "Any character after the first",
+      "The longest non-repeating end sequence"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A suffix ends at the last character, including empty string and the full string."
+  },
+  {
+    "id": "dsa-2108",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "easy",
+    "text": "How many substrings does a string of length n have?",
+    "options": [
+      "n",
+      "2^n",
+      "n(n+1)/2 + 1",
+      "n^2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "n(n+1)/2 non-empty substrings plus the empty string."
+  },
+  {
+    "id": "dsa-2109",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "easy",
+    "text": "What is string concatenation?",
+    "options": [
+      "Splitting a string into characters",
+      "Joining two strings end to end",
+      "Reversing characters in a string",
+      "Removing duplicate characters"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Concatenation joins two strings sequentially to form a new string."
+  },
+  {
+    "id": "dsa-2110",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "easy",
+    "text": "What is the time to compare two strings of length n?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comparing requires checking each character pair: O(n) worst case."
+  },
+  {
+    "id": "dsa-2111",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "medium",
+    "text": "What is the Rabin-Karp algorithm?",
+    "options": [
+      "Pattern matching via comparison sorting of substrings",
+      "Pattern matching using rolling hash for fast comparison",
+      "String compression from repeated patterns",
+      "String search building a finite automaton"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rabin-Karp uses rolling hashes, doing character comparison only on hash matches."
+  },
+  {
+    "id": "dsa-2112",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "medium",
+    "text": "What is the failure function in KMP?",
+    "options": [
+      "Reports when the algorithm fails",
+      "Stores longest proper prefix-suffix length for each position",
+      "Detects invalid characters in the pattern",
+      "A fallback hash function for collisions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "KMP failure function stores longest proper prefix that is also a suffix for each position."
+  },
+  {
+    "id": "dsa-2113",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "medium",
+    "text": "What is a suffix array?",
+    "options": [
+      "Array of all prefixes sorted",
+      "Sorted array of all suffixes by starting indices",
+      "Array mapping suffixes to occurrence counts",
+      "Structure storing suffix lengths"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A suffix array is a sorted array of all suffixes represented by their starting positions."
+  },
+  {
+    "id": "dsa-2114",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "medium",
+    "text": "What is the Z-algorithm?",
+    "options": [
+      "Compresses strings using zero-run encoding",
+      "Computes Z-array where Z[i] is longest prefix match starting at i",
+      "Finds zero-length matches in search",
+      "Sorts strings by last character first"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Z-algorithm computes Z[i] = length of longest prefix match at position i, in O(n) time."
+  },
+  {
+    "id": "dsa-2115",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "medium",
+    "text": "What is KMP's time complexity?",
+    "options": [
+      "O(n * m)",
+      "O(n + m)",
+      "O(n * log m)",
+      "O(n^2)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "KMP preprocesses pattern in O(m) and scans text in O(n): O(n + m) total."
+  },
+  {
+    "id": "dsa-2116",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "medium",
+    "text": "What is the LCP array?",
+    "options": [
+      "Longest common prefix between string and each suffix",
+      "Longest common prefix lengths between adjacent sorted suffixes",
+      "Prefix occurrence count mapping",
+      "Longest common prefix between every suffix pair"
+    ],
+    "correctAnswer": 1,
+    "explanation": "LCP[i] = length of longest common prefix between consecutive suffixes in the sorted suffix array."
+  },
+  {
+    "id": "dsa-2117",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "medium",
+    "text": "How does Rabin-Karp rolling hash work?",
+    "options": [
+      "Rehashes entire substring from scratch each time",
+      "Updates by removing leftmost char and adding rightmost in O(1)",
+      "Hashes alternating characters only",
+      "Uses a different function at each position"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rolling hash updates in O(1) by subtracting outgoing and adding incoming character contributions."
+  },
+  {
+    "id": "dsa-2118",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "medium",
+    "text": "What is Aho-Corasick for?",
+    "options": [
+      "Finding longest palindromic substring",
+      "Searching multiple patterns simultaneously in text",
+      "Sorting strings lexicographically",
+      "Computing edit distance between pairs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aho-Corasick builds a trie with failure links for multi-pattern matching in O(n + m + z) time."
+  },
+  {
+    "id": "dsa-2119",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "medium",
+    "text": "What is Manacher's algorithm for?",
+    "options": [
+      "Finding anagrams of a pattern in text",
+      "Finding longest palindromic substring in linear time",
+      "Computing minimum edits between strings",
+      "Building suffix trees in linear time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Manacher's finds the longest palindromic substring in O(n) using palindrome symmetry properties."
+  },
+  {
+    "id": "dsa-2120",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "medium",
+    "text": "What is Boyer-Moore's key optimization?",
+    "options": [
+      "Preprocesses text instead of pattern",
+      "Compares right to left using bad character and good suffix rules to skip ahead",
+      "Uses hash values avoiding character comparison",
+      "Builds finite automaton for O(n) matching"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Boyer-Moore compares right-to-left with skip rules, achieving sublinear time in practice."
+  },
+  {
+    "id": "dsa-2121",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "hard",
+    "text": "What is Ukkonen's algorithm?",
+    "options": [
+      "Builds suffix arrays in O(n log n)",
+      "Online algorithm constructing suffix trees in O(n)",
+      "Computes edit distance in subquadratic time",
+      "Finds all maximal palindromes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ukkonen's builds suffix trees online in O(n) using suffix links and active point."
+  },
+  {
+    "id": "dsa-2122",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "hard",
+    "text": "What is the DC3/Skew algorithm?",
+    "options": [
+      "D&C building suffix arrays in O(n)",
+      "Skews comparison function for faster sorting",
+      "Three-way partitioning for string sorting",
+      "Constructs suffix trees from suffix arrays"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DC3 constructs suffix arrays in O(n) by dividing suffixes into groups by position mod 3."
+  },
+  {
+    "id": "dsa-2123",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "hard",
+    "text": "What is the Burrows-Wheeler Transform?",
+    "options": [
+      "Compression replacing patterns with codes",
+      "Reversible transform grouping similar characters for compression",
+      "Converting strings to phonetic representations",
+      "Encryption permuting characters by key"
+    ],
+    "correctAnswer": 1,
+    "explanation": "BWT sorts cyclic shifts and takes the last column, grouping similar characters for effective compression."
+  },
+  {
+    "id": "dsa-2124",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "hard",
+    "text": "What is the relationship between suffix arrays and suffix trees?",
+    "options": [
+      "Completely unrelated structures",
+      "Any operation on one can be simulated on the other in same time",
+      "Suffix arrays replace trees only for pattern matching",
+      "Suffix trees are strictly more powerful"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Suffix arrays with LCP arrays simulate all suffix tree operations in the same time; each converts to the other in O(n)."
+  },
+  {
+    "id": "dsa-2125",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "hard",
+    "text": "What is SA-IS's time complexity?",
+    "options": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(n log^2 n)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "SA-IS constructs suffix arrays in O(n) using suffix classification and induced sorting."
+  },
+  {
+    "id": "dsa-2126",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "hard",
+    "text": "What is the palindromic tree (eertree)?",
+    "options": [
+      "Binary tree storing palindromic strings",
+      "Tree storing all distinct palindromic substrings with links",
+      "Balanced BST sorting palindromes",
+      "Trie storing only palindromes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The palindromic tree stores all unique palindromic substrings, built in O(n) time and space."
+  },
+  {
+    "id": "dsa-2127",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "hard",
+    "text": "What is Lyndon factorization?",
+    "options": [
+      "Factoring into prime character components",
+      "Decomposing into a non-increasing sequence of Lyndon words",
+      "Splitting at every repeated character boundary",
+      "Factoring based on suffix array ordering"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lyndon factorization uniquely decomposes into non-increasing Lyndon words, computable in O(n)."
+  },
+  {
+    "id": "dsa-2128",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "hard",
+    "text": "What is the purpose of suffix links in suffix trees?",
+    "options": [
+      "Linking suffixes to prefix nodes",
+      "Connecting internal nodes for efficient traversal during construction",
+      "Linking leaves into a suffix list",
+      "Connecting the tree to a hash table"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Suffix links connect node xA to node A, enabling O(1) transitions during construction."
+  },
+  {
+    "id": "dsa-2129",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "hard",
+    "text": "What is the time to find longest repeated substring with suffix array and LCP?",
+    "options": [
+      "O(n^2)",
+      "O(n log n)",
+      "O(n)",
+      "O(n * m)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "After O(n) construction, the longest repeated substring is the maximum LCP value found in O(n) scan."
+  },
+  {
+    "id": "dsa-2130",
+    "subjectId": "dsa",
+    "topicId": "string-algo",
+    "difficulty": "hard",
+    "text": "What is collision probability in polynomial string hashing?",
+    "options": [
+      "Hashing for cryptographic security",
+      "Bounded by m/p for prime p and strings of length m",
+      "Analyzing CPU cache collisions",
+      "Computing collision-free hash values"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Polynomial hashing modulo prime p has collision probability bounded by m/p for length-m strings."
+  },
+  {
+    "id": "dsa-2131",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "easy",
+    "text": "What does the P complexity class represent?",
+    "options": [
+      "Problems provably unsolvable",
+      "Problems solvable in polynomial time",
+      "Problems requiring parallel processing",
+      "Problems with polynomial space needs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "P contains decision problems solvable in polynomial time by a deterministic Turing machine."
+  },
+  {
+    "id": "dsa-2132",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "easy",
+    "text": "What does the NP class represent?",
+    "options": [
+      "Problems unsolvable in polynomial time",
+      "Problems whose solutions can be verified in polynomial time",
+      "Problems not practical to solve",
+      "Problems needing non-polynomial space"
+    ],
+    "correctAnswer": 1,
+    "explanation": "NP contains problems whose solutions can be verified in polynomial time."
+  },
+  {
+    "id": "dsa-2133",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "easy",
+    "text": "What is space complexity?",
+    "options": [
+      "Physical space for source code",
+      "Memory an algorithm uses relative to input size",
+      "Number of declared variables",
+      "Disk space for output"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Space complexity measures total memory needed as a function of input size."
+  },
+  {
+    "id": "dsa-2134",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "easy",
+    "text": "What does polynomial time mean?",
+    "options": [
+      "Uses polynomial expressions in code",
+      "Running time bounded by a polynomial of input size",
+      "Processes polynomials as input",
+      "Takes fixed time regardless of input"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Polynomial time: worst case O(n^k) for some constant k."
+  },
+  {
+    "id": "dsa-2135",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "easy",
+    "text": "What is an optimization problem?",
+    "options": [
+      "Optimizing code for compilation speed",
+      "Seeking the best solution among all feasible ones",
+      "Having exactly one correct solution",
+      "Minimizing code line count"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Optimization problems seek the best solution (max/min of objective) among feasible solutions."
+  },
+  {
+    "id": "dsa-2136",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "easy",
+    "text": "What is the P vs NP relationship?",
+    "options": [
+      "P and NP are completely disjoint",
+      "P is a subset of NP; whether P=NP is unknown",
+      "NP is a strict subset of P",
+      "P=NP is proven"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Every P problem is in NP, but whether P=NP remains open."
+  },
+  {
+    "id": "dsa-2137",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "easy",
+    "text": "What is a decision problem?",
+    "options": [
+      "Choosing between two algorithms",
+      "A problem with a yes or no answer",
+      "Solved by decision trees exclusively",
+      "Deciding which data structure to use"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A decision problem asks a yes/no question, forming the basis for complexity classes."
+  },
+  {
+    "id": "dsa-2138",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "easy",
+    "text": "What is exponential time complexity?",
+    "options": [
+      "Time doubling with each unit input increase",
+      "Time bounded by O(c^n) for c > 1",
+      "Time growing as fast as factorial",
+      "Time proportional to input exponents"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Exponential: O(c^n) where c > 1, impractical for large inputs."
+  },
+  {
+    "id": "dsa-2139",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "easy",
+    "text": "What is a reduction in complexity theory?",
+    "options": [
+      "Simplifying to fewer code lines",
+      "Transforming one problem into another to show relative difficulty",
+      "Reducing input size for speed",
+      "Decreasing a structure's space complexity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A reduction transforms one problem into another, proving relative difficulty."
+  },
+  {
+    "id": "dsa-2140",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "easy",
+    "text": "What does O(n log n) indicate?",
+    "options": [
+      "n comparisons of log-sized data",
+      "Running time slightly faster than linear",
+      "n nested loops each running log n",
+      "Logarithmic space and linear time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "O(n log n) grows proportional to n * log(n), common in efficient sorting."
+  },
+  {
+    "id": "dsa-2141",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "medium",
+    "text": "What is polynomial-time reduction?",
+    "options": [
+      "Reducing polynomial equation degree",
+      "Transforming one problem into another in polynomial time",
+      "Reducing exponential to polynomial time",
+      "Converting polynomial-space to constant-space"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A polynomial reduction transforms problem A into problem B in polynomial time, preserving the answer."
+  },
+  {
+    "id": "dsa-2142",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "medium",
+    "text": "What is NP-hard?",
+    "options": [
+      "Hardest problems within NP",
+      "Problems at least as hard as hardest NP problems, not necessarily in NP",
+      "Problems with no polynomial verification",
+      "Problems hard to approximate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "NP-hard: at least as hard as any NP problem, but may not be in NP themselves."
+  },
+  {
+    "id": "dsa-2143",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "medium",
+    "text": "What is co-NP?",
+    "options": [
+      "Complement of NP: no-instances verifiable in polynomial time",
+      "Problems not in NP",
+      "Problems for cooperative non-deterministic machines",
+      "Intersection of P and NP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "co-NP: \"no\" instances have polynomial-time verifiable certificates."
+  },
+  {
+    "id": "dsa-2144",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "medium",
+    "text": "What is the significance of 3-SAT?",
+    "options": [
+      "Simplest problem in P",
+      "Canonical NP-complete problem used as basis for reductions",
+      "Always solvable in O(n^3)",
+      "Proves P=NP for three variables"
+    ],
+    "correctAnswer": 1,
+    "explanation": "3-SAT is NP-complete and the common starting point for NP-completeness proofs."
+  },
+  {
+    "id": "dsa-2145",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "medium",
+    "text": "What is an approximation algorithm?",
+    "options": [
+      "Finds exact solutions half the time",
+      "Finds provably near-optimal solutions in polynomial time",
+      "Approximates input data for speed",
+      "Rounds floating-point to integers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Approximation algorithms find solutions within a provable factor of optimal in polynomial time."
+  },
+  {
+    "id": "dsa-2146",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "medium",
+    "text": "What is PSPACE?",
+    "options": [
+      "Problems solvable in polynomial space by a deterministic TM",
+      "Polynomial space but exponential time required",
+      "Parallel space allocation problems",
+      "Pseudo-polynomial space problems"
+    ],
+    "correctAnswer": 0,
+    "explanation": "PSPACE: problems solvable in polynomial space; P subset NP subset PSPACE."
+  },
+  {
+    "id": "dsa-2147",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "medium",
+    "text": "What is the vertex cover problem?",
+    "options": [
+      "Finding minimum vertices covering all edges",
+      "Finding vertices covering maximum graph area",
+      "Finding all reachable vertices from source",
+      "Finding a vertex connected to all others"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Vertex cover: smallest set of vertices such that every edge is incident to at least one."
+  },
+  {
+    "id": "dsa-2148",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "medium",
+    "text": "What is a 2-approximation for vertex cover?",
+    "options": [
+      "Cover of exactly twice the minimum",
+      "Cover at most twice the minimum size",
+      "Minimum cover in O(n^2)",
+      "Considering every vertex pair"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pick uncovered edges and add both endpoints: produces a cover at most 2x optimal."
+  },
+  {
+    "id": "dsa-2149",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "medium",
+    "text": "What differentiates pseudo-polynomial from polynomial time?",
+    "options": [
+      "Same thing, different terminology",
+      "Pseudo-polynomial is polynomial in numeric value, not bit length",
+      "Pseudo-polynomial is always faster",
+      "Polynomial depends on value, pseudo on bit length"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pseudo-polynomial: polynomial in numeric value (e.g., O(nW) for knapsack), exponential in bit length."
+  },
+  {
+    "id": "dsa-2150",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "medium",
+    "text": "What is graph coloring's complexity?",
+    "options": [
+      "Polynomial for all graphs",
+      "NP-complete for k-colorability with k >= 3",
+      "NP-hard only for directed weighted graphs",
+      "O(V+E) with greedy coloring"
+    ],
+    "correctAnswer": 1,
+    "explanation": "k-colorability for k >= 3 is NP-complete; k=2 reduces to bipartiteness testing."
+  },
+  {
+    "id": "dsa-2151",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "hard",
+    "text": "What is the PCP theorem?",
+    "options": [
+      "Every P problem checked probabilistically in constant time",
+      "Every NP proof verifiable by reading constant random and proof bits",
+      "Probabilistic computation solves problems outside NP",
+      "Polynomial with preprocessing solves NP-hard"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PCP theorem: NP = PCP(log n, 1), verifying NP proofs with O(log n) random bits and O(1) proof bits."
+  },
+  {
+    "id": "dsa-2152",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "hard",
+    "text": "What is the unique games conjecture?",
+    "options": [
+      "Every CSP has a unique optimal solution",
+      "NP-hard to distinguish almost satisfiable from almost unsatisfiable unique games",
+      "Games with unique Nash equilibria are polynomial",
+      "Unique solution problems are in P"
+    ],
+    "correctAnswer": 1,
+    "explanation": "UGC: NP-hard to distinguish nearly satisfiable from far-from-satisfiable unique label cover instances."
+  },
+  {
+    "id": "dsa-2153",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "hard",
+    "text": "What is BPP?",
+    "options": [
+      "Problems for bounded parallel processors",
+      "Problems solvable by probabilistic TM in polynomial time with bounded error",
+      "Bounded polynomial preprocessing problems",
+      "Polynomial time with bounded space"
+    ],
+    "correctAnswer": 1,
+    "explanation": "BPP: randomized polynomial-time algorithms with error probability at most 1/3."
+  },
+  {
+    "id": "dsa-2154",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "hard",
+    "text": "What is ETH (Exponential Time Hypothesis)?",
+    "options": [
+      "All NP problems solvable in subexponential time",
+      "3-SAT cannot be solved in 2^(o(n)) time",
+      "Exponential algorithms always optimal for NP-complete",
+      "Exponential hierarchy collapses to PSPACE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ETH: 3-SAT requires 2^(Omega(n)) time, implying fine-grained lower bounds."
+  },
+  {
+    "id": "dsa-2155",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "hard",
+    "text": "What is fixed-parameter tractability (FPT)?",
+    "options": [
+      "Making all parameters fixed constants",
+      "Solving in f(k)*n^c time with exponential confined to parameter k",
+      "Fixing DP table parameter count",
+      "Tracing parameters for performance tuning"
+    ],
+    "correctAnswer": 1,
+    "explanation": "FPT: f(k)*n^c time, efficient when parameter k is small regardless of n."
+  },
+  {
+    "id": "dsa-2156",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "hard",
+    "text": "What is inapproximability?",
+    "options": [
+      "Inability to implement in a specific language",
+      "Proving no polynomial algorithm achieves a ratio better than a threshold",
+      "Impossibility of converting approximate to exact",
+      "Difficulty approximating running time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inapproximability proves that achieving a ratio better than a threshold is NP-hard."
+  },
+  {
+    "id": "dsa-2157",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "hard",
+    "text": "What is the clique problem's complexity?",
+    "options": [
+      "Maximum clique is polynomial for sparse graphs",
+      "NP-complete and hard to approximate within n^(1-epsilon)",
+      "In P for planar graphs",
+      "Size-3 clique requires O(n^3) unimprovable"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Maximum clique: NP-complete, NP-hard to approximate within n^(1-epsilon) unless P=NP."
+  },
+  {
+    "id": "dsa-2158",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "hard",
+    "text": "What is the role of randomness in RP?",
+    "options": [
+      "RP always produces random possibly-incorrect outputs",
+      "RP accepts yes-instances with prob >= 1/2 and always rejects no-instances",
+      "RP uses randomness only for tie-breaking",
+      "RP guarantees correct results with randomized time"
+    ],
+    "correctAnswer": 1,
+    "explanation": "RP: always correctly rejects no-instances; accepts yes-instances with probability >= 1/2."
+  },
+  {
+    "id": "dsa-2159",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "hard",
+    "text": "What is SETH?",
+    "options": [
+      "No algorithm solves NP problems faster than brute force",
+      "For every epsilon>0, exists k such that k-SAT unsolvable in O(2^((1-epsilon)n))",
+      "All SAT needs exactly 2^n time",
+      "Strong exponential bounds for all polynomial algorithms"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SETH: as k grows, k-SAT approaches 2^n, implying tight bounds for edit distance, LCS, etc."
+  },
+  {
+    "id": "dsa-2160",
+    "subjectId": "dsa",
+    "topicId": "complexity-opt",
+    "difficulty": "hard",
+    "text": "What is Savitch's theorem?",
+    "options": [
+      "Polynomial-time problems solvable in log space",
+      "NSPACE(f(n)) contained in DSPACE(f(n)^2) for f(n)>=log n",
+      "NP-complete requires exponential space",
+      "Non-deterministic equals deterministic space always"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Non-deterministic space S(n) simulable in deterministic O(S(n)^2), implying NPSPACE = PSPACE."
   }
 ]
