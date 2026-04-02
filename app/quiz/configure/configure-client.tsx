@@ -18,7 +18,7 @@ const DIFFICULTIES = [
 const PRESETS = [
   { count: 10, label: "Quick", desc: "~5 min", comingSoon: false },
   { count: 20, label: "Standard", desc: "~10 min", comingSoon: false },
-  { count: 30, label: "Thorough", desc: "~15 min", comingSoon: true },
+  { count: 30, label: "Thorough", desc: "~15 min", comingSoon: false },
   { count: 50, label: "Full Practice", desc: "~25 min", comingSoon: true },
 ];
 
